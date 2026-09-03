@@ -25,8 +25,14 @@ const PAGES_DIR = path.join(THUMB_DIR, 'pages');
  *
  * Manual thumbnails referenced from catalog-overrides.json are never deleted,
  * whatever happens to the repository they belonged to.
+ *
+ * Deleting is only safe when the caller could actually see everything. A run
+ * that cannot read private repositories has no evidence they are gone — it just
+ * cannot see them — so `isAuthoritative: false` limits the sweep to files and
+ * leaves the hand-written metadata alone. Getting this wrong once already cost
+ * two entries in catalog-overrides.json.
  */
-export function prune(repos, { dryRun = false } = {}) {
+export function prune(repos, { dryRun = false, isAuthoritative = true } = {}) {
   const liveRepos = new Set(repos.map((r) => r.name));
   const livePages = new Set();
   for (const r of repos) {
@@ -35,7 +41,15 @@ export function prune(repos, { dryRun = false } = {}) {
     }
   }
 
-  const removed = { repos: [], pages: 0, files: 0, overrides: [] };
+  const removed = { repos: [], pages: 0, files: 0, overrides: [], refused: null };
+
+  // A collapse in the repository count means the listing failed, not that you
+  // deleted forty projects. Refuse rather than empty the cache.
+  const cachedCount = Object.keys(readManifest()).length;
+  if (cachedCount > 4 && repos.length < cachedCount * 0.6) {
+    removed.refused = `saw ${repos.length} repositories but have ${cachedCount} cached — refusing to delete`;
+    return removed;
+  }
 
   // Files a human pointed at by hand are off limits.
   const overridesFile = readJson(OVERRIDES_FILE, null);
@@ -60,6 +74,8 @@ export function prune(repos, { dryRun = false } = {}) {
   const manifest = readManifest();
   for (const [name, entry] of Object.entries(manifest)) {
     if (liveRepos.has(name)) continue;
+    // Cannot see private repositories from here, so cannot claim they are gone.
+    if (!isAuthoritative && String(entry.file || '').startsWith('private/')) continue;
     unlink(THUMB_DIR, entry.file);
     unlink(THUMB_DIR, entry.fileSm);
     delete manifest[name];
@@ -71,6 +87,7 @@ export function prune(repos, { dryRun = false } = {}) {
   const pageManifest = readJson(PAGES_MANIFEST_FILE, {}) || {};
   for (const [id, entry] of Object.entries(pageManifest)) {
     if (livePages.has(id)) continue;
+    if (!isAuthoritative && String(entry.file || '').startsWith('private/')) continue;
     unlink(PAGES_DIR, entry.file);
     delete pageManifest[id];
     removed.pages += 1;
@@ -78,10 +95,12 @@ export function prune(repos, { dryRun = false } = {}) {
 
   /* ---- presentation metadata --------------------------------------------- */
 
-  for (const name of Object.keys(overrides)) {
-    if (liveRepos.has(name)) continue;
-    delete overrides[name];
-    removed.overrides.push(name);
+  if (isAuthoritative) {
+    for (const name of Object.keys(overrides)) {
+      if (liveRepos.has(name)) continue;
+      delete overrides[name];
+      removed.overrides.push(name);
+    }
   }
 
   if (!dryRun) {
@@ -107,6 +126,10 @@ export function prune(repos, { dryRun = false } = {}) {
 }
 
 export function reportPrune(removed) {
+  if (removed.refused) {
+    log.warn(removed.refused);
+    return;
+  }
   const nothing =
     !removed.repos.length && !removed.pages && !removed.files && !removed.overrides.length;
 

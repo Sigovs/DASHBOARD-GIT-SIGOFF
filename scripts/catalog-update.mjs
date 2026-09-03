@@ -40,7 +40,7 @@ try {
   const repos = await sync();
 
   log.step('Removing what is gone');
-  reportPrune(prune(repos));
+  reportPrune(prune(repos, { isAuthoritative: process.env.CATALOG_PUBLIC_ONLY !== '1' }));
 
   if (!flag('no-local')) {
     scanLocal();

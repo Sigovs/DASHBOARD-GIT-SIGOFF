@@ -644,7 +644,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index.html",
     "label": "Main",
     "sourceKey": "33653d5720f6",
-    "capturedAt": "2026-09-03T22:34:13.818Z",
+    "capturedAt": "2026-09-03T22:38:07.869Z",
     "error": null
   },
   "Midwest-cobras/index2.html": {
@@ -653,7 +653,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index2.html",
     "label": "Version 2",
     "sourceKey": "03a9da89db3f",
-    "capturedAt": "2026-09-03T22:34:13.819Z",
+    "capturedAt": "2026-09-03T22:38:08.346Z",
     "error": null
   },
   "Midwest-cobras/index3.html": {
@@ -662,7 +662,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index3.html",
     "label": "Version 3",
     "sourceKey": "9ccfc6b40242",
-    "capturedAt": "2026-09-03T22:34:14.348Z",
+    "capturedAt": "2026-09-03T22:38:08.256Z",
     "error": null
   },
   "Midwest-cobras/index5.html": {
@@ -671,7 +671,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index5.html",
     "label": "Version 5",
     "sourceKey": "6ea7cda58bc9",
-    "capturedAt": "2026-09-03T22:34:18.377Z",
+    "capturedAt": "2026-09-03T22:38:11.397Z",
     "error": null
   },
   "Midwest-cobras/index4.html": {
@@ -680,7 +680,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index4.html",
     "label": "Version 4",
     "sourceKey": "381dd397259f",
-    "capturedAt": "2026-09-03T22:34:14.388Z",
+    "capturedAt": "2026-09-03T22:38:08.255Z",
     "error": null
   },
   "Midwest-cobras/index8.html": {
@@ -689,7 +689,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index8.html",
     "label": "Version 8",
     "sourceKey": "cf0569d8ca68",
-    "capturedAt": "2026-09-03T22:34:17.483Z",
+    "capturedAt": "2026-09-03T22:38:11.566Z",
     "error": null
   },
   "Midwest-cobras/index10.html": {
@@ -698,7 +698,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index10.html",
     "label": "Version 10",
     "sourceKey": "e9887acaa29d",
-    "capturedAt": "2026-09-03T22:34:37.491Z",
+    "capturedAt": "2026-09-03T22:38:25.096Z",
     "error": null
   },
   "Midwest-cobras/DS.html": {
@@ -706,9 +706,9 @@
     "file": "midwest-cobras--ds.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/DS.html",
     "label": "Design system",
-    "sourceKey": "0e8f4c75a2b4",
-    "capturedAt": "2026-09-03T20:53:22.530Z",
-    "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot"
+    "sourceKey": "c40392db2ca9",
+    "capturedAt": "2026-09-03T22:38:28.479Z",
+    "error": null
   },
   "VIP-LEASING/PREVIEW.html": {
     "repo": "VIP-LEASING",
@@ -758,7 +758,7 @@
     "url": "https://sigovs.github.io/Midwest-cobras/index6.html",
     "label": "Version 6",
     "sourceKey": "8ed9adbebec5",
-    "capturedAt": "2026-09-03T22:35:01.446Z",
+    "capturedAt": "2026-09-03T22:38:47.857Z",
     "error": null
   },
   "VEGAS_UPD/about6.html": {
@@ -784,9 +784,9 @@
     "file": "midwest-cobras--index7.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index7.html",
     "label": "Version 7",
-    "sourceKey": "267966d31f95",
-    "capturedAt": "2026-09-03T20:45:20.743Z",
-    "error": "page.screenshot: Timeout 30000ms exceeded."
+    "sourceKey": "b5f9db434407",
+    "capturedAt": "2026-09-03T22:39:00.603Z",
+    "error": null
   },
   "VEGAS_UPD/index5.html": {
     "repo": "VEGAS_UPD",
