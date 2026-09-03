@@ -7,7 +7,15 @@
  */
 import { titleFromRepoName, subtitleFromRepoName, initialsFromTitle } from './titles.mjs';
 import { guessCategory, DEFAULT_CATEGORIES } from './categories.mjs';
-import { REPOS_FILE, OVERRIDES_FILE, LOCAL_PATHS_FILE, MANIFEST_FILE, readJson } from './paths.mjs';
+import {
+  REPOS_FILE,
+  REPOS_PRIVATE_FILE,
+  OVERRIDES_FILE,
+  LOCAL_PATHS_FILE,
+  PAGES_MANIFEST_FILE,
+  readJson,
+  readManifest,
+} from './paths.mjs';
 
 const STATUSES = new Set(['active', 'concept', 'development', 'complete', 'archived']);
 
@@ -23,9 +31,16 @@ function readOverrides() {
 
 export function buildCatalog() {
   const repoFile = readJson(REPOS_FILE, null);
+  const privateFile = readJson(REPOS_PRIVATE_FILE, null);
+  if (repoFile && privateFile?.repos?.length) {
+    repoFile.repos = [...repoFile.repos, ...privateFile.repos].sort(
+      (a, b) => new Date(b.updatedAt) - new Date(a.updatedAt),
+    );
+  }
   const { projects: overrides, categories } = readOverrides();
   const localPaths = readJson(LOCAL_PATHS_FILE, {}) || {};
-  const manifest = readJson(MANIFEST_FILE, {}) || {};
+  const manifest = readManifest();
+  const pageShots = readJson(PAGES_MANIFEST_FILE, {}) || {};
 
   if (!repoFile?.repos?.length) {
     return {
@@ -38,8 +53,14 @@ export function buildCatalog() {
     };
   }
 
+  // CATALOG_PUBLIC_ONLY=1 keeps private repositories out of a catalog that is
+  // going to be deployed. Their names, dates and thumbnails are private too,
+  // and a public GitHub Pages build would otherwise publish all three.
+  const publicOnly = process.env.CATALOG_PUBLIC_ONLY === '1';
+
   const projects = repoFile.repos
-    .map((repo) => toProject(repo, overrides[repo.name] || {}, localPaths[repo.name], manifest[repo.name]))
+    .filter((repo) => !(publicOnly && repo.private))
+    .map((repo) => toProject(repo, overrides[repo.name] || {}, localPaths[repo.name], manifest[repo.name], pageShots))
     .filter((p) => !p.hidden);
 
   // Only offer categories that something actually lives in.
@@ -59,12 +80,16 @@ export function buildCatalog() {
       withPreview: projects.filter((p) => p.previewUrl).length,
       withThumbnail: projects.filter((p) => p.thumb).length,
       pinned: projects.filter((p) => p.pinned).length,
+      variants: projects.reduce((n, p) => n + p.variantCount, 0),
     },
     projects,
   };
 }
 
-function toProject(repo, o, localPath, thumbEntry) {
+function toProject(repo, o, localPath, thumbEntry, pageShots) {
+  const versions = decorate(repo.name, repo.versions || [], pageShots);
+  const pages = decorate(repo.name, repo.pages || [], pageShots);
+
   const title = o.title || titleFromRepoName(repo.name);
   const subtitle = o.subtitle ?? subtitleFromRepoName(repo.name);
 
@@ -94,6 +119,9 @@ function toProject(repo, o, localPath, thumbEntry) {
     hidden: Boolean(o.hidden),
 
     thumb: resolveThumb(o.thumbnail, thumbEntry),
+    versions,
+    pages,
+    variantCount: versions.length + pages.length,
 
     previewUrl,
     previewSource,
@@ -140,6 +168,20 @@ function resolveThumb(manual, entry) {
     };
   }
   return null;
+}
+
+/** Attaches the captured screenshot to each version, where one exists. */
+function decorate(repoName, entries, pageShots) {
+  return entries.map((entry) => {
+    const shot = pageShots[`${repoName}/${entry.file}`];
+    return {
+      file: entry.file,
+      label: entry.label,
+      url: entry.url,
+      variant: entry.variant,
+      thumb: shot?.file && !shot.error ? `thumbnails/pages/${shot.file}` : null,
+    };
+  });
 }
 
 function dedupe(list) {

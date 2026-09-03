@@ -7,3 +7,9 @@ dist/
 Thumbs.db
 .vite/
 scripts/.cache/
+
+# Private repositories: names, metadata and imagery never reach a public clone.
+data/repos.private.json
+public/thumbnails/private/
+public/thumbnails/pages/private/
+data/local-paths.json

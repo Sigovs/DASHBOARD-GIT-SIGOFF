@@ -25,7 +25,8 @@ After the first run, `npm run dev` alone is enough — the catalog is on disk.
 | `npm run catalog:update` | The one command. Sync → scan local clones → capture missing thumbnails. |
 | `npm run dev` | The portal at `localhost:5180`. |
 | `npm run sync` | GitHub metadata only. Seconds. |
-| `npm run screenshots` | Thumbnails only. |
+| `npm run screenshots` | Project thumbnails only. |
+| `npm run versions` | Per-version screenshots only. |
 | `npm run scan:local` | Re-find local clones for the *Open in VS Code* action. |
 | `npm run build` | Static site into `dist/`. Deployable anywhere. |
 
@@ -33,6 +34,7 @@ Useful flags:
 
 ```bash
 npm run catalog:update -- --no-screenshots   # metadata only, seconds
+npm run catalog:update -- --no-versions      # skip the per-version shots
 npm run catalog:update -- --force            # recapture every thumbnail
 npm run catalog:update -- --max-age 30       # also refresh shots older than 30 days
 npm run screenshots -- --only KERBECK,PATTON # redo two projects
@@ -73,6 +75,12 @@ out where its live site is:
    preview* — a bare URL in prose is not treated as evidence
 4. otherwise `null`, and the card gets a generated placeholder
 
+Each URL is then fetched to confirm it serves a page. If the root 404s, the sync
+probes `dist/`, `build/`, `public/`, `docs/`, `mockup/` and friends — which is
+how PATTON was recovered: Pages deploys from `/`, but its build lives in
+`mockup/`, so `sigovs.github.io/PATTON/` returned 404 while
+`sigovs.github.io/PATTON/mockup/` was fine all along.
+
 It never guesses a URL from a repository name. A card that opens a 404 is worse
 than a card that admits it has no preview.
 
@@ -98,11 +106,16 @@ Six sources, tried in order. The first that works wins.
 | # | Source | Notes |
 | --- | --- | --- |
 | 1 | `thumbnail` in your overrides | An absolute URL or a file in `public/thumbnails/`. |
-| 2 | An explicit preview image in the repo | `preview.png`, `cover.jpg`, `og-image.webp`… at the repo root. |
-| 3 | **A live screenshot** | Playwright, 1440×900 at 2×. This is where most come from. |
-| 4 | GitHub's open-graph card | Off by default — it looks like GitHub. Enable with `--opengraph`. |
-| 5 | A representative image found inside the repo | Only when there is no live URL. Prefers `hero`/`cover`/`screenshot` paths. |
+| 2 | **A live screenshot** | Playwright, 1440×900 at 2×. This is where 41 of 48 come from. |
+| 3 | An explicit preview image in the repo | `preview.png`, `cover.jpg`, `patton-live-full.png`… at the repo root. |
+| 4 | A representative image found inside the repo | Prefers `hero`/`cover`/`screenshot` paths, 20 KB–8 MB. |
+| 5 | GitHub's open-graph card | Off by default — it looks like GitHub. Enable with `--opengraph`. |
 | 6 | A generated placeholder | Project initials on a technical mesh. Drawn in CSS, so it can never break. |
+
+The live site outranks anything committed to the repository: a screenshot is
+what the project looks like today, a checked-in `preview.png` is what it looked
+like whenever somebody last remembered to update it. `--prefer-repo-image`
+inverts that.
 
 Screenshots are captured viewport-only from the top of the page, with reduced
 motion on and animations paused, so a scroll-driven build is caught in its hero
@@ -121,6 +134,59 @@ time.** A capture that fails keeps the previous thumbnail and records the error
 in `public/thumbnails/manifest.json`. Broken images never reach the UI.
 
 ---
+
+## Versions
+
+A project here is rarely one design. Midwest Cobras, BHCC and GD2 carry ten
+indexes each; PATTON and KERBECK carry seven. That exploration *is* the work, so
+the catalog treats it as a first-class thing rather than hiding it behind a
+repository listing.
+
+`npm run sync` lists every HTML file in the folder the site actually deploys
+from, and splits them in two:
+
+- **Versions** — alternatives of the same page: `index.html`, `index2.html`,
+  `index_3.html`, `index10.html`. Labelled *Main*, *Version 2*, *Version 3*…
+- **Pages** — the rest of the site: `about`, `contact`, `srp`, `vdp`,
+  `design-system`. Numbered siblings group with their base, so `srp.html` and
+  `srp4.html` read as one thing rather than two.
+
+Every one of them gets its own small screenshot (`npm run versions`). 230 pages
+across the catalog, 3.3 MB total. **View details** on any card opens the drawer,
+where the versions are a picture grid you can scan and click straight through to
+the live page.
+
+Cached on `pushedAt` like everything else, so a rerun captures nothing.
+
+## Hover
+
+Resting on a card does one of two things, switched by the **Live** toggle in the
+control bar:
+
+- **off** (default) — flips through the project's versions, about one a second,
+  with the version name in the corner. Instant, because those screenshots are
+  already on disk.
+- **on** — loads the real site in a scaled-down iframe. Truthful, but these are
+  heavy GSAP and 3D builds, so expect a second of nothing before the hero paints.
+  That is why it is opt-in.
+
+Neither runs on touch devices or under `prefers-reduced-motion`, and only one
+preview is ever alive at a time.
+
+## Private repositories
+
+Private repos are kept out of anything that could be published:
+
+| | Local | Deployed |
+| --- | --- | --- |
+| Projects shown | 48 | 46 |
+| `data/repos.json` | public repos | public repos |
+| `data/repos.private.json` | private repos | git-ignored, never committed |
+| `public/thumbnails/private/` | private imagery | git-ignored |
+
+The build honours `CATALOG_PUBLIC_ONLY=1`, which the GitHub Action sets. So the
+catalog you browse at localhost has everything, and the one on the internet has
+only what was already public on GitHub.
 
 ## Overriding a project
 

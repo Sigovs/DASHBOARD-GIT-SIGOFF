@@ -29,7 +29,16 @@ import { GitHub, resolveToken } from './lib/github.mjs';
 import { withBrowser, capture } from './lib/capture.mjs';
 import { writeThumbnails, slug } from './lib/image.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
-import { THUMB_DIR, MANIFEST_FILE, REPOS_FILE, OVERRIDES_FILE, loadEnv, readJson, writeJson } from './lib/paths.mjs';
+import {
+  THUMB_DIR,
+  THUMB_PRIVATE_DIR,
+  OVERRIDES_FILE,
+  loadEnv,
+  readJson,
+  readAllRepos,
+  readManifest,
+  writeManifest,
+} from './lib/paths.mjs';
 import { isMain } from './lib/is-main.mjs';
 import { log } from './lib/log.mjs';
 
@@ -44,25 +53,31 @@ const val = (n, d) => {
 
 const hash = (s) => createHash('sha1').update(String(s)).digest('hex').slice(0, 12);
 
-/** Decide where this project's picture should come from. */
+/** Private repositories keep their imagery in a git-ignored subfolder. */
+const dirFor = (repo) => (repo.private ? THUMB_PRIVATE_DIR : THUMB_DIR);
+const prefixFor = (repo) => (repo.private ? 'private/' : '');
+
+/**
+ * Decide where this project's picture should come from.
+ *
+ * The live site outranks anything committed to the repository. A screenshot is
+ * what the project looks like today; a checked-in preview.png is what it looked
+ * like whenever somebody last remembered to update it. Pass --prefer-repo-image
+ * to invert that.
+ */
 function chooseSource(repo, override) {
   if (override?.thumbnail) return { kind: 'override' };
 
-  if (repo.repoImage && repo.repoImageKind === 'explicit') {
-    return { kind: 'repo-image', ref: repo.repoImage };
-  }
-
   const url = override?.previewUrl || repo.previewUrl;
-  if (url && repo.previewSource !== 'pages-errored') {
-    return { kind: 'screenshot', ref: url };
-  }
-  if (repo.repoImage) {
-    return { kind: 'repo-image', ref: repo.repoImage };
-  }
-  if (url) {
-    // Pages exists but its last build errored. Still worth one attempt.
-    return { kind: 'screenshot', ref: url };
-  }
+  const live = url ? { kind: 'screenshot', ref: url } : null;
+  const committed = repo.repoImage ? { kind: 'repo-image', ref: repo.repoImage } : null;
+
+  const explicitFirst = flag('prefer-repo-image') && repo.repoImageKind === 'explicit';
+  if (explicitFirst && committed) return committed;
+
+  if (live) return live;
+  if (committed) return committed;
+
   if (flag('opengraph')) {
     return { kind: 'opengraph', ref: `https://opengraph.githubassets.com/1/${repo.fullName}` };
   }
@@ -83,14 +98,17 @@ export async function captureThumbnails({
   concurrency = Number(val('concurrency', 3)),
   maxAgeDays = Number(val('max-age', 0)) || null,
 } = {}) {
-  const repoFile = readJson(REPOS_FILE, null);
+  const repoFile = readAllRepos();
   if (!repoFile?.repos?.length) {
     throw new Error('data/repos.json is missing or empty. Run `npm run sync` first.');
   }
 
   const overrides = readOverrides();
-  const manifest = readJson(MANIFEST_FILE, {}) || {};
+  const manifest = readManifest();
   fs.mkdirSync(THUMB_DIR, { recursive: true });
+
+  const privateNames = new Set(repoFile.repos.filter((r) => r.private).map((r) => r.name));
+  const isPrivate = (name) => privateNames.has(name);
 
   const wanted = only ? new Set(only.split(',').map((s) => s.trim())) : null;
   let repos = repoFile.repos.filter((r) => !overrides[r.name]?.hidden);
@@ -132,7 +150,7 @@ export async function captureThumbnails({
 
   if (limit) jobs.splice(limit);
   if (!jobs.length) {
-    writeJson(MANIFEST_FILE, manifest);
+    writeManifest(manifest, isPrivate);
     return manifest;
   }
 
@@ -146,7 +164,7 @@ export async function captureThumbnails({
       const label = repo.name.padEnd(34);
       try {
         const input = await fetchSource(source, repo, gh, browser);
-        const written = await writeThumbnails(input, THUMB_DIR, slug(repo.name), {
+        const written = await writeThumbnails(input, dirFor(repo), slug(repo.name), {
           position: source.kind === 'screenshot' ? 'top' : 'attention',
         });
 
@@ -157,6 +175,8 @@ export async function captureThumbnails({
           capturedAt: new Date().toISOString(),
           pushedAt: repo.pushedAt,
           ...written,
+          file: `${prefixFor(repo)}${written.file}`,
+          fileSm: `${prefixFor(repo)}${written.fileSm}`,
           error: null,
         };
         done += 1;
@@ -178,7 +198,7 @@ export async function captureThumbnails({
 
   const done = needsBrowser ? await withBrowser(run) : await run(null);
 
-  writeJson(MANIFEST_FILE, manifest);
+  writeManifest(manifest, isPrivate);
   const failed = jobs.length - done;
   log.ok(`${done} captured${failed ? `, ${failed} failed` : ''} → public/thumbnails/`);
   return manifest;

@@ -10,10 +10,17 @@
  */
 import { GitHub, resolveToken, reportRate } from './lib/github.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
-import { pickRootPreviewImage, pickRepresentativeImage, findReadmeUrl, resolvePreviewUrl } from './lib/discover.mjs';
+import {
+  pickRootPreviewImage,
+  pickRepresentativeImage,
+  findReadmeUrl,
+  resolvePreviewUrl,
+  verifyPreviewUrl,
+} from './lib/discover.mjs';
+import { classifyPages, siteRootPath } from './lib/pages.mjs';
 import { titleFromRepoName } from './lib/titles.mjs';
 import { guessCategory } from './lib/categories.mjs';
-import { REPOS_FILE, OVERRIDES_FILE, loadEnv, readJson, writeJson } from './lib/paths.mjs';
+import { REPOS_FILE, REPOS_PRIVATE_FILE, OVERRIDES_FILE, loadEnv, readJson, writeJson } from './lib/paths.mjs';
 import { log } from './lib/log.mjs';
 import { isMain } from './lib/is-main.mjs';
 
@@ -28,7 +35,10 @@ const value = (name, fallback) => {
 
 const OWNER = value('owner', process.env.CATALOG_OWNER || 'Sigovs');
 
-export async function sync({ owner = OWNER, seed = !flag('no-seed') } = {}) {
+export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !flag('no-verify') } = {}) {
+  const recovered = [];
+  const broken = [];
+
   const { token, source } = resolveToken();
   const gh = new GitHub(token);
 
@@ -53,6 +63,17 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed') } = {}) {
 
     const preview = resolvePreviewUrl({ homepage: r.homepage, pages, readmeUrl });
 
+    // Confirm the URL actually serves something. This also recovers sites that
+    // deploy from the repository root while the build lives one folder down.
+    const live = verify
+      ? await verifyPreviewUrl(preview.url)
+      : { url: preview.url, status: null, recovered: false };
+
+    if (live.recovered) recovered.push(`${r.name} → ${live.url.replace(/^https?:\/\//, '')}`);
+    if (preview.url && !live.recovered && live.status !== null && (live.status < 200 || live.status >= 400)) {
+      broken.push(`${r.name} (${live.status || 'unreachable'})`);
+    }
+
     // One cheap non-recursive call: is there an explicit preview image committed?
     let repoImage = null;
     let repoImageKind = null;
@@ -62,6 +83,24 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed') } = {}) {
       .catch(() => []);
     repoImage = pickRootPreviewImage(rootTree);
     if (repoImage) repoImageKind = 'explicit';
+
+    // Every alternative index in the deployed folder. This is where most of the
+    // work in these repositories actually lives.
+    let versions = [];
+    let pages_ = [];
+    if (live.url) {
+      const root = siteRootPath(pages?.url, live.url);
+      const tree = root
+        ? await gh
+            .request(`/repos/${fullName}/git/trees/${encodeURIComponent(`${r.default_branch}:${root}`)}`)
+            .then((res) => (res.ok && Array.isArray(res.data?.tree) ? res.data.tree : []))
+            .catch(() => [])
+        : rootTree;
+
+      const html = tree.filter((n) => n.type === 'blob' && /\.html?$/i.test(n.path)).map((n) => n.path);
+      const base = live.url.endsWith('/') ? live.url : `${live.url}/`;
+      ({ versions, pages: pages_ } = classifyPages(html, base));
+    }
 
     // Only walk the whole tree when there is nothing else to show.
     if (!repoImage && !preview.url) {
@@ -92,29 +131,47 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed') } = {}) {
       homepage: r.homepage || null,
       hasPages: Boolean(r.has_pages),
       pagesStatus: pages?.status ?? null,
-      previewUrl: preview.url,
-      previewSource: preview.source,
+      previewUrl: live.url,
+      previewSource: live.recovered ? `${preview.source}-subpath` : preview.source,
+      previewStatus: live.status,
       repoImage,
       repoImageKind,
+      versions,
+      pages: pages_,
     };
   });
 
   const withPreview = repos.filter((r) => r.previewUrl).length;
   const withImage = repos.filter((r) => r.repoImage).length;
+  const totalPages = repos.reduce((n, r) => n + r.versions.length + r.pages.length, 0);
+  const multi = repos.filter((r) => r.versions.length > 1).length;
   log.ok(`${withPreview} live preview URLs · ${withImage} in-repo preview images`);
+  log.ok(`${totalPages} pages found · ${multi} projects with more than one index version`);
+
+  for (const r of recovered) log.ok(`recovered ${r}`);
+  for (const b of broken) log.warn(`preview unreachable: ${b}`);
 
   const owned = await gh.request(`/users/${owner}`).then((r) => r.data).catch(() => null);
 
-  writeJson(REPOS_FILE, {
+  const byNewest = (a, b) => new Date(b.updatedAt) - new Date(a.updatedAt);
+  const header = {
     generatedAt: new Date().toISOString(),
     owner,
     ownerUrl: owned?.html_url || `https://github.com/${owner}`,
     ownerName: owned?.name || owner,
     avatarUrl: owned?.avatar_url || null,
-    count: repos.length,
-    repos: repos.sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt)),
-  });
-  log.ok(`data/repos.json — ${repos.length} projects`);
+  };
+
+  const publicRepos = repos.filter((r) => !r.private).sort(byNewest);
+  const privateRepos = repos.filter((r) => r.private).sort(byNewest);
+
+  writeJson(REPOS_FILE, { ...header, count: publicRepos.length, repos: publicRepos });
+  log.ok(`data/repos.json — ${publicRepos.length} public projects`);
+
+  if (privateRepos.length) {
+    writeJson(REPOS_PRIVATE_FILE, { ...header, count: privateRepos.length, repos: privateRepos });
+    log.ok(`data/repos.private.json — ${privateRepos.length} private projects (git-ignored)`);
+  }
 
   if (seed) seedOverrides(repos);
   reportRate(gh);

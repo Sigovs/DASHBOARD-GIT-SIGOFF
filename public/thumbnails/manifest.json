@@ -103,19 +103,6 @@
     "height": 1000,
     "error": null
   },
-  "aan_gta_version": {
-    "source": "repo-image",
-    "ref": "public/hero-poster.jpg",
-    "sourceKey": "451a61414a71",
-    "capturedAt": "2026-09-03T10:51:32.688Z",
-    "pushedAt": "2026-09-01T06:15:45Z",
-    "file": "aan-gta-version.webp",
-    "fileSm": "aan-gta-version@sm.webp",
-    "bytes": 193978,
-    "width": 1600,
-    "height": 1000,
-    "error": null
-  },
   "Wes_Financial_Auto": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Wes_Financial_Auto/",
@@ -177,19 +164,6 @@
     "file": "drivemax.webp",
     "fileSm": "drivemax@sm.webp",
     "bytes": 189318,
-    "width": 1600,
-    "height": 1000,
-    "error": null
-  },
-  "midwest_scrollcraft": {
-    "source": "repo-image",
-    "ref": "docs/qa/cobra-model-lab/scroll/framing-compare.png",
-    "sourceKey": "d6ca43731a79",
-    "capturedAt": "2026-09-03T10:51:58.468Z",
-    "pushedAt": "2026-08-27T03:08:42Z",
-    "file": "midwest-scrollcraft.webp",
-    "fileSm": "midwest-scrollcraft@sm.webp",
-    "bytes": 87468,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -300,8 +274,16 @@
   },
   "PATTON": {
     "source": "screenshot",
-    "error": "HTTP 404",
-    "errorAt": "2026-09-03T11:05:06.431Z"
+    "ref": "https://sigovs.github.io/PATTON/mockup/",
+    "sourceKey": "8601f8879354",
+    "capturedAt": "2026-09-03T12:58:57.679Z",
+    "pushedAt": "2026-08-12T20:15:10Z",
+    "file": "patton.webp",
+    "fileSm": "patton@sm.webp",
+    "bytes": 135482,
+    "width": 1600,
+    "height": 1000,
+    "error": null
   },
   "GD_LAB_TEST": {
     "source": "screenshot",
@@ -463,7 +445,7 @@
     "source": "screenshot",
     "ref": "https://sigovs.github.io/aan_gta_preview/",
     "sourceKey": "53b07d2a0a37",
-    "capturedAt": "2026-09-03T10:52:35.985Z",
+    "capturedAt": "2026-09-03T12:58:59.209Z",
     "pushedAt": "2026-07-14T21:01:50Z",
     "file": "aan-gta-preview.webp",
     "fileSm": "aan-gta-preview@sm.webp",

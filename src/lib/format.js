@@ -80,7 +80,14 @@ const PREVIEW_SOURCE_LABEL = {
   override: 'Set in catalog-overrides.json',
 };
 
-export const previewSourceLabel = (key) => PREVIEW_SOURCE_LABEL[key] || '—';
+/** A "-subpath" suffix means the root 404'd and the site was found one folder down. */
+export const previewSourceLabel = (key) => {
+  if (!key) return '—';
+  const recovered = key.endsWith('-subpath');
+  const base = recovered ? key.slice(0, -'-subpath'.length) : key;
+  const label = PREVIEW_SOURCE_LABEL[base] || '—';
+  return recovered ? `${label} — found in a subfolder` : label;
+};
 
 const THUMB_SOURCE_LABEL = {
   screenshot: 'Captured from the live site',

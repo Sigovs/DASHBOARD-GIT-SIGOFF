@@ -18,12 +18,14 @@
  * Flags are passed through to the underlying steps:
  *   --force          recapture every thumbnail
  *   --no-screenshots skip capture entirely (metadata only, seconds not minutes)
+ *   --no-versions    skip the per-version screenshots, keep the main ones
  *   --no-local       skip the local clone scan
  *   --max-age 30     also recapture screenshots older than 30 days
  */
 import { sync } from './sync-github.mjs';
 import { scanLocal } from './scan-local.mjs';
 import { captureThumbnails } from './screenshots.mjs';
+import { capturePageThumbnails } from './page-shots.mjs';
 import { buildCatalog } from './lib/catalog.mjs';
 import { log } from './lib/log.mjs';
 
@@ -41,14 +43,16 @@ try {
 
   if (!flag('no-screenshots')) {
     await captureThumbnails();
+    if (!flag('no-versions')) await capturePageThumbnails();
   }
 
   const catalog = buildCatalog();
-  const { total, withPreview, withThumbnail, pinned } = catalog.counts;
+  const { total, withPreview, withThumbnail, pinned, variants } = catalog.counts;
 
   log.step('Catalog');
   log.info(`${total} projects · ${pinned} pinned`);
   log.info(`${withPreview} with a live preview URL`);
+  log.info(`${variants} versions and pages across the catalog`);
   log.info(`${withThumbnail} with a thumbnail · ${total - withThumbnail} on the generated placeholder`);
 
   const noThumb = catalog.projects.filter((p) => !p.thumb).map((p) => p.repo);

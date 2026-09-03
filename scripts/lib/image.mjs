@@ -43,3 +43,17 @@ export function slug(name) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '') || 'project';
 }
+
+export const PAGE = { width: 640, height: 400 };
+
+/** A single small WebP, for the version grid inside the drawer. */
+export async function writePageThumbnail(input, outDir, baseName) {
+  fs.mkdirSync(outDir, { recursive: true });
+  const file = `${baseName}.webp`;
+  await sharp(input, { failOn: 'none' })
+    .rotate()
+    .resize({ ...PAGE, fit: 'cover', position: 'top' })
+    .webp({ quality: 74, effort: 5 })
+    .toFile(path.join(outDir, file));
+  return { file, bytes: fs.statSync(path.join(outDir, file)).size };
+}

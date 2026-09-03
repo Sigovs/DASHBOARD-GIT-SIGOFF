@@ -12,7 +12,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, LOCAL_PATHS_FILE, REPOS_FILE, loadEnv, readJson, writeJson } from './lib/paths.mjs';
+import { ROOT, LOCAL_PATHS_FILE, loadEnv, readJson, writeJson, readAllRepos } from './lib/paths.mjs';
 import { isMain } from './lib/is-main.mjs';
 import { log } from './lib/log.mjs';
 
@@ -73,7 +73,7 @@ function walk(dir, depth, found) {
 }
 
 export function scanLocal({ roots = defaultRoots(), depth = Number(argValue('depth', 2)) } = {}) {
-  const known = readJson(REPOS_FILE, null);
+  const known = readAllRepos();
   const byName = new Map((known?.repos || []).map((r) => [r.name.toLowerCase(), r.name]));
 
   log.step('Scanning for local clones');

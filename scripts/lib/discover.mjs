@@ -13,17 +13,32 @@ const ROOT_PREVIEW_NAMES = [
   'preview', 'thumbnail', 'thumb', 'screenshot', 'social-preview', 'og', 'og-image', 'cover', 'banner',
 ];
 
-/** An explicit preview image committed at the root or in .github/. */
+/** Looser second pass: "patton-live-full.png" is obviously a preview shot. */
+const ROOT_PREVIEW_HINT = /(preview|screenshot|thumb|cover|banner|hero|og[-_]?image|live|full|desktop|home)/i;
+
+/**
+ * An explicit preview image committed at the repository root.
+ *
+ * Exact conventional names win. Failing that, a root-level image whose name
+ * hints at a screenshot is accepted — a repo root is not where people keep
+ * incidental pictures, so the false-positive risk is low.
+ */
 export function pickRootPreviewImage(rootEntries) {
   const candidates = rootEntries.filter((e) => IMAGE_EXT.test(e.path));
+  if (!candidates.length) return null;
+
+  const baseOf = (e) => e.path.split('/').pop().replace(IMAGE_EXT, '').toLowerCase();
+
   for (const wanted of ROOT_PREVIEW_NAMES) {
-    const hit = candidates.find((e) => {
-      const base = e.path.split('/').pop().replace(IMAGE_EXT, '').toLowerCase();
-      return base === wanted;
-    });
+    const hit = candidates.find((e) => baseOf(e) === wanted);
     if (hit) return hit.path;
   }
-  return null;
+
+  const hinted = candidates
+    .filter((e) => ROOT_PREVIEW_HINT.test(baseOf(e)) && e.size > 20_000)
+    .sort((a, b) => b.size - a.size)[0];
+
+  return hinted ? hinted.path : null;
 }
 
 const REPRESENTATIVE = /(hero|cover|preview|screenshot|banner|main|home|intro|poster)/i;
@@ -96,4 +111,51 @@ export function resolvePreviewUrl({ homepage, pages, readmeUrl }) {
     return { url: readmeUrl, source: 'readme' };
   }
   return { url: null, source: null };
+}
+
+/* ── live verification ───────────────────────────────────────────────────── */
+
+/**
+ * Where a site ends up when the repository root has no index.html. Ordered by
+ * how likely each is to be the deployed site rather than source.
+ */
+const SUBPATH_CANDIDATES = [
+  'dist/', 'build/', 'public/', 'site/', 'docs/', 'mockup/', 'www/', 'app/', 'web/', 'src/',
+];
+
+async function status(url, timeoutMs) {
+  const signal = AbortSignal.timeout(timeoutMs);
+  try {
+    const res = await fetch(url, { method: 'GET', redirect: 'follow', signal });
+    res.body?.cancel?.();
+    return res.status;
+  } catch {
+    return 0;
+  }
+}
+
+/**
+ * Confirms a discovered preview URL actually serves a page, and recovers the
+ * common case where Pages is enabled but the site lives one folder down
+ * (PATTON deploys from `/` while its build sits in `mockup/`).
+ *
+ * Returns the URL that works, or the original one with the failing status so
+ * the catalog can say honestly that the preview is broken.
+ */
+export async function verifyPreviewUrl(url, { timeoutMs = 12000, probeSubpaths = true } = {}) {
+  if (!url) return { url: null, status: null, recovered: false };
+
+  const first = await status(url, timeoutMs);
+  if (first >= 200 && first < 400) return { url, status: first, recovered: false };
+  if (!probeSubpaths || first !== 404) return { url, status: first, recovered: false };
+
+  const base = url.endsWith('/') ? url : `${url}/`;
+  for (const suffix of SUBPATH_CANDIDATES) {
+    const candidate = `${base}${suffix}`;
+    if ((await status(candidate, timeoutMs)) === 200) {
+      return { url: candidate, status: 200, recovered: true };
+    }
+  }
+
+  return { url, status: first, recovered: false };
 }

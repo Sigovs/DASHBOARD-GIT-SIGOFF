@@ -33,13 +33,15 @@ jobs:
       - name: Install Chromium for Playwright
         run: npx playwright install --with-deps chromium
 
-      # CATALOG_TOKEN is a personal access token with `repo` scope, needed to
-      # see private repositories. Without it the run falls back to the built-in
-      # GITHUB_TOKEN and syncs public repositories only.
+      # CATALOG_TOKEN is optional. The default GITHUB_TOKEN is enough for a
+      # public catalog; the build excludes private repositories either way.
       - name: Sync GitHub, capture thumbnails, build catalog
         env:
           GITHUB_TOKEN: ${{ secrets.CATALOG_TOKEN || secrets.GITHUB_TOKEN }}
           CATALOG_OWNER: ${{ github.repository_owner }}
+          # Private repositories never reach a deployed catalog. Their names,
+          # dates and screenshots stay out of both the build and the commit.
+          CATALOG_PUBLIC_ONLY: '1'
         run: |
           npm run catalog:update -- --no-local
           npm run build

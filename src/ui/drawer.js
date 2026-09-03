@@ -150,6 +150,9 @@ function template(p) {
         </button>
       </div>
 
+      ${versionsHtml(p)}
+      ${pagesHtml(p)}
+
       <dl class="dw__spec">
         ${row('Live preview', p.previewUrl
           ? `<a href="${escapeHtml(p.previewUrl)}" target="_blank" rel="noreferrer">${escapeHtml(prettyUrl(p.previewUrl))}</a>`
@@ -168,3 +171,67 @@ function template(p) {
 }
 
 const row = (label, value) => `<div class="dw__row"><dt>${label}</dt><dd>${value}</dd></div>`;
+
+/**
+ * Every alternative index, as pictures rather than filenames.
+ *
+ * These projects are explorations: ten indexes side by side is the point of
+ * opening the drawer at all, so the versions get a real grid and the secondary
+ * pages get a quiet list underneath.
+ */
+function versionsHtml(p) {
+  if (!p.versions?.length) return '';
+
+  const cards = p.versions
+    .map(
+      (v) => `
+      <a class="ver" href="${escapeHtml(v.url)}" target="_blank" rel="noreferrer">
+        <span class="ver__frame">
+          ${
+            v.thumb
+              ? `<img src="${escapeHtml(resolve(v.thumb))}" alt="${escapeHtml(`${p.title} — ${v.label}`)}"
+                      width="640" height="400" loading="lazy" decoding="async">`
+              : `<span class="ver__empty" aria-hidden="true">${escapeHtml(v.file)}</span>`
+          }
+        </span>
+        <span class="ver__label">
+          ${escapeHtml(v.label)}
+          <svg aria-hidden="true" width="10" height="10"><use href="#i-arrow"/></svg>
+        </span>
+        <span class="ver__file">${escapeHtml(v.file)}</span>
+      </a>`,
+    )
+    .join('');
+
+  return `
+    <section class="dw__section">
+      <h3 class="dw__legend">Versions<span class="dw__legend-n">${p.versions.length}</span></h3>
+      <div class="ver-grid">${cards}</div>
+    </section>`;
+}
+
+function pagesHtml(p) {
+  if (!p.pages?.length) return '';
+
+  const rows = p.pages
+    .map(
+      (v) => `
+      <a class="pg" href="${escapeHtml(v.url)}" target="_blank" rel="noreferrer">
+        <span class="pg__thumb">${
+          v.thumb
+            ? `<img src="${escapeHtml(resolve(v.thumb))}" alt="" width="640" height="400" loading="lazy" decoding="async">`
+            : ''
+        }</span>
+        <span class="pg__label">${escapeHtml(v.label)}</span>
+        <span class="pg__file">${escapeHtml(v.file)}</span>
+        <svg class="pg__arrow" aria-hidden="true" width="11" height="11"><use href="#i-arrow"/></svg>
+      </a>`,
+    )
+    .join('');
+
+  return `
+    <section class="dw__section">
+      <h3 class="dw__legend">Pages<span class="dw__legend-n">${p.pages.length}</span></h3>
+      <div class="pg-list">${rows}</div>
+    </section>`;
+}

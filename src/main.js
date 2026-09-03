@@ -6,6 +6,7 @@ import './styles/drawer.css';
 
 import { renderCard, watchImages } from './ui/card.js';
 import { Drawer } from './ui/drawer.js';
+import { HoverPreview } from './ui/hover-preview.js';
 import { relativeTime, escapeHtml } from './lib/format.js';
 
 const CATALOG_URL = `${import.meta.env.BASE_URL}catalog.json`;
@@ -23,6 +24,7 @@ const dom = {
   colophon: document.querySelector('[data-colophon]'),
   profile: document.querySelector('[data-github-profile]'),
   pinned: document.querySelector('[data-action="pinned"]'),
+  live: document.querySelector('[data-action="live"]'),
   refresh: document.querySelector('[data-action="refresh"]'),
   toast: document.querySelector('[data-toast]'),
   drawer: document.getElementById('drawer'),
@@ -36,9 +38,15 @@ const state = {
   sort: 'updated',
   view: 'grid',
   pinnedOnly: false,
+  liveHover: false,
 };
 
 const drawer = new Drawer({ el: dom.drawer, scrim: dom.scrim, onCopy: copy });
+
+const hover = new HoverPreview({
+  grid: dom.grid,
+  getProject: (id) => state.catalog?.projects.find((p) => p.id === id),
+});
 
 /* ── data ────────────────────────────────────────────────────────────────── */
 
@@ -105,6 +113,7 @@ function renderGrid() {
 
   dom.grid.dataset.view = state.view;
   dom.grid.setAttribute('aria-busy', 'false');
+  dom.grid.dispatchEvent(new CustomEvent('catalog:rerender'));
   dom.grid.replaceChildren();
 
   dom.count.textContent = projects.length
@@ -176,10 +185,12 @@ function readUrl() {
   state.sort = SORTERS[params.get('sort')] ? params.get('sort') : 'updated';
   state.view = params.get('view') === 'compact' ? 'compact' : 'grid';
   state.pinnedOnly = params.get('pinned') === '1';
+  state.liveHover = params.get('live') === '1';
 
   dom.search.value = state.query;
   dom.sort.value = state.sort;
   dom.pinned.setAttribute('aria-pressed', String(state.pinnedOnly));
+  dom.live.setAttribute('aria-pressed', String(state.liveHover));
   for (const btn of document.querySelectorAll('[data-view]')) {
     btn.setAttribute('aria-pressed', String(btn.dataset.view === state.view));
   }
@@ -192,6 +203,7 @@ function writeUrl() {
   if (state.sort !== 'updated') params.set('sort', state.sort);
   if (state.view !== 'grid') params.set('view', state.view);
   if (state.pinnedOnly) params.set('pinned', '1');
+  if (state.liveHover) params.set('live', '1');
 
   const qs = params.toString();
   history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
@@ -236,6 +248,18 @@ function wire() {
   dom.sort.addEventListener('change', () => {
     state.sort = dom.sort.value;
     update();
+  });
+
+  dom.live.addEventListener('click', () => {
+    state.liveHover = !state.liveHover;
+    dom.live.setAttribute('aria-pressed', String(state.liveHover));
+    hover.setMode(state.liveHover ? 'live' : 'versions');
+    writeUrl();
+    toast(
+      state.liveHover
+        ? 'Hover a card to load the real site'
+        : 'Hover a card to flip through its versions',
+    );
   });
 
   dom.pinned.addEventListener('click', () => {
@@ -358,4 +382,5 @@ async function copy(text, label) {
 
   renderFilters();
   renderGrid();
+  hover.setMode(state.liveHover ? 'live' : 'versions');
 })();

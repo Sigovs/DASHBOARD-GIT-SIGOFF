@@ -31,6 +31,7 @@ export function renderCard(p) {
        aria-label="${escapeHtml(opensPreview ? `Open ${p.title} preview` : `Open ${p.title} on GitHub`)}">
       ${thumbHtml(p, alt)}
       ${marksHtml(p)}
+      ${versionBadgeHtml(p)}
     </a>
 
     <div class="card__body">
@@ -63,9 +64,11 @@ export function renderCard(p) {
                 aria-label="Copy clone command for ${escapeHtml(p.title)}">
           <svg aria-hidden="true" width="12" height="12"><use href="#i-copy"/></svg>
         </button>
-        <button type="button" class="action action--icon" data-open-drawer
-                aria-label="Project details for ${escapeHtml(p.title)}" aria-haspopup="dialog">
-          <svg aria-hidden="true" width="13" height="13"><use href="#i-dots"/></svg>
+        <button type="button" class="action action--cta" data-open-drawer
+                aria-label="View details and all ${p.variantCount} versions of ${escapeHtml(p.title)}"
+                aria-haspopup="dialog">
+          View details
+          ${p.versions.length > 1 ? `<span class="action__n">${p.versions.length}</span>` : ''}
         </button>
       </div>
     </div>
@@ -116,6 +119,14 @@ function marksHtml(p) {
     marks.push(`<span class="mark mark--private" title="Private repository"><svg aria-hidden="true" width="10" height="10"><use href="#i-lock"/></svg></span>`);
   }
   return marks.length ? `<div class="card__marks">${marks.join('')}</div>` : '';
+}
+
+function versionBadgeHtml(p) {
+  if (p.versions.length < 2) return '';
+  return `
+    <div class="card__marks card__marks--right">
+      <span class="mark mark--versions">${p.versions.length} versions</span>
+    </div>`;
 }
 
 function tagsHtml(p) {

@@ -457,3 +457,16 @@ body.is-scrolled .controls {
     display: none;
   }
 }
+
+.toggle__dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.55;
+}
+
+.toggle[aria-pressed='true'] .toggle__dot {
+  opacity: 1;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}

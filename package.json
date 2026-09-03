@@ -12,7 +12,8 @@
     "scan:local": "node scripts/scan-local.mjs",
     "screenshots": "node scripts/screenshots.mjs",
     "catalog:update": "node scripts/catalog-update.mjs",
-    "catalog:update:force": "node scripts/catalog-update.mjs --force"
+    "catalog:update:force": "node scripts/catalog-update.mjs --force",
+    "versions": "node scripts/page-shots.mjs"
   },
   "devDependencies": {
     "playwright": "^1.56.0",

@@ -25,57 +25,255 @@
     "`npm run sync` appends a stub for any NEW repository. It never edits an",
     "entry that already exists here."
   ],
-
-  "categories": ["AAN", "Client Sites", "Automotive", "3D / Experimental", "Personal", "Archive"],
-
+  "categories": [
+    "AAN",
+    "Client Sites",
+    "Automotive",
+    "3D / Experimental",
+    "Personal",
+    "Archive"
+  ],
   "projects": {
-    "-Exotic-Motorsports-of-Oklahoma": { "title": "Exotic Motorsports of Oklahoma", "category": "Automotive" },
-    "360_aan_setup_to_jake": { "title": "360", "subtitle": "AAN setup — handoff", "category": "AAN" },
-    "360_anan_preview": { "title": "360", "subtitle": "AAN preview build", "category": "AAN" },
-    "AAN_MASTER_2026": { "title": "AAN Master 2026", "subtitle": "Master template", "category": "AAN", "pinned": true },
-    "AAN_PPREVIEW_CHICAGOMOTORCARS": { "title": "Chicago Motor Cars", "subtitle": "AAN Preview", "category": "AAN", "pinned": true },
-    "ACTON_SERVICE": { "title": "Acton", "subtitle": "Service department", "category": "Client Sites" },
-    "BENTLEY-PORTAL": { "title": "Bentley Portal", "category": "Automotive" },
-    "BHCC": { "title": "BHCC", "category": "Client Sites" },
-    "DRIVEMAX": { "title": "DriveMax", "category": "Automotive" },
-    "GD2": { "title": "GD2", "subtitle": "Design lab", "category": "3D / Experimental", "pinned": true },
-    "GD2-AAN-TEST-": { "title": "GD2 · AAN", "subtitle": "Test build", "category": "3D / Experimental", "status": "concept" },
-    "GD_LAB_TEST": { "title": "GD Lab", "subtitle": "Test bench", "category": "3D / Experimental", "status": "concept" },
-    "GM": { "title": "GM", "category": "Client Sites" },
-    "GTA_AAN": { "title": "GTA", "subtitle": "AAN build", "category": "AAN" },
-    "HINDERER": { "title": "Hinderer Cobras", "category": "Automotive" },
-    "KERBECK": { "title": "FC Kerbeck", "category": "Automotive" },
-    "LUXCARS": { "title": "Lux Cars", "category": "Automotive" },
-    "MAX_WEBSITE_UPD": { "title": "Max", "subtitle": "Site update", "category": "Automotive" },
-    "McMurtry": { "title": "McMurtry", "category": "Automotive" },
-    "Midwest-cobras": { "title": "Midwest Cobras", "subtitle": "3D Scroll Experience", "category": "3D / Experimental", "pinned": true },
-    "PATTON": { "title": "Patton", "category": "Automotive" },
-    "Prestige": { "title": "Prestige", "subtitle": "Original build", "category": "Automotive" },
-    "RUSSIA_NEED_A_DOC": { "title": "Need a Doc", "category": "Personal" },
-    "TWINS": { "title": "Twins", "category": "Automotive" },
-    "VEGAS_UPD": { "title": "Vegas Auto Gallery", "subtitle": "Site update", "category": "Automotive" },
-    "VIP-LEASING": { "title": "VIP Leasing", "category": "Automotive" },
-    "Wes_Financial_Auto": { "title": "Wes Financial Auto", "category": "Automotive" },
-    "_TEST": { "title": "Test Bench", "category": "3D / Experimental", "status": "concept" },
-    "aan_gta_preview": { "title": "GTA", "subtitle": "AAN preview build", "category": "AAN" },
-    "aan_gta_version": { "title": "GTA", "subtitle": "AAN version", "category": "AAN" },
-    "barnaba": { "title": "Barnaba", "category": "Client Sites" },
-    "cmc_concept4": { "title": "CMC Concept 4", "subtitle": "Chicago Motor Cars", "category": "Automotive", "status": "concept" },
-    "design_dna": { "title": "Design DNA", "subtitle": "Design system", "category": "3D / Experimental", "pinned": true },
-    "dimamid": { "title": "Dimamid", "category": "Client Sites" },
-    "ferrari_aan": { "title": "Ferrari", "subtitle": "AAN build", "category": "AAN" },
-    "gd_buro_tests": { "title": "GD Buro", "subtitle": "Tests", "category": "3D / Experimental", "status": "concept" },
-    "gta_review": { "title": "GTA", "subtitle": "Review build", "category": "AAN" },
-    "ibuy": { "title": "iBuy", "category": "Client Sites" },
-    "ibuy_aan_setup_to_jake": { "title": "iBuy", "subtitle": "AAN setup — handoff", "category": "AAN" },
-    "medrad-site": { "title": "Medrad", "subtitle": "Website", "category": "Client Sites" },
-    "medrad-update": { "title": "Medrad", "subtitle": "Site update", "category": "Client Sites" },
-    "midwest_scrollcraft": { "title": "Midwest Cobras", "subtitle": "Scrollcraft build", "category": "3D / Experimental" },
-    "prestige-final-dev": { "title": "Prestige", "subtitle": "Final dev build", "category": "Automotive", "status": "development" },
-    "prestige-website": { "title": "Prestige", "subtitle": "Website", "category": "Automotive" },
-    "rescue": { "title": "Rescue Cars", "category": "Automotive" },
-    "robb": { "title": "Robb Francis", "subtitle": "Concept", "category": "Personal" },
-    "robb-francis-website": { "title": "Robb Francis", "subtitle": "Website", "category": "Client Sites" },
-    "unique": { "title": "Unique", "category": "Automotive" }
+    "_TEST": {
+      "title": "GD2 Test Bench",
+      "category": "3D / Experimental",
+      "status": "concept",
+      "subtitle": "Lab copy"
+    },
+    "-Exotic-Motorsports-of-Oklahoma": {
+      "title": "Exotic Motorsports of Oklahoma",
+      "category": "Automotive",
+      "subtitle": "Service & detailing"
+    },
+    "360_aan_setup_to_jake": {
+      "title": "360 Auto Care",
+      "subtitle": "AAN setup — handoff",
+      "category": "AAN"
+    },
+    "360_anan_preview": {
+      "title": "360 Auto Care",
+      "subtitle": "AAN preview build",
+      "category": "AAN"
+    },
+    "aan_gta_preview": {
+      "title": "GTA Motorcars",
+      "subtitle": "AAN preview build",
+      "category": "AAN"
+    },
+    "aan_gta_version": {
+      "title": "GTA Motorcars",
+      "subtitle": "AAN version",
+      "category": "AAN"
+    },
+    "AAN_MASTER_2026": {
+      "title": "AAN Master 2026",
+      "subtitle": "Master template",
+      "category": "AAN",
+      "pinned": true
+    },
+    "AAN_PPREVIEW_CHICAGOMOTORCARS": {
+      "title": "Chicago Motor Cars",
+      "subtitle": "AAN Preview",
+      "category": "AAN",
+      "pinned": true
+    },
+    "ACTON_SERVICE": {
+      "title": "Acton Autoworks",
+      "subtitle": "Tire & wheel service",
+      "category": "Client Sites"
+    },
+    "barnaba": {
+      "title": "Barnaba Auto",
+      "category": "Client Sites",
+      "subtitle": "Porsche specialist, Batavia IL"
+    },
+    "BENTLEY-PORTAL": {
+      "title": "Bentley Palm Beach",
+      "category": "Automotive",
+      "subtitle": "Retailer portal"
+    },
+    "BHCC": {
+      "title": "Beverly Hills Car Club",
+      "category": "Automotive",
+      "subtitle": "by Alex Manos"
+    },
+    "cmc_concept4": {
+      "title": "Chicago Motor Cars",
+      "subtitle": "Concept 4",
+      "category": "Automotive",
+      "status": "concept"
+    },
+    "design_dna": {
+      "title": "Design DNA",
+      "subtitle": "Design system",
+      "category": "3D / Experimental",
+      "pinned": true
+    },
+    "dimamid": {
+      "title": "Dimamid",
+      "category": "Client Sites"
+    },
+    "DRIVEMAX": {
+      "title": "Drive Max USA",
+      "category": "Automotive"
+    },
+    "ferrari_aan": {
+      "title": "Ferrari",
+      "subtitle": "AAN build",
+      "category": "AAN"
+    },
+    "gd_buro_tests": {
+      "title": "GD Buro",
+      "subtitle": "Machine studies",
+      "category": "3D / Experimental",
+      "status": "concept"
+    },
+    "GD_LAB_TEST": {
+      "title": "GD Lab",
+      "subtitle": "GD2 test bench",
+      "category": "3D / Experimental",
+      "status": "concept"
+    },
+    "GD2": {
+      "title": "GD2",
+      "subtitle": "Design lab",
+      "category": "3D / Experimental",
+      "pinned": true
+    },
+    "GD2-AAN-TEST-": {
+      "title": "GD2 · AAN",
+      "subtitle": "Test build",
+      "category": "3D / Experimental",
+      "status": "concept"
+    },
+    "GM": {
+      "title": "GM Motors NY",
+      "category": "Client Sites"
+    },
+    "GTA_AAN": {
+      "title": "GTA Motorcars",
+      "subtitle": "AAN build",
+      "category": "AAN"
+    },
+    "gta_review": {
+      "title": "GTA Motorcars",
+      "subtitle": "Review build",
+      "category": "AAN"
+    },
+    "HINDERER": {
+      "title": "Hinderer Motor Company",
+      "category": "Automotive",
+      "subtitle": "Custom Cobras"
+    },
+    "ibuy": {
+      "title": "iBuy",
+      "category": "Client Sites",
+      "subtitle": "Private vehicle acquisition"
+    },
+    "ibuy_aan_setup_to_jake": {
+      "title": "iBuy Luxury Cars",
+      "subtitle": "AAN setup — handoff",
+      "category": "AAN"
+    },
+    "KERBECK": {
+      "title": "FC Kerbeck",
+      "category": "Automotive"
+    },
+    "LUXCARS": {
+      "title": "Lux Cars Chicago",
+      "category": "Automotive"
+    },
+    "MAX_WEBSITE_UPD": {
+      "title": "Drive Max USA",
+      "subtitle": "Site update",
+      "category": "Automotive"
+    },
+    "McMurtry": {
+      "title": "McMurtry of Greenwich",
+      "category": "Automotive"
+    },
+    "medrad-site": {
+      "title": "MedRad Clinics",
+      "subtitle": "Website",
+      "category": "Client Sites"
+    },
+    "medrad-update": {
+      "title": "MedRad Clinics",
+      "subtitle": "Site update",
+      "category": "Client Sites"
+    },
+    "midwest_scrollcraft": {
+      "title": "Midwest Cobras",
+      "subtitle": "Scrollcraft build",
+      "category": "3D / Experimental"
+    },
+    "Midwest-cobras": {
+      "title": "Midwest Cobras",
+      "subtitle": "3D Scroll Experience",
+      "category": "3D / Experimental",
+      "pinned": true
+    },
+    "PATTON": {
+      "title": "Patton Motors",
+      "category": "Automotive",
+      "subtitle": "Collector cars & auctions"
+    },
+    "Prestige": {
+      "title": "Prestige Imports",
+      "subtitle": "Original build",
+      "category": "Automotive"
+    },
+    "prestige-final-dev": {
+      "title": "Prestige Imports",
+      "subtitle": "Final dev build",
+      "category": "Automotive",
+      "status": "development"
+    },
+    "prestige-website": {
+      "title": "Prestige Imports",
+      "subtitle": "Website",
+      "category": "Automotive"
+    },
+    "rescue": {
+      "title": "Sports Car Rescue",
+      "category": "Automotive",
+      "subtitle": "Barn-find restoration"
+    },
+    "robb": {
+      "title": "Robb Francis",
+      "subtitle": "Concept",
+      "category": "Personal"
+    },
+    "robb-francis-website": {
+      "title": "Robb Francis",
+      "subtitle": "Website",
+      "category": "Client Sites"
+    },
+    "RUSSIA_NEED_A_DOC": {
+      "title": "Need a Doc",
+      "category": "Personal"
+    },
+    "TWINS": {
+      "title": "Twins Auto of Dublin",
+      "category": "Automotive"
+    },
+    "unique": {
+      "title": "Unique Motor Collection",
+      "category": "Automotive"
+    },
+    "VEGAS_UPD": {
+      "title": "Vegas Auto Gallery",
+      "subtitle": "Site update",
+      "category": "Automotive"
+    },
+    "VIP-LEASING": {
+      "title": "VIP Leasing",
+      "category": "Automotive",
+      "subtitle": "Miami, FL"
+    },
+    "Wes_Financial_Auto": {
+      "title": "Wes Financial Auto",
+      "category": "Automotive"
+    }
   }
 }
