@@ -44,7 +44,7 @@ jobs:
           CATALOG_PUBLIC_ONLY: '1'
         run: |
           npm run catalog:update -- --no-local
-          npm run build
+          npm run dashboard
 
       # Keep the generated metadata and any new thumbnails in the repository so
       # a local `npm run dev` is current without needing a token.
@@ -57,9 +57,11 @@ jobs:
           git push
 
       - uses: actions/configure-pages@v5
+      # dashboard/ is the same build that opens from a double-click, so the
+      # hosted copy and the downloadable one can never drift apart.
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dashboard
 
   deploy:
     needs: build

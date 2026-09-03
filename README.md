@@ -15,8 +15,15 @@ Nothing is hardcoded.
 ```bash
 npm install
 npm run catalog:update    # pull GitHub, capture thumbnails  (~3 min first time)
-npm run dev               # http://localhost:5180
+npm run dashboard         # then double-click dashboard/index.html
 ```
+
+Or `npm run dev` for the live version at http://localhost:5180.
+
+`dashboard/` is a self-contained folder: the stylesheet, the script and the
+whole catalog are inlined into one 140 KB `index.html`, with the thumbnails
+beside it. It opens straight off disk with no server, and the same folder is
+what gets deployed. Copy it to a USB stick and it still works.
 
 After the first run, `npm run dev` alone is enough — the catalog is on disk.
 
@@ -28,7 +35,8 @@ After the first run, `npm run dev` alone is enough — the catalog is on disk.
 | `npm run screenshots` | Project thumbnails only. |
 | `npm run versions` | Per-version screenshots only. |
 | `npm run scan:local` | Re-find local clones for the *Open in VS Code* action. |
-| `npm run build` | Static site into `dist/`. Deployable anywhere. |
+| `npm run dashboard` | The openable folder. **Double-click `dashboard/index.html`.** |
+| `npm run build` | Static site into `dist/`. Needs a server. |
 
 Useful flags:
 
@@ -187,6 +195,23 @@ Private repos are kept out of anything that could be published:
 The build honours `CATALOG_PUBLIC_ONLY=1`, which the GitHub Action sets. So the
 catalog you browse at localhost has everything, and the one on the internet has
 only what was already public on GitHub.
+
+## Adding and removing
+
+`npm run catalog:update` reconciles in both directions. New repository on
+GitHub? A card appears, with a screenshot. Repository deleted or renamed? Its
+entry, its thumbnails, its version shots and its override block are all removed
+— and the run says exactly what it removed:
+
+```
+▍ Removing what is gone
+  ! removed 2 project(s) that no longer exist: _TEST, GD_LAB_TEST
+  ! removed override entries: _TEST, GD_LAB_TEST, GD2-AAN-TEST-
+  deleted 7 orphaned thumbnail files
+```
+
+A thumbnail you set by hand in `catalog-overrides.json` is never deleted,
+whatever happens to the repository it belonged to.
 
 ## Overriding a project
 

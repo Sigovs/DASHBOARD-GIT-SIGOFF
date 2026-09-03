@@ -5,6 +5,7 @@
  *   npm run catalog:update
  *
  *   1. pull every repository the account owns from GitHub
+ *   1a. delete anything cached for a repository that no longer exists
  *   2. discover live preview URLs and in-repo preview images
  *   3. seed catalog-overrides.json with any repository it has not seen before
  *   4. find local clones so "Open in VS Code" works
@@ -27,6 +28,7 @@ import { scanLocal } from './scan-local.mjs';
 import { captureThumbnails } from './screenshots.mjs';
 import { capturePageThumbnails } from './page-shots.mjs';
 import { buildCatalog } from './lib/catalog.mjs';
+import { prune, reportPrune } from './lib/prune.mjs';
 import { log } from './lib/log.mjs';
 
 const args = process.argv.slice(2);
@@ -35,7 +37,10 @@ const flag = (n) => args.includes(`--${n}`);
 const started = Date.now();
 
 try {
-  await sync();
+  const repos = await sync();
+
+  log.step('Removing what is gone');
+  reportPrune(prune(repos));
 
   if (!flag('no-local')) {
     scanLocal();

@@ -34,12 +34,6 @@
     "Archive"
   ],
   "projects": {
-    "_TEST": {
-      "title": "GD2 Test Bench",
-      "category": "3D / Experimental",
-      "status": "concept",
-      "subtitle": "Lab copy"
-    },
     "-Exotic-Motorsports-of-Oklahoma": {
       "title": "Exotic Motorsports of Oklahoma",
       "category": "Automotive",
@@ -103,6 +97,12 @@
       "category": "Automotive",
       "status": "concept"
     },
+    "DASHBOARD-GIT-SIGOFF": {
+      "title": "Project Catalog",
+      "subtitle": "This dashboard",
+      "category": "3D / Experimental",
+      "hidden": true
+    },
     "design_dna": {
       "title": "Design DNA",
       "subtitle": "Design system",
@@ -128,23 +128,11 @@
       "category": "3D / Experimental",
       "status": "concept"
     },
-    "GD_LAB_TEST": {
-      "title": "GD Lab",
-      "subtitle": "GD2 test bench",
-      "category": "3D / Experimental",
-      "status": "concept"
-    },
     "GD2": {
       "title": "GD2",
       "subtitle": "Design lab",
       "category": "3D / Experimental",
       "pinned": true
-    },
-    "GD2-AAN-TEST-": {
-      "title": "GD2 · AAN",
-      "subtitle": "Test build",
-      "category": "3D / Experimental",
-      "status": "concept"
     },
     "GM": {
       "title": "GM Motors NY",

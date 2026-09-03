@@ -50,11 +50,27 @@ const hover = new HoverPreview({
 
 /* ── data ────────────────────────────────────────────────────────────────── */
 
+/**
+ * The catalog, from whichever source is available.
+ *
+ * A served build fetches catalog.json, so Refresh picks up a re-sync without a
+ * rebuild. A standalone build carries the same JSON inlined in the page, which
+ * is what lets the folder be opened straight off disk — file:// blocks fetch,
+ * but a script tag is just markup.
+ */
 async function load({ bust = false } = {}) {
   const url = bust ? `${CATALOG_URL}?t=${Date.now()}` : CATALOG_URL;
-  const res = await fetch(url, { cache: bust ? 'reload' : 'default' });
-  if (!res.ok) throw new Error(`Could not load catalog.json (HTTP ${res.status})`);
-  return res.json();
+  try {
+    const res = await fetch(url, { cache: bust ? 'reload' : 'default' });
+    if (res.ok) return await res.json();
+  } catch {
+    /* file://, or no server. Fall through to the inlined copy. */
+  }
+
+  const inline = document.getElementById('catalog-data');
+  if (inline) return JSON.parse(inline.textContent);
+
+  throw new Error('Could not load catalog.json');
 }
 
 /* ── filtering ───────────────────────────────────────────────────────────── */

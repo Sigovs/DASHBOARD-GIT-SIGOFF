@@ -30,11 +30,11 @@ export class HoverPreview {
     this.mode = mode;
     this.active = null;
 
-    this.enabled =
-      window.matchMedia('(hover: hover) and (pointer: fine)').matches &&
-      !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    if (!this.enabled) return;
+    // Gated on the pointer that actually arrives, not on a media query. A
+    // touchscreen Windows laptop reports `hover: none` even while a mouse is
+    // plugged into it, which would switch this off for exactly the person most
+    // likely to want it. A real mouse identifies itself on the event.
+    this.reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
 
     grid.addEventListener('pointerover', (e) => this.onEnter(e));
     grid.addEventListener('pointerout', (e) => this.onLeave(e));
@@ -48,6 +48,10 @@ export class HoverPreview {
   }
 
   onEnter(event) {
+    // A finger tapping a card should open it, not start a slideshow under it.
+    if (event.pointerType === 'touch') return;
+    if (this.reduced.matches) return;
+
     const frame = event.target.closest?.('.card__frame');
     if (!frame || frame === this.active?.frame) return;
     if (frame.contains(event.relatedTarget)) return;

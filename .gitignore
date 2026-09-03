@@ -1,5 +1,6 @@
 node_modules/
 dist/
+dashboard/
 .env
 .env.local
 *.log
