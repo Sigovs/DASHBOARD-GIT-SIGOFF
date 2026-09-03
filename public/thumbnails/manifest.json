@@ -132,12 +132,12 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "c8bce9ac9638",
-    "capturedAt": "2026-09-03T20:44:23.160Z",
-    "pushedAt": "2026-09-03T20:41:54Z",
+    "sourceKey": "ae382bec3dbc",
+    "capturedAt": "2026-09-03T20:52:37.366Z",
+    "pushedAt": "2026-09-03T20:49:02Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
-    "bytes": 60894,
+    "bytes": 60554,
     "width": 1600,
     "height": 1000,
     "error": null

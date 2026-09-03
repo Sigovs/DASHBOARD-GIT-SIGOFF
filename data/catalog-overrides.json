@@ -54,11 +54,6 @@
       "subtitle": "AAN preview build",
       "category": "AAN"
     },
-    "aan_gta_version": {
-      "title": "GTA Motorcars",
-      "subtitle": "AAN version",
-      "category": "AAN"
-    },
     "AAN_MASTER_2026": {
       "title": "AAN Master 2026",
       "subtitle": "Master template",
@@ -189,11 +184,6 @@
       "title": "MedRad Clinics",
       "subtitle": "Site update",
       "category": "Client Sites"
-    },
-    "midwest_scrollcraft": {
-      "title": "Midwest Cobras",
-      "subtitle": "Scrollcraft build",
-      "category": "3D / Experimental"
     },
     "Midwest-cobras": {
       "title": "Midwest Cobras",
