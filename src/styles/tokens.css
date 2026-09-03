@@ -1,0 +1,99 @@
+/* ===========================================================================
+   SIGOVS — PROJECT CATALOG
+   Design tokens.
+
+   Dark, near-black, layered. One restrained accent (muted brass) that appears
+   on roughly one per cent of the surface: the focus ring, the active filter,
+   the pin, the recently-updated dot. Everything else is neutral so that the
+   only colour in the interface comes from the project screenshots themselves.
+   =========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* ---- ground and surfaces ---------------------------------------------- */
+  --bg: #09090a;
+  --bg-blur: rgba(9, 9, 10, 0.82);
+  --panel: #101012;
+  --panel-2: #15151a;
+  --well: #0c0c0e;
+
+  /* ---- hairlines --------------------------------------------------------- */
+  --line: rgba(255, 255, 255, 0.07);
+  --line-2: rgba(255, 255, 255, 0.12);
+  --line-3: rgba(255, 255, 255, 0.2);
+
+  /* ---- ink --------------------------------------------------------------- */
+  --ink: #f1f0ed;
+  --ink-2: #9c9ca4;
+  --ink-3: #6a6a73;
+  --ink-4: #4a4a52;
+
+  /* ---- accent ------------------------------------------------------------ */
+  --accent: #c6a76b;
+  --accent-ink: #e2cfa6;
+  --accent-soft: rgba(198, 167, 107, 0.13);
+  --accent-line: rgba(198, 167, 107, 0.36);
+
+  /* ---- status dots (all desaturated; never the only signal) -------------- */
+  --st-active: #7f9b7f;
+  --st-development: #c6a76b;
+  --st-concept: #8a8ab2;
+  --st-complete: #6f8ea8;
+  --st-archived: #5a5a62;
+
+  /* ---- type -------------------------------------------------------------- */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Text',
+    'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Cascadia Mono', ui-monospace, 'SF Mono', Consolas,
+    'Liberation Mono', monospace;
+
+  --micro: 0.6875rem; /* 11px — tracked mono labels */
+  --meta: 0.75rem; /* 12px */
+  --ui: 0.8125rem; /* 13px — controls */
+  --body: 0.875rem; /* 14px */
+  --title: 1.0625rem; /* 17px — card title */
+
+  --track-micro: 0.13em;
+
+  /* ---- spacing ----------------------------------------------------------- */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 20px;
+  --s6: 24px;
+  --s7: 32px;
+  --s8: 40px;
+  --s9: 56px;
+  --s10: 72px;
+
+  --gutter: clamp(20px, 3.4vw, 48px);
+  --shell: 1560px;
+
+  /* ---- radii ------------------------------------------------------------- */
+  --r-sm: 6px;
+  --r-md: 9px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+
+  /* ---- motion ------------------------------------------------------------ */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast: 140ms;
+  --t-base: 220ms;
+  --t-slow: 420ms;
+
+  /* ---- chrome heights ---------------------------------------------------- */
+  --masthead-h: 78px;
+  --masthead-h-compact: 54px;
+  --controls-h: 57px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-fast: 1ms;
+    --t-base: 1ms;
+    --t-slow: 1ms;
+  }
+}

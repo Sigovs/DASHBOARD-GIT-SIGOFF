@@ -1,0 +1,459 @@
+/* ===========================================================================
+   Masthead + control bar
+
+   Both are sticky, and the masthead collapses on scroll so the sticky chrome
+   costs about 110px instead of 135px once you are into the grid. The interface
+   is a library, not a landing page: no hero, no banner, no statistics widgets.
+   =========================================================================== */
+
+.shell,
+.masthead__inner,
+.controls__inner,
+.grid,
+.state,
+.colophon {
+  width: 100%;
+  max-width: var(--shell);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+@media (min-width: 2100px) {
+  :root {
+    --shell: 2000px;
+  }
+}
+
+/* ---- masthead ----------------------------------------------------------- */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--bg-blur);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--s5);
+  height: var(--masthead-h);
+  padding-block: 15px 0;
+  transition: height var(--t-base) var(--ease), padding-block var(--t-base) var(--ease);
+}
+
+body.is-scrolled .masthead__inner {
+  height: var(--masthead-h-compact);
+  padding-block: 13px 0;
+}
+
+.wordmark__link {
+  display: block;
+  font-size: 0.9375rem;
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+}
+
+.wordmark__owner {
+  color: var(--ink-3);
+  font-weight: 450;
+}
+
+.wordmark__name {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.wordmark__status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+  color: var(--ink-3);
+  font-family: var(--font-mono);
+  font-size: var(--micro);
+  letter-spacing: 0.05em;
+  transition: opacity var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
+}
+
+body.is-scrolled .wordmark__status {
+  opacity: 0;
+  transform: translateY(-3px);
+  pointer-events: none;
+}
+
+.masthead__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  padding-top: 2px;
+}
+
+/* ---- buttons ------------------------------------------------------------ */
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--r-md);
+  color: var(--ink-2);
+  border: 1px solid transparent;
+  transition: color var(--t-fast) var(--ease), background var(--t-fast) var(--ease),
+    border-color var(--t-fast) var(--ease);
+}
+
+.icon-btn:hover {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--line);
+}
+
+.icon-btn[data-busy='true'] svg {
+  animation: spin 700ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.segmented {
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.segmented__btn {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 26px;
+  border-radius: 7px;
+  color: var(--ink-4);
+  transition: color var(--t-fast) var(--ease), background var(--t-fast) var(--ease);
+}
+
+.segmented__btn:hover {
+  color: var(--ink-2);
+}
+
+.segmented__btn[aria-pressed='true'] {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* ---- control bar -------------------------------------------------------- */
+
+.controls {
+  position: sticky;
+  top: var(--masthead-h);
+  z-index: 35;
+  background: var(--bg-blur);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border-bottom: 1px solid transparent;
+  transition: top var(--t-base) var(--ease), border-color var(--t-base) var(--ease);
+}
+
+body.is-scrolled .controls {
+  top: var(--masthead-h-compact);
+  border-bottom-color: var(--line);
+}
+
+.controls__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--s5);
+  height: var(--controls-h);
+}
+
+/* ---- search ------------------------------------------------------------- */
+
+.search {
+  position: relative;
+  flex: 0 0 264px;
+  display: flex;
+  align-items: center;
+}
+
+.search__icon {
+  position: absolute;
+  left: 11px;
+  color: var(--ink-4);
+  pointer-events: none;
+  transition: color var(--t-fast) var(--ease);
+}
+
+.search__input {
+  width: 100%;
+  height: 34px;
+  padding: 0 34px 0 32px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  font-size: var(--ui);
+  letter-spacing: -0.005em;
+  transition: border-color var(--t-fast) var(--ease), background var(--t-fast) var(--ease);
+}
+
+.search__input::placeholder {
+  color: var(--ink-4);
+}
+
+.search__input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.055);
+  border-color: var(--line-3);
+}
+
+.search:focus-within .search__icon {
+  color: var(--ink-2);
+}
+
+.search__input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.search__hint {
+  position: absolute;
+  right: 9px;
+  display: grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink-4);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  pointer-events: none;
+  transition: opacity var(--t-fast) var(--ease);
+}
+
+.search:focus-within .search__hint,
+.search__input:not(:placeholder-shown) + .search__hint {
+  opacity: 0;
+}
+
+/* ---- filters ------------------------------------------------------------ */
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  mask-image: linear-gradient(90deg, #000 calc(100% - 24px), transparent);
+}
+
+.filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filter {
+  position: relative;
+  flex: 0 0 auto;
+  padding: 6px 11px;
+  border-radius: 7px;
+  color: var(--ink-3);
+  font-size: var(--ui);
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  transition: color var(--t-fast) var(--ease), background var(--t-fast) var(--ease);
+}
+
+.filter:hover {
+  color: var(--ink-2);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.filter[aria-selected='true'] {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.filter__n {
+  margin-left: 6px;
+  color: var(--ink-4);
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.filter[aria-selected='true'] .filter__n {
+  color: var(--accent);
+}
+
+/* ---- right cluster ------------------------------------------------------ */
+
+.controls__right {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  flex: 0 0 auto;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink-3);
+  font-size: var(--ui);
+  transition: color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease),
+    background var(--t-fast) var(--ease);
+}
+
+.toggle:hover {
+  color: var(--ink-2);
+  border-color: var(--line-2);
+}
+
+.toggle[aria-pressed='true'] {
+  color: var(--accent-ink);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.select select {
+  appearance: none;
+  height: 30px;
+  padding: 0 26px 0 10px;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink-2);
+  font-size: var(--ui);
+  cursor: pointer;
+  transition: color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease);
+}
+
+.select select:hover {
+  color: var(--ink);
+  border-color: var(--line-2);
+}
+
+.select select option {
+  background: var(--panel-2);
+  color: var(--ink);
+}
+
+.select__chevron {
+  position: absolute;
+  right: 9px;
+  color: var(--ink-4);
+  pointer-events: none;
+}
+
+.count {
+  min-width: 4.5ch;
+  color: var(--ink-4);
+  font-family: var(--font-mono);
+  font-size: var(--micro);
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* ---- colophon ----------------------------------------------------------- */
+
+.colophon {
+  padding-block: var(--s9) var(--s8);
+  color: var(--ink-4);
+  font-family: var(--font-mono);
+  font-size: var(--micro);
+  letter-spacing: 0.06em;
+}
+
+/* ---- toast -------------------------------------------------------------- */
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  z-index: 120;
+  padding: 9px 16px;
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  box-shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.9);
+  color: var(--ink);
+  font-size: var(--ui);
+  opacity: 0;
+  transform: translate(-50%, 10px);
+  pointer-events: none;
+  transition: opacity var(--t-base) var(--ease), transform var(--t-base) var(--ease-out);
+}
+
+.toast.is-shown {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* ---- narrow ------------------------------------------------------------- */
+
+@media (max-width: 860px) {
+  :root {
+    --controls-h: auto;
+  }
+
+  /* Three stacked rows of chrome pinned to a phone screen would eat a third of
+     it. Only the masthead stays; the controls scroll away with the grid. */
+  .controls {
+    position: static;
+    border-bottom: none;
+  }
+
+  .controls__inner {
+    flex-wrap: wrap;
+    gap: var(--s3);
+    padding-block: var(--s4) var(--s2);
+  }
+
+  .search {
+    flex: 1 1 100%;
+    order: 1;
+  }
+
+  .filters {
+    order: 2;
+    width: 100%;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+  }
+
+  .controls__right {
+    order: 3;
+    margin-left: auto;
+  }
+
+  .count {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .masthead__actions .segmented {
+    display: none;
+  }
+}
