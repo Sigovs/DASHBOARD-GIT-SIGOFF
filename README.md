@@ -36,6 +36,7 @@ After the first run, `npm run dev` alone is enough — the catalog is on disk.
 | `npm run versions` | Per-version screenshots only. |
 | `npm run scan:local` | Re-find local clones for the *Open in VS Code* action. |
 | `npm run dashboard` | The openable folder. **Double-click `dashboard/index.html`.** |
+| `npm run share` | A one-client preview folder. See *Showing a client*. |
 | `npm run build` | Static site into `dist/`. Needs a server. |
 
 Useful flags:
@@ -195,6 +196,41 @@ Private repos are kept out of anything that could be published:
 The build honours `CATALOG_PUBLIC_ONLY=1`, which the GitHub Action sets. So the
 catalog you browse at localhost has everything, and the one on the internet has
 only what was already public on GitHub.
+
+## Showing a client
+
+The public dashboard shows everything you have ever built, for everybody. That
+is the wrong artefact to send to one dealer — their competitor's concepts are
+two cards away, next to repository names and clone commands.
+
+`npm run share` builds a separate folder containing one client's work and
+nothing else:
+
+```bash
+npm run share -- --only PATTON --title "Patton Motors" --subtitle "Homepage concepts"
+npm run share -- --only Prestige,prestige-website,prestige-final-dev --title "Prestige Imports"
+npm run share -- --category "AAN" --title "AAN Network"
+```
+
+Out comes `share/patton-motors/` — 488 KB, seven concepts, opens from a
+double-click. Send the folder, or drop it on any host.
+
+What a client build leaves out is **removed, not hidden**, because anyone can
+read a page source:
+
+| | Studio dashboard | Client build |
+| --- | --- | --- |
+| Other clients' projects | all of them | none |
+| Repository name | shown | stripped from the JSON |
+| Clone URL, SSH URL, local path | shown | stripped from the JSON |
+| GitHub links and profile | shown | removed from the markup |
+| Language and size | shown | omitted |
+| Header | Sigovs / Project Catalog | the client's own name |
+| Footer | build stats | Prepared by Sigovs |
+| Other clients' thumbnails | — | deleted from the folder |
+
+What stays: the screenshots, the versions grid, the live preview links and the
+date it was last updated.
 
 ## Adding and removing
 

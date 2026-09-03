@@ -470,3 +470,29 @@ body.is-scrolled .controls {
   opacity: 1;
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
+
+/* ---- client presentation ------------------------------------------------ */
+
+/* Nothing here is about hiding a link the client could still reach — those are
+   removed from the markup. This only tidies the chrome that has no meaning
+   outside the studio. */
+body.is-client [data-github-profile],
+body.is-client [data-action='live'] {
+  display: none;
+}
+
+body.is-client .wordmark__owner {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+body.is-client .wordmark__name {
+  color: var(--ink-3);
+  font-weight: 450;
+}
+
+/* One client, one project: the filter row is noise. */
+body.is-client.is-single .filters,
+body.is-client.is-single [data-action='pinned'] {
+  display: none;
+}

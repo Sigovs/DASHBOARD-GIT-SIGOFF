@@ -1,4 +1,5 @@
 import { shortAge, isRecent, seed, escapeHtml } from '../lib/format.js';
+import { view } from '../lib/mode.js';
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -17,33 +18,33 @@ export function renderCard(p) {
   el.className = 'card';
   el.dataset.id = p.id;
 
-  const href = p.previewUrl || p.githubUrl;
+  const href = p.previewUrl || (view.client ? null : p.githubUrl);
   const opensPreview = Boolean(p.previewUrl);
   const alt = p.previewUrl
     ? `Screenshot of ${p.title}${p.subtitle ? `, ${p.subtitle}` : ''}`
     : `${p.title} — no live preview available`;
 
   el.innerHTML = `
-    <a class="card__frame"
-       href="${escapeHtml(href)}"
-       target="_blank"
-       rel="noreferrer"
-       aria-label="${escapeHtml(opensPreview ? `Open ${p.title} preview` : `Open ${p.title} on GitHub`)}">
+    <${href ? 'a' : 'div'} class="card__frame"
+       ${href ? `href="${escapeHtml(href)}" target="_blank" rel="noreferrer"` : ''}
+       aria-label="${escapeHtml(opensPreview ? `Open ${p.title} preview` : p.title)}">
       ${thumbHtml(p, alt)}
       ${marksHtml(p)}
       ${versionBadgeHtml(p)}
-    </a>
+    </${href ? 'a' : 'div'}>
 
     <div class="card__body">
       <div class="card__head">
-        <a class="card__title" href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(p.title)}</a>
+        ${href
+          ? `<a class="card__title" href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(p.title)}</a>`
+          : `<span class="card__title">${escapeHtml(p.title)}</span>`}
         <span class="card__updated" data-recent="${isRecent(p.pushedAt)}" title="Updated ${escapeHtml(p.pushedAt || '')}">
           ${escapeHtml(shortAge(p.pushedAt))}
         </span>
       </div>
 
       ${p.subtitle ? `<p class="card__sub">${escapeHtml(p.subtitle)}</p>` : ''}
-      <p class="card__repo">${escapeHtml(p.repo)}</p>
+      ${view.client ? '' : `<p class="card__repo">${escapeHtml(p.repo)}</p>`}
 
       <div class="card__tags">${tagsHtml(p)}</div>
 
@@ -55,6 +56,7 @@ export function renderCard(p) {
                </a>`
             : ''
         }
+        ${view.client ? '' : `
         <a class="action" href="${escapeHtml(p.githubUrl)}" target="_blank" rel="noreferrer">
           GitHub <svg aria-hidden="true" width="11" height="11"><use href="#i-arrow"/></svg>
         </a>
@@ -63,7 +65,7 @@ export function renderCard(p) {
                 data-copy-label="Clone command copied"
                 aria-label="Copy clone command for ${escapeHtml(p.title)}">
           <svg aria-hidden="true" width="12" height="12"><use href="#i-copy"/></svg>
-        </button>
+        </button>`}
         <button type="button" class="action action--cta" data-open-drawer
                 aria-label="View details and all ${p.variantCount} versions of ${escapeHtml(p.title)}"
                 aria-haspopup="dialog">
@@ -105,7 +107,7 @@ function placeholderHtml(p) {
   return `
     <div class="card__placeholder" style="--mesh:${mesh}px" aria-hidden="true">
       <span class="card__initials">${escapeHtml(p.initials)}</span>
-      <span class="card__placeholder-name">${escapeHtml(p.repo)}</span>
+      <span class="card__placeholder-name">${escapeHtml(p.repo || p.title)}</span>
     </div>
   `;
 }
@@ -137,7 +139,7 @@ function tagsHtml(p) {
     );
   }
   parts.push(escapeHtml(p.category));
-  for (const tag of p.tags.slice(0, 2)) parts.push(escapeHtml(tag));
+  if (!view.client) for (const tag of p.tags.slice(0, 2)) parts.push(escapeHtml(tag));
 
   return parts.join('<span class="sep" aria-hidden="true">·</span>');
 }

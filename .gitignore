@@ -14,3 +14,5 @@ data/repos.private.json
 public/thumbnails/private/
 public/thumbnails/pages/private/
 data/local-paths.json
+
+share/

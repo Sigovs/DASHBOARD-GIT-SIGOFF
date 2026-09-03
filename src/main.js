@@ -8,6 +8,7 @@ import { renderCard, watchImages } from './ui/card.js';
 import { Drawer } from './ui/drawer.js';
 import { HoverPreview } from './ui/hover-preview.js';
 import { relativeTime, escapeHtml } from './lib/format.js';
+import { setMode, view } from './lib/mode.js';
 
 const CATALOG_URL = `${import.meta.env.BASE_URL}catalog.json`;
 const ALL = 'All';
@@ -156,7 +157,25 @@ function renderGrid() {
 }
 
 function renderChrome() {
-  const { counts, owner, ownerUrl, syncedAt } = state.catalog;
+  const { counts, owner, ownerUrl, syncedAt, brand } = state.catalog;
+
+  // A client build carries their name, not the studio's index.
+  if (view.client && brand) {
+    const versions = state.catalog.projects.reduce((n, p) => n + p.versions.length, 0);
+    const single = counts.total === 1;
+
+    document.querySelector('.wordmark__owner').textContent = brand.title;
+    document.querySelector('.wordmark__name').textContent = brand.subtitle;
+    document.title = `${brand.title} — ${brand.subtitle}`;
+    document.body.classList.toggle('is-single', single);
+
+    dom.statusCount.textContent = single
+      ? `${versions} version${versions === 1 ? '' : 's'}`
+      : `${counts.total} projects`;
+    dom.statusSync.textContent = syncedAt ? `Updated ${relativeTime(syncedAt)}` : '';
+    dom.colophon.textContent = `Prepared by Sigovs · ${counts.total} project${single ? '' : 's'}, ${versions} versions`;
+    return;
+  }
 
   dom.statusCount.textContent = `${counts.total} projects`;
   dom.statusSync.textContent = syncedAt ? `Synced with GitHub ${relativeTime(syncedAt)}` : 'Not yet synced';
@@ -389,6 +408,7 @@ async function copy(text, label) {
     return;
   }
 
+  setMode(state.catalog);
   renderChrome();
 
   if (!state.catalog.projects.length) {

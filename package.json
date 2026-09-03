@@ -14,7 +14,8 @@
     "catalog:update": "node scripts/catalog-update.mjs",
     "catalog:update:force": "node scripts/catalog-update.mjs --force",
     "versions": "node scripts/page-shots.mjs",
-    "dashboard": "node scripts/build-dashboard.mjs"
+    "dashboard": "node scripts/build-dashboard.mjs",
+    "share": "node scripts/build-dashboard.mjs --client"
   },
   "devDependencies": {
     "playwright": "^1.56.0",

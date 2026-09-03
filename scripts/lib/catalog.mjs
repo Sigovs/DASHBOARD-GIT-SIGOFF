@@ -58,10 +58,21 @@ export function buildCatalog() {
   // and a public GitHub Pages build would otherwise publish all three.
   const publicOnly = process.env.CATALOG_PUBLIC_ONLY === '1';
 
+  // A client build is the same catalog narrowed to one audience.
+  const only = (process.env.CATALOG_ONLY || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const onlyCategory = process.env.CATALOG_CATEGORY || null;
+  const mode = process.env.CATALOG_MODE === 'client' ? 'client' : 'full';
+
   const projects = repoFile.repos
     .filter((repo) => !(publicOnly && repo.private))
+    .filter((repo) => !only.length || only.includes(repo.name))
     .map((repo) => toProject(repo, overrides[repo.name] || {}, localPaths[repo.name], manifest[repo.name], pageShots))
-    .filter((p) => !p.hidden);
+    .filter((p) => !p.hidden)
+    .filter((p) => !onlyCategory || p.category === onlyCategory)
+    .map((p) => (mode === 'client' ? forClient(p) : p));
 
   // Only offer categories that something actually lives in.
   const used = new Set(projects.map((p) => p.category));
@@ -70,11 +81,18 @@ export function buildCatalog() {
   return {
     generatedAt: new Date().toISOString(),
     syncedAt: repoFile.generatedAt,
-    owner: repoFile.owner,
-    ownerName: repoFile.ownerName,
-    ownerUrl: repoFile.ownerUrl,
-    avatarUrl: repoFile.avatarUrl,
+    owner: mode === 'client' ? null : repoFile.owner,
+    ownerName: mode === 'client' ? null : repoFile.ownerName,
+    ownerUrl: mode === 'client' ? null : repoFile.ownerUrl,
+    avatarUrl: mode === 'client' ? null : repoFile.avatarUrl,
     categories: activeCategories,
+    mode,
+    brand: mode === 'client'
+      ? {
+          title: process.env.CATALOG_TITLE || projects[0]?.title || 'Project preview',
+          subtitle: process.env.CATALOG_SUBTITLE || 'Design preview',
+        }
+      : null,
     counts: {
       total: projects.length,
       withPreview: projects.filter((p) => p.previewUrl).length,
@@ -83,6 +101,22 @@ export function buildCatalog() {
       variants: projects.reduce((n, p) => n + p.variantCount, 0),
     },
     projects,
+  };
+}
+
+/**
+ * Strips a project down to what a client is being shown.
+ *
+ * The UI hides these fields anyway, but hiding is not removing: anyone can open
+ * the page source. A client build should not carry the repository name, the
+ * clone URL or a path on someone's laptop in the first place.
+ */
+function forClient(p) {
+  const { repo, githubUrl, cloneUrl, sshUrl, localPath, defaultBranch, sizeKb, stars, private: _p, ...rest } = p;
+  return {
+    ...rest,
+    repo: null,
+    search: [p.title, p.subtitle, p.description, p.category].filter(Boolean).join(' ').toLowerCase(),
   };
 }
 

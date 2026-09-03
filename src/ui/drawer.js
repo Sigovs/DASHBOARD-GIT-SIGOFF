@@ -8,6 +8,7 @@ import {
   thumbSourceLabel,
 } from '../lib/format.js';
 import { resolve } from './card.js';
+import { view } from '../lib/mode.js';
 
 const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
@@ -96,7 +97,7 @@ function template(p) {
     ? `<img src="${escapeHtml(resolve(p.thumb.lg))}" alt="Screenshot of ${escapeHtml(p.title)}" width="1600" height="1000">`
     : `<div class="card__placeholder" style="--mesh:28px" aria-hidden="true">
          <span class="card__initials">${escapeHtml(p.initials)}</span>
-         <span class="card__placeholder-name">${escapeHtml(p.repo)}</span>
+         <span class="card__placeholder-name">${escapeHtml(p.repo || p.title)}</span>
        </div>`;
 
   return `
@@ -116,7 +117,7 @@ function template(p) {
 
       <h2 class="dw__title" id="drawer-title">${escapeHtml(p.title)}</h2>
       ${p.subtitle ? `<p class="dw__sub">${escapeHtml(p.subtitle)}</p>` : ''}
-      <p class="dw__repo"><svg aria-hidden="true" width="12" height="12"><use href="#i-github"/></svg>${escapeHtml(p.repo)}</p>
+      ${view.client ? '' : `<p class="dw__repo"><svg aria-hidden="true" width="12" height="12"><use href="#i-github"/></svg>${escapeHtml(p.repo)}</p>`}
 
       ${p.description ? `<p class="dw__desc">${escapeHtml(p.description)}</p>` : ''}
 
@@ -130,25 +131,30 @@ function template(p) {
                </a>`
             : `<span class="btn" aria-disabled="true">No live preview</span>`
         }
-        <a class="btn" href="${escapeHtml(p.githubUrl)}" target="_blank" rel="noreferrer">
-          GitHub <svg aria-hidden="true" width="12" height="12"><use href="#i-arrow"/></svg>
-        </a>
         ${
-          p.localPath
-            ? `<a class="btn" href="vscode://file/${encodeURI(p.localPath.replace(/\\/g, '/'))}">
-                 <svg aria-hidden="true" width="12" height="12"><use href="#i-code"/></svg> VS Code
-               </a>`
-            : ''
+          view.client
+            ? ''
+            : `<a class="btn" href="${escapeHtml(p.githubUrl)}" target="_blank" rel="noreferrer">
+                 GitHub <svg aria-hidden="true" width="12" height="12"><use href="#i-arrow"/></svg>
+               </a>
+               ${
+                 p.localPath
+                   ? `<a class="btn" href="vscode://file/${encodeURI(p.localPath.replace(/\\/g, '/'))}">
+                        <svg aria-hidden="true" width="12" height="12"><use href="#i-code"/></svg> VS Code
+                      </a>`
+                   : ''
+               }`
         }
       </div>
 
+      ${view.client ? '' : `
       <div class="dw__clone">
         <code>git clone ${escapeHtml(p.cloneUrl)}</code>
         <button type="button" class="dw__copy" data-copy="git clone ${escapeHtml(p.cloneUrl)}"
                 data-copy-label="Clone command copied" aria-label="Copy clone command">
           <svg aria-hidden="true" width="13" height="13"><use href="#i-copy"/></svg>
         </button>
-      </div>
+      </div>`}
 
       ${versionsHtml(p)}
       ${pagesHtml(p)}
@@ -157,14 +163,15 @@ function template(p) {
         ${row('Live preview', p.previewUrl
           ? `<a href="${escapeHtml(p.previewUrl)}" target="_blank" rel="noreferrer">${escapeHtml(prettyUrl(p.previewUrl))}</a>`
           : 'none detected')}
+        ${row('Updated', `${escapeHtml(relativeTime(p.pushedAt))} <span style="color:var(--ink-4)">· ${escapeHtml(absoluteDate(p.pushedAt))}</span>`)}
+        ${view.client ? '' : `
         ${row('Preview from', escapeHtml(previewSourceLabel(p.previewSource)))}
         ${row('Thumbnail', escapeHtml(thumbSourceLabel(p.thumb?.source)))}
-        ${row('Updated', `${escapeHtml(relativeTime(p.pushedAt))} <span style="color:var(--ink-4)">· ${escapeHtml(absoluteDate(p.pushedAt))}</span>`)}
         ${row('Created', escapeHtml(absoluteDate(p.createdAt)))}
         ${row('Branch', escapeHtml(p.defaultBranch))}
         ${row('Language', escapeHtml(p.language || '—'))}
         ${row('Size', escapeHtml(repoSize(p.sizeKb)))}
-        ${p.localPath ? row('Local path', escapeHtml(p.localPath)) : ''}
+        ${p.localPath ? row('Local path', escapeHtml(p.localPath)) : ''}`}
       </dl>
     </div>
   `;
