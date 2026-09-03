@@ -71,129 +71,6 @@
     "capturedAt": "2026-09-03T13:02:08.557Z",
     "error": null
   },
-  "gd_buro_tests/index1.html": {
-    "repo": "gd_buro_tests",
-    "url": "https://sigovs.github.io/gd_buro_tests/index1.html",
-    "label": "Main",
-    "error": "HTTP 404"
-  },
-  "gd_buro_tests/index.html": {
-    "repo": "gd_buro_tests",
-    "file": "gd-buro-tests--index.webp",
-    "url": "https://sigovs.github.io/gd_buro_tests/index.html",
-    "label": "Main",
-    "sourceKey": "e38b8ff66d14",
-    "capturedAt": "2026-09-03T20:45:37.387Z",
-    "error": null
-  },
-  "GD2/index.html": {
-    "repo": "GD2",
-    "file": "gd2--index.webp",
-    "url": "https://sigovs.github.io/GD2/index.html",
-    "label": "Main",
-    "sourceKey": "da02dcc3417e",
-    "capturedAt": "2026-09-03T20:44:52.801Z",
-    "error": null
-  },
-  "GD2/index2.html": {
-    "repo": "GD2",
-    "file": "gd2--index2.webp",
-    "url": "https://sigovs.github.io/GD2/index2.html",
-    "label": "Version 2",
-    "sourceKey": "7b0fc24490b4",
-    "capturedAt": "2026-09-03T20:45:22.245Z",
-    "error": null
-  },
-  "GD2/index3.html": {
-    "repo": "GD2",
-    "file": "gd2--index3.webp",
-    "url": "https://sigovs.github.io/GD2/index3.html",
-    "label": "Version 3",
-    "sourceKey": "d42fa5ec9a6f",
-    "capturedAt": "2026-09-03T20:45:26.661Z",
-    "error": null
-  },
-  "GD2/index5.html": {
-    "repo": "GD2",
-    "file": "gd2--index5.webp",
-    "url": "https://sigovs.github.io/GD2/index5.html",
-    "label": "Version 5",
-    "sourceKey": "522dd74a17c5",
-    "capturedAt": "2026-09-03T20:45:28.188Z",
-    "error": null
-  },
-  "GD2/index1.html": {
-    "repo": "GD2",
-    "file": "gd2--index1.webp",
-    "url": "https://sigovs.github.io/GD2/index1.html",
-    "label": "Main",
-    "sourceKey": "9f28ded306d3",
-    "capturedAt": "2026-09-03T20:45:24.719Z",
-    "error": null
-  },
-  "GD2/index4.html": {
-    "repo": "GD2",
-    "file": "gd2--index4.webp",
-    "url": "https://sigovs.github.io/GD2/index4.html",
-    "label": "Version 4",
-    "sourceKey": "2745fa2943cb",
-    "capturedAt": "2026-09-03T20:45:30.281Z",
-    "error": null
-  },
-  "GD2/index7.html": {
-    "repo": "GD2",
-    "file": "gd2--index7.webp",
-    "url": "https://sigovs.github.io/GD2/index7.html",
-    "label": "Version 7",
-    "sourceKey": "f3175be34c15",
-    "capturedAt": "2026-09-03T20:45:30.621Z",
-    "error": null
-  },
-  "GD2/index6.html": {
-    "repo": "GD2",
-    "file": "gd2--index6.webp",
-    "url": "https://sigovs.github.io/GD2/index6.html",
-    "label": "Version 6",
-    "sourceKey": "5f5d7980f02b",
-    "capturedAt": "2026-09-03T20:45:31.755Z",
-    "error": null
-  },
-  "GD2/index8.html": {
-    "repo": "GD2",
-    "file": "gd2--index8.webp",
-    "url": "https://sigovs.github.io/GD2/index8.html",
-    "label": "Version 8",
-    "sourceKey": "06109452cde0",
-    "capturedAt": "2026-09-03T20:45:33.028Z",
-    "error": null
-  },
-  "GD2/index9.html": {
-    "repo": "GD2",
-    "file": "gd2--index9.webp",
-    "url": "https://sigovs.github.io/GD2/index9.html",
-    "label": "Version 9",
-    "sourceKey": "cd09f27f2b31",
-    "capturedAt": "2026-09-03T20:45:37.242Z",
-    "error": null
-  },
-  "GD2/ds.html": {
-    "repo": "GD2",
-    "file": "gd2--ds.webp",
-    "url": "https://sigovs.github.io/GD2/ds.html",
-    "label": "Design system",
-    "sourceKey": "0879c3799029",
-    "capturedAt": "2026-09-03T20:45:35.589Z",
-    "error": null
-  },
-  "GD2/hero-v2.html": {
-    "repo": "GD2",
-    "file": "gd2--hero-v2.webp",
-    "url": "https://sigovs.github.io/GD2/hero-v2.html",
-    "label": "Hero 2",
-    "sourceKey": "ec95c07c6813",
-    "capturedAt": "2026-09-03T20:45:39.116Z",
-    "error": null
-  },
   "BHCC/index.html": {
     "repo": "BHCC",
     "file": "bhcc--index.webp",
@@ -766,8 +643,8 @@
     "file": "midwest-cobras--index.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index.html",
     "label": "Main",
-    "sourceKey": "4f4d0792fd13",
-    "capturedAt": "2026-09-03T20:52:40.775Z",
+    "sourceKey": "33653d5720f6",
+    "capturedAt": "2026-09-03T22:34:13.818Z",
     "error": null
   },
   "Midwest-cobras/index2.html": {
@@ -775,8 +652,8 @@
     "file": "midwest-cobras--index2.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index2.html",
     "label": "Version 2",
-    "sourceKey": "4add464c901b",
-    "capturedAt": "2026-09-03T20:52:40.762Z",
+    "sourceKey": "03a9da89db3f",
+    "capturedAt": "2026-09-03T22:34:13.819Z",
     "error": null
   },
   "Midwest-cobras/index3.html": {
@@ -784,8 +661,8 @@
     "file": "midwest-cobras--index3.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index3.html",
     "label": "Version 3",
-    "sourceKey": "1823c1e75547",
-    "capturedAt": "2026-09-03T20:52:43.595Z",
+    "sourceKey": "9ccfc6b40242",
+    "capturedAt": "2026-09-03T22:34:14.348Z",
     "error": null
   },
   "Midwest-cobras/index5.html": {
@@ -793,8 +670,8 @@
     "file": "midwest-cobras--index5.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index5.html",
     "label": "Version 5",
-    "sourceKey": "d9bc3d83a458",
-    "capturedAt": "2026-09-03T20:52:47.673Z",
+    "sourceKey": "6ea7cda58bc9",
+    "capturedAt": "2026-09-03T22:34:18.377Z",
     "error": null
   },
   "Midwest-cobras/index4.html": {
@@ -802,8 +679,8 @@
     "file": "midwest-cobras--index4.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index4.html",
     "label": "Version 4",
-    "sourceKey": "a15d292d0ef3",
-    "capturedAt": "2026-09-03T20:52:41.162Z",
+    "sourceKey": "381dd397259f",
+    "capturedAt": "2026-09-03T22:34:14.388Z",
     "error": null
   },
   "Midwest-cobras/index8.html": {
@@ -811,8 +688,8 @@
     "file": "midwest-cobras--index8.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index8.html",
     "label": "Version 8",
-    "sourceKey": "76e724a055ac",
-    "capturedAt": "2026-09-03T20:52:47.798Z",
+    "sourceKey": "cf0569d8ca68",
+    "capturedAt": "2026-09-03T22:34:17.483Z",
     "error": null
   },
   "Midwest-cobras/index10.html": {
@@ -820,8 +697,8 @@
     "file": "midwest-cobras--index10.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index10.html",
     "label": "Version 10",
-    "sourceKey": "e05b14ed407c",
-    "capturedAt": "2026-09-03T20:53:22.571Z",
+    "sourceKey": "e9887acaa29d",
+    "capturedAt": "2026-09-03T22:34:37.491Z",
     "error": null
   },
   "Midwest-cobras/DS.html": {
@@ -831,7 +708,7 @@
     "label": "Design system",
     "sourceKey": "0e8f4c75a2b4",
     "capturedAt": "2026-09-03T20:53:22.530Z",
-    "error": null
+    "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot"
   },
   "VIP-LEASING/PREVIEW.html": {
     "repo": "VIP-LEASING",
@@ -880,9 +757,9 @@
     "file": "midwest-cobras--index6.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index6.html",
     "label": "Version 6",
-    "sourceKey": "ae5ee261a8e2",
-    "capturedAt": "2026-09-03T20:45:19.587Z",
-    "error": "page.screenshot: Timeout 30000ms exceeded."
+    "sourceKey": "8ed9adbebec5",
+    "capturedAt": "2026-09-03T22:35:01.446Z",
+    "error": null
   },
   "VEGAS_UPD/about6.html": {
     "repo": "VEGAS_UPD",
@@ -900,7 +777,7 @@
     "label": "Version 9",
     "sourceKey": "867389a7a412",
     "capturedAt": "2026-09-03T20:53:38.356Z",
-    "error": null
+    "error": "page.screenshot: Timeout 30000ms exceeded."
   },
   "Midwest-cobras/index7.html": {
     "repo": "Midwest-cobras",

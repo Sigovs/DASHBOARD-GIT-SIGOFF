@@ -117,18 +117,6 @@
       "subtitle": "AAN build",
       "category": "AAN"
     },
-    "gd_buro_tests": {
-      "title": "GD Buro",
-      "subtitle": "Machine studies",
-      "category": "3D / Experimental",
-      "status": "concept"
-    },
-    "GD2": {
-      "title": "GD2",
-      "subtitle": "Design lab",
-      "category": "3D / Experimental",
-      "pinned": true
-    },
     "GM": {
       "title": "GM Motors NY",
       "category": "Client Sites"

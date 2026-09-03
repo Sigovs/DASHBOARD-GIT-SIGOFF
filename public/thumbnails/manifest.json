@@ -12,32 +12,6 @@
     "height": 1000,
     "error": null
   },
-  "gd_buro_tests": {
-    "source": "screenshot",
-    "ref": "https://sigovs.github.io/gd_buro_tests/",
-    "sourceKey": "0966e50d29a3",
-    "capturedAt": "2026-09-03T20:44:22.585Z",
-    "pushedAt": "2026-09-03T17:31:30Z",
-    "file": "gd-buro-tests.webp",
-    "fileSm": "gd-buro-tests@sm.webp",
-    "bytes": 41914,
-    "width": 1600,
-    "height": 1000,
-    "error": null
-  },
-  "GD2": {
-    "source": "screenshot",
-    "ref": "https://sigovs.github.io/GD2/",
-    "sourceKey": "6404b514f5b0",
-    "capturedAt": "2026-09-03T20:44:23.061Z",
-    "pushedAt": "2026-09-03T20:29:10Z",
-    "file": "gd2.webp",
-    "fileSm": "gd2@sm.webp",
-    "bytes": 109172,
-    "width": 1600,
-    "height": 1000,
-    "error": null
-  },
   "ferrari_aan": {
     "source": "repo-image",
     "ref": "docs/reference/tier1-hero.png",
@@ -132,9 +106,9 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "ae382bec3dbc",
-    "capturedAt": "2026-09-03T20:52:37.366Z",
-    "pushedAt": "2026-09-03T20:49:02Z",
+    "sourceKey": "2a8c6f0c5c98",
+    "capturedAt": "2026-09-03T22:34:10.069Z",
+    "pushedAt": "2026-09-03T21:54:06Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
     "bytes": 60554,
