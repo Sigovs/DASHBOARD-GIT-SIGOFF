@@ -56,7 +56,12 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: refresh project catalog"
           git push
 
+      # enablement re-asserts the workflow build type on every run. Without it
+      # Pages can fall back to building the repository root, which serves the
+      # unbuilt index.html — a page that loads nothing and shows no projects.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       # dashboard/ is the same build that opens from a double-click, so the
       # hosted copy and the downloadable one can never drift apart.
       - uses: actions/upload-pages-artifact@v3
