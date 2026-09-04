@@ -710,12 +710,6 @@
     "capturedAt": "2026-09-03T22:38:28.479Z",
     "error": null
   },
-  "VIP-LEASING/PREVIEW.html": {
-    "repo": "VIP-LEASING",
-    "url": "https://sigovs.github.io/VIP-LEASING/PREVIEW.html",
-    "label": "Preview",
-    "error": "HTTP 404"
-  },
   "VEGAS_UPD/index.html": {
     "repo": "VEGAS_UPD",
     "file": "vegas-upd--index.webp",
@@ -994,24 +988,6 @@
     "sourceKey": "97d10b84977d",
     "capturedAt": "2026-09-03T12:54:49.691Z",
     "error": null
-  },
-  "rescue/index2.html": {
-    "repo": "rescue",
-    "url": "https://sigovs.github.io/rescue/index2.html",
-    "label": "Version 2",
-    "error": "HTTP 404"
-  },
-  "rescue/index3.html": {
-    "repo": "rescue",
-    "url": "https://sigovs.github.io/rescue/index3.html",
-    "label": "Version 3",
-    "error": "HTTP 404"
-  },
-  "rescue/index4.html": {
-    "repo": "rescue",
-    "url": "https://sigovs.github.io/rescue/index4.html",
-    "label": "Version 4",
-    "error": "HTTP 404"
   },
   "rescue/index.html": {
     "repo": "rescue",
@@ -1902,6 +1878,33 @@
     "label": "Main",
     "sourceKey": "dfd007e5bbd9",
     "capturedAt": "2026-09-03T12:58:27.267Z",
+    "error": null
+  },
+  "ACTON_SERVICE/index.html": {
+    "repo": "ACTON_SERVICE",
+    "file": "acton-service--index.webp",
+    "url": "https://sigovs.github.io/ACTON_SERVICE/index.html",
+    "label": "Main",
+    "sourceKey": "05c42156dfdf",
+    "capturedAt": "2026-09-04T04:10:25.762Z",
+    "error": null
+  },
+  "VIP-LEASING/404.html": {
+    "repo": "VIP-LEASING",
+    "file": "vip-leasing--404.webp",
+    "url": "https://sigovs.github.io/VIP-LEASING/404.html",
+    "label": "Not found",
+    "sourceKey": "9aff47f51258",
+    "capturedAt": "2026-09-04T04:10:25.853Z",
+    "error": null
+  },
+  "VIP-LEASING/index.html": {
+    "repo": "VIP-LEASING",
+    "file": "vip-leasing--index.webp",
+    "url": "https://sigovs.github.io/VIP-LEASING/index.html",
+    "label": "Main",
+    "sourceKey": "0c635c1587dd",
+    "capturedAt": "2026-09-04T04:10:26.657Z",
     "error": null
   }
 }

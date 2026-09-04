@@ -90,12 +90,20 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
     let pages_ = [];
     if (live.url) {
       const root = siteRootPath(pages?.url, live.url);
-      const tree = root
-        ? await gh
-            .request(`/repos/${fullName}/git/trees/${encodeURIComponent(`${r.default_branch}:${root}`)}`)
-            .then((res) => (res.ok && Array.isArray(res.data?.tree) ? res.data.tree : []))
-            .catch(() => [])
-        : rootTree;
+
+      // The deployed branch is not always the default branch — `rescue` builds
+      // Pages from `handoff` while `main` carries three extra indexes that are
+      // not on the live site. Ask the branch that is actually served.
+      const branch = pages?.branch || r.default_branch;
+      const ref = root ? `${branch}:${root}` : branch;
+
+      const tree =
+        ref === r.default_branch
+          ? rootTree
+          : await gh
+              .request(`/repos/${fullName}/git/trees/${encodeURIComponent(ref)}`)
+              .then((res) => (res.ok && Array.isArray(res.data?.tree) ? res.data.tree : []))
+              .catch(() => []);
 
       const html = tree.filter((n) => n.type === 'blob' && /\.html?$/i.test(n.path)).map((n) => n.path);
       const base = live.url.endsWith('/') ? live.url : `${live.url}/`;
