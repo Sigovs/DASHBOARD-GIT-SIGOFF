@@ -57,6 +57,25 @@ export async function capture(browser, url, { settleMs = 2600, timeoutMs = 45000
 
     await page.waitForTimeout(settleMs);
 
+    // networkidle says requests stopped, not that pixels arrived. A 1600px hero
+    // can still be decoding, and the shot then catches alt text where the image
+    // should be — which reads as a broken page rather than a slow one.
+    await page
+      .waitForFunction(
+        () =>
+          [...document.images]
+            .filter((img) => {
+              const r = img.getBoundingClientRect();
+              return r.top < innerHeight && r.bottom > 0 && r.width > 0;
+            })
+            .every((img) => img.complete && img.naturalWidth > 0),
+        null,
+        { timeout: 8000 },
+      )
+      .catch(() => {
+        /* something above the fold never loads; capture what there is */
+      });
+
     const buffer = await page.screenshot({ type: 'png', fullPage: false, animations: 'disabled' });
     const title = await page.title().catch(() => null);
     return { buffer, status, title };
