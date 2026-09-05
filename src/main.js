@@ -60,6 +60,15 @@ const hover = new HoverPreview({
  * but a script tag is just markup.
  */
 async function load({ bust = false } = {}) {
+  const inline = document.getElementById('catalog-data');
+  const inlined = inline ? JSON.parse(inline.textContent) : null;
+
+  // A portal page carries its own scoped catalog and must keep it. catalog.json
+  // beside it is the *main* catalog, so fetching would silently replace three
+  // subfolders with all forty-four repositories — which is exactly what happened
+  // over https while file:// looked correct, because there fetch simply failed.
+  if (inlined?.parent) return inlined;
+
   const url = bust ? `${CATALOG_URL}?t=${Date.now()}` : CATALOG_URL;
   try {
     const res = await fetch(url, { cache: bust ? 'reload' : 'default' });
@@ -68,8 +77,7 @@ async function load({ bust = false } = {}) {
     /* file://, or no server. Fall through to the inlined copy. */
   }
 
-  const inline = document.getElementById('catalog-data');
-  if (inline) return JSON.parse(inline.textContent);
+  if (inlined) return inlined;
 
   throw new Error('Could not load catalog.json');
 }
