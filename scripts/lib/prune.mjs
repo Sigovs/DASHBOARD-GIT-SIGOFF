@@ -11,6 +11,7 @@ import {
   readManifest,
 } from './paths.mjs';
 import { log } from './log.mjs';
+import { captureTargets } from './pages.mjs';
 
 const PAGES_DIR = path.join(THUMB_DIR, 'pages');
 
@@ -33,11 +34,21 @@ const PAGES_DIR = path.join(THUMB_DIR, 'pages');
  * two entries in catalog-overrides.json.
  */
 export function prune(repos, { dryRun = false, isAuthoritative = true } = {}) {
-  const liveRepos = new Set(repos.map((r) => r.name));
+  // Built from captureTargets, the same function the capture scripts use to
+  // decide what exists. Deriving "live" any other way lets the two disagree,
+  // and the disagreement is silent: a container's subfolder keys look like
+  // repositories that are gone, so pruning deletes their thumbnails and — worse,
+  // because it cannot be regenerated — their hand-written titles.
+  const liveRepos = new Set();
   const livePages = new Set();
+
   for (const r of repos) {
-    for (const entry of [...(r.versions || []), ...(r.pages || [])]) {
-      livePages.add(`${r.name}/${entry.file}`);
+    liveRepos.add(r.name);
+    for (const target of captureTargets(r)) {
+      liveRepos.add(target.id);
+      for (const entry of [...(target.versions || []), ...(target.pages || [])]) {
+        livePages.add(`${target.id}/${entry.file}`);
+      }
     }
   }
 
