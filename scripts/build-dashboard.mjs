@@ -126,6 +126,13 @@ export function buildDashboard({
   fs.rmSync(target, { recursive: true, force: true });
   fs.cpSync(DIST, target, { recursive: true });
 
+  // Each container repository gets a page of its own, written as a sibling of
+  // index.html so every thumbnail path still resolves without rewriting. No
+  // second vite build is needed: a portal is the same application with a
+  // different catalog inlined.
+  const portalCount = writePortals(target, html, catalog);
+  if (portalCount) log.dim(`${portalCount} portal page(s) — one per container repository`);
+
   // The bundles now live inside index.html; shipping them twice is only weight.
   for (const asset of inlined) fs.rmSync(path.join(target, asset), { force: true });
   const assetsDir = path.join(target, 'assets');
@@ -143,11 +150,18 @@ export function buildDashboard({
   // vite copies every thumbnail in public/, which for a one-client build is
   // 44 other people's work sitting in a folder you are about to email.
   const referenced = new Set();
-  for (const p of catalog.projects) {
+  const collect = (p) => {
     for (const src of [p.thumb?.sm, p.thumb?.lg]) if (src) referenced.add(src);
     for (const v of [...(p.versions || []), ...(p.pages || [])]) {
       if (v.thumb) referenced.add(v.thumb);
     }
+  };
+
+  for (const p of catalog.projects) collect(p);
+  // Portal pages live in the same folder and share the same thumbnails; miss
+  // them here and the sweep deletes the images those pages are about to ask for.
+  for (const portal of Object.values(catalog.portals || {})) {
+    for (const p of portal.projects) collect(p);
   }
 
   let dropped = 0;
@@ -192,4 +206,43 @@ if (isMain(import.meta.url)) {
     log.err(err.message);
     process.exit(1);
   }
+}
+
+/**
+ * A portal page: the same application, the same inlined bundle, a different
+ * catalog. It sits beside index.html so relative thumbnail paths are identical,
+ * and it carries a `parent` so the header knows where "back" goes.
+ */
+function writePortals(target, html, catalog) {
+  const portals = Object.values(catalog.portals || {});
+  if (!portals.length) return 0;
+
+  for (const portal of portals) {
+    const scoped = {
+      ...catalog,
+      title: portal.title,
+      parent: { title: catalog.ownerName || catalog.owner || 'Catalog', href: 'index.html' },
+      projects: portal.projects,
+      portals: {},
+      categories: [...new Set(portal.projects.map((p) => p.category))],
+      counts: {
+        total: portal.projects.length,
+        withPreview: portal.projects.filter((p) => p.previewUrl).length,
+        withThumbnail: portal.projects.filter((p) => p.thumb).length,
+        pinned: portal.projects.filter((p) => p.pinned).length,
+        variants: portal.projects.reduce((n, p) => n + p.variantCount, 0),
+        containers: 0,
+      },
+    };
+
+    const payload = JSON.stringify(scoped).replace(/<\//g, '<\/');
+    const page = html.replace(
+      /<script id="catalog-data"[\s\S]*?<\/script>/,
+      `<script id="catalog-data" type="application/json">${payload}</script>`,
+    );
+
+    fs.writeFileSync(path.join(target, `${portal.slug}.html`), page, 'utf8');
+  }
+
+  return portals.length;
 }

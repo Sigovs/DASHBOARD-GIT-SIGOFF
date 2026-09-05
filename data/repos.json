@@ -1,11 +1,232 @@
 {
-  "generatedAt": "2026-09-05T07:51:45.534Z",
+  "generatedAt": "2026-09-05T08:50:44.330Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 43,
   "repos": [
+    {
+      "name": "_____GDBURO-SIGOFF-EXPERIMENTS",
+      "fullName": "Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS",
+      "description": "My own experiments and designs",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS",
+      "cloneUrl": "https://github.com/Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS.git",
+      "sshUrl": "git@github.com:Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 0,
+      "stars": 1,
+      "createdAt": "2026-09-05T07:26:35Z",
+      "updatedAt": "2026-09-05T08:41:56Z",
+      "pushedAt": "2026-09-05T08:41:52Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/",
+      "previewSource": "pages",
+      "previewStatus": 404,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [],
+      "pages": [],
+      "subsites": [
+        {
+          "dir": "_buro test 1",
+          "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index.html"
+            },
+            {
+              "file": "index1.html",
+              "stem": "index1",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index1.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "_buro test 3",
+          "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index.html"
+            },
+            {
+              "file": "index1.html",
+              "stem": "index1",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index1.html"
+            },
+            {
+              "file": "index2.html",
+              "stem": "index2",
+              "base": "index",
+              "variant": 2,
+              "label": "Version 2",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index2.html"
+            },
+            {
+              "file": "index3.html",
+              "stem": "index3",
+              "base": "index",
+              "variant": 3,
+              "label": "Version 3",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index3.html"
+            },
+            {
+              "file": "index4.html",
+              "stem": "index4",
+              "base": "index",
+              "variant": 4,
+              "label": "Version 4",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index4.html"
+            },
+            {
+              "file": "index5.html",
+              "stem": "index5",
+              "base": "index",
+              "variant": 5,
+              "label": "Version 5",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index5.html"
+            },
+            {
+              "file": "index6.html",
+              "stem": "index6",
+              "base": "index",
+              "variant": 6,
+              "label": "Version 6",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index6.html"
+            },
+            {
+              "file": "index7.html",
+              "stem": "index7",
+              "base": "index",
+              "variant": 7,
+              "label": "Version 7",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index7.html"
+            },
+            {
+              "file": "index8.html",
+              "stem": "index8",
+              "base": "index",
+              "variant": 8,
+              "label": "Version 8",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index8.html"
+            },
+            {
+              "file": "index9.html",
+              "stem": "index9",
+              "base": "index",
+              "variant": 9,
+              "label": "Version 9",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index9.html"
+            },
+            {
+              "file": "index10.html",
+              "stem": "index10",
+              "base": "index",
+              "variant": 10,
+              "label": "Version 10",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index10.html"
+            },
+            {
+              "file": "index11.html",
+              "stem": "index11",
+              "base": "index",
+              "variant": 11,
+              "label": "Version 11",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index11.html"
+            },
+            {
+              "file": "index12.html",
+              "stem": "index12",
+              "base": "index",
+              "variant": 12,
+              "label": "Version 12",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index12.html"
+            },
+            {
+              "file": "index13.html",
+              "stem": "index13",
+              "base": "index",
+              "variant": 13,
+              "label": "Version 13",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index13.html"
+            },
+            {
+              "file": "index14.html",
+              "stem": "index14",
+              "base": "index",
+              "variant": 14,
+              "label": "Version 14",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index14.html"
+            },
+            {
+              "file": "index15.html",
+              "stem": "index15",
+              "base": "index",
+              "variant": 15,
+              "label": "Version 15",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index15.html"
+            },
+            {
+              "file": "index16.html",
+              "stem": "index16",
+              "base": "index",
+              "variant": 16,
+              "label": "Version 16",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index16.html"
+            },
+            {
+              "file": "index20.html",
+              "stem": "index20",
+              "base": "index",
+              "variant": 20,
+              "label": "Version 20",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index20.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "dimamid-site",
+          "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/index.html"
+            }
+          ],
+          "pages": []
+        }
+      ]
+    },
     {
       "name": "DASHBOARD-GIT-SIGOFF",
       "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
@@ -23,8 +244,8 @@
       "sizeKb": 8339,
       "stars": 0,
       "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-05T07:51:13Z",
-      "pushedAt": "2026-09-05T07:51:10Z",
+      "updatedAt": "2026-09-05T07:51:51Z",
+      "pushedAt": "2026-09-05T07:51:47Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -43,37 +264,8 @@
           "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
         }
       ],
-      "pages": []
-    },
-    {
-      "name": "_____GDBURO-SIGOFF",
-      "fullName": "Sigovs/_____GDBURO-SIGOFF",
-      "description": "My own experiments and designs",
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/_____GDBURO-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/_____GDBURO-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/_____GDBURO-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": null,
-      "topics": [],
-      "sizeKb": 0,
-      "stars": 0,
-      "createdAt": "2026-09-05T07:26:35Z",
-      "updatedAt": "2026-09-05T07:26:36Z",
-      "pushedAt": "2026-09-05T07:26:36Z",
-      "homepage": null,
-      "hasPages": false,
-      "pagesStatus": null,
-      "previewUrl": null,
-      "previewSource": null,
-      "previewStatus": null,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "BHCC",
@@ -241,7 +433,8 @@
           "label": "Index Fonts 2",
           "url": "https://sigovs.github.io/BHCC/index_fonts2.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "Midwest-cobras",
@@ -369,7 +562,8 @@
           "label": "Design system",
           "url": "https://sigovs.github.io/Midwest-cobras/DS.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "ferrari_aan",
@@ -399,7 +593,8 @@
       "repoImage": "docs/reference/tier1-hero.png",
       "repoImageKind": "representative",
       "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "design_dna",
@@ -429,7 +624,8 @@
       "repoImage": null,
       "repoImageKind": null,
       "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "360_anan_preview",
@@ -509,7 +705,8 @@
           "label": "About 4",
           "url": "https://sigovs.github.io/360_anan_preview/about4.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "prestige-final-dev",
@@ -605,7 +802,8 @@
           "label": "Vehicle detail",
           "url": "https://sigovs.github.io/prestige-final-dev/vdp.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "DRIVEMAX",
@@ -669,7 +867,8 @@
           "label": "Vehicle detail",
           "url": "https://sigovs.github.io/DRIVEMAX/vdp.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "robb",
@@ -699,7 +898,8 @@
       "repoImage": "assets/images/robb_index.jpg",
       "repoImageKind": "representative",
       "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "Wes_Financial_Auto",
@@ -754,7 +954,8 @@
           "url": "https://sigovs.github.io/Wes_Financial_Auto/index3.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "prestige-website",
@@ -898,7 +1099,8 @@
           "label": "Vehicle Inventory 6",
           "url": "https://sigovs.github.io/prestige-website/vehicle-inventory6.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "AAN_PPREVIEW_CHICAGOMOTORCARS",
@@ -1034,7 +1236,8 @@
           "label": "Walkthrough",
           "url": "https://sigovs.github.io/AAN_PPREVIEW_CHICAGOMOTORCARS/walkthrough.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "ACTON_SERVICE",
@@ -1073,7 +1276,8 @@
           "url": "https://sigovs.github.io/ACTON_SERVICE/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "VIP-LEASING",
@@ -1121,7 +1325,8 @@
           "label": "Not found",
           "url": "https://sigovs.github.io/VIP-LEASING/404.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "VEGAS_UPD",
@@ -1313,7 +1518,8 @@
           "label": "Vehicle detail 6",
           "url": "https://sigovs.github.io/VEGAS_UPD/vdp6.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "360_aan_setup_to_jake",
@@ -1361,7 +1567,8 @@
           "label": "About",
           "url": "https://sigovs.github.io/360_aan_setup_to_jake/about.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "ibuy_aan_setup_to_jake",
@@ -1417,7 +1624,8 @@
           "label": "Make Audi",
           "url": "https://sigovs.github.io/ibuy_aan_setup_to_jake/make-audi.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "-Exotic-Motorsports-of-Oklahoma",
@@ -1464,7 +1672,8 @@
           "label": "Index Service",
           "url": "https://sigovs.github.io/-Exotic-Motorsports-of-Oklahoma/index_service.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "RUSSIA_NEED_A_DOC",
@@ -1494,7 +1703,8 @@
       "repoImage": "_review/desktop-full.png",
       "repoImageKind": "representative",
       "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "cmc_concept4",
@@ -1533,7 +1743,8 @@
           "url": "https://sigovs.github.io/cmc_concept4/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "rescue",
@@ -1581,7 +1792,8 @@
           "label": "Car",
           "url": "https://sigovs.github.io/rescue/car.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "PATTON",
@@ -1677,7 +1889,8 @@
           "label": "Index Reproduction Backup",
           "url": "https://sigovs.github.io/PATTON/mockup/index.reproduction.backup.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "HINDERER",
@@ -1781,7 +1994,8 @@
           "label": "Who We Are Team",
           "url": "https://sigovs.github.io/HINDERER/who_we_are_team.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "BENTLEY-PORTAL",
@@ -1836,7 +2050,8 @@
           "url": "https://sigovs.github.io/BENTLEY-PORTAL/index3.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "barnaba",
@@ -1924,7 +2139,8 @@
           "label": "Service",
           "url": "https://sigovs.github.io/barnaba/service.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "GM",
@@ -1988,7 +2204,8 @@
           "label": "Vehicle 3",
           "url": "https://sigovs.github.io/GM/vehicle3.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "unique",
@@ -2027,7 +2244,8 @@
           "url": "https://sigovs.github.io/unique/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "ibuy",
@@ -2066,7 +2284,8 @@
           "url": "https://sigovs.github.io/ibuy/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "LUXCARS",
@@ -2178,7 +2397,8 @@
           "label": "Vehicle detail 4",
           "url": "https://sigovs.github.io/LUXCARS/vdp4.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "TWINS",
@@ -2242,7 +2462,8 @@
           "label": "Vehicle detail",
           "url": "https://sigovs.github.io/TWINS/vdp.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "aan_gta_preview",
@@ -2290,7 +2511,8 @@
           "label": "Not found",
           "url": "https://sigovs.github.io/aan_gta_preview/404.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "gta_review",
@@ -2329,7 +2551,8 @@
           "url": "https://sigovs.github.io/gta_review/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "GTA_AAN",
@@ -2359,7 +2582,8 @@
       "repoImage": "public/hero-poster.jpg",
       "repoImageKind": "representative",
       "versions": [],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "McMurtry",
@@ -2398,7 +2622,8 @@
           "url": "https://sigovs.github.io/McMurtry/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "AAN_MASTER_2026",
@@ -2446,7 +2671,8 @@
           "label": "Design system",
           "url": "https://sigovs.github.io/AAN_MASTER_2026/design-system.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "MAX_WEBSITE_UPD",
@@ -2510,7 +2736,8 @@
           "label": "Vehicle detail",
           "url": "https://sigovs.github.io/MAX_WEBSITE_UPD/vdp.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "Prestige",
@@ -2630,7 +2857,8 @@
           "label": "Vehicle Inventory 5",
           "url": "https://sigovs.github.io/Prestige/vehicle-inventory5.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "KERBECK",
@@ -2717,7 +2945,8 @@
           "url": "https://sigovs.github.io/KERBECK/index7.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "medrad-update",
@@ -2861,7 +3090,8 @@
           "label": "Treatment Cases",
           "url": "https://sigovs.github.io/medrad-update/treatment-cases.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "medrad-site",
@@ -2997,7 +3227,8 @@
           "label": "Treatment Cases",
           "url": "https://sigovs.github.io/medrad-site/treatment-cases.html"
         }
-      ]
+      ],
+      "subsites": []
     },
     {
       "name": "dimamid",
@@ -3036,7 +3267,8 @@
           "url": "https://sigovs.github.io/dimamid/index.html"
         }
       ],
-      "pages": []
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "robb-francis-website",
@@ -3084,7 +3316,8 @@
           "label": "Sell Your Car Robb",
           "url": "https://sigovs.github.io/robb-francis-website/sell-your-car_robb.html"
         }
-      ]
+      ],
+      "subsites": []
     }
   ]
 }

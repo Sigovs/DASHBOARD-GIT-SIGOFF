@@ -17,7 +17,7 @@ import {
   resolvePreviewUrl,
   verifyPreviewUrl,
 } from './lib/discover.mjs';
-import { classifyPages, siteRootPath } from './lib/pages.mjs';
+import { classifyPages, siteRootPath, findSubsites } from './lib/pages.mjs';
 import { titleFromRepoName } from './lib/titles.mjs';
 import { guessCategory } from './lib/categories.mjs';
 import { REPOS_FILE, REPOS_PRIVATE_FILE, OVERRIDES_FILE, loadEnv, readJson, writeJson } from './lib/paths.mjs';
@@ -38,6 +38,7 @@ const OWNER = value('owner', process.env.CATALOG_OWNER || 'Sigovs');
 export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !flag('no-verify') } = {}) {
   const recovered = [];
   const broken = [];
+  const container = [];
 
   const { token, source } = resolveToken();
   const gh = new GitHub(token);
@@ -69,10 +70,8 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
       ? await verifyPreviewUrl(preview.url)
       : { url: preview.url, status: null, recovered: false };
 
-    if (live.recovered) recovered.push(`${r.name} → ${live.url.replace(/^https?:\/\//, '')}`);
-    if (preview.url && !live.recovered && live.status !== null && (live.status < 200 || live.status >= 400)) {
-      broken.push(`${r.name} (${live.status || 'unreachable'})`);
-    }
+    // Reporting waits until the tree has been read: whether a 404 at the root
+    // is a fault or the normal shape of a container is not knowable yet.
 
     // One cheap non-recursive call: is there an explicit preview image committed?
     let repoImage = null;
@@ -88,6 +87,7 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
     // work in these repositories actually lives.
     let versions = [];
     let pages_ = [];
+    let subsites = [];
     if (live.url) {
       const root = siteRootPath(pages?.url, live.url);
 
@@ -108,6 +108,29 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
       const html = tree.filter((n) => n.type === 'blob' && /\.html?$/i.test(n.path)).map((n) => n.path);
       const base = live.url.endsWith('/') ? live.url : `${live.url}/`;
       ({ versions, pages: pages_ } = classifyPages(html, base));
+
+      // A repository with no index of its own but a site in every subfolder is
+      // a shelf, not a project. One recursive call, and only when the flat
+      // listing found nothing — a normal project never reaches this.
+      if (!versions.length) {
+        const deep = await gh.getTree(fullName, ref).catch(() => []);
+        subsites = findSubsites(deep, base);
+        if (subsites.length) {
+          container.push(`${r.name} — ${subsites.length} folders`);
+        }
+      }
+    }
+
+    if (live.recovered) recovered.push(`${r.name} → ${live.url.replace(/^https?:\/\//, '')}`);
+    // A container's own root is meant to 404; only a leaf project is "broken".
+    if (
+      preview.url &&
+      !live.recovered &&
+      !subsites.length &&
+      live.status !== null &&
+      (live.status < 200 || live.status >= 400)
+    ) {
+      broken.push(`${r.name} (${live.status || 'unreachable'})`);
     }
 
     // Only walk the whole tree when there is nothing else to show.
@@ -146,6 +169,7 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
       repoImageKind,
       versions,
       pages: pages_,
+      subsites,
     };
   });
 
@@ -156,6 +180,7 @@ export async function sync({ owner = OWNER, seed = !flag('no-seed'), verify = !f
   log.ok(`${withPreview} live preview URLs · ${withImage} in-repo preview images`);
   log.ok(`${totalPages} pages found · ${multi} projects with more than one index version`);
 
+  for (const c of container) log.ok(`container repository: ${c}`);
   for (const r of recovered) log.ok(`recovered ${r}`);
   for (const b of broken) log.warn(`preview unreachable: ${b}`);
 

@@ -29,6 +29,7 @@ import { GitHub, resolveToken } from './lib/github.mjs';
 import { withBrowser, capture } from './lib/capture.mjs';
 import { writeThumbnails, slug } from './lib/image.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
+import { captureTargets } from './lib/pages.mjs';
 import {
   THUMB_DIR,
   THUMB_PRIVATE_DIR,
@@ -108,7 +109,7 @@ export async function captureThumbnails({
   fs.mkdirSync(THUMB_DIR, { recursive: true });
 
   const privateNames = new Set(repoFile.repos.filter((r) => r.private).map((r) => r.name));
-  const isPrivate = (name) => privateNames.has(name);
+  const isPrivate = (id) => privateNames.has(String(id).split('/')[0]);
 
   const wanted = only ? new Set(only.split(',').map((s) => s.trim())) : null;
   let repos = repoFile.repos.filter((r) => !overrides[r.name]?.hidden);
@@ -118,8 +119,15 @@ export async function captureThumbnails({
   const jobs = [];
   const stats = { skipped: 0, none: 0 };
 
-  for (const repo of repos) {
-    const source = chooseSource(repo, overrides[repo.name]);
+  // A container repository contributes one target per subfolder and none for
+  // itself; everything else contributes exactly one, as before.
+  const targets = repos.flatMap((repo) => captureTargets(repo));
+
+  for (const target of targets) {
+    const { repo } = target;
+    const source = target.isSubsite
+      ? { kind: 'screenshot', ref: target.url }
+      : chooseSource(repo, overrides[repo.name]);
 
     if (source.kind === 'override' || source.kind === 'none') {
       stats[source.kind === 'override' ? 'skipped' : 'none'] += 1;
@@ -127,7 +135,7 @@ export async function captureThumbnails({
     }
 
     const key = hash(`${source.kind}|${source.ref}|${repo.pushedAt}`);
-    const prev = manifest[repo.name];
+    const prev = manifest[target.id];
     const filesExist = Boolean(prev?.file) && fs.existsSync(path.join(THUMB_DIR, prev.file));
     const stale =
       maxAgeDays && prev?.capturedAt
@@ -139,7 +147,7 @@ export async function captureThumbnails({
       continue;
     }
 
-    jobs.push({ repo, source, key, prev });
+    jobs.push({ repo, target, source, key, prev });
   }
 
   log.step('Thumbnails');
@@ -160,15 +168,15 @@ export async function captureThumbnails({
 
   const run = async (browser) => {
     let done = 0;
-    await mapLimit(jobs, concurrency, async ({ repo, source, key, prev }) => {
-      const label = repo.name.padEnd(34);
+    await mapLimit(jobs, concurrency, async ({ repo, target, source, key, prev }) => {
+      const label = target.id.slice(-34).padEnd(34);
       try {
         const input = await fetchSource(source, repo, gh, browser);
-        const written = await writeThumbnails(input, dirFor(repo), slug(repo.name), {
+        const written = await writeThumbnails(input, dirFor(repo), slug(target.id), {
           position: source.kind === 'screenshot' ? 'top' : 'attention',
         });
 
-        manifest[repo.name] = {
+        manifest[target.id] = {
           source: source.kind,
           ref: source.ref,
           sourceKey: key,
@@ -183,7 +191,7 @@ export async function captureThumbnails({
         log.ok(`${label} ${source.kind.padEnd(11)} ${(written.bytes / 1024).toFixed(0)} KB`);
       } catch (err) {
         const message = String(err?.message || err).split('\n')[0].slice(0, 120);
-        manifest[repo.name] = {
+        manifest[target.id] = {
           ...(prev || {}),
           source: prev?.source ?? source.kind,
           error: message,

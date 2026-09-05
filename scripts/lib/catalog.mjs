@@ -66,10 +66,41 @@ export function buildCatalog() {
   const onlyCategory = process.env.CATALOG_CATEGORY || null;
   const mode = process.env.CATALOG_MODE === 'client' ? 'client' : 'full';
 
-  const projects = repoFile.repos
+  const eligible = repoFile.repos
     .filter((repo) => !(publicOnly && repo.private))
-    .filter((repo) => !only.length || only.includes(repo.name))
-    .map((repo) => toProject(repo, overrides[repo.name] || {}, localPaths[repo.name], manifest[repo.name], pageShots))
+    .filter((repo) => !only.length || only.includes(repo.name));
+
+  // A container repository becomes one card in the main grid plus a portal page
+  // of its own. Its subfolders never join the main grid — that is the point of
+  // the split, and it is what keeps the gallery stable however much the
+  // container grows.
+  const portals = {};
+
+  const projects = eligible
+    .flatMap((repo) => {
+      const o = overrides[repo.name] || {};
+
+      if (!repo.subsites?.length) {
+        return toProject(repo, o, localPaths[repo.name], manifest[repo.name], pageShots);
+      }
+
+      const children = repo.subsites.map((site) =>
+        toSubsiteProject(repo, site, overrides, manifest, pageShots),
+      );
+      const card = toContainerCard(repo, o, children, manifest);
+      if (card.hidden) return [];
+
+      portals[card.portalSlug] = {
+        slug: card.portalSlug,
+        repo: repo.name,
+        title: card.title,
+        subtitle: card.subtitle,
+        githubUrl: repo.htmlUrl,
+        projects: children.filter((c) => !c.hidden).map((c) => (mode === 'client' ? forClient(c) : c)),
+      };
+
+      return card;
+    })
     .filter((p) => !p.hidden)
     .filter((p) => !onlyCategory || p.category === onlyCategory)
     .map((p) => (mode === 'client' ? forClient(p) : p));
@@ -99,8 +130,10 @@ export function buildCatalog() {
       withThumbnail: projects.filter((p) => p.thumb).length,
       pinned: projects.filter((p) => p.pinned).length,
       variants: projects.reduce((n, p) => n + p.variantCount, 0),
+      containers: Object.keys(portals).length,
     },
     projects,
+    portals,
   };
 }
 
@@ -229,4 +262,133 @@ function dedupe(list) {
     out.push(String(item));
   }
   return out;
+}
+
+/**
+ * One subfolder of a container repository, presented as an ordinary project.
+ *
+ * It is overridable exactly like a repository is, under the key
+ * "repo/folder" — so a folder can be retitled, pinned or hidden by hand
+ * without the container needing to know anything about it.
+ */
+function toSubsiteProject(repo, site, overrides, manifest, pageShots) {
+  const id = `${repo.name}/${site.dir}`;
+  const o = overrides[id] || {};
+
+  const title = o.title || titleFromRepoName(site.dir);
+  const subtitle = o.subtitle ?? subtitleFromRepoName(site.dir);
+  const versions = decorate(id, site.versions || [], pageShots);
+  const pages = decorate(id, site.pages || [], pageShots);
+  const tags = dedupe([...(o.tags || []), repo.language]);
+
+  return {
+    id,
+    repo: repo.name,
+    folder: site.dir,
+    parentRepo: repo.name,
+    title,
+    subtitle: subtitle || null,
+    initials: initialsFromTitle(title, site.dir),
+    description: o.description ?? null,
+    category: o.category || '3D / Experimental',
+    tags,
+    status: STATUSES.has(o.status) ? o.status : null,
+    pinned: Boolean(o.pinned),
+    hidden: Boolean(o.hidden),
+
+    thumb: resolveThumb(o.thumbnail, manifest[id]),
+    versions,
+    pages,
+    variantCount: versions.length + pages.length,
+
+    previewUrl: o.previewUrl ?? site.url,
+    previewSource: o.previewUrl ? 'override' : 'subfolder',
+    githubUrl: `${repo.htmlUrl}/tree/${repo.defaultBranch}/${site.dir.split('/').map(encodeURIComponent).join('/')}`,
+    cloneUrl: repo.cloneUrl,
+    sshUrl: repo.sshUrl,
+    localPath: o.localPath ?? null,
+
+    defaultBranch: repo.defaultBranch,
+    language: repo.language,
+    sizeKb: 0,
+    stars: 0,
+    private: repo.private,
+    archived: repo.archived,
+    createdAt: repo.createdAt,
+    updatedAt: repo.updatedAt,
+    pushedAt: repo.pushedAt,
+
+    search: [title, subtitle, site.dir, repo.name, ...tags].filter(Boolean).join(' ').toLowerCase(),
+  };
+}
+
+/**
+ * The single card a container repository shows in the main grid.
+ *
+ * It borrows the newest child's screenshot, because a shelf has no picture of
+ * its own and an empty placeholder would say less about what is inside than
+ * any one of the things inside it.
+ */
+function toContainerCard(repo, o, children, manifest) {
+  const title = o.title || titleFromRepoName(repo.name);
+  const subtitle = o.subtitle ?? `${children.length} projects`;
+  const withThumb = children.find((c) => c.thumb);
+
+  return {
+    id: repo.name,
+    repo: repo.name,
+    title,
+    subtitle,
+    initials: initialsFromTitle(title, repo.name),
+    description: o.description ?? repo.description,
+    category: o.category || guessCategory(repo),
+    tags: dedupe([...(o.tags || []), ...(repo.topics || []), repo.language]),
+    status: STATUSES.has(o.status) ? o.status : null,
+    pinned: Boolean(o.pinned),
+    hidden: Boolean(o.hidden),
+
+    thumb: resolveThumb(o.thumbnail, manifest[repo.name]) || withThumb?.thumb || null,
+
+    // A container opens its own page instead of a live site: its root is a
+    // shelf, and on GitHub Pages a shelf is a 404.
+    isContainer: true,
+    portalSlug: slugify(repo.name),
+    childCount: children.length,
+    childTitles: children.slice(0, 4).map((c) => c.title),
+
+    versions: [],
+    pages: [],
+    variantCount: children.reduce((n, c) => n + c.variantCount, 0),
+
+    previewUrl: null,
+    previewSource: null,
+    githubUrl: repo.htmlUrl,
+    cloneUrl: repo.cloneUrl,
+    sshUrl: repo.sshUrl,
+    localPath: o.localPath ?? null,
+
+    defaultBranch: repo.defaultBranch,
+    language: repo.language,
+    sizeKb: repo.sizeKb,
+    stars: repo.stars,
+    private: repo.private,
+    archived: repo.archived,
+    createdAt: repo.createdAt,
+    updatedAt: repo.updatedAt,
+    pushedAt: repo.pushedAt,
+
+    search: [title, subtitle, repo.name, ...children.map((c) => c.title)]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase(),
+  };
+}
+
+function slugify(name) {
+  return (
+    String(name)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '') || 'portal'
+  );
 }

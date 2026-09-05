@@ -18,16 +18,31 @@ export function renderCard(p) {
   el.className = 'card';
   el.dataset.id = p.id;
 
-  const href = p.previewUrl || (view.client ? null : p.githubUrl);
+  // A container repository has no site of its own: its root is a shelf, and on
+  // Pages a shelf is a 404. Its card opens the page holding its folders, and
+  // that page is local, so it must not open in a new tab.
+  const href = p.isContainer
+    ? `${BASE}${p.portalSlug}.html`
+    : p.previewUrl || (view.client ? null : p.githubUrl);
+
+  const newTab = href && !p.isContainer ? 'target="_blank" rel="noreferrer"' : '';
   const opensPreview = Boolean(p.previewUrl);
-  const alt = p.previewUrl
-    ? `Screenshot of ${p.title}${p.subtitle ? `, ${p.subtitle}` : ''}`
-    : `${p.title} — no live preview available`;
+  const alt = p.isContainer
+    ? `${p.title} — ${p.childCount} projects inside`
+    : p.previewUrl
+      ? `Screenshot of ${p.title}${p.subtitle ? `, ${p.subtitle}` : ''}`
+      : `${p.title} — no live preview available`;
 
   el.innerHTML = `
     <${href ? 'a' : 'div'} class="card__frame"
-       ${href ? `href="${escapeHtml(href)}" target="_blank" rel="noreferrer"` : ''}
-       aria-label="${escapeHtml(opensPreview ? `Open ${p.title} preview` : p.title)}">
+       ${href ? `href="${escapeHtml(href)}" ${newTab}` : ''}
+       aria-label="${escapeHtml(
+         p.isContainer
+           ? `Open ${p.title}, ${p.childCount} projects`
+           : opensPreview
+             ? `Open ${p.title} preview`
+             : p.title,
+       )}">
       ${thumbHtml(p, alt)}
       ${marksHtml(p)}
       ${versionBadgeHtml(p)}
@@ -36,7 +51,7 @@ export function renderCard(p) {
     <div class="card__body">
       <div class="card__head">
         ${href
-          ? `<a class="card__title" href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(p.title)}</a>`
+          ? `<a class="card__title" href="${escapeHtml(href)}" ${newTab}>${escapeHtml(p.title)}</a>`
           : `<span class="card__title">${escapeHtml(p.title)}</span>`}
         <span class="card__updated" data-recent="${isRecent(p.pushedAt)}" title="Updated ${escapeHtml(p.pushedAt || '')}">
           ${escapeHtml(shortAge(p.pushedAt))}
@@ -50,11 +65,15 @@ export function renderCard(p) {
 
       <div class="card__actions">
         ${
-          p.previewUrl
-            ? `<a class="action" href="${escapeHtml(p.previewUrl)}" target="_blank" rel="noreferrer">
-                 Preview <svg aria-hidden="true" width="11" height="11"><use href="#i-arrow"/></svg>
+          p.isContainer
+            ? `<a class="action" href="${escapeHtml(href)}">
+                 Open ${p.childCount} projects <svg aria-hidden="true" width="11" height="11"><use href="#i-arrow"/></svg>
                </a>`
-            : ''
+            : p.previewUrl
+              ? `<a class="action" href="${escapeHtml(p.previewUrl)}" target="_blank" rel="noreferrer">
+                   Preview <svg aria-hidden="true" width="11" height="11"><use href="#i-arrow"/></svg>
+                 </a>`
+              : ''
         }
         ${view.client ? '' : `
         <a class="action" href="${escapeHtml(p.githubUrl)}" target="_blank" rel="noreferrer">
@@ -66,12 +85,16 @@ export function renderCard(p) {
                 aria-label="Copy clone command for ${escapeHtml(p.title)}">
           <svg aria-hidden="true" width="12" height="12"><use href="#i-copy"/></svg>
         </button>`}
-        <button type="button" class="action action--cta" data-open-drawer
+        ${
+          p.isContainer
+            ? ''
+            : `<button type="button" class="action action--cta" data-open-drawer
                 aria-label="View details and all ${p.variantCount} versions of ${escapeHtml(p.title)}"
                 aria-haspopup="dialog">
-          View details
-          ${p.versions.length > 1 ? `<span class="action__n">${p.versions.length}</span>` : ''}
-        </button>
+                 View details
+                 ${p.versions.length > 1 ? `<span class="action__n">${p.versions.length}</span>` : ''}
+               </button>`
+        }
       </div>
     </div>
   `;
@@ -124,10 +147,16 @@ function marksHtml(p) {
 }
 
 function versionBadgeHtml(p) {
-  if (p.versions.length < 2) return '';
+  const label = p.isContainer
+    ? `${p.childCount} projects`
+    : p.versions.length > 1
+      ? `${p.versions.length} versions`
+      : null;
+
+  if (!label) return '';
   return `
     <div class="card__marks card__marks--right">
-      <span class="mark mark--versions">${p.versions.length} versions</span>
+      <span class="mark mark--versions">${escapeHtml(label)}</span>
     </div>`;
 }
 

@@ -531,5 +531,44 @@
     "width": 1600,
     "height": 1000,
     "error": null
+  },
+  "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/",
+    "sourceKey": "08922d104a63",
+    "capturedAt": "2026-09-05T08:50:48.387Z",
+    "pushedAt": "2026-09-05T08:41:52Z",
+    "file": "gdburo-sigoff-experiments-buro-test-1.webp",
+    "fileSm": "gdburo-sigoff-experiments-buro-test-1@sm.webp",
+    "bytes": 47932,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/",
+    "sourceKey": "60dbe202827c",
+    "capturedAt": "2026-09-05T08:50:49.534Z",
+    "pushedAt": "2026-09-05T08:41:52Z",
+    "file": "gdburo-sigoff-experiments-buro-test-3.webp",
+    "fileSm": "gdburo-sigoff-experiments-buro-test-3@sm.webp",
+    "bytes": 134098,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/",
+    "sourceKey": "0289edeb2eb2",
+    "capturedAt": "2026-09-05T08:51:06.041Z",
+    "pushedAt": "2026-09-05T08:41:52Z",
+    "file": "gdburo-sigoff-experiments-dimamid-site.webp",
+    "fileSm": "gdburo-sigoff-experiments-dimamid-site@sm.webp",
+    "bytes": 49322,
+    "width": 1600,
+    "height": 1000,
+    "error": null
   }
 }

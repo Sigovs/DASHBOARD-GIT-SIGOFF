@@ -20,7 +20,15 @@ import { createHash } from 'node:crypto';
 import { withBrowser, capture } from './lib/capture.mjs';
 import { writePageThumbnail, slug } from './lib/image.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
-import { THUMB_DIR, OVERRIDES_FILE, loadEnv, readJson, writeJson, readAllRepos } from './lib/paths.mjs';
+import { captureTargets } from './lib/pages.mjs';
+import {
+  THUMB_DIR,
+  OVERRIDES_FILE,
+  loadEnv,
+  readJson,
+  writeJson,
+  readAllRepos,
+} from './lib/paths.mjs';
 import { isMain } from './lib/is-main.mjs';
 import { log } from './lib/log.mjs';
 
@@ -70,21 +78,26 @@ export async function capturePageThumbnails({
     if (overrides[repo.name]?.hidden) continue;
     if (wanted && !wanted.has(repo.name)) continue;
 
-    const entries = versionsOnly ? repo.versions : [...(repo.versions || []), ...(repo.pages || [])];
+    // Each subfolder of a container carries its own set of versions.
+    for (const target of captureTargets(repo)) {
+      const entries = versionsOnly
+        ? target.versions
+        : [...(target.versions || []), ...(target.pages || [])];
 
-    for (const entry of entries) {
-      const id = `${repo.name}/${entry.file}`;
-      const key = hash(`${entry.url}|${repo.pushedAt}`);
-      const prev = manifest[id];
-      // Private repositories keep their screenshots in a git-ignored subfolder.
-      const prefix = repo.private ? 'private/' : '';
-      const file = `${prefix}${slug(repo.name)}--${slug(entry.file.replace(/\.html?$/i, ''))}.webp`;
+      for (const entry of entries) {
+        const id = `${target.id}/${entry.file}`;
+        const key = hash(`${entry.url}|${repo.pushedAt}`);
+        const prev = manifest[id];
+        // Private repositories keep their screenshots in a git-ignored subfolder.
+        const prefix = repo.private ? 'private/' : '';
+        const file = `${prefix}${slug(target.id)}--${slug(entry.file.replace(/\.html?$/i, ''))}.webp`;
 
-      if (!force && prev?.sourceKey === key && fs.existsSync(path.join(PAGES_DIR, prev.file))) {
-        skipped += 1;
-        continue;
+        if (!force && prev?.sourceKey === key && fs.existsSync(path.join(PAGES_DIR, prev.file))) {
+          skipped += 1;
+          continue;
+        }
+        jobs.push({ id, repo, entry, key, file, prev });
       }
-      jobs.push({ id, repo, entry, key, file, prev });
     }
   }
 
@@ -104,7 +117,10 @@ export async function capturePageThumbnails({
       try {
         // Versions are variations on one design; they settle faster than a
         // cold first load, so a shorter wait keeps 200 captures reasonable.
-        const { buffer } = await capture(browser, entry.url, { settleMs: 1800, timeoutMs: 30000 });
+        const { buffer } = await capture(browser, entry.url, {
+          settleMs: 1800,
+          timeoutMs: 30000,
+        });
         await writePageThumbnail(
           buffer,
           path.join(PAGES_DIR, path.dirname(file)),
@@ -123,8 +139,16 @@ export async function capturePageThumbnails({
         done += 1;
         if (done % 20 === 0) log.dim(`${done}/${jobs.length}…`);
       } catch (err) {
-        const message = String(err?.message || err).split('\n')[0].slice(0, 90);
-        manifest[id] = { ...(prev || {}), repo: repo.name, url: entry.url, label: entry.label, error: message };
+        const message = String(err?.message || err)
+          .split('\n')[0]
+          .slice(0, 90);
+        manifest[id] = {
+          ...(prev || {}),
+          repo: repo.name,
+          url: entry.url,
+          label: entry.label,
+          error: message,
+        };
         failed += 1;
       }
     });
@@ -136,7 +160,9 @@ export async function capturePageThumbnails({
     .filter((f) => f.endsWith('.webp'))
     .reduce((n, f) => n + fs.statSync(path.join(PAGES_DIR, f)).size, 0);
 
-  log.ok(`${done} captured${failed ? `, ${failed} failed` : ''} · ${(bytes / 1048576).toFixed(1)} MB total`);
+  log.ok(
+    `${done} captured${failed ? `, ${failed} failed` : ''} · ${(bytes / 1048576).toFixed(1)} MB total`,
+  );
   return manifest;
 }
 

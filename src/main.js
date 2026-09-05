@@ -157,7 +157,27 @@ function renderGrid() {
 }
 
 function renderChrome() {
-  const { counts, owner, ownerUrl, syncedAt, brand } = state.catalog;
+  const { counts, owner, ownerUrl, syncedAt, brand, parent } = state.catalog;
+
+  // A portal page is the same catalog scoped to one container repository. It
+  // needs a way back, and it needs to say which shelf you are standing in.
+  if (parent) {
+    const versions = counts.variants || 0;
+    const link = document.querySelector('.wordmark__link');
+    link.href = parent.href;
+    link.setAttribute('aria-label', `Back to ${parent.title}`);
+    link.classList.add('wordmark__link--back');
+
+    document.querySelector('.wordmark__owner').textContent = parent.title;
+    document.querySelector('.wordmark__name').textContent = state.catalog.title;
+    document.title = `${state.catalog.title} — ${parent.title}`;
+
+    dom.statusCount.textContent = `${counts.total} projects`;
+    dom.statusSync.textContent = `${versions} versions · inside one repository`;
+    dom.colophon.textContent = `${state.catalog.title} · ${counts.total} projects, ${versions} versions`;
+    if (ownerUrl) dom.profile.href = ownerUrl;
+    return;
+  }
 
   // A client build carries their name, not the studio's index.
   if (view.client && brand) {
