@@ -277,9 +277,13 @@ function toSubsiteProject(repo, site, overrides, manifest, pageShots) {
 
   const title = o.title || titleFromRepoName(site.dir);
   const subtitle = o.subtitle ?? subtitleFromRepoName(site.dir);
-  const versions = decorate(id, site.versions || [], pageShots);
+  const versions = promoteMain(decorate(id, site.versions || [], pageShots), o.mainFile);
   const pages = decorate(id, site.pages || [], pageShots);
   const tags = dedupe([...(o.tags || []), repo.language]);
+
+  // Some folders use index.html as a contact sheet listing the real builds. The
+  // card should open the work, not its table of contents.
+  const mainUrl = mainFileUrl(site.url, o.mainFile) || site.url;
 
   return {
     id,
@@ -301,7 +305,7 @@ function toSubsiteProject(repo, site, overrides, manifest, pageShots) {
     pages,
     variantCount: versions.length + pages.length,
 
-    previewUrl: o.previewUrl ?? site.url,
+    previewUrl: o.previewUrl ?? mainUrl,
     previewSource: o.previewUrl ? 'override' : 'subfolder',
     githubUrl: `${repo.htmlUrl}/tree/${repo.defaultBranch}/${site.dir.split('/').map(encodeURIComponent).join('/')}`,
     cloneUrl: repo.cloneUrl,
@@ -391,4 +395,29 @@ function slugify(name) {
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/^-+|-+$/g, '') || 'portal'
   );
+}
+
+/**
+ * The URL of a hand-named main file inside a site folder.
+ *
+ * Several of these folders keep a generated contact sheet at index.html and the
+ * actual build at index1.html. Without this the card screenshots the list of
+ * links instead of the work, which is how a project can be present in the
+ * catalog and still look like it has gone missing.
+ */
+function mainFileUrl(baseUrl, mainFile) {
+  if (!mainFile || !baseUrl) return null;
+  const base = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  return `${base}${encodeURIComponent(mainFile)}`;
+}
+
+/** Moves the declared main file to the front and relabels it. */
+function promoteMain(versions, mainFile) {
+  if (!mainFile) return versions;
+  const i = versions.findIndex((v) => v.file.toLowerCase() === String(mainFile).toLowerCase());
+  if (i === -1) return versions;
+
+  const main = { ...versions[i], label: 'Main' };
+  const rest = versions.filter((_, n) => n !== i).map((v) => (v.label === 'Main' ? { ...v, label: 'Index page' } : v));
+  return [main, ...rest];
 }

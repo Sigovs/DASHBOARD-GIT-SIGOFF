@@ -40,7 +40,12 @@
     },
     "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1": {
       "title": "Machine Study 01",
-      "subtitle": "Version study"
+      "subtitle": "KUKA KR 700 PA",
+      "mainFile": "index1.html"
+    },
+    "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2": {
+      "title": "Luxe Corsa",
+      "subtitle": "Lake Zurich, Illinois"
     },
     "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
       "title": "GD Buro — Every Version",

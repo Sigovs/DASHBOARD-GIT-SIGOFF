@@ -82,3 +82,5 @@ export function writeManifest(manifest, isPrivate) {
   writeJson(MANIFEST_FILE, pub);
   if (Object.keys(priv).length) writeJson(MANIFEST_PRIVATE_FILE, priv);
 }
+
+export const LOCAL_SOURCES_FILE = path.join(DATA_DIR, 'local-sources.json');

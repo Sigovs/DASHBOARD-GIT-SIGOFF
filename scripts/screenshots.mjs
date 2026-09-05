@@ -30,10 +30,12 @@ import { withBrowser, capture } from './lib/capture.mjs';
 import { writeThumbnails, slug } from './lib/image.mjs';
 import { mapLimit } from './lib/concurrency.mjs';
 import { captureTargets } from './lib/pages.mjs';
+import { serveFolder } from './lib/serve.mjs';
 import {
   THUMB_DIR,
   THUMB_PRIVATE_DIR,
   OVERRIDES_FILE,
+  LOCAL_SOURCES_FILE,
   loadEnv,
   readJson,
   readAllRepos,
@@ -85,6 +87,38 @@ function chooseSource(repo, override) {
   return { kind: 'none' };
 }
 
+/**
+ * Folders on this machine to capture instead of the web. Git-ignored, because
+ * the paths exist only here and the work often is not published yet.
+ */
+function readLocalSources() {
+  const file = readJson(LOCAL_SOURCES_FILE, {}) || {};
+  return file.sources || {};
+}
+
+/**
+ * A local folder has no pushedAt to key the cache on, so use the newest file in
+ * it. Editing the page recaptures it; running the update twice does not.
+ */
+function folderStamp(dir) {
+  let newest = 0;
+  const walk = (d, depth) => {
+    if (depth > 3) return;
+    for (const entry of fs.readdirSync(d, { withFileTypes: true })) {
+      if (entry.name === 'node_modules' || entry.name.startsWith('.')) continue;
+      const full = path.join(d, entry.name);
+      if (entry.isDirectory()) walk(full, depth + 1);
+      else newest = Math.max(newest, fs.statSync(full).mtimeMs);
+    }
+  };
+  try {
+    walk(dir, 0);
+  } catch {
+    /* unreadable folder — fall through to 0 and capture every run */
+  }
+  return Math.round(newest);
+}
+
 function readOverrides() {
   const file = readJson(OVERRIDES_FILE, {}) || {};
   if (file.projects) return file.projects;
@@ -105,6 +139,7 @@ export async function captureThumbnails({
   }
 
   const overrides = readOverrides();
+  const localSources = readLocalSources();
   const manifest = readManifest();
   fs.mkdirSync(THUMB_DIR, { recursive: true });
 
@@ -125,16 +160,30 @@ export async function captureThumbnails({
 
   for (const target of targets) {
     const { repo } = target;
-    const source = target.isSubsite
-      ? { kind: 'screenshot', ref: target.url }
-      : chooseSource(repo, overrides[repo.name]);
+    const localFolder = localSources[target.id];
+
+    // A local folder outranks everything: it is named by hand, one entry at a
+    // time, and the only reason to name one is that the deployed copy is absent
+    // or wrong.
+    const o = overrides[target.id] || {};
+
+    // index.html is sometimes a generated contact sheet and the real build sits
+    // in index1.html. Capturing the sheet makes a live project look missing.
+    const main = o.mainFile ? `${target.url}${encodeURIComponent(o.mainFile)}` : target.url;
+
+    const source = localFolder
+      ? { kind: 'local', ref: localFolder, page: o.mainFile || null }
+      : target.isSubsite
+        ? { kind: 'screenshot', ref: main }
+        : chooseSource(repo, overrides[repo.name]);
 
     if (source.kind === 'override' || source.kind === 'none') {
       stats[source.kind === 'override' ? 'skipped' : 'none'] += 1;
       continue;
     }
 
-    const key = hash(`${source.kind}|${source.ref}|${repo.pushedAt}`);
+    const stamp = source.kind === 'local' ? folderStamp(source.ref) : repo.pushedAt;
+    const key = hash(`${source.kind}|${source.ref}|${stamp}`);
     const prev = manifest[target.id];
     const filesExist = Boolean(prev?.file) && fs.existsSync(path.join(THUMB_DIR, prev.file));
     const stale =
@@ -164,7 +213,7 @@ export async function captureThumbnails({
 
   const { token } = resolveToken();
   const gh = new GitHub(token);
-  const needsBrowser = jobs.some((j) => j.source.kind === 'screenshot');
+  const needsBrowser = jobs.some((j) => j.source.kind === 'screenshot' || j.source.kind === 'local');
 
   const run = async (browser) => {
     let done = 0;
@@ -213,6 +262,20 @@ export async function captureThumbnails({
 }
 
 async function fetchSource(source, repo, gh, browser) {
+  // Served over http rather than opened from file://, because a module script
+  // on file:// is refused as cross-origin before it is even parsed — which is
+  // the whole reason these pages cannot be captured off disk directly.
+  if (source.kind === 'local') {
+    const server = await serveFolder(source.ref);
+    try {
+      const url = source.page ? `${server.url}${encodeURIComponent(source.page)}` : server.url;
+      const { buffer } = await capture(browser, url);
+      return buffer;
+    } finally {
+      await server.close();
+    }
+  }
+
   if (source.kind === 'screenshot') {
     const { buffer } = await capture(browser, source.ref);
     return buffer;

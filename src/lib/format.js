@@ -91,6 +91,7 @@ export const previewSourceLabel = (key) => {
 
 const THUMB_SOURCE_LABEL = {
   screenshot: 'Captured from the live site',
+  local: 'Captured from a folder on this machine',
   'repo-image': 'Image found in the repository',
   opengraph: 'GitHub open-graph card',
   override: 'Set in catalog-overrides.json',

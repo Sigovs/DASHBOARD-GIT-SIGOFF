@@ -1,51 +1,11 @@
 {
-  "generatedAt": "2026-09-05T09:09:52.694Z",
+  "generatedAt": "2026-09-05T12:06:24.386Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 43,
   "repos": [
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 8431,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-05T09:03:51Z",
-      "pushedAt": "2026-09-05T09:03:47Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
     {
       "name": "_____GDBURO-SIGOFF-EXPERIMENTS",
       "fullName": "Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS",
@@ -60,11 +20,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 0,
+      "sizeKb": 224666,
       "stars": 1,
       "createdAt": "2026-09-05T07:26:35Z",
-      "updatedAt": "2026-09-05T08:41:56Z",
-      "pushedAt": "2026-09-05T08:41:52Z",
+      "updatedAt": "2026-09-05T09:24:01Z",
+      "pushedAt": "2026-09-05T09:24:00Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -95,6 +55,21 @@
               "variant": 1,
               "label": "Main",
               "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index1.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "_buro test 2",
+          "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index.html"
             }
           ],
           "pages": []
@@ -266,6 +241,46 @@
           "pages": []
         }
       ]
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 9663,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-09-05T09:09:58Z",
+      "pushedAt": "2026-09-05T09:09:54Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "BHCC",
