@@ -543,17 +543,18 @@
     "bytes": 69482,
     "width": 1600,
     "height": 1000,
-    "error": null
+    "error": "HTTP 404",
+    "errorAt": "2026-09-06T09:31:37.897Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/",
-    "sourceKey": "1764b7072f7b",
-    "capturedAt": "2026-09-06T07:36:47.426Z",
-    "pushedAt": "2026-09-06T07:33:11Z",
+    "sourceKey": "a23fa8e943e0",
+    "capturedAt": "2026-09-06T09:31:42.511Z",
+    "pushedAt": "2026-09-06T08:26:27Z",
     "file": "gdburo-sigoff-experiments-buro-test-3.webp",
     "fileSm": "gdburo-sigoff-experiments-buro-test-3@sm.webp",
-    "bytes": 134098,
+    "bytes": 129798,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -561,12 +562,12 @@
   "_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/",
-    "sourceKey": "9200a5bc5630",
-    "capturedAt": "2026-09-06T07:37:13.057Z",
-    "pushedAt": "2026-09-06T07:33:11Z",
+    "sourceKey": "abd58fa48ad3",
+    "capturedAt": "2026-09-06T09:32:17.602Z",
+    "pushedAt": "2026-09-06T08:26:27Z",
     "file": "gdburo-sigoff-experiments-dimamid-site.webp",
     "fileSm": "gdburo-sigoff-experiments-dimamid-site@sm.webp",
-    "bytes": 49072,
+    "bytes": 48576,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -574,12 +575,12 @@
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/",
-    "sourceKey": "f8133f850fd1",
-    "capturedAt": "2026-09-06T07:36:47.604Z",
-    "pushedAt": "2026-09-06T07:33:11Z",
+    "sourceKey": "f0b9e6f0c6f1",
+    "capturedAt": "2026-09-06T09:31:44.058Z",
+    "pushedAt": "2026-09-06T08:26:27Z",
     "file": "gdburo-sigoff-experiments-buro-test-2.webp",
     "fileSm": "gdburo-sigoff-experiments-buro-test-2@sm.webp",
-    "bytes": 57994,
+    "bytes": 57740,
     "width": 1600,
     "height": 1000,
     "error": null
