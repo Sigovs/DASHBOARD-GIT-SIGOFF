@@ -408,7 +408,10 @@ function slugify(name) {
 function mainFileUrl(baseUrl, mainFile) {
   if (!mainFile || !baseUrl) return null;
   const base = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-  return `${base}${encodeURIComponent(mainFile)}`;
+  // Encoded per segment: a mainFile may sit in a subfolder ("build/index1.html"),
+  // and encoding the whole string would turn its slash into %2F.
+  const encoded = String(mainFile).split('/').map(encodeURIComponent).join('/');
+  return `${base}${encoded}`;
 }
 
 /** Moves the declared main file to the front and relabels it. */

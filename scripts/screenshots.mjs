@@ -168,8 +168,12 @@ export async function captureThumbnails({
     const o = overrides[target.id] || {};
 
     // index.html is sometimes a generated contact sheet and the real build sits
-    // in index1.html. Capturing the sheet makes a live project look missing.
-    const main = o.mainFile ? `${target.url}${encodeURIComponent(o.mainFile)}` : target.url;
+    // elsewhere — index1.html, or site/index.html once a Vite app has to be
+    // built to run at all. Encoded per segment: encoding the whole string turns
+    // "site/index.html" into "site%2Findex.html", which is a different URL.
+    const main = o.mainFile
+      ? `${target.url}${String(o.mainFile).split('/').map(encodeURIComponent).join('/')}`
+      : target.url;
 
     const source = localFolder
       ? { kind: 'local', ref: localFolder, page: o.mainFile || null }
