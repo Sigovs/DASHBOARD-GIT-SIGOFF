@@ -1,51 +1,11 @@
 {
-  "generatedAt": "2026-09-07T00:05:07.276Z",
+  "generatedAt": "2026-09-07T01:13:34.846Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 44,
   "repos": [
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 10301,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-07T00:04:19Z",
-      "pushedAt": "2026-09-07T00:04:16Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
     {
       "name": "_____GD2-EXPERIMENTS",
       "fullName": "Sigovs/_____GD2-EXPERIMENTS",
@@ -60,11 +20,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 0,
+      "sizeKb": 122945,
       "stars": 0,
       "createdAt": "2026-09-06T23:24:08Z",
-      "updatedAt": "2026-09-06T23:59:08Z",
-      "pushedAt": "2026-09-06T23:59:04Z",
+      "updatedAt": "2026-09-07T01:11:59Z",
+      "pushedAt": "2026-09-07T01:11:52Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -212,11 +172,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 225433,
+      "sizeKb": 371923,
       "stars": 1,
       "createdAt": "2026-09-05T07:26:35Z",
-      "updatedAt": "2026-09-06T23:39:12Z",
-      "pushedAt": "2026-09-06T23:39:12Z",
+      "updatedAt": "2026-09-07T00:29:25Z",
+      "pushedAt": "2026-09-07T00:29:21Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -247,33 +207,34 @@
               "variant": 1,
               "label": "Main",
               "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index1.html"
-            },
-            {
-              "file": "index2.html",
-              "stem": "index2",
-              "base": "index",
-              "variant": 2,
-              "label": "Version 2",
-              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index2.html"
-            },
-            {
-              "file": "index3.html",
-              "stem": "index3",
-              "base": "index",
-              "variant": 3,
-              "label": "Version 3",
-              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index3.html"
-            },
-            {
-              "file": "index4.html",
-              "stem": "index4",
-              "base": "index",
-              "variant": 4,
-              "label": "Version 4",
-              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index4.html"
             }
           ],
-          "pages": []
+          "pages": [
+            {
+              "file": "indexA.html",
+              "stem": "indexA",
+              "base": "indexa",
+              "variant": 1,
+              "label": "Indexa",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexA.html"
+            },
+            {
+              "file": "indexB.html",
+              "stem": "indexB",
+              "base": "indexb",
+              "variant": 1,
+              "label": "Indexb",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexB.html"
+            },
+            {
+              "file": "indexC.html",
+              "stem": "indexC",
+              "base": "indexc",
+              "variant": 1,
+              "label": "Indexc",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexC.html"
+            }
+          ]
         },
         {
           "dir": "_buro test 2",
@@ -286,6 +247,30 @@
               "variant": 1,
               "label": "Main",
               "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index.html"
+            },
+            {
+              "file": "index2.html",
+              "stem": "index2",
+              "base": "index",
+              "variant": 2,
+              "label": "Version 2",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index2.html"
+            },
+            {
+              "file": "index3.html",
+              "stem": "index3",
+              "base": "index",
+              "variant": 3,
+              "label": "Version 3",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index3.html"
+            },
+            {
+              "file": "index4.html",
+              "stem": "index4",
+              "base": "index",
+              "variant": 4,
+              "label": "Version 4",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index4.html"
             }
           ],
           "pages": []
@@ -442,6 +427,54 @@
           "pages": []
         },
         {
+          "dir": "_buro test 4_open_design",
+          "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/index.html"
+            }
+          ],
+          "pages": [
+            {
+              "file": "ad-creative.html",
+              "stem": "ad-creative",
+              "base": "ad-creative",
+              "variant": 1,
+              "label": "Ad Creative",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/ad-creative.html"
+            },
+            {
+              "file": "luxe-corsa.html",
+              "stem": "luxe-corsa",
+              "base": "luxe-corsa",
+              "variant": 1,
+              "label": "Luxe Corsa",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/luxe-corsa.html"
+            },
+            {
+              "file": "luxe-corsa-reel.html",
+              "stem": "luxe-corsa-reel",
+              "base": "luxe-corsa-reel",
+              "variant": 1,
+              "label": "Luxe Corsa Reel",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/luxe-corsa-reel.html"
+            },
+            {
+              "file": "suites-availability.html",
+              "stem": "suites-availability",
+              "base": "suites-availability",
+              "variant": 1,
+              "label": "Suites Availability",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/suites-availability.html"
+            }
+          ]
+        },
+        {
           "dir": "dimamid-site",
           "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/",
           "versions": [
@@ -457,6 +490,46 @@
           "pages": []
         }
       ]
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 11193,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-09-07T00:05:14Z",
+      "pushedAt": "2026-09-07T00:05:10Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
     },
     {
       "name": "BHCC",
@@ -997,37 +1070,6 @@
       "subsites": []
     },
     {
-      "name": "robb",
-      "fullName": "Sigovs/robb",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/robb",
-      "cloneUrl": "https://github.com/Sigovs/robb.git",
-      "sshUrl": "git@github.com:Sigovs/robb.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 815,
-      "stars": 0,
-      "createdAt": "2026-05-19T21:45:22Z",
-      "updatedAt": "2026-09-01T06:16:39Z",
-      "pushedAt": "2026-09-01T06:15:50Z",
-      "homepage": null,
-      "hasPages": false,
-      "pagesStatus": null,
-      "previewUrl": null,
-      "previewSource": null,
-      "previewStatus": null,
-      "repoImage": "assets/images/robb_index.jpg",
-      "repoImageKind": "representative",
-      "versions": [],
-      "pages": [],
-      "subsites": []
-    },
-    {
       "name": "DRIVEMAX",
       "fullName": "Sigovs/DRIVEMAX",
       "description": null,
@@ -1090,6 +1132,37 @@
           "url": "https://sigovs.github.io/DRIVEMAX/vdp.html"
         }
       ],
+      "subsites": []
+    },
+    {
+      "name": "robb",
+      "fullName": "Sigovs/robb",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/robb",
+      "cloneUrl": "https://github.com/Sigovs/robb.git",
+      "sshUrl": "git@github.com:Sigovs/robb.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 815,
+      "stars": 0,
+      "createdAt": "2026-05-19T21:45:22Z",
+      "updatedAt": "2026-09-01T06:16:39Z",
+      "pushedAt": "2026-09-01T06:15:50Z",
+      "homepage": null,
+      "hasPages": false,
+      "pagesStatus": null,
+      "previewUrl": null,
+      "previewSource": null,
+      "previewStatus": null,
+      "repoImage": "assets/images/robb_index.jpg",
+      "repoImageKind": "representative",
+      "versions": [],
+      "pages": [],
       "subsites": []
     },
     {
