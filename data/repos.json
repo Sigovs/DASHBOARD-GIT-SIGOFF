@@ -1,11 +1,163 @@
 {
-  "generatedAt": "2026-09-06T09:31:36.377Z",
+  "generatedAt": "2026-09-07T00:03:58.685Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
-  "count": 43,
+  "count": 44,
   "repos": [
+    {
+      "name": "_____GD2-EXPERIMENTS",
+      "fullName": "Sigovs/_____GD2-EXPERIMENTS",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/_____GD2-EXPERIMENTS",
+      "cloneUrl": "https://github.com/Sigovs/_____GD2-EXPERIMENTS.git",
+      "sshUrl": "git@github.com:Sigovs/_____GD2-EXPERIMENTS.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 0,
+      "stars": 0,
+      "createdAt": "2026-09-06T23:24:08Z",
+      "updatedAt": "2026-09-06T23:59:08Z",
+      "pushedAt": "2026-09-06T23:59:04Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/_____GD2-EXPERIMENTS/",
+      "previewSource": "pages",
+      "previewStatus": 404,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [],
+      "pages": [],
+      "subsites": [
+        {
+          "dir": "aan test 1",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%201/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%201/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "aan test 2",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%202/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%202/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "aan test 3",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%203/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%203/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "aan test 4",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%204/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%204/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "aan test 5",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%205/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%205/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "aan test 6",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%206/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%206/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "all",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/all/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/all/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
+          "dir": "index1_1",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/index1_1/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/index1_1/index.html"
+            }
+          ],
+          "pages": []
+        }
+      ]
+    },
     {
       "name": "_____GDBURO-SIGOFF-EXPERIMENTS",
       "fullName": "Sigovs/_____GDBURO-SIGOFF-EXPERIMENTS",
@@ -23,8 +175,8 @@
       "sizeKb": 225433,
       "stars": 1,
       "createdAt": "2026-09-05T07:26:35Z",
-      "updatedAt": "2026-09-06T08:26:36Z",
-      "pushedAt": "2026-09-06T08:26:27Z",
+      "updatedAt": "2026-09-06T23:39:12Z",
+      "pushedAt": "2026-09-06T23:39:12Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -55,6 +207,30 @@
               "variant": 1,
               "label": "Main",
               "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index1.html"
+            },
+            {
+              "file": "index2.html",
+              "stem": "index2",
+              "base": "index",
+              "variant": 2,
+              "label": "Version 2",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index2.html"
+            },
+            {
+              "file": "index3.html",
+              "stem": "index3",
+              "base": "index",
+              "variant": 3,
+              "label": "Version 3",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index3.html"
+            },
+            {
+              "file": "index4.html",
+              "stem": "index4",
+              "base": "index",
+              "variant": 4,
+              "label": "Version 4",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index4.html"
             }
           ],
           "pages": []
@@ -256,11 +432,11 @@
       "defaultBranch": "main",
       "language": "JavaScript",
       "topics": [],
-      "sizeKb": 10154,
+      "sizeKb": 10301,
       "stars": 0,
       "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-06T07:39:24Z",
-      "pushedAt": "2026-09-06T07:39:20Z",
+      "updatedAt": "2026-09-06T09:33:35Z",
+      "pushedAt": "2026-09-06T09:33:31Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
