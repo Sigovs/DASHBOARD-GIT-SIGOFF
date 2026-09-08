@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T10:29:13.936Z",
+  "generatedAt": "2026-09-08T09:50:13.732Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
@@ -20,11 +20,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 392807,
+      "sizeKb": 396496,
       "stars": 1,
       "createdAt": "2026-09-05T07:26:35Z",
-      "updatedAt": "2026-09-07T10:12:19Z",
-      "pushedAt": "2026-09-07T10:12:14Z",
+      "updatedAt": "2026-09-08T09:48:23Z",
+      "pushedAt": "2026-09-08T09:46:47Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -81,6 +81,22 @@
               "variant": 1,
               "label": "Indexc",
               "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexC.html"
+            },
+            {
+              "file": "indexLevelLine.html",
+              "stem": "indexLevelLine",
+              "base": "indexlevelline",
+              "variant": 1,
+              "label": "Indexlevelline",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexLevelLine.html"
+            },
+            {
+              "file": "indexPresentation.html",
+              "stem": "indexPresentation",
+              "base": "indexpresentation",
+              "variant": 1,
+              "label": "Indexpresentation",
+              "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexPresentation.html"
             }
           ]
         },
@@ -369,11 +385,11 @@
       "defaultBranch": "main",
       "language": "JavaScript",
       "topics": [],
-      "sizeKb": 12924,
+      "sizeKb": 13246,
       "stars": 0,
       "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-07T01:28:39Z",
-      "pushedAt": "2026-09-07T01:28:35Z",
+      "updatedAt": "2026-09-07T10:34:11Z",
+      "pushedAt": "2026-09-07T10:33:45Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",

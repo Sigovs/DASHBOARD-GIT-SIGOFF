@@ -1941,15 +1941,15 @@
     "label": "Main",
     "sourceKey": "6878749e878a",
     "capturedAt": "2026-09-07T10:31:00.874Z",
-    "error": null
+    "error": "page.screenshot: Timeout 30000ms exceeded."
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1/index.html": {
     "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
     "file": "gdburo-sigoff-experiments-buro-test-1--index.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/index.html",
     "label": "Main",
-    "sourceKey": "8d8fe1574388",
-    "capturedAt": "2026-09-07T10:30:01.229Z",
+    "sourceKey": "769e2450578d",
+    "capturedAt": "2026-09-08T09:51:08.433Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index.html": {
@@ -1957,17 +1957,17 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index.html",
     "label": "Main",
-    "sourceKey": "5a5df0e054f2",
-    "capturedAt": "2026-09-07T01:17:32.127Z",
-    "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot"
+    "sourceKey": "87e56760cced",
+    "capturedAt": "2026-09-08T09:53:14.872Z",
+    "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index1.html": {
     "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
     "file": "gdburo-sigoff-experiments-buro-test-3--index1.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index1.html",
     "label": "Main",
-    "sourceKey": "1b5bfc1df7be",
-    "capturedAt": "2026-09-07T10:31:41.707Z",
+    "sourceKey": "e333cc178127",
+    "capturedAt": "2026-09-08T09:53:21.582Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index2.html": {
@@ -1975,8 +1975,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index2.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index2.html",
     "label": "Version 2",
-    "sourceKey": "2ed2ad430331",
-    "capturedAt": "2026-09-07T10:31:50.257Z",
+    "sourceKey": "fcb19a3356ed",
+    "capturedAt": "2026-09-08T09:53:23.819Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index3.html": {
@@ -1984,8 +1984,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index3.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index3.html",
     "label": "Version 3",
-    "sourceKey": "e4f78ab17948",
-    "capturedAt": "2026-09-07T10:31:54.201Z",
+    "sourceKey": "efea639ddc8c",
+    "capturedAt": "2026-09-08T09:53:33.646Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index5.html": {
@@ -1993,8 +1993,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index5.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index5.html",
     "label": "Version 5",
-    "sourceKey": "0da5674b701f",
-    "capturedAt": "2026-09-07T10:32:14.093Z",
+    "sourceKey": "fadf86593f63",
+    "capturedAt": "2026-09-08T09:53:45.694Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index4.html": {
@@ -2002,8 +2002,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index4.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index4.html",
     "label": "Version 4",
-    "sourceKey": "909201b2594f",
-    "capturedAt": "2026-09-07T10:32:09.240Z",
+    "sourceKey": "df03830a2fd6",
+    "capturedAt": "2026-09-08T09:53:40.297Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index6.html": {
@@ -2011,8 +2011,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index6.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index6.html",
     "label": "Version 6",
-    "sourceKey": "11dfd72e8018",
-    "capturedAt": "2026-09-07T10:32:18.118Z",
+    "sourceKey": "91d975727436",
+    "capturedAt": "2026-09-08T09:53:52.617Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index7.html": {
@@ -2020,8 +2020,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index7.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index7.html",
     "label": "Version 7",
-    "sourceKey": "ea4af232167b",
-    "capturedAt": "2026-09-07T10:32:23.350Z",
+    "sourceKey": "d9eb4bced4d0",
+    "capturedAt": "2026-09-08T09:53:52.618Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index8.html": {
@@ -2029,8 +2029,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index8.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index8.html",
     "label": "Version 8",
-    "sourceKey": "1c30178cc87c",
-    "capturedAt": "2026-09-07T10:32:27.131Z",
+    "sourceKey": "224a84f75bc2",
+    "capturedAt": "2026-09-08T09:53:55.305Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index9.html": {
@@ -2038,8 +2038,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index9.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index9.html",
     "label": "Version 9",
-    "sourceKey": "4ece32e3a77e",
-    "capturedAt": "2026-09-07T10:32:27.119Z",
+    "sourceKey": "1a777578c805",
+    "capturedAt": "2026-09-08T09:54:07.514Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index10.html": {
@@ -2047,8 +2047,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index10.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index10.html",
     "label": "Version 10",
-    "sourceKey": "11b0bd47f4d5",
-    "capturedAt": "2026-09-07T10:32:29.214Z",
+    "sourceKey": "0abd33638a60",
+    "capturedAt": "2026-09-08T09:53:59.548Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index11.html": {
@@ -2056,8 +2056,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index11.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index11.html",
     "label": "Version 11",
-    "sourceKey": "7f33b7987f13",
-    "capturedAt": "2026-09-07T10:32:34.050Z",
+    "sourceKey": "580077076629",
+    "capturedAt": "2026-09-08T09:53:59.533Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index12.html": {
@@ -2065,8 +2065,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index12.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index12.html",
     "label": "Version 12",
-    "sourceKey": "24fe5d88cb6c",
-    "capturedAt": "2026-09-07T10:32:34.036Z",
+    "sourceKey": "75c0048a8738",
+    "capturedAt": "2026-09-08T09:54:12.881Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index13.html": {
@@ -2074,8 +2074,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index13.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index13.html",
     "label": "Version 13",
-    "sourceKey": "903991ddc4db",
-    "capturedAt": "2026-09-07T10:32:39.451Z",
+    "sourceKey": "98645530c1d2",
+    "capturedAt": "2026-09-08T09:54:12.959Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index14.html": {
@@ -2083,8 +2083,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index14.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index14.html",
     "label": "Version 14",
-    "sourceKey": "a6fd5742f4db",
-    "capturedAt": "2026-09-07T10:32:44.784Z",
+    "sourceKey": "aa630b8c2097",
+    "capturedAt": "2026-09-08T09:54:19.429Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index15.html": {
@@ -2092,8 +2092,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index15.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index15.html",
     "label": "Version 15",
-    "sourceKey": "6226e21121c6",
-    "capturedAt": "2026-09-07T10:32:44.668Z",
+    "sourceKey": "1b6246afe3f5",
+    "capturedAt": "2026-09-08T09:54:34.624Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index16.html": {
@@ -2101,8 +2101,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index16.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index16.html",
     "label": "Version 16",
-    "sourceKey": "770fbc32156b",
-    "capturedAt": "2026-09-07T10:32:49.641Z",
+    "sourceKey": "5b45fdd7bcb6",
+    "capturedAt": "2026-09-08T09:54:34.571Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3/index20.html": {
@@ -2110,8 +2110,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-3--index20.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%203/index20.html",
     "label": "Version 20",
-    "sourceKey": "7d955dbeb318",
-    "capturedAt": "2026-09-07T10:32:55.474Z",
+    "sourceKey": "cc3f77a7324e",
+    "capturedAt": "2026-09-08T09:54:34.642Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/index.html": {
@@ -2119,8 +2119,8 @@
     "file": "gdburo-sigoff-experiments-dimamid-site--index.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/dimamid-site/index.html",
     "label": "Main",
-    "sourceKey": "075a4d2e1ef6",
-    "capturedAt": "2026-09-07T10:33:42.943Z",
+    "sourceKey": "6849addc8eea",
+    "capturedAt": "2026-09-08T09:55:23.604Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index.html": {
@@ -2128,8 +2128,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-2--index.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index.html",
     "label": "Main",
-    "sourceKey": "fa4abcf880a3",
-    "capturedAt": "2026-09-07T10:30:48.841Z",
+    "sourceKey": "3ec508df098e",
+    "capturedAt": "2026-09-08T09:52:15.141Z",
     "error": null
   },
   "_____GD2-EXPERIMENTS/aan test 3/index.html": {
@@ -2229,15 +2229,15 @@
     "label": "Indexc",
     "sourceKey": "6d05134d4e7a",
     "capturedAt": "2026-09-07T01:17:27.136Z",
-    "error": "page.screenshot: Timeout 30000ms exceeded."
+    "error": "page.goto: Timeout 30000ms exceeded."
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index2.html": {
     "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
     "file": "gdburo-sigoff-experiments-buro-test-2--index2.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index2.html",
     "label": "Version 2",
-    "sourceKey": "534ed19679e3",
-    "capturedAt": "2026-09-07T10:31:29.230Z",
+    "sourceKey": "10b6ad8107f9",
+    "capturedAt": "2026-09-08T09:52:56.615Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index4.html": {
@@ -2245,8 +2245,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-2--index4.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index4.html",
     "label": "Version 4",
-    "sourceKey": "35be3e2ae82e",
-    "capturedAt": "2026-09-07T10:31:24.163Z",
+    "sourceKey": "94087d5b0758",
+    "capturedAt": "2026-09-08T09:53:08.135Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index3.html": {
@@ -2256,15 +2256,15 @@
     "label": "Version 3",
     "sourceKey": "00a6dea070b0",
     "capturedAt": "2026-09-07T10:32:18.096Z",
-    "error": null
+    "error": "page.screenshot: Timeout 30000ms exceeded."
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 4_open_design/index.html": {
     "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design--index.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/index.html",
     "label": "Main",
-    "sourceKey": "a0fd1a6207af",
-    "capturedAt": "2026-09-07T10:33:15.490Z",
+    "sourceKey": "dd94f2442e74",
+    "capturedAt": "2026-09-08T09:54:55.633Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 4_open_design/ad-creative.html": {
@@ -2272,8 +2272,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design--ad-creative.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/ad-creative.html",
     "label": "Ad Creative",
-    "sourceKey": "ac82be016452",
-    "capturedAt": "2026-09-07T10:32:59.059Z",
+    "sourceKey": "f9a69061e205",
+    "capturedAt": "2026-09-08T09:54:42.935Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 4_open_design/luxe-corsa.html": {
@@ -2281,8 +2281,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design--luxe-corsa.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/luxe-corsa.html",
     "label": "Luxe Corsa",
-    "sourceKey": "1966d9b351c6",
-    "capturedAt": "2026-09-07T10:33:06.658Z",
+    "sourceKey": "365050dd129a",
+    "capturedAt": "2026-09-08T09:54:50.536Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 4_open_design/luxe-corsa-reel.html": {
@@ -2290,8 +2290,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design--luxe-corsa-reel.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/luxe-corsa-reel.html",
     "label": "Luxe Corsa Reel",
-    "sourceKey": "d77adcc18296",
-    "capturedAt": "2026-09-07T10:33:06.743Z",
+    "sourceKey": "c5a9a138d3b9",
+    "capturedAt": "2026-09-08T09:54:50.504Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 4_open_design/suites-availability.html": {
@@ -2299,8 +2299,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design--suites-availability.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%204_open_design/suites-availability.html",
     "label": "Suites Availability",
-    "sourceKey": "07b053e489c7",
-    "capturedAt": "2026-09-07T10:33:12.098Z",
+    "sourceKey": "60eb88d3415f",
+    "capturedAt": "2026-09-08T09:54:54.218Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index5.html": {
@@ -2308,8 +2308,8 @@
     "file": "gdburo-sigoff-experiments-buro-test-2--index5.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%202/index5.html",
     "label": "Version 5",
-    "sourceKey": "ca20f7c55594",
-    "capturedAt": "2026-09-07T10:32:03.966Z",
+    "sourceKey": "f68c8ba89fb3",
+    "capturedAt": "2026-09-08T09:53:01.987Z",
     "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 2/index6.html": {
@@ -2319,6 +2319,18 @@
     "label": "Version 6",
     "sourceKey": "91ee8832423e",
     "capturedAt": "2026-09-07T10:33:08.357Z",
-    "error": null
+    "error": "page.screenshot: Timeout 30000ms exceeded."
+  },
+  "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1/indexLevelLine.html": {
+    "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
+    "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexLevelLine.html",
+    "label": "Indexlevelline",
+    "error": "page.goto: Timeout 30000ms exceeded."
+  },
+  "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1/indexPresentation.html": {
+    "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
+    "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexPresentation.html",
+    "label": "Indexpresentation",
+    "error": "page.goto: Timeout 30000ms exceeded."
   }
 }
