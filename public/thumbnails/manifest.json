@@ -106,12 +106,12 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "bfc6dc22264d",
-    "capturedAt": "2026-09-07T01:14:05.348Z",
-    "pushedAt": "2026-09-04T05:36:21Z",
+    "sourceKey": "2120a8aa2ecb",
+    "capturedAt": "2026-09-11T09:51:01.369Z",
+    "pushedAt": "2026-09-11T08:44:35Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
-    "bytes": 110196,
+    "bytes": 111172,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -544,7 +544,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-10T09:51:11.414Z"
+    "errorAt": "2026-09-11T09:50:57.593Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -698,6 +698,19 @@
     "file": "gdburo-sigoff-experiments-buro-test-4-open-design.webp",
     "fileSm": "gdburo-sigoff-experiments-buro-test-4-open-design@sm.webp",
     "bytes": 60302,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "GENEVA-MOTOR-HAUS": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/GENEVA-MOTOR-HAUS/",
+    "sourceKey": "44c48cc8b16e",
+    "capturedAt": "2026-09-11T09:51:03.466Z",
+    "pushedAt": "2026-09-11T02:06:31Z",
+    "file": "geneva-motor-haus.webp",
+    "fileSm": "geneva-motor-haus@sm.webp",
+    "bytes": 173068,
     "width": 1600,
     "height": 1000,
     "error": null

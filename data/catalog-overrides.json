@@ -147,6 +147,10 @@
       "subtitle": "AAN build",
       "category": "AAN"
     },
+    "GENEVA-MOTOR-HAUS": {
+      "title": "Geneva Motor Haus",
+      "category": "Automotive"
+    },
     "GM": {
       "title": "GM Motors NY",
       "category": "Client Sites"
