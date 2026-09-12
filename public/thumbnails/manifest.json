@@ -28,9 +28,9 @@
   "BHCC": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/BHCC/",
-    "sourceKey": "ee7ab784a955",
-    "capturedAt": "2026-09-10T09:51:24.373Z",
-    "pushedAt": "2026-09-09T23:55:59Z",
+    "sourceKey": "f3021b99e4b5",
+    "capturedAt": "2026-09-12T09:27:18.825Z",
+    "pushedAt": "2026-09-12T03:09:29Z",
     "file": "bhcc.webp",
     "fileSm": "bhcc@sm.webp",
     "bytes": 132028,
@@ -106,9 +106,9 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "2120a8aa2ecb",
-    "capturedAt": "2026-09-11T09:51:01.369Z",
-    "pushedAt": "2026-09-11T08:44:35Z",
+    "sourceKey": "69c9bd4b2565",
+    "capturedAt": "2026-09-12T09:27:15.417Z",
+    "pushedAt": "2026-09-12T03:40:41Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
     "bytes": 111172,
@@ -544,7 +544,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-11T09:50:57.593Z"
+    "errorAt": "2026-09-12T09:27:18.959Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -705,12 +705,25 @@
   "GENEVA-MOTOR-HAUS": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/GENEVA-MOTOR-HAUS/",
-    "sourceKey": "44c48cc8b16e",
-    "capturedAt": "2026-09-11T09:51:03.466Z",
-    "pushedAt": "2026-09-11T02:06:31Z",
+    "sourceKey": "b90ad4f30703",
+    "capturedAt": "2026-09-12T09:27:18.879Z",
+    "pushedAt": "2026-09-11T22:39:14Z",
     "file": "geneva-motor-haus.webp",
     "fileSm": "geneva-motor-haus@sm.webp",
     "bytes": 173068,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "AAN_RESSELLER_THEMEKIT_Alex": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
+    "sourceKey": "98bdefcf6073",
+    "capturedAt": "2026-09-12T09:27:22.397Z",
+    "pushedAt": "2026-09-11T21:10:25Z",
+    "file": "aan-resseller-themekit-alex.webp",
+    "fileSm": "aan-resseller-themekit-alex@sm.webp",
+    "bytes": 125812,
     "width": 1600,
     "height": 1000,
     "error": null
