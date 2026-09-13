@@ -751,9 +751,9 @@
     "file": "midwest-cobras--index6.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index6.html",
     "label": "Version 6",
-    "sourceKey": "589c885cf59c",
-    "capturedAt": "2026-09-07T01:19:49.425Z",
-    "error": "page.screenshot: Timeout 30000ms exceeded."
+    "sourceKey": "f1d348abcf22",
+    "capturedAt": "2026-09-13T10:23:13.811Z",
+    "error": null
   },
   "VEGAS_UPD/about6.html": {
     "repo": "VEGAS_UPD",
@@ -2209,9 +2209,9 @@
     "file": "gdburo-sigoff-experiments-buro-test-1--indexb.webp",
     "url": "https://sigovs.github.io/_____GDBURO-SIGOFF-EXPERIMENTS/_buro%20test%201/indexB.html",
     "label": "Indexb",
-    "sourceKey": "6d70d6c3486a",
-    "capturedAt": "2026-09-07T01:17:16.132Z",
-    "error": "page.screenshot: Timeout 30000ms exceeded."
+    "sourceKey": "3ce4d5d9bacf",
+    "capturedAt": "2026-09-13T10:24:08.528Z",
+    "error": null
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 1/indexA.html": {
     "repo": "_____GDBURO-SIGOFF-EXPERIMENTS",
@@ -2368,9 +2368,12 @@
   },
   "Midwest-cobras/finance.html": {
     "repo": "Midwest-cobras",
+    "file": "midwest-cobras--finance.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/finance.html",
     "label": "Finance",
-    "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot"
+    "sourceKey": "ff26756c1de0",
+    "capturedAt": "2026-09-13T10:23:13.605Z",
+    "error": null
   },
   "Midwest-cobras/index12.html": {
     "repo": "Midwest-cobras",
