@@ -544,7 +544,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-17T10:07:30.842Z"
+    "errorAt": "2026-09-18T09:54:14.617Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -588,9 +588,9 @@
   "_____GD2-EXPERIMENTS/aan test 3": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%203/",
-    "sourceKey": "b27c498618e2",
-    "capturedAt": "2026-09-17T10:07:00.477Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "d65e663d9b72",
+    "capturedAt": "2026-09-18T09:53:43.007Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-3.webp",
     "fileSm": "gd2-experiments-aan-test-3@sm.webp",
     "bytes": 49152,
@@ -601,9 +601,9 @@
   "_____GD2-EXPERIMENTS/aan test 2": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%202/",
-    "sourceKey": "f0a827666a4c",
-    "capturedAt": "2026-09-17T10:06:56.649Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "7bf120c47ce3",
+    "capturedAt": "2026-09-18T09:53:43.082Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-2.webp",
     "fileSm": "gd2-experiments-aan-test-2@sm.webp",
     "bytes": 121982,
@@ -614,9 +614,9 @@
   "_____GD2-EXPERIMENTS/aan test 1": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%201/",
-    "sourceKey": "63109faf5079",
-    "capturedAt": "2026-09-17T10:06:56.632Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "3a9b342b0075",
+    "capturedAt": "2026-09-18T09:53:43.003Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-1.webp",
     "fileSm": "gd2-experiments-aan-test-1@sm.webp",
     "bytes": 129410,
@@ -627,9 +627,9 @@
   "_____GD2-EXPERIMENTS/aan test 4": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%204/",
-    "sourceKey": "8b2525d6b35c",
-    "capturedAt": "2026-09-17T10:07:00.976Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "81168dc39344",
+    "capturedAt": "2026-09-18T09:53:47.815Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-4.webp",
     "fileSm": "gd2-experiments-aan-test-4@sm.webp",
     "bytes": 108036,
@@ -640,9 +640,9 @@
   "_____GD2-EXPERIMENTS/aan test 6": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%206/",
-    "sourceKey": "ef276ad8533a",
-    "capturedAt": "2026-09-17T10:07:04.893Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "8123c4e76ede",
+    "capturedAt": "2026-09-18T09:53:47.409Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-6.webp",
     "fileSm": "gd2-experiments-aan-test-6@sm.webp",
     "bytes": 53792,
@@ -653,9 +653,9 @@
   "_____GD2-EXPERIMENTS/aan test 5": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%205/",
-    "sourceKey": "e5d6c5c81576",
-    "capturedAt": "2026-09-17T10:07:03.760Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "c319e45d1115",
+    "capturedAt": "2026-09-18T09:53:47.247Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-aan-test-5.webp",
     "fileSm": "gd2-experiments-aan-test-5@sm.webp",
     "bytes": 166562,
@@ -666,9 +666,9 @@
   "_____GD2-EXPERIMENTS/all": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/all/",
-    "sourceKey": "ada269909b07",
-    "capturedAt": "2026-09-17T10:07:17.750Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "64d37780aeee",
+    "capturedAt": "2026-09-18T09:53:54.084Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-all.webp",
     "fileSm": "gd2-experiments-all@sm.webp",
     "bytes": 90370,
@@ -679,9 +679,9 @@
   "_____GD2-EXPERIMENTS/index1_1": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/index1_1/",
-    "sourceKey": "9efe8234ff5c",
-    "capturedAt": "2026-09-17T10:07:26.543Z",
-    "pushedAt": "2026-09-16T22:35:01Z",
+    "sourceKey": "5611d577a621",
+    "capturedAt": "2026-09-18T09:54:15.051Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
     "file": "gd2-experiments-index1-1.webp",
     "fileSm": "gd2-experiments-index1-1@sm.webp",
     "bytes": 229408,
@@ -740,6 +740,19 @@
     "width": 1600,
     "height": 1000,
     "error": "page.screenshot: Timeout 45000ms exceeded.",
-    "errorAt": "2026-09-17T10:08:14.574Z"
+    "errorAt": "2026-09-18T09:54:49.341Z"
+  },
+  "_____GD2-EXPERIMENTS/aan test 8": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%208/",
+    "sourceKey": "18f359986ff8",
+    "capturedAt": "2026-09-18T09:54:12.465Z",
+    "pushedAt": "2026-09-18T09:51:36Z",
+    "file": "gd2-experiments-aan-test-8.webp",
+    "fileSm": "gd2-experiments-aan-test-8@sm.webp",
+    "bytes": 53750,
+    "width": 1600,
+    "height": 1000,
+    "error": null
   }
 }
