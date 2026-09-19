@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:53:38.409Z",
+  "generatedAt": "2026-09-19T09:36:29.148Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
@@ -20,11 +20,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 512729,
+      "sizeKb": 798041,
       "stars": 0,
       "createdAt": "2026-09-06T23:24:08Z",
-      "updatedAt": "2026-09-18T09:51:39Z",
-      "pushedAt": "2026-09-18T09:51:36Z",
+      "updatedAt": "2026-09-19T09:17:00Z",
+      "pushedAt": "2026-09-19T09:16:55Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -165,6 +165,21 @@
           "pages": []
         },
         {
+          "dir": "aan test 9",
+          "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%209/",
+          "versions": [
+            {
+              "file": "index.html",
+              "stem": "index",
+              "base": "index",
+              "variant": 1,
+              "label": "Main",
+              "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/aan%20test%209/index.html"
+            }
+          ],
+          "pages": []
+        },
+        {
           "dir": "all",
           "url": "https://sigovs.github.io/_____GD2-EXPERIMENTS/all/",
           "versions": [
@@ -210,11 +225,11 @@
       "defaultBranch": "main",
       "language": "JavaScript",
       "topics": [],
-      "sizeKb": 16569,
+      "sizeKb": 16645,
       "stars": 0,
       "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-17T10:11:16Z",
-      "pushedAt": "2026-09-17T10:11:12Z",
+      "updatedAt": "2026-09-18T09:56:26Z",
+      "pushedAt": "2026-09-18T09:56:21Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
