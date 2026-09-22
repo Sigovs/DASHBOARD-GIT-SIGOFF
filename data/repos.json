@@ -1,11 +1,373 @@
 {
-  "generatedAt": "2026-09-21T10:51:09.021Z",
+  "generatedAt": "2026-09-22T10:05:44.745Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 46,
   "repos": [
+    {
+      "name": "prestige-final-dev",
+      "fullName": "Sigovs/prestige-final-dev",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/prestige-final-dev",
+      "cloneUrl": "https://github.com/Sigovs/prestige-final-dev.git",
+      "sshUrl": "git@github.com:Sigovs/prestige-final-dev.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 230293,
+      "stars": 0,
+      "createdAt": "2026-06-22T21:32:16Z",
+      "updatedAt": "2026-09-21T23:46:13Z",
+      "pushedAt": "2026-09-21T23:46:09Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/prestige-final-dev/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/prestige-final-dev/index.html"
+        },
+        {
+          "file": "index_v2.html",
+          "stem": "index_v2",
+          "base": "index",
+          "variant": 2,
+          "label": "Version 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/index_v2.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "about_our_dealership.html",
+          "stem": "about_our_dealership",
+          "base": "about_our_dealership",
+          "variant": 1,
+          "label": "About Our Dealership",
+          "url": "https://sigovs.github.io/prestige-final-dev/about_our_dealership.html"
+        },
+        {
+          "file": "contact.html",
+          "stem": "contact",
+          "base": "contact",
+          "variant": 1,
+          "label": "Contact",
+          "url": "https://sigovs.github.io/prestige-final-dev/contact.html"
+        },
+        {
+          "file": "design.html",
+          "stem": "design",
+          "base": "design",
+          "variant": 1,
+          "label": "Design system",
+          "url": "https://sigovs.github.io/prestige-final-dev/design.html"
+        },
+        {
+          "file": "our_story.html",
+          "stem": "our_story",
+          "base": "our_story",
+          "variant": 1,
+          "label": "Our Story",
+          "url": "https://sigovs.github.io/prestige-final-dev/our_story.html"
+        },
+        {
+          "file": "schedule_service.html",
+          "stem": "schedule_service",
+          "base": "schedule_service",
+          "variant": 1,
+          "label": "Schedule Service",
+          "url": "https://sigovs.github.io/prestige-final-dev/schedule_service.html"
+        },
+        {
+          "file": "service.html",
+          "stem": "service",
+          "base": "service",
+          "variant": 1,
+          "label": "Service",
+          "url": "https://sigovs.github.io/prestige-final-dev/service.html"
+        },
+        {
+          "file": "service_v2.html",
+          "stem": "service_v2",
+          "base": "service",
+          "variant": 2,
+          "label": "Service 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/service_v2.html"
+        },
+        {
+          "file": "srp.html",
+          "stem": "srp",
+          "base": "srp",
+          "variant": 1,
+          "label": "Search results",
+          "url": "https://sigovs.github.io/prestige-final-dev/srp.html"
+        },
+        {
+          "file": "vdp.html",
+          "stem": "vdp",
+          "base": "vdp",
+          "variant": 1,
+          "label": "Vehicle detail",
+          "url": "https://sigovs.github.io/prestige-final-dev/vdp.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "VEGAS_UPD",
+      "fullName": "Sigovs/VEGAS_UPD",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/VEGAS_UPD",
+      "cloneUrl": "https://github.com/Sigovs/VEGAS_UPD.git",
+      "sshUrl": "git@github.com:Sigovs/VEGAS_UPD.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 207125,
+      "stars": 0,
+      "createdAt": "2026-07-13T01:13:05Z",
+      "updatedAt": "2026-09-21T22:10:59Z",
+      "pushedAt": "2026-09-21T22:10:54Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/VEGAS_UPD/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index.html"
+        },
+        {
+          "file": "index2.html",
+          "stem": "index2",
+          "base": "index",
+          "variant": 2,
+          "label": "Version 2",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index2.html"
+        },
+        {
+          "file": "index3.html",
+          "stem": "index3",
+          "base": "index",
+          "variant": 3,
+          "label": "Version 3",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index3.html"
+        },
+        {
+          "file": "index4.html",
+          "stem": "index4",
+          "base": "index",
+          "variant": 4,
+          "label": "Version 4",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index4.html"
+        },
+        {
+          "file": "index5.html",
+          "stem": "index5",
+          "base": "index",
+          "variant": 5,
+          "label": "Version 5",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index5.html"
+        },
+        {
+          "file": "index6.html",
+          "stem": "index6",
+          "base": "index",
+          "variant": 6,
+          "label": "Version 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/index6.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "about6.html",
+          "stem": "about6",
+          "base": "about",
+          "variant": 6,
+          "label": "About 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/about6.html"
+        },
+        {
+          "file": "finance6.html",
+          "stem": "finance6",
+          "base": "finance",
+          "variant": 6,
+          "label": "Finance 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/finance6.html"
+        },
+        {
+          "file": "sell6.html",
+          "stem": "sell6",
+          "base": "sell",
+          "variant": 6,
+          "label": "Sell 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/sell6.html"
+        },
+        {
+          "file": "service4.html",
+          "stem": "service4",
+          "base": "service",
+          "variant": 4,
+          "label": "Service 4",
+          "url": "https://sigovs.github.io/VEGAS_UPD/service4.html"
+        },
+        {
+          "file": "service5.html",
+          "stem": "service5",
+          "base": "service",
+          "variant": 5,
+          "label": "Service 5",
+          "url": "https://sigovs.github.io/VEGAS_UPD/service5.html"
+        },
+        {
+          "file": "service6.html",
+          "stem": "service6",
+          "base": "service",
+          "variant": 6,
+          "label": "Service 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/service6.html"
+        },
+        {
+          "file": "srp.html",
+          "stem": "srp",
+          "base": "srp",
+          "variant": 1,
+          "label": "Search results",
+          "url": "https://sigovs.github.io/VEGAS_UPD/srp.html"
+        },
+        {
+          "file": "srp4.html",
+          "stem": "srp4",
+          "base": "srp",
+          "variant": 4,
+          "label": "Search results 4",
+          "url": "https://sigovs.github.io/VEGAS_UPD/srp4.html"
+        },
+        {
+          "file": "srp5.html",
+          "stem": "srp5",
+          "base": "srp",
+          "variant": 5,
+          "label": "Search results 5",
+          "url": "https://sigovs.github.io/VEGAS_UPD/srp5.html"
+        },
+        {
+          "file": "srp6.html",
+          "stem": "srp6",
+          "base": "srp",
+          "variant": 6,
+          "label": "Search results 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/srp6.html"
+        },
+        {
+          "file": "styles.html",
+          "stem": "styles",
+          "base": "styles",
+          "variant": 1,
+          "label": "Styles",
+          "url": "https://sigovs.github.io/VEGAS_UPD/styles.html"
+        },
+        {
+          "file": "vdp.html",
+          "stem": "vdp",
+          "base": "vdp",
+          "variant": 1,
+          "label": "Vehicle detail",
+          "url": "https://sigovs.github.io/VEGAS_UPD/vdp.html"
+        },
+        {
+          "file": "vdp4.html",
+          "stem": "vdp4",
+          "base": "vdp",
+          "variant": 4,
+          "label": "Vehicle detail 4",
+          "url": "https://sigovs.github.io/VEGAS_UPD/vdp4.html"
+        },
+        {
+          "file": "vdp5.html",
+          "stem": "vdp5",
+          "base": "vdp",
+          "variant": 5,
+          "label": "Vehicle detail 5",
+          "url": "https://sigovs.github.io/VEGAS_UPD/vdp5.html"
+        },
+        {
+          "file": "vdp6.html",
+          "stem": "vdp6",
+          "base": "vdp",
+          "variant": 6,
+          "label": "Vehicle detail 6",
+          "url": "https://sigovs.github.io/VEGAS_UPD/vdp6.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 17409,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-09-21T10:53:51Z",
+      "pushedAt": "2026-09-21T10:53:46Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "design_dna",
       "fullName": "Sigovs/design_dna",
@@ -241,46 +603,6 @@
           "pages": []
         }
       ]
-    },
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 17098,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-20T09:55:38Z",
-      "pushedAt": "2026-09-20T09:55:34Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
     },
     {
       "name": "AAN_RESSELLER_THEMEKIT_Alex",
@@ -1371,134 +1693,6 @@
       "subsites": []
     },
     {
-      "name": "prestige-final-dev",
-      "fullName": "Sigovs/prestige-final-dev",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/prestige-final-dev",
-      "cloneUrl": "https://github.com/Sigovs/prestige-final-dev.git",
-      "sshUrl": "git@github.com:Sigovs/prestige-final-dev.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 172348,
-      "stars": 0,
-      "createdAt": "2026-06-22T21:32:16Z",
-      "updatedAt": "2026-09-01T06:17:32Z",
-      "pushedAt": "2026-09-01T06:15:47Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/prestige-final-dev/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/prestige-final-dev/index.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "about_our_dealership.html",
-          "stem": "about_our_dealership",
-          "base": "about_our_dealership",
-          "variant": 1,
-          "label": "About Our Dealership",
-          "url": "https://sigovs.github.io/prestige-final-dev/about_our_dealership.html"
-        },
-        {
-          "file": "contact.html",
-          "stem": "contact",
-          "base": "contact",
-          "variant": 1,
-          "label": "Contact",
-          "url": "https://sigovs.github.io/prestige-final-dev/contact.html"
-        },
-        {
-          "file": "design.html",
-          "stem": "design",
-          "base": "design",
-          "variant": 1,
-          "label": "Design system",
-          "url": "https://sigovs.github.io/prestige-final-dev/design.html"
-        },
-        {
-          "file": "our_story.html",
-          "stem": "our_story",
-          "base": "our_story",
-          "variant": 1,
-          "label": "Our Story",
-          "url": "https://sigovs.github.io/prestige-final-dev/our_story.html"
-        },
-        {
-          "file": "service.html",
-          "stem": "service",
-          "base": "service",
-          "variant": 1,
-          "label": "Service",
-          "url": "https://sigovs.github.io/prestige-final-dev/service.html"
-        },
-        {
-          "file": "srp.html",
-          "stem": "srp",
-          "base": "srp",
-          "variant": 1,
-          "label": "Search results",
-          "url": "https://sigovs.github.io/prestige-final-dev/srp.html"
-        },
-        {
-          "file": "vdp.html",
-          "stem": "vdp",
-          "base": "vdp",
-          "variant": 1,
-          "label": "Vehicle detail",
-          "url": "https://sigovs.github.io/prestige-final-dev/vdp.html"
-        }
-      ],
-      "subsites": []
-    },
-    {
-      "name": "robb",
-      "fullName": "Sigovs/robb",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/robb",
-      "cloneUrl": "https://github.com/Sigovs/robb.git",
-      "sshUrl": "git@github.com:Sigovs/robb.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 815,
-      "stars": 0,
-      "createdAt": "2026-05-19T21:45:22Z",
-      "updatedAt": "2026-09-01T06:16:39Z",
-      "pushedAt": "2026-09-01T06:15:50Z",
-      "homepage": null,
-      "hasPages": false,
-      "pagesStatus": null,
-      "previewUrl": null,
-      "previewSource": null,
-      "previewStatus": null,
-      "repoImage": "assets/images/robb_index.jpg",
-      "repoImageKind": "representative",
-      "versions": [],
-      "pages": [],
-      "subsites": []
-    },
-    {
       "name": "DRIVEMAX",
       "fullName": "Sigovs/DRIVEMAX",
       "description": null,
@@ -1561,6 +1755,37 @@
           "url": "https://sigovs.github.io/DRIVEMAX/vdp.html"
         }
       ],
+      "subsites": []
+    },
+    {
+      "name": "robb",
+      "fullName": "Sigovs/robb",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/robb",
+      "cloneUrl": "https://github.com/Sigovs/robb.git",
+      "sshUrl": "git@github.com:Sigovs/robb.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 815,
+      "stars": 0,
+      "createdAt": "2026-05-19T21:45:22Z",
+      "updatedAt": "2026-09-01T06:16:39Z",
+      "pushedAt": "2026-09-01T06:15:50Z",
+      "homepage": null,
+      "hasPages": false,
+      "pagesStatus": null,
+      "previewUrl": null,
+      "previewSource": null,
+      "previewStatus": null,
+      "repoImage": "assets/images/robb_index.jpg",
+      "repoImageKind": "representative",
+      "versions": [],
+      "pages": [],
       "subsites": []
     },
     {
@@ -1986,199 +2211,6 @@
           "variant": 1,
           "label": "Not found",
           "url": "https://sigovs.github.io/VIP-LEASING/404.html"
-        }
-      ],
-      "subsites": []
-    },
-    {
-      "name": "VEGAS_UPD",
-      "fullName": "Sigovs/VEGAS_UPD",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/VEGAS_UPD",
-      "cloneUrl": "https://github.com/Sigovs/VEGAS_UPD.git",
-      "sshUrl": "git@github.com:Sigovs/VEGAS_UPD.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 195028,
-      "stars": 0,
-      "createdAt": "2026-07-13T01:13:05Z",
-      "updatedAt": "2026-08-26T08:44:47Z",
-      "pushedAt": "2026-08-26T08:43:33Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/VEGAS_UPD/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index.html"
-        },
-        {
-          "file": "index2.html",
-          "stem": "index2",
-          "base": "index",
-          "variant": 2,
-          "label": "Version 2",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index2.html"
-        },
-        {
-          "file": "index3.html",
-          "stem": "index3",
-          "base": "index",
-          "variant": 3,
-          "label": "Version 3",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index3.html"
-        },
-        {
-          "file": "index4.html",
-          "stem": "index4",
-          "base": "index",
-          "variant": 4,
-          "label": "Version 4",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index4.html"
-        },
-        {
-          "file": "index5.html",
-          "stem": "index5",
-          "base": "index",
-          "variant": 5,
-          "label": "Version 5",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index5.html"
-        },
-        {
-          "file": "index6.html",
-          "stem": "index6",
-          "base": "index",
-          "variant": 6,
-          "label": "Version 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/index6.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "about6.html",
-          "stem": "about6",
-          "base": "about",
-          "variant": 6,
-          "label": "About 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/about6.html"
-        },
-        {
-          "file": "sell6.html",
-          "stem": "sell6",
-          "base": "sell",
-          "variant": 6,
-          "label": "Sell 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/sell6.html"
-        },
-        {
-          "file": "service4.html",
-          "stem": "service4",
-          "base": "service",
-          "variant": 4,
-          "label": "Service 4",
-          "url": "https://sigovs.github.io/VEGAS_UPD/service4.html"
-        },
-        {
-          "file": "service5.html",
-          "stem": "service5",
-          "base": "service",
-          "variant": 5,
-          "label": "Service 5",
-          "url": "https://sigovs.github.io/VEGAS_UPD/service5.html"
-        },
-        {
-          "file": "service6.html",
-          "stem": "service6",
-          "base": "service",
-          "variant": 6,
-          "label": "Service 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/service6.html"
-        },
-        {
-          "file": "srp.html",
-          "stem": "srp",
-          "base": "srp",
-          "variant": 1,
-          "label": "Search results",
-          "url": "https://sigovs.github.io/VEGAS_UPD/srp.html"
-        },
-        {
-          "file": "srp4.html",
-          "stem": "srp4",
-          "base": "srp",
-          "variant": 4,
-          "label": "Search results 4",
-          "url": "https://sigovs.github.io/VEGAS_UPD/srp4.html"
-        },
-        {
-          "file": "srp5.html",
-          "stem": "srp5",
-          "base": "srp",
-          "variant": 5,
-          "label": "Search results 5",
-          "url": "https://sigovs.github.io/VEGAS_UPD/srp5.html"
-        },
-        {
-          "file": "srp6.html",
-          "stem": "srp6",
-          "base": "srp",
-          "variant": 6,
-          "label": "Search results 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/srp6.html"
-        },
-        {
-          "file": "styles.html",
-          "stem": "styles",
-          "base": "styles",
-          "variant": 1,
-          "label": "Styles",
-          "url": "https://sigovs.github.io/VEGAS_UPD/styles.html"
-        },
-        {
-          "file": "vdp.html",
-          "stem": "vdp",
-          "base": "vdp",
-          "variant": 1,
-          "label": "Vehicle detail",
-          "url": "https://sigovs.github.io/VEGAS_UPD/vdp.html"
-        },
-        {
-          "file": "vdp4.html",
-          "stem": "vdp4",
-          "base": "vdp",
-          "variant": 4,
-          "label": "Vehicle detail 4",
-          "url": "https://sigovs.github.io/VEGAS_UPD/vdp4.html"
-        },
-        {
-          "file": "vdp5.html",
-          "stem": "vdp5",
-          "base": "vdp",
-          "variant": 5,
-          "label": "Vehicle detail 5",
-          "url": "https://sigovs.github.io/VEGAS_UPD/vdp5.html"
-        },
-        {
-          "file": "vdp6.html",
-          "stem": "vdp6",
-          "base": "vdp",
-          "variant": 6,
-          "label": "Vehicle detail 6",
-          "url": "https://sigovs.github.io/VEGAS_UPD/vdp6.html"
         }
       ],
       "subsites": []
