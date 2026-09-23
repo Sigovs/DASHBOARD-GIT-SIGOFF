@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:05:44.745Z",
+  "generatedAt": "2026-09-23T10:06:24.013Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
@@ -20,11 +20,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 230293,
+      "sizeKb": 235575,
       "stars": 0,
       "createdAt": "2026-06-22T21:32:16Z",
-      "updatedAt": "2026-09-21T23:46:13Z",
-      "pushedAt": "2026-09-21T23:46:09Z",
+      "updatedAt": "2026-09-22T23:01:16Z",
+      "pushedAt": "2026-09-22T23:01:11Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -61,12 +61,44 @@
           "url": "https://sigovs.github.io/prestige-final-dev/about_our_dealership.html"
         },
         {
+          "file": "about_our_dealership_v2.html",
+          "stem": "about_our_dealership_v2",
+          "base": "about_our_dealership",
+          "variant": 2,
+          "label": "About Our Dealership 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/about_our_dealership_v2.html"
+        },
+        {
+          "file": "collision_restoration_v2.html",
+          "stem": "collision_restoration_v2",
+          "base": "collision_restoration",
+          "variant": 2,
+          "label": "Collision Restoration 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/collision_restoration_v2.html"
+        },
+        {
+          "file": "concierge_transport_v2.html",
+          "stem": "concierge_transport_v2",
+          "base": "concierge_transport",
+          "variant": 2,
+          "label": "Concierge Transport 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/concierge_transport_v2.html"
+        },
+        {
           "file": "contact.html",
           "stem": "contact",
           "base": "contact",
           "variant": 1,
           "label": "Contact",
           "url": "https://sigovs.github.io/prestige-final-dev/contact.html"
+        },
+        {
+          "file": "contact_v2.html",
+          "stem": "contact_v2",
+          "base": "contact",
+          "variant": 2,
+          "label": "Contact 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/contact_v2.html"
         },
         {
           "file": "design.html",
@@ -77,6 +109,46 @@
           "url": "https://sigovs.github.io/prestige-final-dev/design.html"
         },
         {
+          "file": "karma_parts_v2.html",
+          "stem": "karma_parts_v2",
+          "base": "karma_parts",
+          "variant": 2,
+          "label": "Karma Parts 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/karma_parts_v2.html"
+        },
+        {
+          "file": "lamborghini_parts_v2.html",
+          "stem": "lamborghini_parts_v2",
+          "base": "lamborghini_parts",
+          "variant": 2,
+          "label": "Lamborghini Parts 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/lamborghini_parts_v2.html"
+        },
+        {
+          "file": "news_events_v2.html",
+          "stem": "news_events_v2",
+          "base": "news_events",
+          "variant": 2,
+          "label": "News Events 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/news_events_v2.html"
+        },
+        {
+          "file": "news_post_v2.html",
+          "stem": "news_post_v2",
+          "base": "news_post",
+          "variant": 2,
+          "label": "News Post 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/news_post_v2.html"
+        },
+        {
+          "file": "oem_parts_v2.html",
+          "stem": "oem_parts_v2",
+          "base": "oem_parts",
+          "variant": 2,
+          "label": "Oem Parts 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/oem_parts_v2.html"
+        },
+        {
           "file": "our_story.html",
           "stem": "our_story",
           "base": "our_story",
@@ -85,12 +157,28 @@
           "url": "https://sigovs.github.io/prestige-final-dev/our_story.html"
         },
         {
-          "file": "schedule_service.html",
-          "stem": "schedule_service",
+          "file": "our_story_v2.html",
+          "stem": "our_story_v2",
+          "base": "our_story",
+          "variant": 2,
+          "label": "Our Story 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/our_story_v2.html"
+        },
+        {
+          "file": "pagani_parts_v2.html",
+          "stem": "pagani_parts_v2",
+          "base": "pagani_parts",
+          "variant": 2,
+          "label": "Pagani Parts 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/pagani_parts_v2.html"
+        },
+        {
+          "file": "schedule_service_v2.html",
+          "stem": "schedule_service_v2",
           "base": "schedule_service",
-          "variant": 1,
-          "label": "Schedule Service",
-          "url": "https://sigovs.github.io/prestige-final-dev/schedule_service.html"
+          "variant": 2,
+          "label": "Schedule Service 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/schedule_service_v2.html"
         },
         {
           "file": "service.html",
@@ -109,6 +197,14 @@
           "url": "https://sigovs.github.io/prestige-final-dev/service_v2.html"
         },
         {
+          "file": "specials_v2.html",
+          "stem": "specials_v2",
+          "base": "specials",
+          "variant": 2,
+          "label": "Specials 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/specials_v2.html"
+        },
+        {
           "file": "srp.html",
           "stem": "srp",
           "base": "srp",
@@ -117,12 +213,36 @@
           "url": "https://sigovs.github.io/prestige-final-dev/srp.html"
         },
         {
+          "file": "srp_v2.html",
+          "stem": "srp_v2",
+          "base": "srp",
+          "variant": 2,
+          "label": "Search results 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/srp_v2.html"
+        },
+        {
           "file": "vdp.html",
           "stem": "vdp",
           "base": "vdp",
           "variant": 1,
           "label": "Vehicle detail",
           "url": "https://sigovs.github.io/prestige-final-dev/vdp.html"
+        },
+        {
+          "file": "vdp_v2.html",
+          "stem": "vdp_v2",
+          "base": "vdp",
+          "variant": 2,
+          "label": "Vehicle detail 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/vdp_v2.html"
+        },
+        {
+          "file": "warranty_v2.html",
+          "stem": "warranty_v2",
+          "base": "warranty",
+          "variant": 2,
+          "label": "Warranty 2",
+          "url": "https://sigovs.github.io/prestige-final-dev/warranty_v2.html"
         }
       ],
       "subsites": []
@@ -141,11 +261,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 207125,
+      "sizeKb": 246345,
       "stars": 0,
       "createdAt": "2026-07-13T01:13:05Z",
-      "updatedAt": "2026-09-21T22:10:59Z",
-      "pushedAt": "2026-09-21T22:10:54Z",
+      "updatedAt": "2026-09-22T18:59:08Z",
+      "pushedAt": "2026-09-22T18:59:05Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -329,6 +449,37 @@
       "subsites": []
     },
     {
+      "name": "design_dna",
+      "fullName": "Sigovs/design_dna",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/design_dna",
+      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
+      "sshUrl": "git@github.com:Sigovs/design_dna.git",
+      "defaultBranch": "master",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 98836,
+      "stars": 0,
+      "createdAt": "2026-07-25T03:59:56Z",
+      "updatedAt": "2026-09-22T17:25:13Z",
+      "pushedAt": "2026-09-22T17:25:09Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/design_dna/",
+      "previewSource": "pages",
+      "previewStatus": 404,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [],
+      "pages": [],
+      "subsites": []
+    },
+    {
       "name": "DASHBOARD-GIT-SIGOFF",
       "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
       "description": null,
@@ -342,11 +493,11 @@
       "defaultBranch": "main",
       "language": "JavaScript",
       "topics": [],
-      "sizeKb": 17409,
+      "sizeKb": 17892,
       "stars": 0,
       "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-09-21T10:53:51Z",
-      "pushedAt": "2026-09-21T10:53:46Z",
+      "updatedAt": "2026-09-22T10:09:00Z",
+      "pushedAt": "2026-09-22T10:08:56Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -365,37 +516,6 @@
           "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
         }
       ],
-      "pages": [],
-      "subsites": []
-    },
-    {
-      "name": "design_dna",
-      "fullName": "Sigovs/design_dna",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/design_dna",
-      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
-      "sshUrl": "git@github.com:Sigovs/design_dna.git",
-      "defaultBranch": "master",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 98758,
-      "stars": 0,
-      "createdAt": "2026-07-25T03:59:56Z",
-      "updatedAt": "2026-09-21T06:48:31Z",
-      "pushedAt": "2026-09-21T06:48:28Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/design_dna/",
-      "previewSource": "pages",
-      "previewStatus": 404,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [],
       "pages": [],
       "subsites": []
     },

@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-22T10:05:46.661Z"
+    "errorAt": "2026-09-23T10:06:25.011Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -81,12 +81,12 @@
   "prestige-final-dev": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/prestige-final-dev/",
-    "sourceKey": "f8d2023156bd",
-    "capturedAt": "2026-09-22T10:06:12.330Z",
-    "pushedAt": "2026-09-21T23:46:09Z",
+    "sourceKey": "bfc9e217eb5d",
+    "capturedAt": "2026-09-23T10:06:49.433Z",
+    "pushedAt": "2026-09-22T23:01:11Z",
     "file": "prestige-final-dev.webp",
     "fileSm": "prestige-final-dev@sm.webp",
-    "bytes": 90978,
+    "bytes": 80764,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -185,9 +185,9 @@
   "VEGAS_UPD": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/VEGAS_UPD/",
-    "sourceKey": "1b4149dc6c5b",
-    "capturedAt": "2026-09-22T10:06:11.022Z",
-    "pushedAt": "2026-09-21T22:10:54Z",
+    "sourceKey": "77d482bd750f",
+    "capturedAt": "2026-09-23T10:06:30.380Z",
+    "pushedAt": "2026-09-22T18:59:05Z",
     "file": "vegas-upd.webp",
     "fileSm": "vegas-upd@sm.webp",
     "bytes": 104196,
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-22T10:05:46.800Z"
+    "errorAt": "2026-09-23T10:06:25.157Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
