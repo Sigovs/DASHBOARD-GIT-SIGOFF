@@ -11,17 +11,17 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-28T11:48:19.084Z"
+    "errorAt": "2026-09-29T11:26:17.438Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
-    "ref": "docs/reference/tier1-hero.png",
-    "sourceKey": "48b536a753ec",
-    "capturedAt": "2026-09-07T01:14:06.789Z",
-    "pushedAt": "2026-09-04T00:55:19Z",
+    "ref": "hero-1440x900.png",
+    "sourceKey": "c04a91c3f7b8",
+    "capturedAt": "2026-09-29T11:26:17.193Z",
+    "pushedAt": "2026-09-28T15:02:18Z",
     "file": "ferrari-aan.webp",
     "fileSm": "ferrari-aan@sm.webp",
-    "bytes": 119878,
+    "bytes": 76162,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-28T11:48:19.106Z"
+    "errorAt": "2026-09-29T11:26:18.211Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "e17bd84d2a6f",
-    "capturedAt": "2026-09-17T10:06:59.020Z",
-    "pushedAt": "2026-09-17T05:29:26Z",
+    "sourceKey": "29e7d697a72a",
+    "capturedAt": "2026-09-29T11:26:24.938Z",
+    "pushedAt": "2026-09-28T14:55:20Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130278,
+    "bytes": 136412,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -764,6 +764,19 @@
     "file": "gd2-experiments-aan-test-9.webp",
     "fileSm": "gd2-experiments-aan-test-9@sm.webp",
     "bytes": 103238,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "robb-francis-v2": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/robb-francis-v2/",
+    "sourceKey": "2484cee9d619",
+    "capturedAt": "2026-09-29T11:26:22.560Z",
+    "pushedAt": "2026-09-28T22:36:04Z",
+    "file": "robb-francis-v2.webp",
+    "fileSm": "robb-francis-v2@sm.webp",
+    "bytes": 130818,
     "width": 1600,
     "height": 1000,
     "error": null
