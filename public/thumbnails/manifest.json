@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-30T11:14:02.232Z"
+    "errorAt": "2026-10-01T11:41:33.201Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-09-30T11:14:02.437Z"
+    "errorAt": "2026-10-01T11:41:33.376Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "3e917f912b03",
-    "capturedAt": "2026-09-30T11:14:10.709Z",
-    "pushedAt": "2026-09-30T04:08:01Z",
+    "sourceKey": "21758e20e5e7",
+    "capturedAt": "2026-10-01T11:41:39.427Z",
+    "pushedAt": "2026-09-30T16:23:25Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 136434,
+    "bytes": 139358,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -777,6 +777,19 @@
     "file": "robb-francis-v2.webp",
     "fileSm": "robb-francis-v2@sm.webp",
     "bytes": 130818,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "CARLOFT": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/CARLOFT/",
+    "sourceKey": "36a821f3588e",
+    "capturedAt": "2026-10-01T11:41:38.142Z",
+    "pushedAt": "2026-10-01T01:19:52Z",
+    "file": "carloft.webp",
+    "fileSm": "carloft@sm.webp",
+    "bytes": 232480,
     "width": 1600,
     "height": 1000,
     "error": null

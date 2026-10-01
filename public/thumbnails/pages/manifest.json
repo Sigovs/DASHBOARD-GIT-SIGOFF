@@ -2407,8 +2407,8 @@
     "file": "aan-resseller-themekit-alex--index.webp",
     "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/index.html",
     "label": "Main",
-    "sourceKey": "819878cf0437",
-    "capturedAt": "2026-09-30T11:14:20.181Z",
+    "sourceKey": "e79fad3b4e08",
+    "capturedAt": "2026-10-01T11:41:44.769Z",
     "error": null
   },
   "GENEVA-MOTOR-HAUS/_preview-sell-motion.html": {
@@ -2847,6 +2847,15 @@
     "label": "V 3",
     "sourceKey": "0895295d920c",
     "capturedAt": "2026-09-30T11:14:18.158Z",
+    "error": null
+  },
+  "CARLOFT/index.html": {
+    "repo": "CARLOFT",
+    "file": "carloft--index.webp",
+    "url": "https://sigovs.github.io/CARLOFT/index.html",
+    "label": "Main",
+    "sourceKey": "a9e7bfc96022",
+    "capturedAt": "2026-10-01T11:41:43.819Z",
     "error": null
   }
 }
