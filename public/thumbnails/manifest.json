@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-01T11:41:33.201Z"
+    "errorAt": "2026-10-02T11:11:10.347Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-01T11:41:33.376Z"
+    "errorAt": "2026-10-02T11:11:10.605Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "21758e20e5e7",
-    "capturedAt": "2026-10-01T11:41:39.427Z",
-    "pushedAt": "2026-09-30T16:23:25Z",
+    "sourceKey": "6b8b14b88a48",
+    "capturedAt": "2026-10-02T11:11:18.576Z",
+    "pushedAt": "2026-10-02T08:45:40Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 139358,
+    "bytes": 139540,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -790,6 +790,19 @@
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "PRESTIGE_PAGANI": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
+    "sourceKey": "2881ad3020c4",
+    "capturedAt": "2026-10-02T11:11:30.045Z",
+    "pushedAt": "2026-10-02T05:46:56Z",
+    "file": "prestige-pagani.webp",
+    "fileSm": "prestige-pagani@sm.webp",
+    "bytes": 41396,
     "width": 1600,
     "height": 1000,
     "error": null
