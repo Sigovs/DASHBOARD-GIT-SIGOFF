@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-02T11:11:10.347Z"
+    "errorAt": "2026-10-03T10:28:53.956Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-02T11:11:10.605Z"
+    "errorAt": "2026-10-03T10:28:54.106Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "6b8b14b88a48",
-    "capturedAt": "2026-10-02T11:11:18.576Z",
-    "pushedAt": "2026-10-02T08:45:40Z",
+    "sourceKey": "68e192354aa5",
+    "capturedAt": "2026-10-03T10:28:55.608Z",
+    "pushedAt": "2026-10-03T01:40:44Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 139540,
+    "bytes": 139422,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -797,12 +797,25 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "2881ad3020c4",
-    "capturedAt": "2026-10-02T11:11:30.045Z",
-    "pushedAt": "2026-10-02T05:46:56Z",
+    "sourceKey": "8cbf423c42af",
+    "capturedAt": "2026-10-03T10:28:54.039Z",
+    "pushedAt": "2026-10-02T22:48:02Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
-    "bytes": 41396,
+    "bytes": 45218,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "CZINGER_PRESTIGE": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/CZINGER_PRESTIGE/",
+    "sourceKey": "2e6d45a8de47",
+    "capturedAt": "2026-10-03T10:28:53.226Z",
+    "pushedAt": "2026-10-03T07:18:13Z",
+    "file": "czinger-prestige.webp",
+    "fileSm": "czinger-prestige@sm.webp",
+    "bytes": 66002,
     "width": 1600,
     "height": 1000,
     "error": null

@@ -130,6 +130,10 @@
       "category": "Automotive",
       "status": "concept"
     },
+    "CZINGER_PRESTIGE": {
+      "title": "Czinger Prestige",
+      "category": "Automotive"
+    },
     "DASHBOARD-GIT-SIGOFF": {
       "title": "Project Catalog",
       "subtitle": "This dashboard",

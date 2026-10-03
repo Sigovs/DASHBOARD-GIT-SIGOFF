@@ -2407,8 +2407,8 @@
     "file": "aan-resseller-themekit-alex--index.webp",
     "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/index.html",
     "label": "Main",
-    "sourceKey": "5c42b1e5b322",
-    "capturedAt": "2026-10-02T11:11:36.369Z",
+    "sourceKey": "7e9136253d0e",
+    "capturedAt": "2026-10-03T10:29:01.361Z",
     "error": null
   },
   "GENEVA-MOTOR-HAUS/_preview-sell-motion.html": {
@@ -2863,8 +2863,17 @@
     "file": "prestige-pagani--index.webp",
     "url": "https://sigovs.github.io/PRESTIGE_PAGANI/index.html",
     "label": "Main",
-    "sourceKey": "c7286a4a759c",
-    "capturedAt": "2026-10-02T11:11:48.980Z",
+    "sourceKey": "061c9fa2c29c",
+    "capturedAt": "2026-10-03T10:29:00.090Z",
+    "error": null
+  },
+  "CZINGER_PRESTIGE/index.html": {
+    "repo": "CZINGER_PRESTIGE",
+    "file": "czinger-prestige--index.webp",
+    "url": "https://sigovs.github.io/CZINGER_PRESTIGE/index.html",
+    "label": "Main",
+    "sourceKey": "fc46b8f883e1",
+    "capturedAt": "2026-10-03T10:29:00.090Z",
     "error": null
   }
 }
