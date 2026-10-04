@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-03T10:28:53.956Z"
+    "errorAt": "2026-10-04T11:10:39.831Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-03T10:28:54.106Z"
+    "errorAt": "2026-10-04T11:10:39.853Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -810,9 +810,9 @@
   "CZINGER_PRESTIGE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CZINGER_PRESTIGE/",
-    "sourceKey": "2e6d45a8de47",
-    "capturedAt": "2026-10-03T10:28:53.226Z",
-    "pushedAt": "2026-10-03T07:18:13Z",
+    "sourceKey": "f01cab1f6c9c",
+    "capturedAt": "2026-10-04T11:10:43.683Z",
+    "pushedAt": "2026-10-04T01:57:02Z",
     "file": "czinger-prestige.webp",
     "fileSm": "czinger-prestige@sm.webp",
     "bytes": 66002,
