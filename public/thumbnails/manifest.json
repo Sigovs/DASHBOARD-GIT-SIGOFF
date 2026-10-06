@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-05T12:23:26.582Z"
+    "errorAt": "2026-10-06T12:06:32.371Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-05T12:23:26.683Z"
+    "errorAt": "2026-10-06T12:06:32.429Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -816,6 +816,19 @@
     "file": "czinger-prestige.webp",
     "fileSm": "czinger-prestige@sm.webp",
     "bytes": 66002,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "Golden-Lion-Auctions": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/Golden-Lion-Auctions/",
+    "sourceKey": "fcdd9ca963d6",
+    "capturedAt": "2026-10-06T12:06:37.125Z",
+    "pushedAt": "2026-10-06T08:26:12Z",
+    "file": "golden-lion-auctions.webp",
+    "fileSm": "golden-lion-auctions@sm.webp",
+    "bytes": 85886,
     "width": 1600,
     "height": 1000,
     "error": null
