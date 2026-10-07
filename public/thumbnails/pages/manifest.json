@@ -2881,8 +2881,8 @@
     "file": "golden-lion-auctions--index-v2.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v2.html",
     "label": "Version 2",
-    "sourceKey": "1913d3657ff7",
-    "capturedAt": "2026-10-06T12:06:41.177Z",
+    "sourceKey": "3f3c857f71ca",
+    "capturedAt": "2026-10-07T11:51:51.641Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v4.html": {
@@ -2890,8 +2890,8 @@
     "file": "golden-lion-auctions--index-v4.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v4.html",
     "label": "Version 4",
-    "sourceKey": "76b89a8db043",
-    "capturedAt": "2026-10-06T12:06:44.753Z",
+    "sourceKey": "d59af99f845d",
+    "capturedAt": "2026-10-07T11:51:55.270Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v3.html": {
@@ -2899,8 +2899,8 @@
     "file": "golden-lion-auctions--index-v3.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v3.html",
     "label": "Version 3",
-    "sourceKey": "a4a745edf9fc",
-    "capturedAt": "2026-10-06T12:06:44.755Z",
+    "sourceKey": "4f40280227d4",
+    "capturedAt": "2026-10-07T11:51:54.345Z",
     "error": null
   },
   "Golden-Lion-Auctions/index.html": {
@@ -2908,8 +2908,8 @@
     "file": "golden-lion-auctions--index.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index.html",
     "label": "Main",
-    "sourceKey": "357cd93acdb7",
-    "capturedAt": "2026-10-06T12:06:44.755Z",
+    "sourceKey": "e26f2d92ebb0",
+    "capturedAt": "2026-10-07T11:51:54.354Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v7.html": {
@@ -2917,8 +2917,8 @@
     "file": "golden-lion-auctions--index-v7.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v7.html",
     "label": "Version 7",
-    "sourceKey": "4bc618552f62",
-    "capturedAt": "2026-10-06T12:06:51.876Z",
+    "sourceKey": "bc3a834fb73a",
+    "capturedAt": "2026-10-07T11:51:59.172Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v6.html": {
@@ -2926,8 +2926,8 @@
     "file": "golden-lion-auctions--index-v6.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v6.html",
     "label": "Version 6",
-    "sourceKey": "3ad8ac622148",
-    "capturedAt": "2026-10-06T12:06:51.900Z",
+    "sourceKey": "5b2e4ad0120a",
+    "capturedAt": "2026-10-07T11:52:00.167Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v5.html": {
@@ -2935,8 +2935,8 @@
     "file": "golden-lion-auctions--index-v5.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v5.html",
     "label": "Version 5",
-    "sourceKey": "b0e7cccabc5d",
-    "capturedAt": "2026-10-06T12:06:51.963Z",
+    "sourceKey": "700bb9c72788",
+    "capturedAt": "2026-10-07T11:52:02.996Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v8.html": {
@@ -2944,8 +2944,8 @@
     "file": "golden-lion-auctions--index-v8.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v8.html",
     "label": "Version 8",
-    "sourceKey": "bf71c7401fb5",
-    "capturedAt": "2026-10-06T12:06:53.149Z",
+    "sourceKey": "e17930d3db89",
+    "capturedAt": "2026-10-07T11:52:03.025Z",
     "error": null
   },
   "Golden-Lion-Auctions/lot.html": {
@@ -2953,8 +2953,8 @@
     "file": "golden-lion-auctions--lot.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/lot.html",
     "label": "Lot",
-    "sourceKey": "5e6082101703",
-    "capturedAt": "2026-10-06T12:06:56.024Z",
+    "sourceKey": "527569046c2e",
+    "capturedAt": "2026-10-07T11:52:07.948Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v9.html": {
@@ -2962,8 +2962,17 @@
     "file": "golden-lion-auctions--index-v9.webp",
     "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v9.html",
     "label": "Version 9",
-    "sourceKey": "adde958a7588",
-    "capturedAt": "2026-10-06T12:06:56.812Z",
+    "sourceKey": "e9194eae0001",
+    "capturedAt": "2026-10-07T11:52:07.371Z",
+    "error": null
+  },
+  "Golden-Lion-Auctions/index-v10.html": {
+    "repo": "Golden-Lion-Auctions",
+    "file": "golden-lion-auctions--index-v10.webp",
+    "url": "https://sigovs.github.io/Golden-Lion-Auctions/index-v10.html",
+    "label": "Version 10",
+    "sourceKey": "a37f557175b6",
+    "capturedAt": "2026-10-07T11:52:07.394Z",
     "error": null
   }
 }
