@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-08T12:07:02.065Z"
+    "errorAt": "2026-10-09T11:58:54.584Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -107,9 +107,9 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "b4f900c2b5a8",
-    "capturedAt": "2026-09-17T10:07:30.572Z",
-    "pushedAt": "2026-09-16T21:11:25Z",
+    "sourceKey": "66956791b85c",
+    "capturedAt": "2026-10-09T11:58:54.123Z",
+    "pushedAt": "2026-10-09T06:35:17Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
     "bytes": 111172,
@@ -185,9 +185,9 @@
   "VEGAS_UPD": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/VEGAS_UPD/",
-    "sourceKey": "77d482bd750f",
-    "capturedAt": "2026-09-23T10:06:30.380Z",
-    "pushedAt": "2026-09-22T18:59:05Z",
+    "sourceKey": "4d83ba851fb4",
+    "capturedAt": "2026-10-09T11:59:14.801Z",
+    "pushedAt": "2026-10-09T06:15:08Z",
     "file": "vegas-upd.webp",
     "fileSm": "vegas-upd@sm.webp",
     "bytes": 104196,
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-08T12:07:02.087Z"
+    "errorAt": "2026-10-09T11:58:54.717Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -829,6 +829,19 @@
     "file": "golden-lion-auctions.webp",
     "fileSm": "golden-lion-auctions@sm.webp",
     "bytes": 98370,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "DUPONT": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/DUPONT/",
+    "sourceKey": "bd93bb12e76e",
+    "capturedAt": "2026-10-09T11:58:54.787Z",
+    "pushedAt": "2026-10-09T10:26:52Z",
+    "file": "dupont.webp",
+    "fileSm": "dupont@sm.webp",
+    "bytes": 93558,
     "width": 1600,
     "height": 1000,
     "error": null
