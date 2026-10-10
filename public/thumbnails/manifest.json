@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-09T11:58:54.584Z"
+    "errorAt": "2026-10-10T11:15:19.879Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-09T11:58:54.717Z"
+    "errorAt": "2026-10-10T11:15:19.901Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -836,12 +836,12 @@
   "DUPONT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/DUPONT/",
-    "sourceKey": "bd93bb12e76e",
-    "capturedAt": "2026-10-09T11:58:54.787Z",
-    "pushedAt": "2026-10-09T10:26:52Z",
+    "sourceKey": "bd9d53766977",
+    "capturedAt": "2026-10-10T11:15:40.062Z",
+    "pushedAt": "2026-10-10T10:25:00Z",
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
-    "bytes": 93558,
+    "bytes": 70420,
     "width": 1600,
     "height": 1000,
     "error": null
