@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-10T11:15:19.879Z"
+    "errorAt": "2026-10-11T11:28:45.184Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -68,12 +68,12 @@
   "Wes_Financial_Auto": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Wes_Financial_Auto/",
-    "sourceKey": "b95cf094c187",
-    "capturedAt": "2026-09-07T01:14:29.595Z",
-    "pushedAt": "2026-09-01T06:15:52Z",
+    "sourceKey": "088d7a53aa51",
+    "capturedAt": "2026-10-11T11:28:50.541Z",
+    "pushedAt": "2026-10-11T08:15:32Z",
     "file": "wes-financial-auto.webp",
     "fileSm": "wes-financial-auto@sm.webp",
-    "bytes": 58148,
+    "bytes": 57838,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-10T11:15:19.901Z"
+    "errorAt": "2026-10-11T11:28:45.350Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -771,9 +771,9 @@
   "robb-francis-v2": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/robb-francis-v2/",
-    "sourceKey": "d36ab58e57e2",
-    "capturedAt": "2026-09-30T11:14:08.265Z",
-    "pushedAt": "2026-09-29T23:51:14Z",
+    "sourceKey": "118095e2b7b1",
+    "capturedAt": "2026-10-11T11:28:50.579Z",
+    "pushedAt": "2026-10-11T06:38:42Z",
     "file": "robb-francis-v2.webp",
     "fileSm": "robb-francis-v2@sm.webp",
     "bytes": 130818,
