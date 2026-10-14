@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-13T12:48:08.103Z"
+    "errorAt": "2026-10-14T10:20:13.635Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -68,12 +68,12 @@
   "Wes_Financial_Auto": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Wes_Financial_Auto/",
-    "sourceKey": "7775c4b29be8",
-    "capturedAt": "2026-10-13T12:48:08.042Z",
-    "pushedAt": "2026-10-12T18:53:20Z",
+    "sourceKey": "34e5d4fbea4e",
+    "capturedAt": "2026-10-14T10:20:19.530Z",
+    "pushedAt": "2026-10-13T19:02:09Z",
     "file": "wes-financial-auto.webp",
     "fileSm": "wes-financial-auto@sm.webp",
-    "bytes": 57786,
+    "bytes": 170764,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -107,12 +107,12 @@
   "Midwest-cobras": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Midwest-cobras/",
-    "sourceKey": "9289a1982873",
-    "capturedAt": "2026-10-13T12:47:57.515Z",
-    "pushedAt": "2026-10-13T02:36:23Z",
+    "sourceKey": "0160d49117c1",
+    "capturedAt": "2026-10-14T10:20:26.720Z",
+    "pushedAt": "2026-10-13T22:11:36Z",
     "file": "midwest-cobras.webp",
     "fileSm": "midwest-cobras@sm.webp",
-    "bytes": 111172,
+    "bytes": 78124,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-13T12:48:08.395Z"
+    "errorAt": "2026-10-14T10:20:13.866Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",

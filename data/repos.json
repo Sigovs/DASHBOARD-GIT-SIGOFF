@@ -1,11 +1,308 @@
 {
-  "generatedAt": "2026-10-13T12:47:52.585Z",
+  "generatedAt": "2026-10-14T10:20:13.259Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 52,
   "repos": [
+    {
+      "name": "Midwest-cobras",
+      "fullName": "Sigovs/Midwest-cobras",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/Midwest-cobras",
+      "cloneUrl": "https://github.com/Sigovs/Midwest-cobras.git",
+      "sshUrl": "git@github.com:Sigovs/Midwest-cobras.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 16499,
+      "stars": 0,
+      "createdAt": "2026-08-25T00:14:56Z",
+      "updatedAt": "2026-10-13T22:11:41Z",
+      "pushedAt": "2026-10-13T22:11:36Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/Midwest-cobras/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/Midwest-cobras/index.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "about.html",
+          "stem": "about",
+          "base": "about",
+          "variant": 1,
+          "label": "About",
+          "url": "https://sigovs.github.io/Midwest-cobras/about.html"
+        },
+        {
+          "file": "build.html",
+          "stem": "build",
+          "base": "build",
+          "variant": 1,
+          "label": "Build",
+          "url": "https://sigovs.github.io/Midwest-cobras/build.html"
+        },
+        {
+          "file": "consignment.html",
+          "stem": "consignment",
+          "base": "consignment",
+          "variant": 1,
+          "label": "Consignment",
+          "url": "https://sigovs.github.io/Midwest-cobras/consignment.html"
+        },
+        {
+          "file": "finance.html",
+          "stem": "finance",
+          "base": "finance",
+          "variant": 1,
+          "label": "Finance",
+          "url": "https://sigovs.github.io/Midwest-cobras/finance.html"
+        },
+        {
+          "file": "inventory.html",
+          "stem": "inventory",
+          "base": "inventory",
+          "variant": 1,
+          "label": "Inventory",
+          "url": "https://sigovs.github.io/Midwest-cobras/inventory.html"
+        },
+        {
+          "file": "service.html",
+          "stem": "service",
+          "base": "service",
+          "variant": 1,
+          "label": "Service",
+          "url": "https://sigovs.github.io/Midwest-cobras/service.html"
+        },
+        {
+          "file": "vehicle-mc-0917.html",
+          "stem": "vehicle-mc-0917",
+          "base": "vehicle-mc",
+          "variant": 917,
+          "label": "Vehicle Mc 917",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0917.html"
+        },
+        {
+          "file": "vehicle-mc-0934.html",
+          "stem": "vehicle-mc-0934",
+          "base": "vehicle-mc",
+          "variant": 934,
+          "label": "Vehicle Mc 934",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0934.html"
+        },
+        {
+          "file": "vehicle-mc-0952.html",
+          "stem": "vehicle-mc-0952",
+          "base": "vehicle-mc",
+          "variant": 952,
+          "label": "Vehicle Mc 952",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0952.html"
+        },
+        {
+          "file": "vehicle-mc-0981.html",
+          "stem": "vehicle-mc-0981",
+          "base": "vehicle-mc",
+          "variant": 981,
+          "label": "Vehicle Mc 981",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0981.html"
+        },
+        {
+          "file": "vehicle-mc-1024.html",
+          "stem": "vehicle-mc-1024",
+          "base": "vehicle-mc",
+          "variant": 1024,
+          "label": "Vehicle Mc 1024",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1024.html"
+        },
+        {
+          "file": "vehicle-mc-1025.html",
+          "stem": "vehicle-mc-1025",
+          "base": "vehicle-mc",
+          "variant": 1025,
+          "label": "Vehicle Mc 1025",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1025.html"
+        },
+        {
+          "file": "vehicle-mc-c101.html",
+          "stem": "vehicle-mc-c101",
+          "base": "vehicle-mc-c",
+          "variant": 101,
+          "label": "Vehicle Mc C 101",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c101.html"
+        },
+        {
+          "file": "vehicle-mc-c104.html",
+          "stem": "vehicle-mc-c104",
+          "base": "vehicle-mc-c",
+          "variant": 104,
+          "label": "Vehicle Mc C 104",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c104.html"
+        },
+        {
+          "file": "vehicle-mc-c108.html",
+          "stem": "vehicle-mc-c108",
+          "base": "vehicle-mc-c",
+          "variant": 108,
+          "label": "Vehicle Mc C 108",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c108.html"
+        },
+        {
+          "file": "vehicle-mc-c112.html",
+          "stem": "vehicle-mc-c112",
+          "base": "vehicle-mc-c",
+          "variant": 112,
+          "label": "Vehicle Mc C 112",
+          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c112.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "design_dna",
+      "fullName": "Sigovs/design_dna",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/design_dna",
+      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
+      "sshUrl": "git@github.com:Sigovs/design_dna.git",
+      "defaultBranch": "master",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 116585,
+      "stars": 0,
+      "createdAt": "2026-07-25T03:59:56Z",
+      "updatedAt": "2026-10-13T20:34:10Z",
+      "pushedAt": "2026-10-13T20:34:06Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/design_dna/",
+      "previewSource": "pages",
+      "previewStatus": 404,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [],
+      "pages": [],
+      "subsites": []
+    },
+    {
+      "name": "Wes_Financial_Auto",
+      "fullName": "Sigovs/Wes_Financial_Auto",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/Wes_Financial_Auto",
+      "cloneUrl": "https://github.com/Sigovs/Wes_Financial_Auto.git",
+      "sshUrl": "git@github.com:Sigovs/Wes_Financial_Auto.git",
+      "defaultBranch": "main",
+      "language": "CSS",
+      "topics": [],
+      "sizeKb": 28616,
+      "stars": 0,
+      "createdAt": "2026-06-30T18:19:32Z",
+      "updatedAt": "2026-10-13T19:02:14Z",
+      "pushedAt": "2026-10-13T19:02:09Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/Wes_Financial_Auto/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/Wes_Financial_Auto/index.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "about.html",
+          "stem": "about",
+          "base": "about",
+          "variant": 1,
+          "label": "About",
+          "url": "https://sigovs.github.io/Wes_Financial_Auto/about.html"
+        },
+        {
+          "file": "how-it-works.html",
+          "stem": "how-it-works",
+          "base": "how-it-works",
+          "variant": 1,
+          "label": "How It Works",
+          "url": "https://sigovs.github.io/Wes_Financial_Auto/how-it-works.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 21110,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-10-13T12:52:35Z",
+      "pushedAt": "2026-10-13T12:52:30Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "AAN_RESSELLER_THEMEKIT_Alex",
       "fullName": "Sigovs/AAN_RESSELLER_THEMEKIT_Alex",
@@ -235,279 +532,6 @@
           "variant": 2,
           "label": "Index Fonts 2",
           "url": "https://sigovs.github.io/BHCC/index_fonts2.html"
-        }
-      ],
-      "subsites": []
-    },
-    {
-      "name": "Midwest-cobras",
-      "fullName": "Sigovs/Midwest-cobras",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/Midwest-cobras",
-      "cloneUrl": "https://github.com/Sigovs/Midwest-cobras.git",
-      "sshUrl": "git@github.com:Sigovs/Midwest-cobras.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 78090,
-      "stars": 0,
-      "createdAt": "2026-08-25T00:14:56Z",
-      "updatedAt": "2026-10-13T02:36:27Z",
-      "pushedAt": "2026-10-13T02:36:23Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/Midwest-cobras/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/Midwest-cobras/index.html"
-        },
-        {
-          "file": "index1.html",
-          "stem": "index1",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/Midwest-cobras/index1.html"
-        },
-        {
-          "file": "index2.html",
-          "stem": "index2",
-          "base": "index",
-          "variant": 2,
-          "label": "Version 2",
-          "url": "https://sigovs.github.io/Midwest-cobras/index2.html"
-        },
-        {
-          "file": "index3.html",
-          "stem": "index3",
-          "base": "index",
-          "variant": 3,
-          "label": "Version 3",
-          "url": "https://sigovs.github.io/Midwest-cobras/index3.html"
-        },
-        {
-          "file": "index4.html",
-          "stem": "index4",
-          "base": "index",
-          "variant": 4,
-          "label": "Version 4",
-          "url": "https://sigovs.github.io/Midwest-cobras/index4.html"
-        },
-        {
-          "file": "index5.html",
-          "stem": "index5",
-          "base": "index",
-          "variant": 5,
-          "label": "Version 5",
-          "url": "https://sigovs.github.io/Midwest-cobras/index5.html"
-        },
-        {
-          "file": "index6.html",
-          "stem": "index6",
-          "base": "index",
-          "variant": 6,
-          "label": "Version 6",
-          "url": "https://sigovs.github.io/Midwest-cobras/index6.html"
-        },
-        {
-          "file": "index7.html",
-          "stem": "index7",
-          "base": "index",
-          "variant": 7,
-          "label": "Version 7",
-          "url": "https://sigovs.github.io/Midwest-cobras/index7.html"
-        },
-        {
-          "file": "index8.html",
-          "stem": "index8",
-          "base": "index",
-          "variant": 8,
-          "label": "Version 8",
-          "url": "https://sigovs.github.io/Midwest-cobras/index8.html"
-        },
-        {
-          "file": "index9.html",
-          "stem": "index9",
-          "base": "index",
-          "variant": 9,
-          "label": "Version 9",
-          "url": "https://sigovs.github.io/Midwest-cobras/index9.html"
-        },
-        {
-          "file": "index10.html",
-          "stem": "index10",
-          "base": "index",
-          "variant": 10,
-          "label": "Version 10",
-          "url": "https://sigovs.github.io/Midwest-cobras/index10.html"
-        },
-        {
-          "file": "index11.html",
-          "stem": "index11",
-          "base": "index",
-          "variant": 11,
-          "label": "Version 11",
-          "url": "https://sigovs.github.io/Midwest-cobras/index11.html"
-        },
-        {
-          "file": "index12.html",
-          "stem": "index12",
-          "base": "index",
-          "variant": 12,
-          "label": "Version 12",
-          "url": "https://sigovs.github.io/Midwest-cobras/index12.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "about.html",
-          "stem": "about",
-          "base": "about",
-          "variant": 1,
-          "label": "About",
-          "url": "https://sigovs.github.io/Midwest-cobras/about.html"
-        },
-        {
-          "file": "build.html",
-          "stem": "build",
-          "base": "build",
-          "variant": 1,
-          "label": "Build",
-          "url": "https://sigovs.github.io/Midwest-cobras/build.html"
-        },
-        {
-          "file": "consignment.html",
-          "stem": "consignment",
-          "base": "consignment",
-          "variant": 1,
-          "label": "Consignment",
-          "url": "https://sigovs.github.io/Midwest-cobras/consignment.html"
-        },
-        {
-          "file": "DS.html",
-          "stem": "DS",
-          "base": "ds",
-          "variant": 1,
-          "label": "Design system",
-          "url": "https://sigovs.github.io/Midwest-cobras/DS.html"
-        },
-        {
-          "file": "finance.html",
-          "stem": "finance",
-          "base": "finance",
-          "variant": 1,
-          "label": "Finance",
-          "url": "https://sigovs.github.io/Midwest-cobras/finance.html"
-        },
-        {
-          "file": "inventory.html",
-          "stem": "inventory",
-          "base": "inventory",
-          "variant": 1,
-          "label": "Inventory",
-          "url": "https://sigovs.github.io/Midwest-cobras/inventory.html"
-        },
-        {
-          "file": "service.html",
-          "stem": "service",
-          "base": "service",
-          "variant": 1,
-          "label": "Service",
-          "url": "https://sigovs.github.io/Midwest-cobras/service.html"
-        },
-        {
-          "file": "vehicle-mc-0917.html",
-          "stem": "vehicle-mc-0917",
-          "base": "vehicle-mc",
-          "variant": 917,
-          "label": "Vehicle Mc 917",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0917.html"
-        },
-        {
-          "file": "vehicle-mc-0934.html",
-          "stem": "vehicle-mc-0934",
-          "base": "vehicle-mc",
-          "variant": 934,
-          "label": "Vehicle Mc 934",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0934.html"
-        },
-        {
-          "file": "vehicle-mc-0952.html",
-          "stem": "vehicle-mc-0952",
-          "base": "vehicle-mc",
-          "variant": 952,
-          "label": "Vehicle Mc 952",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0952.html"
-        },
-        {
-          "file": "vehicle-mc-0981.html",
-          "stem": "vehicle-mc-0981",
-          "base": "vehicle-mc",
-          "variant": 981,
-          "label": "Vehicle Mc 981",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0981.html"
-        },
-        {
-          "file": "vehicle-mc-1024.html",
-          "stem": "vehicle-mc-1024",
-          "base": "vehicle-mc",
-          "variant": 1024,
-          "label": "Vehicle Mc 1024",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1024.html"
-        },
-        {
-          "file": "vehicle-mc-1025.html",
-          "stem": "vehicle-mc-1025",
-          "base": "vehicle-mc",
-          "variant": 1025,
-          "label": "Vehicle Mc 1025",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1025.html"
-        },
-        {
-          "file": "vehicle-mc-c101.html",
-          "stem": "vehicle-mc-c101",
-          "base": "vehicle-mc-c",
-          "variant": 101,
-          "label": "Vehicle Mc C 101",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c101.html"
-        },
-        {
-          "file": "vehicle-mc-c104.html",
-          "stem": "vehicle-mc-c104",
-          "base": "vehicle-mc-c",
-          "variant": 104,
-          "label": "Vehicle Mc C 104",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c104.html"
-        },
-        {
-          "file": "vehicle-mc-c108.html",
-          "stem": "vehicle-mc-c108",
-          "base": "vehicle-mc-c",
-          "variant": 108,
-          "label": "Vehicle Mc C 108",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c108.html"
-        },
-        {
-          "file": "vehicle-mc-c112.html",
-          "stem": "vehicle-mc-c112",
-          "base": "vehicle-mc-c",
-          "variant": 112,
-          "label": "Vehicle Mc C 112",
-          "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c112.html"
         }
       ],
       "subsites": []
@@ -751,141 +775,6 @@
           "url": "https://sigovs.github.io/VEGAS_UPD/vdp6.html"
         }
       ],
-      "subsites": []
-    },
-    {
-      "name": "Wes_Financial_Auto",
-      "fullName": "Sigovs/Wes_Financial_Auto",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/Wes_Financial_Auto",
-      "cloneUrl": "https://github.com/Sigovs/Wes_Financial_Auto.git",
-      "sshUrl": "git@github.com:Sigovs/Wes_Financial_Auto.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 21553,
-      "stars": 0,
-      "createdAt": "2026-06-30T18:19:32Z",
-      "updatedAt": "2026-10-12T18:53:25Z",
-      "pushedAt": "2026-10-12T18:53:20Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/Wes_Financial_Auto/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/Wes_Financial_Auto/index.html"
-        },
-        {
-          "file": "index2.html",
-          "stem": "index2",
-          "base": "index",
-          "variant": 2,
-          "label": "Version 2",
-          "url": "https://sigovs.github.io/Wes_Financial_Auto/index2.html"
-        },
-        {
-          "file": "index3.html",
-          "stem": "index3",
-          "base": "index",
-          "variant": 3,
-          "label": "Version 3",
-          "url": "https://sigovs.github.io/Wes_Financial_Auto/index3.html"
-        },
-        {
-          "file": "index4.html",
-          "stem": "index4",
-          "base": "index",
-          "variant": 4,
-          "label": "Version 4",
-          "url": "https://sigovs.github.io/Wes_Financial_Auto/index4.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 20547,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-10-12T13:18:55Z",
-      "pushedAt": "2026-10-12T13:18:50Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
-    {
-      "name": "design_dna",
-      "fullName": "Sigovs/design_dna",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/design_dna",
-      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
-      "sshUrl": "git@github.com:Sigovs/design_dna.git",
-      "defaultBranch": "master",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 116509,
-      "stars": 0,
-      "createdAt": "2026-07-25T03:59:56Z",
-      "updatedAt": "2026-10-11T08:40:06Z",
-      "pushedAt": "2026-10-11T08:40:03Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/design_dna/",
-      "previewSource": "pages",
-      "previewStatus": 404,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [],
-      "pages": [],
       "subsites": []
     },
     {

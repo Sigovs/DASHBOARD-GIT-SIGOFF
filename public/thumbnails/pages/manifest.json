@@ -355,8 +355,8 @@
     "file": "wes-financial-auto--index.webp",
     "url": "https://sigovs.github.io/Wes_Financial_Auto/index.html",
     "label": "Main",
-    "sourceKey": "f26fca4474b2",
-    "capturedAt": "2026-10-13T12:52:21.002Z",
+    "sourceKey": "fbc043fca772",
+    "capturedAt": "2026-10-14T10:20:52.283Z",
     "error": null
   },
   "DRIVEMAX/vdp.html": {
@@ -375,24 +375,6 @@
     "label": "Search results",
     "sourceKey": "604f1f468f9d",
     "capturedAt": "2026-09-07T01:20:58.042Z",
-    "error": null
-  },
-  "Wes_Financial_Auto/index2.html": {
-    "repo": "Wes_Financial_Auto",
-    "file": "wes-financial-auto--index2.webp",
-    "url": "https://sigovs.github.io/Wes_Financial_Auto/index2.html",
-    "label": "Version 2",
-    "sourceKey": "62173fadc10b",
-    "capturedAt": "2026-10-13T12:52:22.266Z",
-    "error": null
-  },
-  "Wes_Financial_Auto/index3.html": {
-    "repo": "Wes_Financial_Auto",
-    "file": "wes-financial-auto--index3.webp",
-    "url": "https://sigovs.github.io/Wes_Financial_Auto/index3.html",
-    "label": "Version 3",
-    "sourceKey": "cc651b8eb2b9",
-    "capturedAt": "2026-10-13T12:52:24.262Z",
     "error": null
   },
   "prestige-website/index.html": {
@@ -643,71 +625,8 @@
     "file": "midwest-cobras--index.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/index.html",
     "label": "Main",
-    "sourceKey": "bf3b8fe29a80",
-    "capturedAt": "2026-10-13T12:49:55.179Z",
-    "error": null
-  },
-  "Midwest-cobras/index2.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index2.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index2.html",
-    "label": "Version 2",
-    "sourceKey": "d9913a598036",
-    "capturedAt": "2026-10-13T12:49:58.086Z",
-    "error": null
-  },
-  "Midwest-cobras/index3.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index3.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index3.html",
-    "label": "Version 3",
-    "sourceKey": "ce9d015664c3",
-    "capturedAt": "2026-10-13T12:49:59.931Z",
-    "error": null
-  },
-  "Midwest-cobras/index5.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index5.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index5.html",
-    "label": "Version 5",
-    "sourceKey": "fae65b387926",
-    "capturedAt": "2026-10-13T12:50:04.095Z",
-    "error": null
-  },
-  "Midwest-cobras/index4.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index4.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index4.html",
-    "label": "Version 4",
-    "sourceKey": "a85bf2cd0477",
-    "capturedAt": "2026-10-13T12:50:03.322Z",
-    "error": null
-  },
-  "Midwest-cobras/index8.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index8.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index8.html",
-    "label": "Version 8",
-    "sourceKey": "eb1c32e43418",
-    "capturedAt": "2026-10-13T12:50:19.820Z",
-    "error": null
-  },
-  "Midwest-cobras/index10.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index10.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index10.html",
-    "label": "Version 10",
-    "sourceKey": "361e1e3eadb3",
-    "capturedAt": "2026-10-13T12:50:40.996Z",
-    "error": null
-  },
-  "Midwest-cobras/DS.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--ds.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/DS.html",
-    "label": "Design system",
-    "sourceKey": "2c0805861b1f",
-    "capturedAt": "2026-10-13T12:51:18.709Z",
+    "sourceKey": "484446eda974",
+    "capturedAt": "2026-10-14T10:20:40.188Z",
     "error": null
   },
   "VEGAS_UPD/index.html": {
@@ -746,15 +665,6 @@
     "capturedAt": "2026-10-13T12:51:59.389Z",
     "error": null
   },
-  "Midwest-cobras/index6.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index6.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index6.html",
-    "label": "Version 6",
-    "sourceKey": "c65740cc2f59",
-    "capturedAt": "2026-10-13T12:50:35.305Z",
-    "error": null
-  },
   "VEGAS_UPD/about6.html": {
     "repo": "VEGAS_UPD",
     "file": "vegas-upd--about6.webp",
@@ -762,24 +672,6 @@
     "label": "About 6",
     "sourceKey": "4fbbce5fdae3",
     "capturedAt": "2026-10-13T12:51:54.426Z",
-    "error": null
-  },
-  "Midwest-cobras/index9.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index9.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index9.html",
-    "label": "Version 9",
-    "sourceKey": "b7bf853a720f",
-    "capturedAt": "2026-10-13T12:51:13.677Z",
-    "error": null
-  },
-  "Midwest-cobras/index7.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index7.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index7.html",
-    "label": "Version 7",
-    "sourceKey": "cdb55c139b8a",
-    "capturedAt": "2026-10-13T12:51:15.184Z",
     "error": null
   },
   "VEGAS_UPD/index5.html": {
@@ -1916,15 +1808,6 @@
     "capturedAt": "2026-10-13T12:49:38.549Z",
     "error": null
   },
-  "Midwest-cobras/index1.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index1.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index1.html",
-    "label": "Main",
-    "sourceKey": "dcc2468b19da",
-    "capturedAt": "2026-10-13T12:49:55.495Z",
-    "error": null
-  },
   "BHCC/index_fonts2.html": {
     "repo": "BHCC",
     "file": "bhcc--index-fonts2.webp",
@@ -2357,31 +2240,13 @@
     "capturedAt": "2026-09-17T10:10:59.918Z",
     "error": null
   },
-  "Midwest-cobras/index11.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index11.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index11.html",
-    "label": "Version 11",
-    "sourceKey": "cf01ec5fb46e",
-    "capturedAt": "2026-10-13T12:51:01.165Z",
-    "error": null
-  },
   "Midwest-cobras/finance.html": {
     "repo": "Midwest-cobras",
     "file": "midwest-cobras--finance.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/finance.html",
     "label": "Finance",
-    "sourceKey": "ba4bffa7a1a6",
-    "capturedAt": "2026-10-13T12:51:18.712Z",
-    "error": null
-  },
-  "Midwest-cobras/index12.html": {
-    "repo": "Midwest-cobras",
-    "file": "midwest-cobras--index12.webp",
-    "url": "https://sigovs.github.io/Midwest-cobras/index12.html",
-    "label": "Version 12",
-    "sourceKey": "9c5b20c7c57a",
-    "capturedAt": "2026-10-13T12:51:12.322Z",
+    "sourceKey": "80561d3e0db9",
+    "capturedAt": "2026-10-14T10:20:33.729Z",
     "error": null
   },
   "BHCC/index12.html": {
@@ -2494,8 +2359,8 @@
     "file": "midwest-cobras--about.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/about.html",
     "label": "About",
-    "sourceKey": "b6e9bac74040",
-    "capturedAt": "2026-10-13T12:51:15.607Z",
+    "sourceKey": "4456a89bf6df",
+    "capturedAt": "2026-10-14T10:20:31.221Z",
     "error": null
   },
   "Midwest-cobras/build.html": {
@@ -2503,8 +2368,8 @@
     "file": "midwest-cobras--build.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/build.html",
     "label": "Build",
-    "sourceKey": "cfe86e47a516",
-    "capturedAt": "2026-10-13T12:51:16.719Z",
+    "sourceKey": "a139e3d6dc24",
+    "capturedAt": "2026-10-14T10:20:30.766Z",
     "error": null
   },
   "Midwest-cobras/consignment.html": {
@@ -2512,8 +2377,8 @@
     "file": "midwest-cobras--consignment.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/consignment.html",
     "label": "Consignment",
-    "sourceKey": "835b9285998b",
-    "capturedAt": "2026-10-13T12:51:16.975Z",
+    "sourceKey": "cebc39dde1ec",
+    "capturedAt": "2026-10-14T10:20:29.861Z",
     "error": null
   },
   "Midwest-cobras/inventory.html": {
@@ -2521,8 +2386,8 @@
     "file": "midwest-cobras--inventory.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/inventory.html",
     "label": "Inventory",
-    "sourceKey": "79fa89af13c0",
-    "capturedAt": "2026-10-13T12:51:19.903Z",
+    "sourceKey": "74e700c7e24d",
+    "capturedAt": "2026-10-14T10:20:34.251Z",
     "error": null
   },
   "Midwest-cobras/service.html": {
@@ -2530,8 +2395,8 @@
     "file": "midwest-cobras--service.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/service.html",
     "label": "Service",
-    "sourceKey": "07c0be8d34ba",
-    "capturedAt": "2026-10-13T12:51:20.360Z",
+    "sourceKey": "7a8eeb638452",
+    "capturedAt": "2026-10-14T10:20:34.588Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-0917.html": {
@@ -2539,8 +2404,8 @@
     "file": "midwest-cobras--vehicle-mc-0917.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0917.html",
     "label": "Vehicle Mc 917",
-    "sourceKey": "5dbe3a44ce35",
-    "capturedAt": "2026-10-13T12:51:22.948Z",
+    "sourceKey": "1f16f16a0da2",
+    "capturedAt": "2026-10-14T10:20:37.114Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-0934.html": {
@@ -2548,8 +2413,8 @@
     "file": "midwest-cobras--vehicle-mc-0934.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0934.html",
     "label": "Vehicle Mc 934",
-    "sourceKey": "7fb7464cd459",
-    "capturedAt": "2026-10-13T12:51:22.967Z",
+    "sourceKey": "2b226b158ce8",
+    "capturedAt": "2026-10-14T10:20:38.541Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-0952.html": {
@@ -2557,8 +2422,8 @@
     "file": "midwest-cobras--vehicle-mc-0952.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0952.html",
     "label": "Vehicle Mc 952",
-    "sourceKey": "937d4a968286",
-    "capturedAt": "2026-10-13T12:51:23.719Z",
+    "sourceKey": "efb540459b90",
+    "capturedAt": "2026-10-14T10:20:38.520Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-0981.html": {
@@ -2566,8 +2431,8 @@
     "file": "midwest-cobras--vehicle-mc-0981.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-0981.html",
     "label": "Vehicle Mc 981",
-    "sourceKey": "e8ca53eb1565",
-    "capturedAt": "2026-10-13T12:51:24.543Z",
+    "sourceKey": "af91628a7a58",
+    "capturedAt": "2026-10-14T10:20:41.081Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-1024.html": {
@@ -2575,8 +2440,8 @@
     "file": "midwest-cobras--vehicle-mc-1024.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1024.html",
     "label": "Vehicle Mc 1024",
-    "sourceKey": "1d65a824cca7",
-    "capturedAt": "2026-10-13T12:51:27.607Z",
+    "sourceKey": "6ce5f886b7da",
+    "capturedAt": "2026-10-14T10:20:44.153Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-1025.html": {
@@ -2584,8 +2449,8 @@
     "file": "midwest-cobras--vehicle-mc-1025.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-1025.html",
     "label": "Vehicle Mc 1025",
-    "sourceKey": "8c3c9fb7507f",
-    "capturedAt": "2026-10-13T12:51:27.580Z",
+    "sourceKey": "88a5f7b62f3e",
+    "capturedAt": "2026-10-14T10:20:44.122Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-c101.html": {
@@ -2593,8 +2458,8 @@
     "file": "midwest-cobras--vehicle-mc-c101.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c101.html",
     "label": "Vehicle Mc C 101",
-    "sourceKey": "e91e99c504e9",
-    "capturedAt": "2026-10-13T12:51:29.184Z",
+    "sourceKey": "d40d490a604d",
+    "capturedAt": "2026-10-14T10:20:44.173Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-c104.html": {
@@ -2602,8 +2467,8 @@
     "file": "midwest-cobras--vehicle-mc-c104.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c104.html",
     "label": "Vehicle Mc C 104",
-    "sourceKey": "ed50912f29b1",
-    "capturedAt": "2026-10-13T12:51:29.197Z",
+    "sourceKey": "03b8fc56c81d",
+    "capturedAt": "2026-10-14T10:20:45.382Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-c112.html": {
@@ -2611,8 +2476,8 @@
     "file": "midwest-cobras--vehicle-mc-c112.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c112.html",
     "label": "Vehicle Mc C 112",
-    "sourceKey": "603a8b656179",
-    "capturedAt": "2026-10-13T12:51:33.095Z",
+    "sourceKey": "6ba016413104",
+    "capturedAt": "2026-10-14T10:20:48.295Z",
     "error": null
   },
   "Midwest-cobras/vehicle-mc-c108.html": {
@@ -2620,8 +2485,8 @@
     "file": "midwest-cobras--vehicle-mc-c108.webp",
     "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c108.html",
     "label": "Vehicle Mc C 108",
-    "sourceKey": "dfffb28cd50b",
-    "capturedAt": "2026-10-13T12:51:33.119Z",
+    "sourceKey": "ee58db5a3556",
+    "capturedAt": "2026-10-14T10:20:52.264Z",
     "error": null
   },
   "_____GD2-EXPERIMENTS/aan test 7/index_v2.html": {
@@ -2993,15 +2858,6 @@
     "capturedAt": "2026-10-13T12:51:47.868Z",
     "error": null
   },
-  "Wes_Financial_Auto/index4.html": {
-    "repo": "Wes_Financial_Auto",
-    "file": "wes-financial-auto--index4.webp",
-    "url": "https://sigovs.github.io/Wes_Financial_Auto/index4.html",
-    "label": "Version 4",
-    "sourceKey": "4aebc9c60f0c",
-    "capturedAt": "2026-10-13T12:52:28.095Z",
-    "error": null
-  },
   "robb-francis-v2/v4.html": {
     "repo": "robb-francis-v2",
     "file": "robb-francis-v2--v4.webp",
@@ -3018,6 +2874,24 @@
     "label": "Version 13",
     "sourceKey": "541170121f61",
     "capturedAt": "2026-10-13T12:49:52.014Z",
+    "error": null
+  },
+  "Wes_Financial_Auto/about.html": {
+    "repo": "Wes_Financial_Auto",
+    "file": "wes-financial-auto--about.webp",
+    "url": "https://sigovs.github.io/Wes_Financial_Auto/about.html",
+    "label": "About",
+    "sourceKey": "e06dc45a9961",
+    "capturedAt": "2026-10-14T10:20:52.296Z",
+    "error": null
+  },
+  "Wes_Financial_Auto/how-it-works.html": {
+    "repo": "Wes_Financial_Auto",
+    "file": "wes-financial-auto--how-it-works.webp",
+    "url": "https://sigovs.github.io/Wes_Financial_Auto/how-it-works.html",
+    "label": "How It Works",
+    "sourceKey": "e1db6493763b",
+    "capturedAt": "2026-10-14T10:20:55.906Z",
     "error": null
   }
 }
