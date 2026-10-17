@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-16T09:56:44.996Z"
+    "errorAt": "2026-10-17T09:29:39.806Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-16T09:56:45.048Z"
+    "errorAt": "2026-10-17T09:29:39.870Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -842,6 +842,45 @@
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
     "bytes": 70420,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "TUSCON": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/TUSCON/",
+    "sourceKey": "7a8e582f4594",
+    "capturedAt": "2026-10-17T09:29:37.264Z",
+    "pushedAt": "2026-10-16T23:38:09Z",
+    "file": "tuscon.webp",
+    "fileSm": "tuscon@sm.webp",
+    "bytes": 241716,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "LAKE-FOREST": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/LAKE-FOREST/",
+    "sourceKey": "f8497cf65512",
+    "capturedAt": "2026-10-17T09:29:39.172Z",
+    "pushedAt": "2026-10-17T01:55:29Z",
+    "file": "lake-forest.webp",
+    "fileSm": "lake-forest@sm.webp",
+    "bytes": 214514,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "PRESTIGE_LAMBO": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
+    "sourceKey": "0f633655510e",
+    "capturedAt": "2026-10-17T09:29:40.087Z",
+    "pushedAt": "2026-10-16T23:27:19Z",
+    "file": "prestige-lambo.webp",
+    "fileSm": "prestige-lambo@sm.webp",
+    "bytes": 101388,
     "width": 1600,
     "height": 1000,
     "error": null

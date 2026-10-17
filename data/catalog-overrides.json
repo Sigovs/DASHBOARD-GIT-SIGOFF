@@ -204,6 +204,10 @@
       "title": "FC Kerbeck",
       "category": "Automotive"
     },
+    "LAKE-FOREST": {
+      "title": "Lake Forest",
+      "category": "Client Sites"
+    },
     "LUXCARS": {
       "title": "Lux Cars Chicago",
       "category": "Automotive"
@@ -248,6 +252,10 @@
       "subtitle": "Original build",
       "category": "Automotive"
     },
+    "PRESTIGE_LAMBO": {
+      "title": "Prestige Lambo",
+      "category": "Automotive"
+    },
     "PRESTIGE_PAGANI": {
       "title": "Prestige Pagani",
       "category": "Automotive"
@@ -285,6 +293,10 @@
     "RUSSIA_NEED_A_DOC": {
       "title": "Need a Doc",
       "category": "Personal"
+    },
+    "TUSCON": {
+      "title": "Tuscon",
+      "category": "Client Sites"
     },
     "TWINS": {
       "title": "Twins Auto of Dublin",
