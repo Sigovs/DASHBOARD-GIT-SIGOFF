@@ -2272,8 +2272,8 @@
     "file": "aan-resseller-themekit-alex--index.webp",
     "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/index.html",
     "label": "Main",
-    "sourceKey": "719bb70184e3",
-    "capturedAt": "2026-10-13T12:48:36.964Z",
+    "sourceKey": "9f637eedeed4",
+    "capturedAt": "2026-10-20T10:11:32.447Z",
     "error": null
   },
   "GENEVA-MOTOR-HAUS/_preview-sell-motion.html": {
@@ -2899,8 +2899,8 @@
     "file": "lake-forest--index.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index.html",
     "label": "Main",
-    "sourceKey": "602fd8317c46",
-    "capturedAt": "2026-10-17T09:29:45.153Z",
+    "sourceKey": "b7367cabf4e7",
+    "capturedAt": "2026-10-20T10:11:30.349Z",
     "error": null
   },
   "TUSCON/index.html": {
@@ -2908,8 +2908,8 @@
     "file": "tuscon--index.webp",
     "url": "https://sigovs.github.io/TUSCON/index.html",
     "label": "Main",
-    "sourceKey": "624a89f7cf04",
-    "capturedAt": "2026-10-17T09:29:46.358Z",
+    "sourceKey": "b8733c2175db",
+    "capturedAt": "2026-10-20T10:11:25.947Z",
     "error": null
   },
   "PRESTIGE_LAMBO/index_v2.html": {
@@ -2917,8 +2917,8 @@
     "file": "prestige-lambo--index-v2.webp",
     "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "7d1d59a1362d",
-    "capturedAt": "2026-10-17T09:29:48.394Z",
+    "sourceKey": "75f74ec6f280",
+    "capturedAt": "2026-10-20T10:11:36.209Z",
     "error": null
   },
   "PRESTIGE_LAMBO/index.html": {
@@ -2926,8 +2926,8 @@
     "file": "prestige-lambo--index.webp",
     "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index.html",
     "label": "Main",
-    "sourceKey": "dabe386ecdb5",
-    "capturedAt": "2026-10-17T09:29:48.413Z",
+    "sourceKey": "33bccaec01f0",
+    "capturedAt": "2026-10-20T10:11:35.098Z",
     "error": null
   },
   "PRESTIGE_LAMBO/service.html": {
@@ -2935,8 +2935,8 @@
     "file": "prestige-lambo--service.webp",
     "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/service.html",
     "label": "Service",
-    "sourceKey": "91b6180532e3",
-    "capturedAt": "2026-10-17T09:29:51.803Z",
+    "sourceKey": "5d2305ed4495",
+    "capturedAt": "2026-10-20T10:11:35.042Z",
     "error": null
   },
   "PRESTIGE_LAMBO/srp.html": {
@@ -2944,8 +2944,8 @@
     "file": "prestige-lambo--srp.webp",
     "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/srp.html",
     "label": "Search results",
-    "sourceKey": "7db317c8d711",
-    "capturedAt": "2026-10-17T09:29:52.044Z",
+    "sourceKey": "db979a94d4af",
+    "capturedAt": "2026-10-20T10:11:37.373Z",
     "error": null
   },
   "PRESTIGE_LAMBO/vdp.html": {
@@ -2953,8 +2953,17 @@
     "file": "prestige-lambo--vdp.webp",
     "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/vdp.html",
     "label": "Vehicle detail",
-    "sourceKey": "289d71921d4b",
-    "capturedAt": "2026-10-17T09:29:52.676Z",
+    "sourceKey": "2845a8756155",
+    "capturedAt": "2026-10-20T10:11:40.195Z",
+    "error": null
+  },
+  "TUSCON/index_v2.html": {
+    "repo": "TUSCON",
+    "file": "tuscon--index-v2.webp",
+    "url": "https://sigovs.github.io/TUSCON/index_v2.html",
+    "label": "Version 2",
+    "sourceKey": "72705c4dd75c",
+    "capturedAt": "2026-10-20T10:11:28.153Z",
     "error": null
   }
 }

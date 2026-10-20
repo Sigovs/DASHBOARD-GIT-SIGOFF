@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-19T10:55:53.648Z"
+    "errorAt": "2026-10-20T10:11:16.403Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-19T10:55:53.701Z"
+    "errorAt": "2026-10-20T10:11:16.575Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "c13cb8444f3d",
-    "capturedAt": "2026-10-13T12:48:02.657Z",
-    "pushedAt": "2026-10-13T08:42:47Z",
+    "sourceKey": "4f028033651a",
+    "capturedAt": "2026-10-20T10:11:17.465Z",
+    "pushedAt": "2026-10-20T10:08:04Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 134534,
+    "bytes": 130296,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -849,9 +849,9 @@
   "TUSCON": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/TUSCON/",
-    "sourceKey": "7a8e582f4594",
-    "capturedAt": "2026-10-17T09:29:37.264Z",
-    "pushedAt": "2026-10-16T23:38:09Z",
+    "sourceKey": "cd5a859b860d",
+    "capturedAt": "2026-10-20T10:11:13.737Z",
+    "pushedAt": "2026-10-20T09:42:17Z",
     "file": "tuscon.webp",
     "fileSm": "tuscon@sm.webp",
     "bytes": 241716,
@@ -862,12 +862,12 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "f8497cf65512",
-    "capturedAt": "2026-10-17T09:29:39.172Z",
-    "pushedAt": "2026-10-17T01:55:29Z",
+    "sourceKey": "aed62da28c26",
+    "capturedAt": "2026-10-20T10:11:16.295Z",
+    "pushedAt": "2026-10-20T00:29:57Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
-    "bytes": 214514,
+    "bytes": 123122,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -875,9 +875,9 @@
   "PRESTIGE_LAMBO": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-    "sourceKey": "0f633655510e",
-    "capturedAt": "2026-10-17T09:29:40.087Z",
-    "pushedAt": "2026-10-16T23:27:19Z",
+    "sourceKey": "0b6775cd58b2",
+    "capturedAt": "2026-10-20T10:11:21.082Z",
+    "pushedAt": "2026-10-19T17:39:16Z",
     "file": "prestige-lambo.webp",
     "fileSm": "prestige-lambo@sm.webp",
     "bytes": 101388,
