@@ -2728,8 +2728,8 @@
     "file": "prestige-pagani--index.webp",
     "url": "https://sigovs.github.io/PRESTIGE_PAGANI/index.html",
     "label": "Main",
-    "sourceKey": "061c9fa2c29c",
-    "capturedAt": "2026-10-03T10:29:00.090Z",
+    "sourceKey": "31b513d5eb2b",
+    "capturedAt": "2026-10-21T10:18:51.703Z",
     "error": null
   },
   "CZINGER_PRESTIGE/index.html": {
@@ -2737,8 +2737,8 @@
     "file": "czinger-prestige--index.webp",
     "url": "https://sigovs.github.io/CZINGER_PRESTIGE/index.html",
     "label": "Main",
-    "sourceKey": "1223019ebcfc",
-    "capturedAt": "2026-10-04T11:10:46.775Z",
+    "sourceKey": "ae9043a7c3e3",
+    "capturedAt": "2026-10-21T10:18:51.681Z",
     "error": null
   },
   "Golden-Lion-Auctions/index-v2.html": {
@@ -2899,8 +2899,8 @@
     "file": "lake-forest--index.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index.html",
     "label": "Main",
-    "sourceKey": "b7367cabf4e7",
-    "capturedAt": "2026-10-20T10:11:30.349Z",
+    "sourceKey": "0c11d0fcdac7",
+    "capturedAt": "2026-10-21T10:18:51.737Z",
     "error": null
   },
   "TUSCON/index.html": {
@@ -2908,8 +2908,8 @@
     "file": "tuscon--index.webp",
     "url": "https://sigovs.github.io/TUSCON/index.html",
     "label": "Main",
-    "sourceKey": "b8733c2175db",
-    "capturedAt": "2026-10-20T10:11:25.947Z",
+    "sourceKey": "35eb84976da5",
+    "capturedAt": "2026-10-21T10:18:55.598Z",
     "error": null
   },
   "PRESTIGE_LAMBO/index_v2.html": {
@@ -2962,8 +2962,53 @@
     "file": "tuscon--index-v2.webp",
     "url": "https://sigovs.github.io/TUSCON/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "72705c4dd75c",
-    "capturedAt": "2026-10-20T10:11:28.153Z",
+    "sourceKey": "ae5cab6e3e62",
+    "capturedAt": "2026-10-21T10:18:59.458Z",
+    "error": null
+  },
+  "CZINGER_PRESTIGE/index_v2.html": {
+    "repo": "CZINGER_PRESTIGE",
+    "file": "czinger-prestige--index-v2.webp",
+    "url": "https://sigovs.github.io/CZINGER_PRESTIGE/index_v2.html",
+    "label": "Version 2",
+    "sourceKey": "25dd5bff2459",
+    "capturedAt": "2026-10-21T10:18:49.906Z",
+    "error": null
+  },
+  "CZINGER_PRESTIGE/21c-hdf.html": {
+    "repo": "CZINGER_PRESTIGE",
+    "file": "czinger-prestige--21c-hdf.webp",
+    "url": "https://sigovs.github.io/CZINGER_PRESTIGE/21c-hdf.html",
+    "label": "21c Hdf",
+    "sourceKey": "724ecc38e2d6",
+    "capturedAt": "2026-10-21T10:18:54.435Z",
+    "error": null
+  },
+  "CZINGER_PRESTIGE/21c-spyder.html": {
+    "repo": "CZINGER_PRESTIGE",
+    "file": "czinger-prestige--21c-spyder.webp",
+    "url": "https://sigovs.github.io/CZINGER_PRESTIGE/21c-spyder.html",
+    "label": "21c Spyder",
+    "sourceKey": "df313992bc3c",
+    "capturedAt": "2026-10-21T10:18:54.732Z",
+    "error": null
+  },
+  "CZINGER_PRESTIGE/21c-vmax.html": {
+    "repo": "CZINGER_PRESTIGE",
+    "file": "czinger-prestige--21c-vmax.webp",
+    "url": "https://sigovs.github.io/CZINGER_PRESTIGE/21c-vmax.html",
+    "label": "21c Vmax",
+    "sourceKey": "f30a2dc203e0",
+    "capturedAt": "2026-10-21T10:18:54.737Z",
+    "error": null
+  },
+  "TUSCON/index_v3.html": {
+    "repo": "TUSCON",
+    "file": "tuscon--index-v3.webp",
+    "url": "https://sigovs.github.io/TUSCON/index_v3.html",
+    "label": "Version 3",
+    "sourceKey": "8260ddf45d93",
+    "capturedAt": "2026-10-21T10:19:00.638Z",
     "error": null
   }
 }

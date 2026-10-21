@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-20T10:11:16.403Z"
+    "errorAt": "2026-10-21T10:18:41.765Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-20T10:11:16.575Z"
+    "errorAt": "2026-10-21T10:18:41.920Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -797,9 +797,9 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "8cbf423c42af",
-    "capturedAt": "2026-10-03T10:28:54.039Z",
-    "pushedAt": "2026-10-02T22:48:02Z",
+    "sourceKey": "c4499aa396d5",
+    "capturedAt": "2026-10-21T10:18:41.851Z",
+    "pushedAt": "2026-10-20T22:37:30Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
     "bytes": 45218,
@@ -810,9 +810,9 @@
   "CZINGER_PRESTIGE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CZINGER_PRESTIGE/",
-    "sourceKey": "f01cab1f6c9c",
-    "capturedAt": "2026-10-04T11:10:43.683Z",
-    "pushedAt": "2026-10-04T01:57:02Z",
+    "sourceKey": "6dbc6659a521",
+    "capturedAt": "2026-10-21T10:18:39.897Z",
+    "pushedAt": "2026-10-20T20:59:10Z",
     "file": "czinger-prestige.webp",
     "fileSm": "czinger-prestige@sm.webp",
     "bytes": 66002,
@@ -849,9 +849,9 @@
   "TUSCON": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/TUSCON/",
-    "sourceKey": "cd5a859b860d",
-    "capturedAt": "2026-10-20T10:11:13.737Z",
-    "pushedAt": "2026-10-20T09:42:17Z",
+    "sourceKey": "cc737aa1a62b",
+    "capturedAt": "2026-10-21T10:18:45.906Z",
+    "pushedAt": "2026-10-20T19:43:53Z",
     "file": "tuscon.webp",
     "fileSm": "tuscon@sm.webp",
     "bytes": 241716,
@@ -862,12 +862,12 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "aed62da28c26",
-    "capturedAt": "2026-10-20T10:11:16.295Z",
-    "pushedAt": "2026-10-20T00:29:57Z",
+    "sourceKey": "6cbe23f2914e",
+    "capturedAt": "2026-10-21T10:18:41.411Z",
+    "pushedAt": "2026-10-20T22:43:22Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
-    "bytes": 123122,
+    "bytes": 128242,
     "width": 1600,
     "height": 1000,
     "error": null
