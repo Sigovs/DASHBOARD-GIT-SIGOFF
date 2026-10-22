@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-21T10:18:41.765Z"
+    "errorAt": "2026-10-22T10:20:10.565Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-21T10:18:41.920Z"
+    "errorAt": "2026-10-22T10:20:10.655Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "4f028033651a",
-    "capturedAt": "2026-10-20T10:11:17.465Z",
-    "pushedAt": "2026-10-20T10:08:04Z",
+    "sourceKey": "dba1b818e23f",
+    "capturedAt": "2026-10-22T10:20:06.388Z",
+    "pushedAt": "2026-10-22T08:44:52Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130296,
+    "bytes": 130594,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -810,9 +810,9 @@
   "CZINGER_PRESTIGE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CZINGER_PRESTIGE/",
-    "sourceKey": "6dbc6659a521",
-    "capturedAt": "2026-10-21T10:18:39.897Z",
-    "pushedAt": "2026-10-20T20:59:10Z",
+    "sourceKey": "f201ec1cbd39",
+    "capturedAt": "2026-10-22T10:20:10.491Z",
+    "pushedAt": "2026-10-21T16:16:43Z",
     "file": "czinger-prestige.webp",
     "fileSm": "czinger-prestige@sm.webp",
     "bytes": 66002,
@@ -836,9 +836,9 @@
   "DUPONT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/DUPONT/",
-    "sourceKey": "f933484346c8",
-    "capturedAt": "2026-10-13T12:48:19.190Z",
-    "pushedAt": "2026-10-12T20:43:21Z",
+    "sourceKey": "ac19d5a2f1db",
+    "capturedAt": "2026-10-22T10:20:17.536Z",
+    "pushedAt": "2026-10-22T06:37:06Z",
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
     "bytes": 70420,
@@ -862,12 +862,12 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "6cbe23f2914e",
-    "capturedAt": "2026-10-21T10:18:41.411Z",
-    "pushedAt": "2026-10-20T22:43:22Z",
+    "sourceKey": "d2b8bdbd8b79",
+    "capturedAt": "2026-10-22T10:20:24.484Z",
+    "pushedAt": "2026-10-21T21:56:28Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
-    "bytes": 128242,
+    "bytes": 48286,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -875,9 +875,9 @@
   "PRESTIGE_LAMBO": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-    "sourceKey": "0b6775cd58b2",
-    "capturedAt": "2026-10-20T10:11:21.082Z",
-    "pushedAt": "2026-10-19T17:39:16Z",
+    "sourceKey": "516b42f0de1e",
+    "capturedAt": "2026-10-22T10:20:03.287Z",
+    "pushedAt": "2026-10-21T23:02:32Z",
     "file": "prestige-lambo.webp",
     "fileSm": "prestige-lambo@sm.webp",
     "bytes": 101388,
