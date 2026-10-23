@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-22T10:20:10.565Z"
+    "errorAt": "2026-10-23T10:23:59.095Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-22T10:20:10.655Z"
+    "errorAt": "2026-10-23T10:23:59.246Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -849,9 +849,9 @@
   "TUSCON": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/TUSCON/",
-    "sourceKey": "cc737aa1a62b",
-    "capturedAt": "2026-10-21T10:18:45.906Z",
-    "pushedAt": "2026-10-20T19:43:53Z",
+    "sourceKey": "fce113c248f7",
+    "capturedAt": "2026-10-23T10:23:59.229Z",
+    "pushedAt": "2026-10-23T07:44:18Z",
     "file": "tuscon.webp",
     "fileSm": "tuscon@sm.webp",
     "bytes": 241716,
@@ -875,12 +875,25 @@
   "PRESTIGE_LAMBO": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-    "sourceKey": "516b42f0de1e",
-    "capturedAt": "2026-10-22T10:20:03.287Z",
-    "pushedAt": "2026-10-21T23:02:32Z",
+    "sourceKey": "b313889a1322",
+    "capturedAt": "2026-10-23T10:23:57.580Z",
+    "pushedAt": "2026-10-23T05:49:46Z",
     "file": "prestige-lambo.webp",
     "fileSm": "prestige-lambo@sm.webp",
     "bytes": 101388,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "Ferrari-of-Puerto-Rico": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/Ferrari-of-Puerto-Rico/",
+    "sourceKey": "95dff2c365a8",
+    "capturedAt": "2026-10-23T10:23:59.147Z",
+    "pushedAt": "2026-10-23T07:08:34Z",
+    "file": "ferrari-of-puerto-rico.webp",
+    "fileSm": "ferrari-of-puerto-rico@sm.webp",
+    "bytes": 107962,
     "width": 1600,
     "height": 1000,
     "error": null
