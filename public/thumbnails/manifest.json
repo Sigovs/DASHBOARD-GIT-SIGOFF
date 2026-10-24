@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-23T10:23:59.095Z"
+    "errorAt": "2026-10-24T09:37:54.806Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-23T10:23:59.246Z"
+    "errorAt": "2026-10-24T09:37:54.911Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -849,9 +849,9 @@
   "TUSCON": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/TUSCON/",
-    "sourceKey": "fce113c248f7",
-    "capturedAt": "2026-10-23T10:23:59.229Z",
-    "pushedAt": "2026-10-23T07:44:18Z",
+    "sourceKey": "c54a6ca67eea",
+    "capturedAt": "2026-10-24T09:37:59.791Z",
+    "pushedAt": "2026-10-24T07:21:17Z",
     "file": "tuscon.webp",
     "fileSm": "tuscon@sm.webp",
     "bytes": 241716,

@@ -1,11 +1,42 @@
 {
-  "generatedAt": "2026-10-23T10:23:52.508Z",
+  "generatedAt": "2026-10-24T09:37:54.470Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 56,
   "repos": [
+    {
+      "name": "design_dna",
+      "fullName": "Sigovs/design_dna",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/design_dna",
+      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
+      "sshUrl": "git@github.com:Sigovs/design_dna.git",
+      "defaultBranch": "master",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 116833,
+      "stars": 0,
+      "createdAt": "2026-07-25T03:59:56Z",
+      "updatedAt": "2026-10-24T08:13:45Z",
+      "pushedAt": "2026-10-24T08:13:42Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/design_dna/",
+      "previewSource": "pages",
+      "previewStatus": 404,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "TUSCON",
       "fullName": "Sigovs/TUSCON",
@@ -20,11 +51,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 28859,
+      "sizeKb": 34047,
       "stars": 0,
       "createdAt": "2026-10-16T22:58:58Z",
-      "updatedAt": "2026-10-23T07:44:21Z",
-      "pushedAt": "2026-10-23T07:44:18Z",
+      "updatedAt": "2026-10-24T07:21:20Z",
+      "pushedAt": "2026-10-24T07:21:17Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -69,12 +100,52 @@
       ],
       "pages": [
         {
+          "file": "index_experiment.html",
+          "stem": "index_experiment",
+          "base": "index_experiment",
+          "variant": 1,
+          "label": "Index Experiment",
+          "url": "https://sigovs.github.io/TUSCON/index_experiment.html"
+        },
+        {
+          "file": "index_experiment_2.html",
+          "stem": "index_experiment_2",
+          "base": "index_experiment",
+          "variant": 2,
+          "label": "Index Experiment 2",
+          "url": "https://sigovs.github.io/TUSCON/index_experiment_2.html"
+        },
+        {
+          "file": "index_experiment_3.html",
+          "stem": "index_experiment_3",
+          "base": "index_experiment",
+          "variant": 3,
+          "label": "Index Experiment 3",
+          "url": "https://sigovs.github.io/TUSCON/index_experiment_3.html"
+        },
+        {
+          "file": "index_experiment_4.html",
+          "stem": "index_experiment_4",
+          "base": "index_experiment",
+          "variant": 4,
+          "label": "Index Experiment 4",
+          "url": "https://sigovs.github.io/TUSCON/index_experiment_4.html"
+        },
+        {
           "file": "inventory_v4.html",
           "stem": "inventory_v4",
           "base": "inventory",
           "variant": 4,
           "label": "Inventory 4",
           "url": "https://sigovs.github.io/TUSCON/inventory_v4.html"
+        },
+        {
+          "file": "inventory_v4_2.html",
+          "stem": "inventory_v4_2",
+          "base": "inventory_v4",
+          "variant": 2,
+          "label": "Inventory V 4 2",
+          "url": "https://sigovs.github.io/TUSCON/inventory_v4_2.html"
         },
         {
           "file": "vehicle_v4.html",
@@ -181,6 +252,46 @@
           "url": "https://sigovs.github.io/TUSCON/vehicle_v4_2005-cadillac-xlr-with-32k-miles.html"
         }
       ],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 24312,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-10-23T10:25:16Z",
+      "pushedAt": "2026-10-23T10:25:12Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
       "subsites": []
     },
     {
@@ -575,46 +686,6 @@
           "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/vdp.html"
         }
       ],
-      "subsites": []
-    },
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 23425,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-10-22T10:21:12Z",
-      "pushedAt": "2026-10-22T10:21:08Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
       "subsites": []
     },
     {
@@ -1092,37 +1163,6 @@
           "url": "https://sigovs.github.io/Midwest-cobras/vehicle-mc-c112.html"
         }
       ],
-      "subsites": []
-    },
-    {
-      "name": "design_dna",
-      "fullName": "Sigovs/design_dna",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/design_dna",
-      "cloneUrl": "https://github.com/Sigovs/design_dna.git",
-      "sshUrl": "git@github.com:Sigovs/design_dna.git",
-      "defaultBranch": "master",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 116585,
-      "stars": 0,
-      "createdAt": "2026-07-25T03:59:56Z",
-      "updatedAt": "2026-10-13T20:34:10Z",
-      "pushedAt": "2026-10-13T20:34:06Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/design_dna/",
-      "previewSource": "pages",
-      "previewStatus": 404,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [],
-      "pages": [],
       "subsites": []
     },
     {
