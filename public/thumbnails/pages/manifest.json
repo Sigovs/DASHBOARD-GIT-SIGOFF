@@ -3532,5 +3532,14 @@
     "sourceKey": "9d45bc9f6be9",
     "capturedAt": "2026-10-24T09:38:27.349Z",
     "error": null
+  },
+  "NS_BARBERS/index.html": {
+    "repo": "NS_BARBERS",
+    "file": "ns-barbers--index.webp",
+    "url": "https://sigovs.github.io/NS_BARBERS/index.html",
+    "label": "Main",
+    "sourceKey": "d073efa65cf7",
+    "capturedAt": "2026-10-25T09:55:17.463Z",
+    "error": null
   }
 }
