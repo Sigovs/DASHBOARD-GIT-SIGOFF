@@ -272,6 +272,10 @@
       "title": "Prestige Pagani",
       "category": "Automotive"
     },
+    "PRESTIGE-_MARINE": {
+      "title": "Prestige Marine",
+      "category": "Automotive"
+    },
     "prestige-final-dev": {
       "title": "Prestige Imports",
       "subtitle": "Final dev build",
