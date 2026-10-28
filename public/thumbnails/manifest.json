@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-27T10:42:16.768Z"
+    "errorAt": "2026-10-28T11:26:12.187Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-27T10:42:16.968Z"
+    "errorAt": "2026-10-28T11:26:12.338Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -836,9 +836,9 @@
   "DUPONT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/DUPONT/",
-    "sourceKey": "ac19d5a2f1db",
-    "capturedAt": "2026-10-22T10:20:17.536Z",
-    "pushedAt": "2026-10-22T06:37:06Z",
+    "sourceKey": "5f56b2d133ff",
+    "capturedAt": "2026-10-28T11:26:32.132Z",
+    "pushedAt": "2026-10-28T10:14:21Z",
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
     "bytes": 70420,
@@ -914,14 +914,14 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-10-27T10:42:16.764Z"
+    "errorAt": "2026-10-28T11:26:12.024Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE-_MARINE/",
-    "sourceKey": "4c6ca957f51a",
-    "capturedAt": "2026-10-27T10:42:20.777Z",
-    "pushedAt": "2026-10-26T22:58:52Z",
+    "sourceKey": "73d1059eb15e",
+    "capturedAt": "2026-10-28T11:26:16.020Z",
+    "pushedAt": "2026-10-27T18:00:03Z",
     "file": "prestige-marine.webp",
     "fileSm": "prestige-marine@sm.webp",
     "bytes": 107710,
