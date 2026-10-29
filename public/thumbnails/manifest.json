@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-28T11:26:12.187Z"
+    "errorAt": "2026-10-29T11:37:01.029Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-28T11:26:12.338Z"
+    "errorAt": "2026-10-29T11:37:03.003Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "dba1b818e23f",
-    "capturedAt": "2026-10-22T10:20:06.388Z",
-    "pushedAt": "2026-10-22T08:44:52Z",
+    "sourceKey": "afc173b12e62",
+    "capturedAt": "2026-10-29T11:37:02.891Z",
+    "pushedAt": "2026-10-29T09:43:42Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130594,
+    "bytes": 130706,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -784,9 +784,9 @@
   "CARLOFT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CARLOFT/",
-    "sourceKey": "36a821f3588e",
-    "capturedAt": "2026-10-01T11:41:38.142Z",
-    "pushedAt": "2026-10-01T01:19:52Z",
+    "sourceKey": "4e552d342e34",
+    "capturedAt": "2026-10-29T11:37:06.688Z",
+    "pushedAt": "2026-10-29T09:52:48Z",
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
@@ -862,9 +862,9 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "d2b8bdbd8b79",
-    "capturedAt": "2026-10-22T10:20:24.484Z",
-    "pushedAt": "2026-10-21T21:56:28Z",
+    "sourceKey": "dba0333daec2",
+    "capturedAt": "2026-10-29T11:37:15.200Z",
+    "pushedAt": "2026-10-29T04:07:45Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
     "bytes": 48286,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-10-28T11:26:12.024Z"
+    "errorAt": "2026-10-29T11:37:00.850Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -925,6 +925,19 @@
     "file": "prestige-marine.webp",
     "fileSm": "prestige-marine@sm.webp",
     "bytes": 107710,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "BEATTHETRADE": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/BEATTHETRADE/site/",
+    "sourceKey": "a94dfac5fd19",
+    "capturedAt": "2026-10-29T11:37:00.710Z",
+    "pushedAt": "2026-10-29T03:35:48Z",
+    "file": "beatthetrade.webp",
+    "fileSm": "beatthetrade@sm.webp",
+    "bytes": 165106,
     "width": 1600,
     "height": 1000,
     "error": null
