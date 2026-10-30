@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-29T11:37:01.029Z"
+    "errorAt": "2026-10-30T11:28:20.363Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-29T11:37:03.003Z"
+    "errorAt": "2026-10-30T11:28:27.110Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "afc173b12e62",
-    "capturedAt": "2026-10-29T11:37:02.891Z",
-    "pushedAt": "2026-10-29T09:43:42Z",
+    "sourceKey": "4f8ece215b77",
+    "capturedAt": "2026-10-30T11:28:29.042Z",
+    "pushedAt": "2026-10-30T08:36:47Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130706,
+    "bytes": 130770,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -784,9 +784,9 @@
   "CARLOFT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CARLOFT/",
-    "sourceKey": "4e552d342e34",
-    "capturedAt": "2026-10-29T11:37:06.688Z",
-    "pushedAt": "2026-10-29T09:52:48Z",
+    "sourceKey": "cfd92f6f46e4",
+    "capturedAt": "2026-10-30T11:28:26.938Z",
+    "pushedAt": "2026-10-29T21:28:38Z",
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
@@ -862,9 +862,9 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "dba0333daec2",
-    "capturedAt": "2026-10-29T11:37:15.200Z",
-    "pushedAt": "2026-10-29T04:07:45Z",
+    "sourceKey": "151312dd30e6",
+    "capturedAt": "2026-10-30T11:28:41.648Z",
+    "pushedAt": "2026-10-29T20:40:59Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
     "bytes": 48286,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-10-29T11:37:00.850Z"
+    "errorAt": "2026-10-30T11:28:20.226Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",

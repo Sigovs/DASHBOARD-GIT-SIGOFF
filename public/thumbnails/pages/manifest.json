@@ -2272,8 +2272,8 @@
     "file": "aan-resseller-themekit-alex--index.webp",
     "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/index.html",
     "label": "Main",
-    "sourceKey": "280d0f5311f8",
-    "capturedAt": "2026-10-29T11:37:22.045Z",
+    "sourceKey": "c7c722d90b20",
+    "capturedAt": "2026-10-30T11:28:48.544Z",
     "error": null
   },
   "GENEVA-MOTOR-HAUS/_preview-sell-motion.html": {
@@ -2719,8 +2719,8 @@
     "file": "carloft--index.webp",
     "url": "https://sigovs.github.io/CARLOFT/index.html",
     "label": "Main",
-    "sourceKey": "e8b547042564",
-    "capturedAt": "2026-10-29T11:37:44.971Z",
+    "sourceKey": "d084a31143d5",
+    "capturedAt": "2026-10-30T11:29:01.154Z",
     "error": null
   },
   "PRESTIGE_PAGANI/index.html": {
@@ -2899,8 +2899,8 @@
     "file": "lake-forest--index.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index.html",
     "label": "Main",
-    "sourceKey": "4175cfc70df7",
-    "capturedAt": "2026-10-29T11:37:40.226Z",
+    "sourceKey": "93d5502132b3",
+    "capturedAt": "2026-10-30T11:29:05.190Z",
     "error": null
   },
   "TUSCON/index.html": {
@@ -3016,8 +3016,8 @@
     "file": "aan-resseller-themekit-alex--review-status.webp",
     "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/review-status.html",
     "label": "Review Status",
-    "sourceKey": "f1d57f7433f6",
-    "capturedAt": "2026-10-29T11:37:18.499Z",
+    "sourceKey": "98e03aa55eb2",
+    "capturedAt": "2026-10-30T11:28:45.058Z",
     "error": null
   },
   "PRESTIGE_LAMBO/index_v3.html": {
@@ -3097,8 +3097,8 @@
     "file": "lake-forest--history.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/history.html",
     "label": "History",
-    "sourceKey": "7ec431fadb46",
-    "capturedAt": "2026-10-29T11:37:29.840Z",
+    "sourceKey": "e2ed7f20c92b",
+    "capturedAt": "2026-10-30T11:28:55.690Z",
     "error": null
   },
   "TUSCON/index_v4.html": {
@@ -3556,8 +3556,8 @@
     "file": "lake-forest--gt-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/gt_v2.html",
     "label": "GT 2",
-    "sourceKey": "ab757841e7e0",
-    "capturedAt": "2026-10-29T11:37:24.090Z",
+    "sourceKey": "2fd53c219564",
+    "capturedAt": "2026-10-30T11:28:50.425Z",
     "error": null
   },
   "LAKE-FOREST/history_v2.html": {
@@ -3565,8 +3565,8 @@
     "file": "lake-forest--history-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/history_v2.html",
     "label": "History 2",
-    "sourceKey": "f30aa2508631",
-    "capturedAt": "2026-10-29T11:37:30.916Z",
+    "sourceKey": "6113efd1be34",
+    "capturedAt": "2026-10-30T11:28:56.671Z",
     "error": null
   },
   "BEATTHETRADE/index_v2.html": {
@@ -3592,8 +3592,8 @@
     "file": "lake-forest--index-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "6098fc71b837",
-    "capturedAt": "2026-10-29T11:37:40.225Z",
+    "sourceKey": "e39da6caddf8",
+    "capturedAt": "2026-10-30T11:29:05.189Z",
     "error": null
   },
   "CARLOFT/index_v2.html": {
@@ -3601,8 +3601,17 @@
     "file": "carloft--index-v2.webp",
     "url": "https://sigovs.github.io/CARLOFT/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "686a29175372",
-    "capturedAt": "2026-10-29T11:37:43.641Z",
+    "sourceKey": "4d4292075f8c",
+    "capturedAt": "2026-10-30T11:29:01.049Z",
+    "error": null
+  },
+  "CARLOFT/index_v3.html": {
+    "repo": "CARLOFT",
+    "file": "carloft--index-v3.webp",
+    "url": "https://sigovs.github.io/CARLOFT/index_v3.html",
+    "label": "Version 3",
+    "sourceKey": "feab9a64c30a",
+    "capturedAt": "2026-10-30T11:29:07.964Z",
     "error": null
   }
 }
