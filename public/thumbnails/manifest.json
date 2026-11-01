@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-31T10:59:09.232Z"
+    "errorAt": "2026-11-01T11:55:08.693Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-10-31T10:59:09.414Z"
+    "errorAt": "2026-11-01T11:55:08.829Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -914,14 +914,14 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-10-31T10:59:09.081Z"
+    "errorAt": "2026-11-01T11:55:08.697Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE-_MARINE/",
-    "sourceKey": "85af868da510",
-    "capturedAt": "2026-10-31T10:59:13.641Z",
-    "pushedAt": "2026-10-31T10:34:46Z",
+    "sourceKey": "62febff2f6e5",
+    "capturedAt": "2026-11-01T11:55:12.708Z",
+    "pushedAt": "2026-11-01T01:48:28Z",
     "file": "prestige-marine.webp",
     "fileSm": "prestige-marine@sm.webp",
     "bytes": 107710,
