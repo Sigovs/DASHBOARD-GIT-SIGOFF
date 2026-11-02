@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-01T11:55:08.693Z"
+    "errorAt": "2026-11-02T13:39:42.124Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-01T11:55:08.829Z"
+    "errorAt": "2026-11-02T13:39:42.319Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -797,9 +797,9 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "c4499aa396d5",
-    "capturedAt": "2026-10-21T10:18:41.851Z",
-    "pushedAt": "2026-10-20T22:37:30Z",
+    "sourceKey": "4f6bf2cc92b1",
+    "capturedAt": "2026-11-02T13:39:42.193Z",
+    "pushedAt": "2026-11-02T10:11:24Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
     "bytes": 45218,
@@ -810,9 +810,9 @@
   "CZINGER_PRESTIGE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CZINGER_PRESTIGE/",
-    "sourceKey": "f201ec1cbd39",
-    "capturedAt": "2026-10-22T10:20:10.491Z",
-    "pushedAt": "2026-10-21T16:16:43Z",
+    "sourceKey": "6e7bd417b627",
+    "capturedAt": "2026-11-02T13:39:41.609Z",
+    "pushedAt": "2026-11-02T11:24:01Z",
     "file": "czinger-prestige.webp",
     "fileSm": "czinger-prestige@sm.webp",
     "bytes": 66002,
@@ -914,14 +914,14 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-01T11:55:08.697Z"
+    "errorAt": "2026-11-02T13:39:42.164Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE-_MARINE/",
-    "sourceKey": "62febff2f6e5",
-    "capturedAt": "2026-11-01T11:55:12.708Z",
-    "pushedAt": "2026-11-01T01:48:28Z",
+    "sourceKey": "bf4bf67bcc42",
+    "capturedAt": "2026-11-02T13:39:41.597Z",
+    "pushedAt": "2026-11-02T01:08:42Z",
     "file": "prestige-marine.webp",
     "fileSm": "prestige-marine@sm.webp",
     "bytes": 107710,
