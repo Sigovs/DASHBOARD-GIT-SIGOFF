@@ -1,11 +1,349 @@
 {
-  "generatedAt": "2026-11-02T13:39:37.117Z",
+  "generatedAt": "2026-11-03T12:54:01.953Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
-  "count": 60,
+  "count": 61,
   "repos": [
+    {
+      "name": "MARY_PR",
+      "fullName": "Sigovs/MARY_PR",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/MARY_PR",
+      "cloneUrl": "https://github.com/Sigovs/MARY_PR.git",
+      "sshUrl": "git@github.com:Sigovs/MARY_PR.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 9641,
+      "stars": 0,
+      "createdAt": "2026-11-03T11:03:06Z",
+      "updatedAt": "2026-11-03T11:05:09Z",
+      "pushedAt": "2026-11-03T11:05:04Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/MARY_PR/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/MARY_PR/index.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "article-01-people.html",
+          "stem": "article-01-people",
+          "base": "article-01-people",
+          "variant": 1,
+          "label": "Article 01 People",
+          "url": "https://sigovs.github.io/MARY_PR/article-01-people.html"
+        },
+        {
+          "file": "article-02-us-weekly.html",
+          "stem": "article-02-us-weekly",
+          "base": "article-02-us-weekly",
+          "variant": 1,
+          "label": "Article 02 Us Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-02-us-weekly.html"
+        },
+        {
+          "file": "article-04-modern-jeweler.html",
+          "stem": "article-04-modern-jeweler",
+          "base": "article-04-modern-jeweler",
+          "variant": 1,
+          "label": "Article 04 Modern Jeweler",
+          "url": "https://sigovs.github.io/MARY_PR/article-04-modern-jeweler.html"
+        },
+        {
+          "file": "article-05-in-touch-weekly.html",
+          "stem": "article-05-in-touch-weekly",
+          "base": "article-05-in-touch-weekly",
+          "variant": 1,
+          "label": "Article 05 in Touch Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-05-in-touch-weekly.html"
+        },
+        {
+          "file": "article-06-frontdesk.html",
+          "stem": "article-06-frontdesk",
+          "base": "article-06-frontdesk",
+          "variant": 1,
+          "label": "Article 06 Frontdesk",
+          "url": "https://sigovs.github.io/MARY_PR/article-06-frontdesk.html"
+        },
+        {
+          "file": "article-07-town-and-country.html",
+          "stem": "article-07-town-and-country",
+          "base": "article-07-town-and-country",
+          "variant": 1,
+          "label": "Article 07 Town and Country",
+          "url": "https://sigovs.github.io/MARY_PR/article-07-town-and-country.html"
+        },
+        {
+          "file": "article-08-elle.html",
+          "stem": "article-08-elle",
+          "base": "article-08-elle",
+          "variant": 1,
+          "label": "Article 08 Elle",
+          "url": "https://sigovs.github.io/MARY_PR/article-08-elle.html"
+        },
+        {
+          "file": "article-09-neiman-marcus-nm-insite.html",
+          "stem": "article-09-neiman-marcus-nm-insite",
+          "base": "article-09-neiman-marcus-nm-insite",
+          "variant": 1,
+          "label": "Article 09 Neiman Marcus Nm Insite",
+          "url": "https://sigovs.github.io/MARY_PR/article-09-neiman-marcus-nm-insite.html"
+        },
+        {
+          "file": "article-10-neiman-marcus-christmas-book.html",
+          "stem": "article-10-neiman-marcus-christmas-book",
+          "base": "article-10-neiman-marcus-christmas-book",
+          "variant": 1,
+          "label": "Article 10 Neiman Marcus Christmas Book",
+          "url": "https://sigovs.github.io/MARY_PR/article-10-neiman-marcus-christmas-book.html"
+        },
+        {
+          "file": "article-11-shape.html",
+          "stem": "article-11-shape",
+          "base": "article-11-shape",
+          "variant": 1,
+          "label": "Article 11 Shape",
+          "url": "https://sigovs.github.io/MARY_PR/article-11-shape.html"
+        },
+        {
+          "file": "article-12-o-the-oprah-magazine.html",
+          "stem": "article-12-o-the-oprah-magazine",
+          "base": "article-12-o-the-oprah-magazine",
+          "variant": 1,
+          "label": "Article 12 O the Oprah Magazine",
+          "url": "https://sigovs.github.io/MARY_PR/article-12-o-the-oprah-magazine.html"
+        },
+        {
+          "file": "article-13-life-and-style-weekly.html",
+          "stem": "article-13-life-and-style-weekly",
+          "base": "article-13-life-and-style-weekly",
+          "variant": 1,
+          "label": "Article 13 Life and Style Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-13-life-and-style-weekly.html"
+        },
+        {
+          "file": "article-14-us-weekly-buzz-o-meter.html",
+          "stem": "article-14-us-weekly-buzz-o-meter",
+          "base": "article-14-us-weekly-buzz-o-meter",
+          "variant": 1,
+          "label": "Article 14 Us Weekly Buzz O Meter",
+          "url": "https://sigovs.github.io/MARY_PR/article-14-us-weekly-buzz-o-meter.html"
+        },
+        {
+          "file": "article-15-german-press-goldengel.html",
+          "stem": "article-15-german-press-goldengel",
+          "base": "article-15-german-press-goldengel",
+          "variant": 1,
+          "label": "Article 15 German Press Goldengel",
+          "url": "https://sigovs.github.io/MARY_PR/article-15-german-press-goldengel.html"
+        },
+        {
+          "file": "article-16-instyle.html",
+          "stem": "article-16-instyle",
+          "base": "article-16-instyle",
+          "variant": 1,
+          "label": "Article 16 Instyle",
+          "url": "https://sigovs.github.io/MARY_PR/article-16-instyle.html"
+        },
+        {
+          "file": "article-17-weddingchannel-weddingbells.html",
+          "stem": "article-17-weddingchannel-weddingbells",
+          "base": "article-17-weddingchannel-weddingbells",
+          "variant": 1,
+          "label": "Article 17 Weddingchannel Weddingbells",
+          "url": "https://sigovs.github.io/MARY_PR/article-17-weddingchannel-weddingbells.html"
+        },
+        {
+          "file": "article-18-new-york-times-sunday-styles.html",
+          "stem": "article-18-new-york-times-sunday-styles",
+          "base": "article-18-new-york-times-sunday-styles",
+          "variant": 1,
+          "label": "Article 18 New York Times Sunday Styles",
+          "url": "https://sigovs.github.io/MARY_PR/article-18-new-york-times-sunday-styles.html"
+        },
+        {
+          "file": "article-19-palm-beach-life.html",
+          "stem": "article-19-palm-beach-life",
+          "base": "article-19-palm-beach-life",
+          "variant": 1,
+          "label": "Article 19 Palm Beach Life",
+          "url": "https://sigovs.github.io/MARY_PR/article-19-palm-beach-life.html"
+        },
+        {
+          "file": "article-20-brides.html",
+          "stem": "article-20-brides",
+          "base": "article-20-brides",
+          "variant": 1,
+          "label": "Article 20 Brides",
+          "url": "https://sigovs.github.io/MARY_PR/article-20-brides.html"
+        },
+        {
+          "file": "press.html",
+          "stem": "press",
+          "base": "press",
+          "variant": 1,
+          "label": "Press",
+          "url": "https://sigovs.github.io/MARY_PR/press.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "LAKE-FOREST",
+      "fullName": "Sigovs/LAKE-FOREST",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/LAKE-FOREST",
+      "cloneUrl": "https://github.com/Sigovs/LAKE-FOREST.git",
+      "sshUrl": "git@github.com:Sigovs/LAKE-FOREST.git",
+      "defaultBranch": "main",
+      "language": "CSS",
+      "topics": [],
+      "sizeKb": 598279,
+      "stars": 0,
+      "createdAt": "2026-10-16T22:59:32Z",
+      "updatedAt": "2026-11-02T23:00:02Z",
+      "pushedAt": "2026-11-02T22:59:57Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/LAKE-FOREST/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/LAKE-FOREST/index.html"
+        },
+        {
+          "file": "index_v2.html",
+          "stem": "index_v2",
+          "base": "index",
+          "variant": 2,
+          "label": "Version 2",
+          "url": "https://sigovs.github.io/LAKE-FOREST/index_v2.html"
+        },
+        {
+          "file": "index_v3.html",
+          "stem": "index_v3",
+          "base": "index",
+          "variant": 3,
+          "label": "Version 3",
+          "url": "https://sigovs.github.io/LAKE-FOREST/index_v3.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "gt_v2.html",
+          "stem": "gt_v2",
+          "base": "gt",
+          "variant": 2,
+          "label": "GT 2",
+          "url": "https://sigovs.github.io/LAKE-FOREST/gt_v2.html"
+        },
+        {
+          "file": "gt_v3.html",
+          "stem": "gt_v3",
+          "base": "gt",
+          "variant": 3,
+          "label": "GT 3",
+          "url": "https://sigovs.github.io/LAKE-FOREST/gt_v3.html"
+        },
+        {
+          "file": "history.html",
+          "stem": "history",
+          "base": "history",
+          "variant": 1,
+          "label": "History",
+          "url": "https://sigovs.github.io/LAKE-FOREST/history.html"
+        },
+        {
+          "file": "history_v2.html",
+          "stem": "history_v2",
+          "base": "history",
+          "variant": 2,
+          "label": "History 2",
+          "url": "https://sigovs.github.io/LAKE-FOREST/history_v2.html"
+        },
+        {
+          "file": "history_v3.html",
+          "stem": "history_v3",
+          "base": "history",
+          "variant": 3,
+          "label": "History 3",
+          "url": "https://sigovs.github.io/LAKE-FOREST/history_v3.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 26053,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-11-02T13:39:59Z",
+      "pushedAt": "2026-11-02T13:39:55Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "CZINGER_PRESTIGE",
       "fullName": "Sigovs/CZINGER_PRESTIGE",
@@ -154,46 +492,6 @@
           "variant": 1,
           "label": "Main",
           "url": "https://sigovs.github.io/PRESTIGE-_MARINE/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 26001,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-11-01T11:55:22Z",
-      "pushedAt": "2026-11-01T11:55:18Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
         }
       ],
       "pages": [],
@@ -453,79 +751,6 @@
           "variant": 1,
           "label": "Review Status",
           "url": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/review-status.html"
-        }
-      ],
-      "subsites": []
-    },
-    {
-      "name": "LAKE-FOREST",
-      "fullName": "Sigovs/LAKE-FOREST",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/LAKE-FOREST",
-      "cloneUrl": "https://github.com/Sigovs/LAKE-FOREST.git",
-      "sshUrl": "git@github.com:Sigovs/LAKE-FOREST.git",
-      "defaultBranch": "main",
-      "language": "CSS",
-      "topics": [],
-      "sizeKb": 575195,
-      "stars": 0,
-      "createdAt": "2026-10-16T22:59:32Z",
-      "updatedAt": "2026-10-29T20:41:05Z",
-      "pushedAt": "2026-10-29T20:40:59Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/LAKE-FOREST/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/LAKE-FOREST/index.html"
-        },
-        {
-          "file": "index_v2.html",
-          "stem": "index_v2",
-          "base": "index",
-          "variant": 2,
-          "label": "Version 2",
-          "url": "https://sigovs.github.io/LAKE-FOREST/index_v2.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "gt_v2.html",
-          "stem": "gt_v2",
-          "base": "gt",
-          "variant": 2,
-          "label": "GT 2",
-          "url": "https://sigovs.github.io/LAKE-FOREST/gt_v2.html"
-        },
-        {
-          "file": "history.html",
-          "stem": "history",
-          "base": "history",
-          "variant": 1,
-          "label": "History",
-          "url": "https://sigovs.github.io/LAKE-FOREST/history.html"
-        },
-        {
-          "file": "history_v2.html",
-          "stem": "history_v2",
-          "base": "history",
-          "variant": 2,
-          "label": "History 2",
-          "url": "https://sigovs.github.io/LAKE-FOREST/history_v2.html"
         }
       ],
       "subsites": []

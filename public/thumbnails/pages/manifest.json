@@ -2899,8 +2899,8 @@
     "file": "lake-forest--index.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index.html",
     "label": "Main",
-    "sourceKey": "93d5502132b3",
-    "capturedAt": "2026-10-30T11:29:05.190Z",
+    "sourceKey": "54b1ff662b78",
+    "capturedAt": "2026-11-03T12:55:03.669Z",
     "error": null
   },
   "TUSCON/index.html": {
@@ -3097,8 +3097,8 @@
     "file": "lake-forest--history.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/history.html",
     "label": "History",
-    "sourceKey": "e2ed7f20c92b",
-    "capturedAt": "2026-10-30T11:28:55.690Z",
+    "sourceKey": "c2cae6699fb6",
+    "capturedAt": "2026-11-03T12:54:58.841Z",
     "error": null
   },
   "TUSCON/index_v4.html": {
@@ -3556,8 +3556,8 @@
     "file": "lake-forest--gt-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/gt_v2.html",
     "label": "GT 2",
-    "sourceKey": "2fd53c219564",
-    "capturedAt": "2026-10-30T11:28:50.425Z",
+    "sourceKey": "d0e03f154132",
+    "capturedAt": "2026-11-03T12:54:50.771Z",
     "error": null
   },
   "LAKE-FOREST/history_v2.html": {
@@ -3565,8 +3565,8 @@
     "file": "lake-forest--history-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/history_v2.html",
     "label": "History 2",
-    "sourceKey": "6113efd1be34",
-    "capturedAt": "2026-10-30T11:28:56.671Z",
+    "sourceKey": "46430d0067c7",
+    "capturedAt": "2026-11-03T12:55:09.337Z",
     "error": null
   },
   "BEATTHETRADE/index_v2.html": {
@@ -3592,8 +3592,8 @@
     "file": "lake-forest--index-v2.webp",
     "url": "https://sigovs.github.io/LAKE-FOREST/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "e39da6caddf8",
-    "capturedAt": "2026-10-30T11:29:05.189Z",
+    "sourceKey": "68f1820ad5a6",
+    "capturedAt": "2026-11-03T12:55:09.368Z",
     "error": null
   },
   "CARLOFT/index_v2.html": {
@@ -3612,6 +3612,222 @@
     "label": "Version 3",
     "sourceKey": "feab9a64c30a",
     "capturedAt": "2026-10-30T11:29:07.964Z",
+    "error": null
+  },
+  "MARY_PR/article-04-modern-jeweler.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-04-modern-jeweler.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-04-modern-jeweler.html",
+    "label": "Article 04 Modern Jeweler",
+    "sourceKey": "55b4b1c36cc8",
+    "capturedAt": "2026-11-03T12:54:27.268Z",
+    "error": null
+  },
+  "MARY_PR/index.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--index.webp",
+    "url": "https://sigovs.github.io/MARY_PR/index.html",
+    "label": "Main",
+    "sourceKey": "8a07785b635a",
+    "capturedAt": "2026-11-03T12:54:28.057Z",
+    "error": null
+  },
+  "MARY_PR/article-01-people.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-01-people.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-01-people.html",
+    "label": "Article 01 People",
+    "sourceKey": "b5fffdc3f589",
+    "capturedAt": "2026-11-03T12:54:28.059Z",
+    "error": null
+  },
+  "MARY_PR/article-02-us-weekly.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-02-us-weekly.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-02-us-weekly.html",
+    "label": "Article 02 Us Weekly",
+    "sourceKey": "40e8b6269442",
+    "capturedAt": "2026-11-03T12:54:28.059Z",
+    "error": null
+  },
+  "MARY_PR/article-05-in-touch-weekly.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-05-in-touch-weekly.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-05-in-touch-weekly.html",
+    "label": "Article 05 in Touch Weekly",
+    "sourceKey": "05ea688ef819",
+    "capturedAt": "2026-11-03T12:54:31.172Z",
+    "error": null
+  },
+  "MARY_PR/article-07-town-and-country.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-07-town-and-country.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-07-town-and-country.html",
+    "label": "Article 07 Town and Country",
+    "sourceKey": "5a00e9f203b9",
+    "capturedAt": "2026-11-03T12:54:31.956Z",
+    "error": null
+  },
+  "MARY_PR/article-08-elle.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-08-elle.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-08-elle.html",
+    "label": "Article 08 Elle",
+    "sourceKey": "7d9ac160608a",
+    "capturedAt": "2026-11-03T12:54:31.978Z",
+    "error": null
+  },
+  "MARY_PR/article-06-frontdesk.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-06-frontdesk.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-06-frontdesk.html",
+    "label": "Article 06 Frontdesk",
+    "sourceKey": "6018ce35cbaf",
+    "capturedAt": "2026-11-03T12:54:31.978Z",
+    "error": null
+  },
+  "MARY_PR/article-09-neiman-marcus-nm-insite.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-09-neiman-marcus-nm-insite.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-09-neiman-marcus-nm-insite.html",
+    "label": "Article 09 Neiman Marcus Nm Insite",
+    "sourceKey": "8cbae18522e2",
+    "capturedAt": "2026-11-03T12:54:34.792Z",
+    "error": null
+  },
+  "MARY_PR/article-11-shape.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-11-shape.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-11-shape.html",
+    "label": "Article 11 Shape",
+    "sourceKey": "4b65a5dafa22",
+    "capturedAt": "2026-11-03T12:54:35.726Z",
+    "error": null
+  },
+  "MARY_PR/article-10-neiman-marcus-christmas-book.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-10-neiman-marcus-christmas-book.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-10-neiman-marcus-christmas-book.html",
+    "label": "Article 10 Neiman Marcus Christmas Book",
+    "sourceKey": "301760235404",
+    "capturedAt": "2026-11-03T12:54:35.749Z",
+    "error": null
+  },
+  "MARY_PR/article-12-o-the-oprah-magazine.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-12-o-the-oprah-magazine.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-12-o-the-oprah-magazine.html",
+    "label": "Article 12 O the Oprah Magazine",
+    "sourceKey": "065934caada7",
+    "capturedAt": "2026-11-03T12:54:35.792Z",
+    "error": null
+  },
+  "MARY_PR/article-13-life-and-style-weekly.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-13-life-and-style-weekly.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-13-life-and-style-weekly.html",
+    "label": "Article 13 Life and Style Weekly",
+    "sourceKey": "18680b2289a7",
+    "capturedAt": "2026-11-03T12:54:38.622Z",
+    "error": null
+  },
+  "MARY_PR/article-14-us-weekly-buzz-o-meter.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-14-us-weekly-buzz-o-meter.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-14-us-weekly-buzz-o-meter.html",
+    "label": "Article 14 Us Weekly Buzz O Meter",
+    "sourceKey": "678c3eac5594",
+    "capturedAt": "2026-11-03T12:54:39.419Z",
+    "error": null
+  },
+  "MARY_PR/article-15-german-press-goldengel.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-15-german-press-goldengel.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-15-german-press-goldengel.html",
+    "label": "Article 15 German Press Goldengel",
+    "sourceKey": "501218ec572a",
+    "capturedAt": "2026-11-03T12:54:39.438Z",
+    "error": null
+  },
+  "MARY_PR/article-16-instyle.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-16-instyle.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-16-instyle.html",
+    "label": "Article 16 Instyle",
+    "sourceKey": "5ceab0fe2c37",
+    "capturedAt": "2026-11-03T12:54:39.449Z",
+    "error": null
+  },
+  "MARY_PR/article-17-weddingchannel-weddingbells.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-17-weddingchannel-weddingbells.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-17-weddingchannel-weddingbells.html",
+    "label": "Article 17 Weddingchannel Weddingbells",
+    "sourceKey": "40063578c3c1",
+    "capturedAt": "2026-11-03T12:54:42.347Z",
+    "error": null
+  },
+  "MARY_PR/article-18-new-york-times-sunday-styles.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-18-new-york-times-sunday-styles.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-18-new-york-times-sunday-styles.html",
+    "label": "Article 18 New York Times Sunday Styles",
+    "sourceKey": "5f49756837cf",
+    "capturedAt": "2026-11-03T12:54:43.157Z",
+    "error": null
+  },
+  "MARY_PR/article-20-brides.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-20-brides.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-20-brides.html",
+    "label": "Article 20 Brides",
+    "sourceKey": "2833a211b0e0",
+    "capturedAt": "2026-11-03T12:54:43.187Z",
+    "error": null
+  },
+  "MARY_PR/article-19-palm-beach-life.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--article-19-palm-beach-life.webp",
+    "url": "https://sigovs.github.io/MARY_PR/article-19-palm-beach-life.html",
+    "label": "Article 19 Palm Beach Life",
+    "sourceKey": "7d5b3bfc068a",
+    "capturedAt": "2026-11-03T12:54:43.194Z",
+    "error": null
+  },
+  "MARY_PR/press.html": {
+    "repo": "MARY_PR",
+    "file": "mary-pr--press.webp",
+    "url": "https://sigovs.github.io/MARY_PR/press.html",
+    "label": "Press",
+    "sourceKey": "868b1a0b9482",
+    "capturedAt": "2026-11-03T12:54:46.049Z",
+    "error": null
+  },
+  "LAKE-FOREST/gt_v3.html": {
+    "repo": "LAKE-FOREST",
+    "file": "lake-forest--gt-v3.webp",
+    "url": "https://sigovs.github.io/LAKE-FOREST/gt_v3.html",
+    "label": "GT 3",
+    "sourceKey": "fc083f5d38b1",
+    "capturedAt": "2026-11-03T12:54:54.022Z",
+    "error": null
+  },
+  "LAKE-FOREST/index_v3.html": {
+    "repo": "LAKE-FOREST",
+    "file": "lake-forest--index-v3.webp",
+    "url": "https://sigovs.github.io/LAKE-FOREST/index_v3.html",
+    "label": "Version 3",
+    "sourceKey": "9a35891bd94e",
+    "capturedAt": "2026-11-03T12:55:09.428Z",
+    "error": null
+  },
+  "LAKE-FOREST/history_v3.html": {
+    "repo": "LAKE-FOREST",
+    "file": "lake-forest--history-v3.webp",
+    "url": "https://sigovs.github.io/LAKE-FOREST/history_v3.html",
+    "label": "History 3",
+    "sourceKey": "a7ff9372f803",
+    "capturedAt": "2026-11-03T12:55:14.058Z",
     "error": null
   }
 }
