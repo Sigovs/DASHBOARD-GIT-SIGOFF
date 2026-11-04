@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-03T12:54:02.414Z"
+    "errorAt": "2026-11-04T13:06:08.501Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-03T12:54:02.622Z"
+    "errorAt": "2026-11-04T13:06:08.689Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -797,9 +797,9 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "4f6bf2cc92b1",
-    "capturedAt": "2026-11-02T13:39:42.193Z",
-    "pushedAt": "2026-11-02T10:11:24Z",
+    "sourceKey": "f0b74cb9b22e",
+    "capturedAt": "2026-11-04T13:06:13.050Z",
+    "pushedAt": "2026-11-04T00:55:40Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
     "bytes": 45218,
@@ -888,12 +888,12 @@
   "Ferrari-of-Puerto-Rico": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Ferrari-of-Puerto-Rico/",
-    "sourceKey": "f47ddb65a3f0",
-    "capturedAt": "2026-10-31T10:59:13.692Z",
-    "pushedAt": "2026-10-30T20:14:55Z",
+    "sourceKey": "fe3dbb567c07",
+    "capturedAt": "2026-11-04T13:06:14.350Z",
+    "pushedAt": "2026-11-04T00:29:14Z",
     "file": "ferrari-of-puerto-rico.webp",
     "fileSm": "ferrari-of-puerto-rico@sm.webp",
-    "bytes": 108696,
+    "bytes": 128094,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-03T12:54:02.343Z"
+    "errorAt": "2026-11-04T13:06:08.387Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
