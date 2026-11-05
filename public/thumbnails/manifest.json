@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-04T13:06:08.501Z"
+    "errorAt": "2026-11-05T13:19:15.115Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-04T13:06:08.689Z"
+    "errorAt": "2026-11-05T13:19:15.319Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -797,9 +797,9 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "f0b74cb9b22e",
-    "capturedAt": "2026-11-04T13:06:13.050Z",
-    "pushedAt": "2026-11-04T00:55:40Z",
+    "sourceKey": "1c352e1b09e1",
+    "capturedAt": "2026-11-05T13:19:19.602Z",
+    "pushedAt": "2026-11-04T22:56:01Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
     "bytes": 45218,
@@ -862,9 +862,9 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "a94c5e683c71",
-    "capturedAt": "2026-11-03T12:54:23.875Z",
-    "pushedAt": "2026-11-02T22:59:57Z",
+    "sourceKey": "ca2cfb87a588",
+    "capturedAt": "2026-11-05T13:19:35.866Z",
+    "pushedAt": "2026-11-05T00:30:41Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
     "bytes": 48286,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-04T13:06:08.387Z"
+    "errorAt": "2026-11-05T13:19:14.893Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -954,5 +954,10 @@
     "width": 1600,
     "height": 1000,
     "error": null
+  },
+  "Interstate-Motorsport": {
+    "source": "screenshot",
+    "error": "HTTP 404",
+    "errorAt": "2026-11-05T13:19:14.780Z"
   }
 }
