@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-05T13:19:15.115Z"
+    "errorAt": "2026-11-06T13:02:27.290Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-05T13:19:15.319Z"
+    "errorAt": "2026-11-06T13:02:27.417Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -836,9 +836,9 @@
   "DUPONT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/DUPONT/",
-    "sourceKey": "5f56b2d133ff",
-    "capturedAt": "2026-10-28T11:26:32.132Z",
-    "pushedAt": "2026-10-28T10:14:21Z",
+    "sourceKey": "0eacedadf9c2",
+    "capturedAt": "2026-11-06T13:02:46.790Z",
+    "pushedAt": "2026-11-06T02:33:38Z",
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
     "bytes": 70420,
@@ -888,9 +888,9 @@
   "Ferrari-of-Puerto-Rico": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Ferrari-of-Puerto-Rico/",
-    "sourceKey": "fe3dbb567c07",
-    "capturedAt": "2026-11-04T13:06:14.350Z",
-    "pushedAt": "2026-11-04T00:29:14Z",
+    "sourceKey": "ce4aaedc6ca8",
+    "capturedAt": "2026-11-06T13:02:32.815Z",
+    "pushedAt": "2026-11-06T07:56:33Z",
     "file": "ferrari-of-puerto-rico.webp",
     "fileSm": "ferrari-of-puerto-rico@sm.webp",
     "bytes": 128094,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-05T13:19:14.893Z"
+    "errorAt": "2026-11-06T13:02:27.195Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,6 +958,6 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-05T13:19:14.780Z"
+    "errorAt": "2026-11-06T13:02:27.110Z"
   }
 }
