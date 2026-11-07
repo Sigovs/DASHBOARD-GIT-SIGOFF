@@ -1,11 +1,565 @@
 {
-  "generatedAt": "2026-11-06T13:02:26.690Z",
+  "generatedAt": "2026-11-07T11:48:46.672Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
   "count": 62,
   "repos": [
+    {
+      "name": "PRESTIGE_LAMBO",
+      "fullName": "Sigovs/PRESTIGE_LAMBO",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/PRESTIGE_LAMBO",
+      "cloneUrl": "https://github.com/Sigovs/PRESTIGE_LAMBO.git",
+      "sshUrl": "git@github.com:Sigovs/PRESTIGE_LAMBO.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 462688,
+      "stars": 0,
+      "createdAt": "2026-10-01T01:22:58Z",
+      "updatedAt": "2026-11-07T02:01:33Z",
+      "pushedAt": "2026-11-07T02:01:28Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
+      "previewSource": "pages-subpath",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index.html"
+        },
+        {
+          "file": "index_v2.html",
+          "stem": "index_v2",
+          "base": "index",
+          "variant": 2,
+          "label": "Version 2",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v2.html"
+        },
+        {
+          "file": "index_v3.html",
+          "stem": "index_v3",
+          "base": "index",
+          "variant": 3,
+          "label": "Version 3",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v3.html"
+        },
+        {
+          "file": "index_v4.html",
+          "stem": "index_v4",
+          "base": "index",
+          "variant": 4,
+          "label": "Version 4",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v4.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "about.html",
+          "stem": "about",
+          "base": "about",
+          "variant": 1,
+          "label": "About",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/about.html"
+        },
+        {
+          "file": "ad-personam.html",
+          "stem": "ad-personam",
+          "base": "ad-personam",
+          "variant": 1,
+          "label": "Ad Personam",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/ad-personam.html"
+        },
+        {
+          "file": "careers.html",
+          "stem": "careers",
+          "base": "careers",
+          "variant": 1,
+          "label": "Careers",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/careers.html"
+        },
+        {
+          "file": "collision-center.html",
+          "stem": "collision-center",
+          "base": "collision-center",
+          "variant": 1,
+          "label": "Collision Center",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/collision-center.html"
+        },
+        {
+          "file": "contact.html",
+          "stem": "contact",
+          "base": "contact",
+          "variant": 1,
+          "label": "Contact",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/contact.html"
+        },
+        {
+          "file": "lifestyle.html",
+          "stem": "lifestyle",
+          "base": "lifestyle",
+          "variant": 1,
+          "label": "Lifestyle",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/lifestyle.html"
+        },
+        {
+          "file": "model-aventador.html",
+          "stem": "model-aventador",
+          "base": "model-aventador",
+          "variant": 1,
+          "label": "Model Aventador",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-aventador.html"
+        },
+        {
+          "file": "model-concept.html",
+          "stem": "model-concept",
+          "base": "model-concept",
+          "variant": 1,
+          "label": "Model Concept",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-concept.html"
+        },
+        {
+          "file": "model-countach-lpi-800-4.html",
+          "stem": "model-countach-lpi-800-4",
+          "base": "model-countach-lpi-800",
+          "variant": 4,
+          "label": "Model Countach Lpi 800 4",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-countach-lpi-800-4.html"
+        },
+        {
+          "file": "model-huracan.html",
+          "stem": "model-huracan",
+          "base": "model-huracan",
+          "variant": 1,
+          "label": "Model Huracan",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-huracan.html"
+        },
+        {
+          "file": "model-huracan-evo-spyder.html",
+          "stem": "model-huracan-evo-spyder",
+          "base": "model-huracan-evo-spyder",
+          "variant": 1,
+          "label": "Model Huracan Evo Spyder",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-huracan-evo-spyder.html"
+        },
+        {
+          "file": "model-huracan-sterrato.html",
+          "stem": "model-huracan-sterrato",
+          "base": "model-huracan-sterrato",
+          "variant": 1,
+          "label": "Model Huracan Sterrato",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-huracan-sterrato.html"
+        },
+        {
+          "file": "model-huracan-sto.html",
+          "stem": "model-huracan-sto",
+          "base": "model-huracan-sto",
+          "variant": 1,
+          "label": "Model Huracan Sto",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-huracan-sto.html"
+        },
+        {
+          "file": "model-huracan-tecnica.html",
+          "stem": "model-huracan-tecnica",
+          "base": "model-huracan-tecnica",
+          "variant": 1,
+          "label": "Model Huracan Tecnica",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-huracan-tecnica.html"
+        },
+        {
+          "file": "model-lanzador.html",
+          "stem": "model-lanzador",
+          "base": "model-lanzador",
+          "variant": 1,
+          "label": "Model Lanzador",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-lanzador.html"
+        },
+        {
+          "file": "model-limited-series.html",
+          "stem": "model-limited-series",
+          "base": "model-limited-series",
+          "variant": 1,
+          "label": "Model Limited Series",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-limited-series.html"
+        },
+        {
+          "file": "model-revuelto.html",
+          "stem": "model-revuelto",
+          "base": "model-revuelto",
+          "variant": 1,
+          "label": "Model Revuelto",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-revuelto.html"
+        },
+        {
+          "file": "model-revuelto-sv.html",
+          "stem": "model-revuelto-sv",
+          "base": "model-revuelto-sv",
+          "variant": 1,
+          "label": "Model Revuelto Sv",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-revuelto-sv.html"
+        },
+        {
+          "file": "model-temerario.html",
+          "stem": "model-temerario",
+          "base": "model-temerario",
+          "variant": 1,
+          "label": "Model Temerario",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-temerario.html"
+        },
+        {
+          "file": "model-urus.html",
+          "stem": "model-urus",
+          "base": "model-urus",
+          "variant": 1,
+          "label": "Model Urus",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus.html"
+        },
+        {
+          "file": "model-urus-performante.html",
+          "stem": "model-urus-performante",
+          "base": "model-urus-performante",
+          "variant": 1,
+          "label": "Model Urus Performante",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-performante.html"
+        },
+        {
+          "file": "model-urus-s.html",
+          "stem": "model-urus-s",
+          "base": "model-urus-s",
+          "variant": 1,
+          "label": "Model Urus S",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-s.html"
+        },
+        {
+          "file": "model-urus-se.html",
+          "stem": "model-urus-se",
+          "base": "model-urus-se",
+          "variant": 1,
+          "label": "Model Urus Se",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-se.html"
+        },
+        {
+          "file": "model-urus-se-performante.html",
+          "stem": "model-urus-se-performante",
+          "base": "model-urus-se-performante",
+          "variant": 1,
+          "label": "Model Urus Se Performante",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-se-performante.html"
+        },
+        {
+          "file": "order-parts.html",
+          "stem": "order-parts",
+          "base": "order-parts",
+          "variant": 1,
+          "label": "Order Parts",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/order-parts.html"
+        },
+        {
+          "file": "our-story.html",
+          "stem": "our-story",
+          "base": "our-story",
+          "variant": 1,
+          "label": "Our Story",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/our-story.html"
+        },
+        {
+          "file": "schedule-service.html",
+          "stem": "schedule-service",
+          "base": "schedule-service",
+          "variant": 1,
+          "label": "Schedule Service",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/schedule-service.html"
+        },
+        {
+          "file": "service.html",
+          "stem": "service",
+          "base": "service",
+          "variant": 1,
+          "label": "Service",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/service.html"
+        },
+        {
+          "file": "srp.html",
+          "stem": "srp",
+          "base": "srp",
+          "variant": 1,
+          "label": "Search results",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/srp.html"
+        },
+        {
+          "file": "tecnomar63.html",
+          "stem": "tecnomar63",
+          "base": "tecnomar",
+          "variant": 63,
+          "label": "Tecnomar 63",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/tecnomar63.html"
+        },
+        {
+          "file": "vdp.html",
+          "stem": "vdp",
+          "base": "vdp",
+          "variant": 1,
+          "label": "Vehicle detail",
+          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/vdp.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "MARY_PR",
+      "fullName": "Sigovs/MARY_PR",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/MARY_PR",
+      "cloneUrl": "https://github.com/Sigovs/MARY_PR.git",
+      "sshUrl": "git@github.com:Sigovs/MARY_PR.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 26206,
+      "stars": 0,
+      "createdAt": "2026-11-03T11:03:06Z",
+      "updatedAt": "2026-11-06T21:07:00Z",
+      "pushedAt": "2026-11-06T21:06:55Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/MARY_PR/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/MARY_PR/index.html"
+        }
+      ],
+      "pages": [
+        {
+          "file": "article-01-people.html",
+          "stem": "article-01-people",
+          "base": "article-01-people",
+          "variant": 1,
+          "label": "Article 01 People",
+          "url": "https://sigovs.github.io/MARY_PR/article-01-people.html"
+        },
+        {
+          "file": "article-02-us-weekly.html",
+          "stem": "article-02-us-weekly",
+          "base": "article-02-us-weekly",
+          "variant": 1,
+          "label": "Article 02 Us Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-02-us-weekly.html"
+        },
+        {
+          "file": "article-04-modern-jeweler.html",
+          "stem": "article-04-modern-jeweler",
+          "base": "article-04-modern-jeweler",
+          "variant": 1,
+          "label": "Article 04 Modern Jeweler",
+          "url": "https://sigovs.github.io/MARY_PR/article-04-modern-jeweler.html"
+        },
+        {
+          "file": "article-05-in-touch-weekly.html",
+          "stem": "article-05-in-touch-weekly",
+          "base": "article-05-in-touch-weekly",
+          "variant": 1,
+          "label": "Article 05 in Touch Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-05-in-touch-weekly.html"
+        },
+        {
+          "file": "article-06-frontdesk.html",
+          "stem": "article-06-frontdesk",
+          "base": "article-06-frontdesk",
+          "variant": 1,
+          "label": "Article 06 Frontdesk",
+          "url": "https://sigovs.github.io/MARY_PR/article-06-frontdesk.html"
+        },
+        {
+          "file": "article-07-town-and-country.html",
+          "stem": "article-07-town-and-country",
+          "base": "article-07-town-and-country",
+          "variant": 1,
+          "label": "Article 07 Town and Country",
+          "url": "https://sigovs.github.io/MARY_PR/article-07-town-and-country.html"
+        },
+        {
+          "file": "article-08-elle.html",
+          "stem": "article-08-elle",
+          "base": "article-08-elle",
+          "variant": 1,
+          "label": "Article 08 Elle",
+          "url": "https://sigovs.github.io/MARY_PR/article-08-elle.html"
+        },
+        {
+          "file": "article-09-neiman-marcus-nm-insite.html",
+          "stem": "article-09-neiman-marcus-nm-insite",
+          "base": "article-09-neiman-marcus-nm-insite",
+          "variant": 1,
+          "label": "Article 09 Neiman Marcus Nm Insite",
+          "url": "https://sigovs.github.io/MARY_PR/article-09-neiman-marcus-nm-insite.html"
+        },
+        {
+          "file": "article-10-neiman-marcus-christmas-book.html",
+          "stem": "article-10-neiman-marcus-christmas-book",
+          "base": "article-10-neiman-marcus-christmas-book",
+          "variant": 1,
+          "label": "Article 10 Neiman Marcus Christmas Book",
+          "url": "https://sigovs.github.io/MARY_PR/article-10-neiman-marcus-christmas-book.html"
+        },
+        {
+          "file": "article-11-shape.html",
+          "stem": "article-11-shape",
+          "base": "article-11-shape",
+          "variant": 1,
+          "label": "Article 11 Shape",
+          "url": "https://sigovs.github.io/MARY_PR/article-11-shape.html"
+        },
+        {
+          "file": "article-12-o-the-oprah-magazine.html",
+          "stem": "article-12-o-the-oprah-magazine",
+          "base": "article-12-o-the-oprah-magazine",
+          "variant": 1,
+          "label": "Article 12 O the Oprah Magazine",
+          "url": "https://sigovs.github.io/MARY_PR/article-12-o-the-oprah-magazine.html"
+        },
+        {
+          "file": "article-13-life-and-style-weekly.html",
+          "stem": "article-13-life-and-style-weekly",
+          "base": "article-13-life-and-style-weekly",
+          "variant": 1,
+          "label": "Article 13 Life and Style Weekly",
+          "url": "https://sigovs.github.io/MARY_PR/article-13-life-and-style-weekly.html"
+        },
+        {
+          "file": "article-14-us-weekly-buzz-o-meter.html",
+          "stem": "article-14-us-weekly-buzz-o-meter",
+          "base": "article-14-us-weekly-buzz-o-meter",
+          "variant": 1,
+          "label": "Article 14 Us Weekly Buzz O Meter",
+          "url": "https://sigovs.github.io/MARY_PR/article-14-us-weekly-buzz-o-meter.html"
+        },
+        {
+          "file": "article-15-german-press-goldengel.html",
+          "stem": "article-15-german-press-goldengel",
+          "base": "article-15-german-press-goldengel",
+          "variant": 1,
+          "label": "Article 15 German Press Goldengel",
+          "url": "https://sigovs.github.io/MARY_PR/article-15-german-press-goldengel.html"
+        },
+        {
+          "file": "article-16-instyle.html",
+          "stem": "article-16-instyle",
+          "base": "article-16-instyle",
+          "variant": 1,
+          "label": "Article 16 Instyle",
+          "url": "https://sigovs.github.io/MARY_PR/article-16-instyle.html"
+        },
+        {
+          "file": "article-17-weddingchannel-weddingbells.html",
+          "stem": "article-17-weddingchannel-weddingbells",
+          "base": "article-17-weddingchannel-weddingbells",
+          "variant": 1,
+          "label": "Article 17 Weddingchannel Weddingbells",
+          "url": "https://sigovs.github.io/MARY_PR/article-17-weddingchannel-weddingbells.html"
+        },
+        {
+          "file": "article-18-new-york-times-sunday-styles.html",
+          "stem": "article-18-new-york-times-sunday-styles",
+          "base": "article-18-new-york-times-sunday-styles",
+          "variant": 1,
+          "label": "Article 18 New York Times Sunday Styles",
+          "url": "https://sigovs.github.io/MARY_PR/article-18-new-york-times-sunday-styles.html"
+        },
+        {
+          "file": "article-19-palm-beach-life.html",
+          "stem": "article-19-palm-beach-life",
+          "base": "article-19-palm-beach-life",
+          "variant": 1,
+          "label": "Article 19 Palm Beach Life",
+          "url": "https://sigovs.github.io/MARY_PR/article-19-palm-beach-life.html"
+        },
+        {
+          "file": "article-20-brides.html",
+          "stem": "article-20-brides",
+          "base": "article-20-brides",
+          "variant": 1,
+          "label": "Article 20 Brides",
+          "url": "https://sigovs.github.io/MARY_PR/article-20-brides.html"
+        },
+        {
+          "file": "press.html",
+          "stem": "press",
+          "base": "press",
+          "variant": 1,
+          "label": "Press",
+          "url": "https://sigovs.github.io/MARY_PR/press.html"
+        }
+      ],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 26716,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-11-06T13:03:33Z",
+      "pushedAt": "2026-11-06T13:03:28Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "Ferrari-of-Puerto-Rico",
       "fullName": "Sigovs/Ferrari-of-Puerto-Rico",
@@ -287,46 +841,6 @@
       "subsites": []
     },
     {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 26697,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-11-05T13:20:27Z",
-      "pushedAt": "2026-11-05T13:20:22Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
-      "subsites": []
-    },
-    {
       "name": "LAKE-FOREST",
       "fullName": "Sigovs/LAKE-FOREST",
       "description": null,
@@ -485,207 +999,6 @@
         }
       ],
       "pages": [],
-      "subsites": []
-    },
-    {
-      "name": "MARY_PR",
-      "fullName": "Sigovs/MARY_PR",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/MARY_PR",
-      "cloneUrl": "https://github.com/Sigovs/MARY_PR.git",
-      "sshUrl": "git@github.com:Sigovs/MARY_PR.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 9641,
-      "stars": 0,
-      "createdAt": "2026-11-03T11:03:06Z",
-      "updatedAt": "2026-11-03T11:05:09Z",
-      "pushedAt": "2026-11-03T11:05:04Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/MARY_PR/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/MARY_PR/index.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "article-01-people.html",
-          "stem": "article-01-people",
-          "base": "article-01-people",
-          "variant": 1,
-          "label": "Article 01 People",
-          "url": "https://sigovs.github.io/MARY_PR/article-01-people.html"
-        },
-        {
-          "file": "article-02-us-weekly.html",
-          "stem": "article-02-us-weekly",
-          "base": "article-02-us-weekly",
-          "variant": 1,
-          "label": "Article 02 Us Weekly",
-          "url": "https://sigovs.github.io/MARY_PR/article-02-us-weekly.html"
-        },
-        {
-          "file": "article-04-modern-jeweler.html",
-          "stem": "article-04-modern-jeweler",
-          "base": "article-04-modern-jeweler",
-          "variant": 1,
-          "label": "Article 04 Modern Jeweler",
-          "url": "https://sigovs.github.io/MARY_PR/article-04-modern-jeweler.html"
-        },
-        {
-          "file": "article-05-in-touch-weekly.html",
-          "stem": "article-05-in-touch-weekly",
-          "base": "article-05-in-touch-weekly",
-          "variant": 1,
-          "label": "Article 05 in Touch Weekly",
-          "url": "https://sigovs.github.io/MARY_PR/article-05-in-touch-weekly.html"
-        },
-        {
-          "file": "article-06-frontdesk.html",
-          "stem": "article-06-frontdesk",
-          "base": "article-06-frontdesk",
-          "variant": 1,
-          "label": "Article 06 Frontdesk",
-          "url": "https://sigovs.github.io/MARY_PR/article-06-frontdesk.html"
-        },
-        {
-          "file": "article-07-town-and-country.html",
-          "stem": "article-07-town-and-country",
-          "base": "article-07-town-and-country",
-          "variant": 1,
-          "label": "Article 07 Town and Country",
-          "url": "https://sigovs.github.io/MARY_PR/article-07-town-and-country.html"
-        },
-        {
-          "file": "article-08-elle.html",
-          "stem": "article-08-elle",
-          "base": "article-08-elle",
-          "variant": 1,
-          "label": "Article 08 Elle",
-          "url": "https://sigovs.github.io/MARY_PR/article-08-elle.html"
-        },
-        {
-          "file": "article-09-neiman-marcus-nm-insite.html",
-          "stem": "article-09-neiman-marcus-nm-insite",
-          "base": "article-09-neiman-marcus-nm-insite",
-          "variant": 1,
-          "label": "Article 09 Neiman Marcus Nm Insite",
-          "url": "https://sigovs.github.io/MARY_PR/article-09-neiman-marcus-nm-insite.html"
-        },
-        {
-          "file": "article-10-neiman-marcus-christmas-book.html",
-          "stem": "article-10-neiman-marcus-christmas-book",
-          "base": "article-10-neiman-marcus-christmas-book",
-          "variant": 1,
-          "label": "Article 10 Neiman Marcus Christmas Book",
-          "url": "https://sigovs.github.io/MARY_PR/article-10-neiman-marcus-christmas-book.html"
-        },
-        {
-          "file": "article-11-shape.html",
-          "stem": "article-11-shape",
-          "base": "article-11-shape",
-          "variant": 1,
-          "label": "Article 11 Shape",
-          "url": "https://sigovs.github.io/MARY_PR/article-11-shape.html"
-        },
-        {
-          "file": "article-12-o-the-oprah-magazine.html",
-          "stem": "article-12-o-the-oprah-magazine",
-          "base": "article-12-o-the-oprah-magazine",
-          "variant": 1,
-          "label": "Article 12 O the Oprah Magazine",
-          "url": "https://sigovs.github.io/MARY_PR/article-12-o-the-oprah-magazine.html"
-        },
-        {
-          "file": "article-13-life-and-style-weekly.html",
-          "stem": "article-13-life-and-style-weekly",
-          "base": "article-13-life-and-style-weekly",
-          "variant": 1,
-          "label": "Article 13 Life and Style Weekly",
-          "url": "https://sigovs.github.io/MARY_PR/article-13-life-and-style-weekly.html"
-        },
-        {
-          "file": "article-14-us-weekly-buzz-o-meter.html",
-          "stem": "article-14-us-weekly-buzz-o-meter",
-          "base": "article-14-us-weekly-buzz-o-meter",
-          "variant": 1,
-          "label": "Article 14 Us Weekly Buzz O Meter",
-          "url": "https://sigovs.github.io/MARY_PR/article-14-us-weekly-buzz-o-meter.html"
-        },
-        {
-          "file": "article-15-german-press-goldengel.html",
-          "stem": "article-15-german-press-goldengel",
-          "base": "article-15-german-press-goldengel",
-          "variant": 1,
-          "label": "Article 15 German Press Goldengel",
-          "url": "https://sigovs.github.io/MARY_PR/article-15-german-press-goldengel.html"
-        },
-        {
-          "file": "article-16-instyle.html",
-          "stem": "article-16-instyle",
-          "base": "article-16-instyle",
-          "variant": 1,
-          "label": "Article 16 Instyle",
-          "url": "https://sigovs.github.io/MARY_PR/article-16-instyle.html"
-        },
-        {
-          "file": "article-17-weddingchannel-weddingbells.html",
-          "stem": "article-17-weddingchannel-weddingbells",
-          "base": "article-17-weddingchannel-weddingbells",
-          "variant": 1,
-          "label": "Article 17 Weddingchannel Weddingbells",
-          "url": "https://sigovs.github.io/MARY_PR/article-17-weddingchannel-weddingbells.html"
-        },
-        {
-          "file": "article-18-new-york-times-sunday-styles.html",
-          "stem": "article-18-new-york-times-sunday-styles",
-          "base": "article-18-new-york-times-sunday-styles",
-          "variant": 1,
-          "label": "Article 18 New York Times Sunday Styles",
-          "url": "https://sigovs.github.io/MARY_PR/article-18-new-york-times-sunday-styles.html"
-        },
-        {
-          "file": "article-19-palm-beach-life.html",
-          "stem": "article-19-palm-beach-life",
-          "base": "article-19-palm-beach-life",
-          "variant": 1,
-          "label": "Article 19 Palm Beach Life",
-          "url": "https://sigovs.github.io/MARY_PR/article-19-palm-beach-life.html"
-        },
-        {
-          "file": "article-20-brides.html",
-          "stem": "article-20-brides",
-          "base": "article-20-brides",
-          "variant": 1,
-          "label": "Article 20 Brides",
-          "url": "https://sigovs.github.io/MARY_PR/article-20-brides.html"
-        },
-        {
-          "file": "press.html",
-          "stem": "press",
-          "base": "press",
-          "variant": 1,
-          "label": "Press",
-          "url": "https://sigovs.github.io/MARY_PR/press.html"
-        }
-      ],
       "subsites": []
     },
     {
@@ -1213,191 +1526,6 @@
           "variant": 1,
           "label": "Vehicle V 4 2005 Cadillac Xlr with 32k Miles",
           "url": "https://sigovs.github.io/TUSCON/vehicle_v4_2005-cadillac-xlr-with-32k-miles.html"
-        }
-      ],
-      "subsites": []
-    },
-    {
-      "name": "PRESTIGE_LAMBO",
-      "fullName": "Sigovs/PRESTIGE_LAMBO",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/PRESTIGE_LAMBO",
-      "cloneUrl": "https://github.com/Sigovs/PRESTIGE_LAMBO.git",
-      "sshUrl": "git@github.com:Sigovs/PRESTIGE_LAMBO.git",
-      "defaultBranch": "main",
-      "language": "HTML",
-      "topics": [],
-      "sizeKb": 373855,
-      "stars": 0,
-      "createdAt": "2026-10-01T01:22:58Z",
-      "updatedAt": "2026-10-23T05:49:50Z",
-      "pushedAt": "2026-10-23T05:49:46Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-      "previewSource": "pages-subpath",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index.html"
-        },
-        {
-          "file": "index_v2.html",
-          "stem": "index_v2",
-          "base": "index",
-          "variant": 2,
-          "label": "Version 2",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v2.html"
-        },
-        {
-          "file": "index_v3.html",
-          "stem": "index_v3",
-          "base": "index",
-          "variant": 3,
-          "label": "Version 3",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v3.html"
-        },
-        {
-          "file": "index_v4.html",
-          "stem": "index_v4",
-          "base": "index",
-          "variant": 4,
-          "label": "Version 4",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/index_v4.html"
-        }
-      ],
-      "pages": [
-        {
-          "file": "ad-personam.html",
-          "stem": "ad-personam",
-          "base": "ad-personam",
-          "variant": 1,
-          "label": "Ad Personam",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/ad-personam.html"
-        },
-        {
-          "file": "careers.html",
-          "stem": "careers",
-          "base": "careers",
-          "variant": 1,
-          "label": "Careers",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/careers.html"
-        },
-        {
-          "file": "collision-center.html",
-          "stem": "collision-center",
-          "base": "collision-center",
-          "variant": 1,
-          "label": "Collision Center",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/collision-center.html"
-        },
-        {
-          "file": "contact.html",
-          "stem": "contact",
-          "base": "contact",
-          "variant": 1,
-          "label": "Contact",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/contact.html"
-        },
-        {
-          "file": "lifestyle.html",
-          "stem": "lifestyle",
-          "base": "lifestyle",
-          "variant": 1,
-          "label": "Lifestyle",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/lifestyle.html"
-        },
-        {
-          "file": "model-revuelto.html",
-          "stem": "model-revuelto",
-          "base": "model-revuelto",
-          "variant": 1,
-          "label": "Model Revuelto",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-revuelto.html"
-        },
-        {
-          "file": "model-revuelto-sv.html",
-          "stem": "model-revuelto-sv",
-          "base": "model-revuelto-sv",
-          "variant": 1,
-          "label": "Model Revuelto Sv",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-revuelto-sv.html"
-        },
-        {
-          "file": "model-temerario.html",
-          "stem": "model-temerario",
-          "base": "model-temerario",
-          "variant": 1,
-          "label": "Model Temerario",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-temerario.html"
-        },
-        {
-          "file": "model-urus-se.html",
-          "stem": "model-urus-se",
-          "base": "model-urus-se",
-          "variant": 1,
-          "label": "Model Urus Se",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-se.html"
-        },
-        {
-          "file": "model-urus-se-performante.html",
-          "stem": "model-urus-se-performante",
-          "base": "model-urus-se-performante",
-          "variant": 1,
-          "label": "Model Urus Se Performante",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/model-urus-se-performante.html"
-        },
-        {
-          "file": "order-parts.html",
-          "stem": "order-parts",
-          "base": "order-parts",
-          "variant": 1,
-          "label": "Order Parts",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/order-parts.html"
-        },
-        {
-          "file": "schedule-service.html",
-          "stem": "schedule-service",
-          "base": "schedule-service",
-          "variant": 1,
-          "label": "Schedule Service",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/schedule-service.html"
-        },
-        {
-          "file": "service.html",
-          "stem": "service",
-          "base": "service",
-          "variant": 1,
-          "label": "Service",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/service.html"
-        },
-        {
-          "file": "srp.html",
-          "stem": "srp",
-          "base": "srp",
-          "variant": 1,
-          "label": "Search results",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/srp.html"
-        },
-        {
-          "file": "vdp.html",
-          "stem": "vdp",
-          "base": "vdp",
-          "variant": 1,
-          "label": "Vehicle detail",
-          "url": "https://sigovs.github.io/PRESTIGE_LAMBO/site/vdp.html"
         }
       ],
       "subsites": []

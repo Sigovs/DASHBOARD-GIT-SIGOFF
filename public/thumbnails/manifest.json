@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-06T13:02:27.290Z"
+    "errorAt": "2026-11-07T11:48:47.358Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-06T13:02:27.417Z"
+    "errorAt": "2026-11-07T11:48:47.474Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -875,9 +875,9 @@
   "PRESTIGE_LAMBO": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-    "sourceKey": "b313889a1322",
-    "capturedAt": "2026-10-23T10:23:57.580Z",
-    "pushedAt": "2026-10-23T05:49:46Z",
+    "sourceKey": "54aa91436b7e",
+    "capturedAt": "2026-11-07T11:48:52.129Z",
+    "pushedAt": "2026-11-07T02:01:28Z",
     "file": "prestige-lambo.webp",
     "fileSm": "prestige-lambo@sm.webp",
     "bytes": 101388,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-06T13:02:27.195Z"
+    "errorAt": "2026-11-07T11:48:47.211Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -945,12 +945,12 @@
   "MARY_PR": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/MARY_PR/",
-    "sourceKey": "9eb87dc41381",
-    "capturedAt": "2026-11-03T12:54:06.408Z",
-    "pushedAt": "2026-11-03T11:05:04Z",
+    "sourceKey": "63a611226a9d",
+    "capturedAt": "2026-11-07T11:48:50.994Z",
+    "pushedAt": "2026-11-06T21:06:55Z",
     "file": "mary-pr.webp",
     "fileSm": "mary-pr@sm.webp",
-    "bytes": 63340,
+    "bytes": 63218,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -958,6 +958,6 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-06T13:02:27.110Z"
+    "errorAt": "2026-11-07T11:48:47.090Z"
   }
 }
