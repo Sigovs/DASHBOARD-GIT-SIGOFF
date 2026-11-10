@@ -2719,8 +2719,8 @@
     "file": "carloft--index.webp",
     "url": "https://sigovs.github.io/CARLOFT/index.html",
     "label": "Main",
-    "sourceKey": "d084a31143d5",
-    "capturedAt": "2026-10-30T11:29:01.154Z",
+    "sourceKey": "3bcb4ae5cf63",
+    "capturedAt": "2026-11-10T13:38:23.890Z",
     "error": null
   },
   "PRESTIGE_PAGANI/index.html": {
@@ -3547,8 +3547,8 @@
     "file": "prestige-marine--index.webp",
     "url": "https://sigovs.github.io/PRESTIGE-_MARINE/index.html",
     "label": "Main",
-    "sourceKey": "92932f08203a",
-    "capturedAt": "2026-11-02T13:39:51.350Z",
+    "sourceKey": "b99efcded453",
+    "capturedAt": "2026-11-10T13:38:22.483Z",
     "error": null
   },
   "LAKE-FOREST/gt_v2.html": {
@@ -3601,8 +3601,8 @@
     "file": "carloft--index-v2.webp",
     "url": "https://sigovs.github.io/CARLOFT/index_v2.html",
     "label": "Version 2",
-    "sourceKey": "4d4292075f8c",
-    "capturedAt": "2026-10-30T11:29:01.049Z",
+    "sourceKey": "393c76918417",
+    "capturedAt": "2026-11-10T13:38:26.065Z",
     "error": null
   },
   "CARLOFT/index_v3.html": {
@@ -3610,8 +3610,8 @@
     "file": "carloft--index-v3.webp",
     "url": "https://sigovs.github.io/CARLOFT/index_v3.html",
     "label": "Version 3",
-    "sourceKey": "feab9a64c30a",
-    "capturedAt": "2026-10-30T11:29:07.964Z",
+    "sourceKey": "0ec87466ed7d",
+    "capturedAt": "2026-11-10T13:38:27.628Z",
     "error": null
   },
   "MARY_PR/article-04-modern-jeweler.html": {
@@ -3999,6 +3999,33 @@
     "label": "Tecnomar 63",
     "sourceKey": "89c8f58bed1a",
     "capturedAt": "2026-11-07T11:49:49.556Z",
+    "error": null
+  },
+  "CARLOFT/index_v2_2.html": {
+    "repo": "CARLOFT",
+    "file": "carloft--index-v2-2.webp",
+    "url": "https://sigovs.github.io/CARLOFT/index_v2_2.html",
+    "label": "Index V 2 2",
+    "sourceKey": "f5b7bb3e7dc1",
+    "capturedAt": "2026-11-10T13:38:29.831Z",
+    "error": null
+  },
+  "Karma-of-Fuquay/index.html": {
+    "repo": "Karma-of-Fuquay",
+    "file": "karma-of-fuquay--index.webp",
+    "url": "https://sigovs.github.io/Karma-of-Fuquay/index.html",
+    "label": "Main",
+    "sourceKey": "b2dce08106ca",
+    "capturedAt": "2026-11-10T13:38:39.460Z",
+    "error": null
+  },
+  "Karma-of-Fuquay/_original.html": {
+    "repo": "Karma-of-Fuquay",
+    "file": "karma-of-fuquay--original.webp",
+    "url": "https://sigovs.github.io/Karma-of-Fuquay/_original.html",
+    "label": "Original",
+    "sourceKey": "d2319e392a10",
+    "capturedAt": "2026-11-10T13:38:47.208Z",
     "error": null
   }
 }

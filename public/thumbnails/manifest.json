@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-09T14:02:32.880Z"
+    "errorAt": "2026-11-10T13:37:58.849Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-09T14:02:33.040Z"
+    "errorAt": "2026-11-10T13:38:03.846Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -784,9 +784,9 @@
   "CARLOFT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CARLOFT/",
-    "sourceKey": "cfd92f6f46e4",
-    "capturedAt": "2026-10-30T11:28:26.938Z",
-    "pushedAt": "2026-10-29T21:28:38Z",
+    "sourceKey": "f26bef59403c",
+    "capturedAt": "2026-11-10T13:38:04.122Z",
+    "pushedAt": "2026-11-10T06:25:12Z",
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
@@ -914,17 +914,17 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-09T14:02:32.898Z"
+    "errorAt": "2026-11-10T13:37:58.647Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE-_MARINE/",
-    "sourceKey": "bf4bf67bcc42",
-    "capturedAt": "2026-11-02T13:39:41.597Z",
-    "pushedAt": "2026-11-02T01:08:42Z",
+    "sourceKey": "96de16648c38",
+    "capturedAt": "2026-11-10T13:38:02.641Z",
+    "pushedAt": "2026-11-10T08:58:18Z",
     "file": "prestige-marine.webp",
     "fileSm": "prestige-marine@sm.webp",
-    "bytes": 107710,
+    "bytes": 96526,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -958,6 +958,19 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-09T14:02:32.902Z"
+    "errorAt": "2026-11-10T13:37:58.768Z"
+  },
+  "Karma-of-Fuquay": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/Karma-of-Fuquay/",
+    "sourceKey": "cd7878608b61",
+    "capturedAt": "2026-11-10T13:38:19.262Z",
+    "pushedAt": "2026-11-10T00:15:04Z",
+    "file": "karma-of-fuquay.webp",
+    "fileSm": "karma-of-fuquay@sm.webp",
+    "bytes": 63942,
+    "width": 1600,
+    "height": 1000,
+    "error": null
   }
 }
