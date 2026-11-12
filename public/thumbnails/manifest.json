@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-11T12:49:31.008Z"
+    "errorAt": "2026-11-12T13:51:59.563Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -185,12 +185,12 @@
   "VEGAS_UPD": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/VEGAS_UPD/",
-    "sourceKey": "614ad8d64915",
-    "capturedAt": "2026-10-13T12:48:24.489Z",
-    "pushedAt": "2026-10-12T20:24:40Z",
+    "sourceKey": "9a18abc2de4a",
+    "capturedAt": "2026-11-12T13:52:05.064Z",
+    "pushedAt": "2026-11-11T18:38:27Z",
     "file": "vegas-upd.webp",
     "fileSm": "vegas-upd@sm.webp",
-    "bytes": 104196,
+    "bytes": 104138,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-11T12:49:31.171Z"
+    "errorAt": "2026-11-12T13:51:59.861Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -862,9 +862,9 @@
   "LAKE-FOREST": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/LAKE-FOREST/",
-    "sourceKey": "3cec518e79e9",
-    "capturedAt": "2026-11-11T12:49:52.557Z",
-    "pushedAt": "2026-11-11T11:46:55Z",
+    "sourceKey": "145a0fb39603",
+    "capturedAt": "2026-11-12T13:52:20.677Z",
+    "pushedAt": "2026-11-11T20:18:34Z",
     "file": "lake-forest.webp",
     "fileSm": "lake-forest@sm.webp",
     "bytes": 48286,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-11T12:49:30.795Z"
+    "errorAt": "2026-11-12T13:51:59.408Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-11T12:49:30.902Z"
+    "errorAt": "2026-11-12T13:51:59.487Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
