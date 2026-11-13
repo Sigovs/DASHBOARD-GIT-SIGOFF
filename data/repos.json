@@ -1,11 +1,91 @@
 {
-  "generatedAt": "2026-11-12T13:51:59.065Z",
+  "generatedAt": "2026-11-13T13:14:23.980Z",
   "owner": "Sigovs",
   "ownerUrl": "https://github.com/Sigovs",
   "ownerName": "Alexander Sigoff",
   "avatarUrl": "https://avatars.githubusercontent.com/u/141369706?v=4",
-  "count": 63,
+  "count": 64,
   "repos": [
+    {
+      "name": "Gold-Coast-Motors",
+      "fullName": "Sigovs/Gold-Coast-Motors",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/Gold-Coast-Motors",
+      "cloneUrl": "https://github.com/Sigovs/Gold-Coast-Motors.git",
+      "sshUrl": "git@github.com:Sigovs/Gold-Coast-Motors.git",
+      "defaultBranch": "main",
+      "language": "HTML",
+      "topics": [],
+      "sizeKb": 1862,
+      "stars": 0,
+      "createdAt": "2026-11-13T04:37:04Z",
+      "updatedAt": "2026-11-13T04:41:54Z",
+      "pushedAt": "2026-11-13T05:28:16Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/Gold-Coast-Motors/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/Gold-Coast-Motors/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
+    {
+      "name": "DASHBOARD-GIT-SIGOFF",
+      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
+      "description": null,
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
+      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
+      "defaultBranch": "main",
+      "language": "JavaScript",
+      "topics": [],
+      "sizeKb": 27763,
+      "stars": 0,
+      "createdAt": "2026-09-03T20:40:23Z",
+      "updatedAt": "2026-11-12T14:54:07Z",
+      "pushedAt": "2026-11-12T13:54:03Z",
+      "homepage": null,
+      "hasPages": true,
+      "pagesStatus": "built",
+      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
+      "previewSource": "pages",
+      "previewStatus": 200,
+      "repoImage": null,
+      "repoImageKind": null,
+      "versions": [
+        {
+          "file": "index.html",
+          "stem": "index",
+          "base": "index",
+          "variant": 1,
+          "label": "Main",
+          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
+        }
+      ],
+      "pages": [],
+      "subsites": []
+    },
     {
       "name": "LAKE-FOREST",
       "fullName": "Sigovs/LAKE-FOREST",
@@ -510,46 +590,6 @@
           "url": "https://sigovs.github.io/VEGAS_UPD/vip7.html"
         }
       ],
-      "subsites": []
-    },
-    {
-      "name": "DASHBOARD-GIT-SIGOFF",
-      "fullName": "Sigovs/DASHBOARD-GIT-SIGOFF",
-      "description": null,
-      "private": false,
-      "fork": false,
-      "archived": false,
-      "visibility": "public",
-      "htmlUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF",
-      "cloneUrl": "https://github.com/Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "sshUrl": "git@github.com:Sigovs/DASHBOARD-GIT-SIGOFF.git",
-      "defaultBranch": "main",
-      "language": "JavaScript",
-      "topics": [],
-      "sizeKb": 27604,
-      "stars": 0,
-      "createdAt": "2026-09-03T20:40:23Z",
-      "updatedAt": "2026-11-11T13:50:56Z",
-      "pushedAt": "2026-11-11T12:50:51Z",
-      "homepage": null,
-      "hasPages": true,
-      "pagesStatus": "built",
-      "previewUrl": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/",
-      "previewSource": "pages",
-      "previewStatus": 200,
-      "repoImage": null,
-      "repoImageKind": null,
-      "versions": [
-        {
-          "file": "index.html",
-          "stem": "index",
-          "base": "index",
-          "variant": 1,
-          "label": "Main",
-          "url": "https://sigovs.github.io/DASHBOARD-GIT-SIGOFF/index.html"
-        }
-      ],
-      "pages": [],
       "subsites": []
     },
     {
@@ -1061,11 +1101,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 26206,
+      "sizeKb": 166100,
       "stars": 0,
       "createdAt": "2026-11-03T11:03:06Z",
       "updatedAt": "2026-11-06T21:07:00Z",
-      "pushedAt": "2026-11-06T21:06:55Z",
+      "pushedAt": "2026-11-12T19:07:47Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -1511,11 +1551,11 @@
       "defaultBranch": "main",
       "language": "HTML",
       "topics": [],
-      "sizeKb": 752675,
+      "sizeKb": 753092,
       "stars": 0,
       "createdAt": "2026-10-01T23:14:31Z",
       "updatedAt": "2026-11-04T22:56:05Z",
-      "pushedAt": "2026-11-04T22:56:01Z",
+      "pushedAt": "2026-11-12T17:44:38Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -2679,11 +2719,11 @@
       "defaultBranch": "main",
       "language": "JavaScript",
       "topics": [],
-      "sizeKb": 37242,
+      "sizeKb": 37690,
       "stars": 0,
       "createdAt": "2026-10-01T00:52:00Z",
       "updatedAt": "2026-10-01T01:19:54Z",
-      "pushedAt": "2026-11-10T06:25:12Z",
+      "pushedAt": "2026-11-12T20:01:57Z",
       "homepage": null,
       "hasPages": true,
       "pagesStatus": "built",
@@ -2716,6 +2756,14 @@
           "variant": 3,
           "label": "Version 3",
           "url": "https://sigovs.github.io/CARLOFT/index_v3.html"
+        },
+        {
+          "file": "index_v4.html",
+          "stem": "index_v4",
+          "base": "index",
+          "variant": 4,
+          "label": "Version 4",
+          "url": "https://sigovs.github.io/CARLOFT/index_v4.html"
         }
       ],
       "pages": [
@@ -2726,6 +2774,22 @@
           "variant": 2,
           "label": "Index V 2 2",
           "url": "https://sigovs.github.io/CARLOFT/index_v2_2.html"
+        },
+        {
+          "file": "index_v2_3.html",
+          "stem": "index_v2_3",
+          "base": "index_v2",
+          "variant": 3,
+          "label": "Index V 2 3",
+          "url": "https://sigovs.github.io/CARLOFT/index_v2_3.html"
+        },
+        {
+          "file": "style-guide.html",
+          "stem": "style-guide",
+          "base": "style-guide",
+          "variant": 1,
+          "label": "Style Guide",
+          "url": "https://sigovs.github.io/CARLOFT/style-guide.html"
         }
       ],
       "subsites": []

@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-12T13:51:59.563Z"
+    "errorAt": "2026-11-13T13:14:30.877Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-12T13:51:59.861Z"
+    "errorAt": "2026-11-13T13:14:31.122Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -784,9 +784,9 @@
   "CARLOFT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CARLOFT/",
-    "sourceKey": "f26bef59403c",
-    "capturedAt": "2026-11-10T13:38:04.122Z",
-    "pushedAt": "2026-11-10T06:25:12Z",
+    "sourceKey": "ee76c3a9f0b2",
+    "capturedAt": "2026-11-13T13:14:35.924Z",
+    "pushedAt": "2026-11-12T20:01:57Z",
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
@@ -797,9 +797,9 @@
   "PRESTIGE_PAGANI": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_PAGANI/",
-    "sourceKey": "1c352e1b09e1",
-    "capturedAt": "2026-11-05T13:19:19.602Z",
-    "pushedAt": "2026-11-04T22:56:01Z",
+    "sourceKey": "693f44ed7de5",
+    "capturedAt": "2026-11-13T13:14:31.067Z",
+    "pushedAt": "2026-11-12T17:44:38Z",
     "file": "prestige-pagani.webp",
     "fileSm": "prestige-pagani@sm.webp",
     "bytes": 45218,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-12T13:51:59.408Z"
+    "errorAt": "2026-11-13T13:14:25.637Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -945,12 +945,12 @@
   "MARY_PR": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/MARY_PR/",
-    "sourceKey": "63a611226a9d",
-    "capturedAt": "2026-11-07T11:48:50.994Z",
-    "pushedAt": "2026-11-06T21:06:55Z",
+    "sourceKey": "a32a8b16c951",
+    "capturedAt": "2026-11-13T13:14:30.997Z",
+    "pushedAt": "2026-11-12T19:07:47Z",
     "file": "mary-pr.webp",
     "fileSm": "mary-pr@sm.webp",
-    "bytes": 63218,
+    "bytes": 63340,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-12T13:51:59.487Z"
+    "errorAt": "2026-11-13T13:14:25.603Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -969,6 +969,19 @@
     "file": "karma-of-fuquay.webp",
     "fileSm": "karma-of-fuquay@sm.webp",
     "bytes": 63942,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "Gold-Coast-Motors": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/Gold-Coast-Motors/",
+    "sourceKey": "c201954708b2",
+    "capturedAt": "2026-11-13T13:14:30.359Z",
+    "pushedAt": "2026-11-13T05:28:16Z",
+    "file": "gold-coast-motors.webp",
+    "fileSm": "gold-coast-motors@sm.webp",
+    "bytes": 107152,
     "width": 1600,
     "height": 1000,
     "error": null
