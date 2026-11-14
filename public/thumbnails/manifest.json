@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-13T13:14:30.877Z"
+    "errorAt": "2026-11-14T12:18:29.540Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -133,12 +133,12 @@
   "prestige-website": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/prestige-website/",
-    "sourceKey": "db6630d9c31b",
-    "capturedAt": "2026-09-07T01:15:01.592Z",
-    "pushedAt": "2026-09-01T06:15:49Z",
+    "sourceKey": "69ee035c2fcf",
+    "capturedAt": "2026-11-14T12:19:01.420Z",
+    "pushedAt": "2026-11-13T17:22:56Z",
     "file": "prestige-website.webp",
     "fileSm": "prestige-website@sm.webp",
-    "bytes": 68678,
+    "bytes": 68272,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -471,12 +471,12 @@
   "Prestige": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Prestige/",
-    "sourceKey": "46dd0c2815df",
-    "capturedAt": "2026-09-07T01:16:18.319Z",
-    "pushedAt": "2026-06-12T08:14:55Z",
+    "sourceKey": "47cba4a65b80",
+    "capturedAt": "2026-11-14T12:19:02.073Z",
+    "pushedAt": "2026-11-13T16:32:21Z",
     "file": "prestige.webp",
     "fileSm": "prestige@sm.webp",
-    "bytes": 69214,
+    "bytes": 69252,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-13T13:14:31.122Z"
+    "errorAt": "2026-11-14T12:18:29.645Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-13T13:14:25.637Z"
+    "errorAt": "2026-11-14T12:18:23.717Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -945,9 +945,9 @@
   "MARY_PR": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/MARY_PR/",
-    "sourceKey": "a32a8b16c951",
-    "capturedAt": "2026-11-13T13:14:30.997Z",
-    "pushedAt": "2026-11-12T19:07:47Z",
+    "sourceKey": "9749d02f4c67",
+    "capturedAt": "2026-11-14T12:18:29.691Z",
+    "pushedAt": "2026-11-13T17:59:08Z",
     "file": "mary-pr.webp",
     "fileSm": "mary-pr@sm.webp",
     "bytes": 63340,
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-13T13:14:25.603Z"
+    "errorAt": "2026-11-14T12:18:23.825Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -976,12 +976,25 @@
   "Gold-Coast-Motors": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Gold-Coast-Motors/",
-    "sourceKey": "c201954708b2",
-    "capturedAt": "2026-11-13T13:14:30.359Z",
-    "pushedAt": "2026-11-13T05:28:16Z",
+    "sourceKey": "c905aae9b2f4",
+    "capturedAt": "2026-11-14T12:18:29.799Z",
+    "pushedAt": "2026-11-13T16:49:10Z",
     "file": "gold-coast-motors.webp",
     "fileSm": "gold-coast-motors@sm.webp",
-    "bytes": 107152,
+    "bytes": 76736,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "Exotic-Motors-Midwest-": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/Exotic-Motors-Midwest-/",
+    "sourceKey": "e86ffe9fbbc9",
+    "capturedAt": "2026-11-14T12:18:28.562Z",
+    "pushedAt": "2026-11-13T22:14:37Z",
+    "file": "exotic-motors-midwest.webp",
+    "fileSm": "exotic-motors-midwest@sm.webp",
+    "bytes": 141724,
     "width": 1600,
     "height": 1000,
     "error": null
