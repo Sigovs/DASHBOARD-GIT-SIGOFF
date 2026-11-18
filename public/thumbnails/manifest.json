@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-17T14:40:34.115Z"
+    "errorAt": "2026-11-18T14:17:26.807Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-17T14:40:37.023Z"
+    "errorAt": "2026-11-18T14:17:27.147Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "c5c8f9b632ec",
-    "capturedAt": "2026-11-17T14:40:43.629Z",
-    "pushedAt": "2026-11-17T12:50:47Z",
+    "sourceKey": "31dead3a4138",
+    "capturedAt": "2026-11-18T14:17:31.241Z",
+    "pushedAt": "2026-11-17T22:40:50Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 134780,
+    "bytes": 130640,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -784,9 +784,9 @@
   "CARLOFT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/CARLOFT/",
-    "sourceKey": "a247323d5f70",
-    "capturedAt": "2026-11-17T14:40:40.790Z",
-    "pushedAt": "2026-11-17T09:30:34Z",
+    "sourceKey": "9a33dabb75d9",
+    "capturedAt": "2026-11-18T14:17:32.698Z",
+    "pushedAt": "2026-11-17T18:54:03Z",
     "file": "carloft.webp",
     "fileSm": "carloft@sm.webp",
     "bytes": 232480,
@@ -888,9 +888,9 @@
   "Ferrari-of-Puerto-Rico": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Ferrari-of-Puerto-Rico/",
-    "sourceKey": "ce4aaedc6ca8",
-    "capturedAt": "2026-11-06T13:02:32.815Z",
-    "pushedAt": "2026-11-06T07:56:33Z",
+    "sourceKey": "55bbf50db84a",
+    "capturedAt": "2026-11-18T14:17:26.687Z",
+    "pushedAt": "2026-11-18T13:39:57Z",
     "file": "ferrari-of-puerto-rico.webp",
     "fileSm": "ferrari-of-puerto-rico@sm.webp",
     "bytes": 128094,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-17T14:40:33.302Z"
+    "errorAt": "2026-11-18T14:17:20.585Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -945,9 +945,9 @@
   "MARY_PR": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/MARY_PR/",
-    "sourceKey": "9749d02f4c67",
-    "capturedAt": "2026-11-14T12:18:29.691Z",
-    "pushedAt": "2026-11-13T17:59:08Z",
+    "sourceKey": "24a286f15beb",
+    "capturedAt": "2026-11-18T14:17:24.510Z",
+    "pushedAt": "2026-11-17T17:16:22Z",
     "file": "mary-pr.webp",
     "fileSm": "mary-pr@sm.webp",
     "bytes": 63340,
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-17T14:40:33.478Z"
+    "errorAt": "2026-11-18T14:17:20.582Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -1015,12 +1015,12 @@
   "aan-gen11-v3-preview": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/aan-gen11-v3-preview/",
-    "sourceKey": "1cae29c482ef",
-    "capturedAt": "2026-11-17T14:40:36.777Z",
-    "pushedAt": "2026-11-17T12:51:11Z",
+    "sourceKey": "53f91850e6ff",
+    "capturedAt": "2026-11-18T14:17:27.015Z",
+    "pushedAt": "2026-11-17T22:40:53Z",
     "file": "aan-gen11-v3-preview.webp",
     "fileSm": "aan-gen11-v3-preview@sm.webp",
-    "bytes": 123726,
+    "bytes": 125290,
     "width": 1600,
     "height": 1000,
     "error": null
