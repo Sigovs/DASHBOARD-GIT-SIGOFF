@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-18T14:17:26.807Z"
+    "errorAt": "2026-11-19T14:31:40.643Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-18T14:17:27.147Z"
+    "errorAt": "2026-11-19T14:31:40.912Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "31dead3a4138",
-    "capturedAt": "2026-11-18T14:17:31.241Z",
-    "pushedAt": "2026-11-17T22:40:50Z",
+    "sourceKey": "80ed1b8b0f1b",
+    "capturedAt": "2026-11-19T14:31:47.868Z",
+    "pushedAt": "2026-11-19T12:55:18Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130640,
+    "bytes": 131166,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -888,9 +888,9 @@
   "Ferrari-of-Puerto-Rico": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Ferrari-of-Puerto-Rico/",
-    "sourceKey": "55bbf50db84a",
-    "capturedAt": "2026-11-18T14:17:26.687Z",
-    "pushedAt": "2026-11-18T13:39:57Z",
+    "sourceKey": "463f9c78e552",
+    "capturedAt": "2026-11-19T14:31:39.988Z",
+    "pushedAt": "2026-11-18T21:07:09Z",
     "file": "ferrari-of-puerto-rico.webp",
     "fileSm": "ferrari-of-puerto-rico@sm.webp",
     "bytes": 128094,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-18T14:17:20.585Z"
+    "errorAt": "2026-11-19T14:31:31.435Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-18T14:17:20.582Z"
+    "errorAt": "2026-11-19T14:31:31.649Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -1002,9 +1002,9 @@
   "TARMAC": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/TARMAC/",
-    "sourceKey": "acd69e8743db",
-    "capturedAt": "2026-11-17T14:40:33.891Z",
-    "pushedAt": "2026-11-16T16:27:27Z",
+    "sourceKey": "ed9e5ea50014",
+    "capturedAt": "2026-11-19T14:31:38.020Z",
+    "pushedAt": "2026-11-18T23:07:14Z",
     "file": "tarmac.webp",
     "fileSm": "tarmac@sm.webp",
     "bytes": 110250,
@@ -1015,12 +1015,12 @@
   "aan-gen11-v3-preview": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/aan-gen11-v3-preview/",
-    "sourceKey": "53f91850e6ff",
-    "capturedAt": "2026-11-18T14:17:27.015Z",
-    "pushedAt": "2026-11-17T22:40:53Z",
+    "sourceKey": "3c4beb46fe54",
+    "capturedAt": "2026-11-19T14:31:41.501Z",
+    "pushedAt": "2026-11-19T12:55:20Z",
     "file": "aan-gen11-v3-preview.webp",
     "fileSm": "aan-gen11-v3-preview@sm.webp",
-    "bytes": 125290,
+    "bytes": 124860,
     "width": 1600,
     "height": 1000,
     "error": null
