@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-20T14:13:36.369Z"
+    "errorAt": "2026-11-21T13:34:50.651Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-20T14:13:39.808Z"
+    "errorAt": "2026-11-21T13:34:50.795Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -875,9 +875,9 @@
   "PRESTIGE_LAMBO": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/PRESTIGE_LAMBO/site/",
-    "sourceKey": "54aa91436b7e",
-    "capturedAt": "2026-11-07T11:48:52.129Z",
-    "pushedAt": "2026-11-07T02:01:28Z",
+    "sourceKey": "040c6e500721",
+    "capturedAt": "2026-11-21T13:34:56.594Z",
+    "pushedAt": "2026-11-20T18:26:30Z",
     "file": "prestige-lambo.webp",
     "fileSm": "prestige-lambo@sm.webp",
     "bytes": 101388,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-20T14:13:30.168Z"
+    "errorAt": "2026-11-21T13:34:50.531Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-20T14:13:30.194Z"
+    "errorAt": "2026-11-21T13:34:50.538Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -976,12 +976,12 @@
   "Gold-Coast-Motors": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/Gold-Coast-Motors/",
-    "sourceKey": "c905aae9b2f4",
-    "capturedAt": "2026-11-14T12:18:29.799Z",
-    "pushedAt": "2026-11-13T16:49:10Z",
+    "sourceKey": "671f46b933c0",
+    "capturedAt": "2026-11-21T13:34:56.557Z",
+    "pushedAt": "2026-11-20T21:05:45Z",
     "file": "gold-coast-motors.webp",
     "fileSm": "gold-coast-motors@sm.webp",
-    "bytes": 76736,
+    "bytes": 74452,
     "width": 1600,
     "height": 1000,
     "error": null
