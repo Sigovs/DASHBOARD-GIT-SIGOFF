@@ -10,8 +10,8 @@
     "bytes": 135798,
     "width": 1600,
     "height": 1000,
-    "error": "HTTP 503",
-    "errorAt": "2026-11-22T13:27:23.707Z"
+    "error": "HTTP 404",
+    "errorAt": "2026-11-23T16:11:15.704Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-22T13:27:23.797Z"
+    "errorAt": "2026-11-23T16:11:15.847Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-22T13:27:23.617Z"
+    "errorAt": "2026-11-23T16:11:15.698Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-22T13:27:23.694Z"
+    "errorAt": "2026-11-23T16:11:15.687Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
