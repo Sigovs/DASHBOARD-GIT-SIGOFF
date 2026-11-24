@@ -11,7 +11,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-23T16:11:15.704Z"
+    "errorAt": "2026-11-24T15:59:45.407Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-23T16:11:15.847Z"
+    "errorAt": "2026-11-24T15:59:45.541Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -719,12 +719,12 @@
   "AAN_RESSELLER_THEMEKIT_Alex": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/AAN_RESSELLER_THEMEKIT_Alex/",
-    "sourceKey": "051ede0d784e",
-    "capturedAt": "2026-11-20T14:13:39.458Z",
-    "pushedAt": "2026-11-20T13:50:54Z",
+    "sourceKey": "b934ba6fb4f6",
+    "capturedAt": "2026-11-24T15:59:53.748Z",
+    "pushedAt": "2026-11-24T08:28:11Z",
     "file": "aan-resseller-themekit-alex.webp",
     "fileSm": "aan-resseller-themekit-alex@sm.webp",
-    "bytes": 130058,
+    "bytes": 133116,
     "width": 1600,
     "height": 1000,
     "error": null
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-23T16:11:15.698Z"
+    "errorAt": "2026-11-24T15:59:41.082Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-23T16:11:15.687Z"
+    "errorAt": "2026-11-24T15:59:41.189Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -1015,12 +1015,25 @@
   "aan-gen11-v3-preview": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/aan-gen11-v3-preview/",
-    "sourceKey": "ce04fa328ab6",
-    "capturedAt": "2026-11-20T14:13:39.604Z",
-    "pushedAt": "2026-11-20T13:50:46Z",
+    "sourceKey": "a759ab3137f1",
+    "capturedAt": "2026-11-24T15:59:50.957Z",
+    "pushedAt": "2026-11-24T02:35:25Z",
     "file": "aan-gen11-v3-preview.webp",
     "fileSm": "aan-gen11-v3-preview@sm.webp",
-    "bytes": 125318,
+    "bytes": 125518,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "ZT": {
+    "source": "screenshot",
+    "ref": "https://sigovs.github.io/ZT/",
+    "sourceKey": "a0019a9031ad",
+    "capturedAt": "2026-11-24T15:59:45.302Z",
+    "pushedAt": "2026-11-24T09:48:36Z",
+    "file": "zt.webp",
+    "fileSm": "zt@sm.webp",
+    "bytes": 53798,
     "width": 1600,
     "height": 1000,
     "error": null
