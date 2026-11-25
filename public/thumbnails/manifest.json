@@ -10,8 +10,8 @@
     "bytes": 135798,
     "width": 1600,
     "height": 1000,
-    "error": "HTTP 404",
-    "errorAt": "2026-11-24T15:59:45.407Z"
+    "error": "HTTP 503",
+    "errorAt": "2026-11-25T15:47:20.421Z"
   },
   "ferrari_aan": {
     "source": "repo-image",
@@ -545,7 +545,7 @@
     "width": 1600,
     "height": 1000,
     "error": "HTTP 404",
-    "errorAt": "2026-11-24T15:59:45.541Z"
+    "errorAt": "2026-11-25T15:47:20.824Z"
   },
   "_____GDBURO-SIGOFF-EXPERIMENTS/_buro test 3": {
     "source": "screenshot",
@@ -836,9 +836,9 @@
   "DUPONT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/DUPONT/",
-    "sourceKey": "0eacedadf9c2",
-    "capturedAt": "2026-11-06T13:02:46.790Z",
-    "pushedAt": "2026-11-06T02:33:38Z",
+    "sourceKey": "774c8d1ee81c",
+    "capturedAt": "2026-11-25T15:47:39.725Z",
+    "pushedAt": "2026-11-24T20:11:42Z",
     "file": "dupont.webp",
     "fileSm": "dupont@sm.webp",
     "bytes": 70420,
@@ -914,7 +914,7 @@
   "Gunther-Werks": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-24T15:59:41.082Z"
+    "errorAt": "2026-11-25T15:47:19.727Z"
   },
   "PRESTIGE-_MARINE": {
     "source": "screenshot",
@@ -958,7 +958,7 @@
   "Interstate-Motorsport": {
     "source": "screenshot",
     "error": "HTTP 404",
-    "errorAt": "2026-11-24T15:59:41.189Z"
+    "errorAt": "2026-11-25T15:47:19.819Z"
   },
   "Karma-of-Fuquay": {
     "source": "screenshot",
@@ -1028,12 +1028,25 @@
   "ZT": {
     "source": "screenshot",
     "ref": "https://sigovs.github.io/ZT/",
-    "sourceKey": "a0019a9031ad",
-    "capturedAt": "2026-11-24T15:59:45.302Z",
-    "pushedAt": "2026-11-24T09:48:36Z",
+    "sourceKey": "204d1252c370",
+    "capturedAt": "2026-11-25T15:47:23.576Z",
+    "pushedAt": "2026-11-25T00:28:29Z",
     "file": "zt.webp",
     "fileSm": "zt@sm.webp",
-    "bytes": 53798,
+    "bytes": 53814,
+    "width": 1600,
+    "height": 1000,
+    "error": null
+  },
+  "FERRARI-PROJECTS": {
+    "source": "repo-image",
+    "ref": "Purosangue_American_Grand_Tour/img/hero-road-overlook-2000.webp",
+    "sourceKey": "e501e30c2da4",
+    "capturedAt": "2026-11-25T15:47:20.202Z",
+    "pushedAt": "2026-11-24T23:58:06Z",
+    "file": "ferrari-projects.webp",
+    "fileSm": "ferrari-projects@sm.webp",
+    "bytes": 183322,
     "width": 1600,
     "height": 1000,
     "error": null
